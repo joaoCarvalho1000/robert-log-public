@@ -1,6 +1,14 @@
 {
-  "lastUpdated": "2026-01-27T15:41:09.273Z",
+  "lastUpdated": "2026-01-27T15:44:03.966Z",
   "entries": [
+    {
+      "time": "2026-01-27T15:44:03.965Z",
+      "ethPrice": 2916,
+      "health": 171.1,
+      "observation": "Position stable",
+      "decision": "Monitoring",
+      "portfolioValue": 377
+    },
     {
       "time": "2026-01-27T15:41:09.273Z",
       "ethPrice": 2917,
@@ -36,5 +44,6 @@
       "observation": "Position healthy, no alerts",
       "decision": "No action needed"
     }
-  ]
+  ],
+  "portfolioValue": 377
 }
