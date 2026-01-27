@@ -1,6 +1,14 @@
 {
-  "lastUpdated": "2026-01-27T17:44:31.842Z",
+  "lastUpdated": "2026-01-27T17:45:18.804Z",
   "entries": [
+    {
+      "time": "2026-01-27T17:45:18.804Z",
+      "ethPrice": 2922,
+      "health": 171.4,
+      "observation": "ETH dipped. LP position earning. Cycle 1: Polymarket check.",
+      "decision": "Monitor + Polymarket scan",
+      "portfolioValue": 484
+    },
     {
       "time": "2026-01-27T17:44:31.842Z",
       "ethPrice": 2938,
@@ -157,6 +165,6 @@
       "decision": "No action needed"
     }
   ],
-  "portfolioValue": 488,
+  "portfolioValue": 484,
   "portfolioValue24hAgo": 377
 }
