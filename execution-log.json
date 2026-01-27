@@ -1,6 +1,14 @@
 {
-  "lastUpdated": "2026-01-27T17:18:43.062Z",
+  "lastUpdated": "2026-01-27T17:23:41.933Z",
   "entries": [
+    {
+      "time": "2026-01-27T17:23:41.933Z",
+      "ethPrice": 2933,
+      "health": 172,
+      "observation": "ETH drifting lower. Position comfortable.",
+      "decision": "Hold.",
+      "portfolioValue": 486
+    },
     {
       "time": "2026-01-27T17:18:43.062Z",
       "ethPrice": 2944,
@@ -117,6 +125,6 @@
       "decision": "No action needed"
     }
   ],
-  "portfolioValue": 488,
+  "portfolioValue": 486,
   "portfolioValue24hAgo": 377
 }
