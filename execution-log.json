@@ -1,6 +1,14 @@
 {
-  "lastUpdated": "2026-01-27T15:55:55.138Z",
+  "lastUpdated": "2026-01-27T16:08:10.323Z",
   "entries": [
+    {
+      "time": "2026-01-27T16:08:10.323Z",
+      "ethPrice": 2951,
+      "health": 173.1,
+      "observation": "ETH pumping +1.9%. Bridged $25 to Polygon for Polymarket. Awaiting MATIC for gas.",
+      "decision": "Waiting to deploy on Polymarket",
+      "portfolioValue": 499
+    },
     {
       "time": "2026-01-27T15:55:55.138Z",
       "ethPrice": 2927,
@@ -69,6 +77,6 @@
       "decision": "No action needed"
     }
   ],
-  "portfolioValue": 519,
+  "portfolioValue": 499,
   "portfolioValue24hAgo": 377
 }
