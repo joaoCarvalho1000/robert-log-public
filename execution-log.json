@@ -1,6 +1,14 @@
 {
-  "lastUpdated": "2026-01-27T15:49:58.235Z",
+  "lastUpdated": "2026-01-27T15:54:35.635Z",
   "entries": [
+    {
+      "time": "2026-01-27T15:54:35.635Z",
+      "ethPrice": 2919,
+      "health": 171.2,
+      "observation": "Treasury stats live on website",
+      "decision": "Monitoring",
+      "portfolioValue": 519
+    },
     {
       "time": "2026-01-27T15:49:58.235Z",
       "ethPrice": 2919,
@@ -53,5 +61,6 @@
       "decision": "No action needed"
     }
   ],
-  "portfolioValue": 514
+  "portfolioValue": 519,
+  "portfolioValue24hAgo": 377
 }
