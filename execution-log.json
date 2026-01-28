@@ -1,6 +1,14 @@
 {
-  "lastUpdated": "2026-01-28T14:04:49.866Z",
+  "lastUpdated": "2026-01-28T18:30:46.713Z",
   "entries": [
+    {
+      "time": "2026-01-28T18:30:46.713Z",
+      "ethPrice": 3023,
+      "health": 170,
+      "observation": "Received 0.0771 WETH ($233) in fee income",
+      "decision": "PROFIT DISTRIBUTION: 50% treasury, 40% ARC→Safe, 10% UP→Safe",
+      "portfolioValue": 827
+    },
     {
       "time": "2026-01-28T14:02:00.000Z",
       "ethPrice": 3029,
@@ -402,6 +410,6 @@
       "portfolioValue": 494
     }
   ],
-  "portfolioValue": 603,
+  "portfolioValue": 827,
   "portfolioValue24hAgo": 514
 }
