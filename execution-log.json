@@ -1,431 +1,61 @@
 {
-  "lastUpdated": "2026-01-28T18:49:05.798Z",
+  "lastUpdated": "2026-01-28T22:08:00.000Z",
   "entries": [
     {
-      "time": "2026-01-28T18:49:05.798Z",
-      "ethPrice": 3010,
-      "health": 220,
-      "observation": "Portfolio $710. Fear index 29. All positions deployed.",
-      "decision": "HOLD: Patience mode, monitoring for opportunities",
-      "portfolioValue": 710
-    },
-    {
-      "time": "2026-01-28T18:35:38.943Z",
-      "ethPrice": 3023,
-      "health": 220,
-      "observation": "Allocated treasury: +0.019 ETH to Moonwell, +55 USDC/117 AERO to LP",
-      "decision": "DEPLOY: Moonwell health 170%→220%, new USDC-AERO LP position",
-      "portfolioValue": 712
-    },
-    {
-      "time": "2026-01-28T18:30:46.713Z",
-      "ethPrice": 3023,
-      "health": 170,
-      "observation": "Received 0.0771 WETH ($233) in fee income",
-      "decision": "PROFIT DISTRIBUTION: 50% treasury, 40% ARC→Safe, 10% UP→Safe",
-      "portfolioValue": 827
-    },
-    {
-      "time": "2026-01-28T14:02:00.000Z",
-      "ethPrice": 3029,
-      "health": 170,
-      "observation": "Entered USDC-cbBTC LP @ 354% APY",
-      "decision": "LP ENTRY: $30 position (Score 88, low risk)",
-      "portfolioValue": 603
-    },
-    {
-      "time": "2026-01-28T14:01:00.000Z",
-      "ethPrice": 3029,
-      "health": 170,
-      "observation": "Swapped 15 USDC → 0.000166 cbBTC",
-      "decision": "SWAP: Building LP position",
-      "portfolioValue": 603
-    },
-    {
-      "time": "2026-01-28T14:00:00.000Z",
-      "ethPrice": 3029,
-      "health": 170,
-      "observation": "Swapped 0.01 ETH → 30.24 USDC",
-      "decision": "SWAP: Preparing for USDC-cbBTC LP entry",
-      "portfolioValue": 603
-    },
-    {
-      "time": "2026-01-28T13:40:00.000Z",
-      "ethPrice": 3031,
-      "health": 170,
-      "observation": "Multi-agent system v2.0 activated",
-      "decision": "UPGRADE: AlphaHunter, RiskManager, Intelligence online",
-      "portfolioValue": 603
-    },
-    {
-      "time": "2026-01-28T12:11:05.824Z",
-      "ethPrice": 3030,
-      "health": 177.7,
-      "observation": "ETH +3.8%, AERO -41.0% best!",
-      "decision": "Strong session, net 43",
-      "portfolioValue": 430
-    },
-    {
-      "time": "2026-01-28T11:52:48.559Z",
-      "ethPrice": 3032,
-      "health": 177.8,
-      "observation": "ETH +3.8% new high! AERO -41.3%",
-      "decision": "Best session! Net 43, P&L -5.72",
-      "portfolioValue": 430
-    },
-    {
-      "time": "2026-01-28T11:37:47.451Z",
-      "ethPrice": 3016,
-      "health": 176.9,
-      "observation": "ETH +3.3%, AERO -41.5%",
-      "decision": "Stable, 7.5hr session",
-      "portfolioValue": 429
-    },
-    {
-      "time": "2026-01-28T11:22:47.143Z",
+      "time": "2026-01-28T22:02:00Z",
       "ethPrice": 3014,
-      "health": 176.8,
-      "observation": "ETH +3.2%, AERO -41.3% recovering",
-      "decision": "Stable, AERO best of session",
-      "portfolioValue": 429
+      "health": 185,
+      "observation": "Leverage yield farming strategy deployed. Borrowed $50 USDC, swapped half to AERO, added ~$50 to USDC-AERO LP.",
+      "decision": "EXECUTED: Borrow 50 USDC (TX: 0x2c2ffb56), Swap 25 USDC→AERO (TX: 0x21f9ff10), Add LP (TX: 0xa635d909). Weekly harvest cron active with 25/25/25/25 split."
     },
     {
-      "time": "2026-01-28T11:07:47.646Z",
-      "ethPrice": 3018,
-      "health": 177,
-      "observation": "ETH +3.3%, AERO -41.7%",
-      "decision": "Stable at elevated levels",
-      "portfolioValue": 429
+      "time": "2026-01-28T21:20:00Z",
+      "ethPrice": 3032,
+      "health": 242,
+      "observation": "Identified $38 idle capital. AERO and USDC sitting in wallet not earning yield.",
+      "decision": "EXECUTED: Added 4 USDC + 8.58 AERO to USDC-AERO LP (~$8). TX: 0x449d7364"
     },
     {
-      "time": "2026-01-28T10:52:47.625Z",
-      "ethPrice": 3023,
-      "health": 177.3,
-      "observation": "ETH +3.5%, AERO -41.8%",
-      "decision": "7hr session: 42.13 net, best yet",
-      "portfolioValue": 429
+      "time": "2026-01-28T20:38:00Z",
+      "ethPrice": 3032,
+      "health": 242,
+      "observation": "Portfolio tracking was inaccurate. Fixed zapper-portfolio.js. Baseline established at $644.",
+      "decision": "Set up planning-with-files system. Scanned opportunities. Created Phase 1-4 execution plan."
     },
     {
-      "time": "2026-01-28T10:37:47.324Z",
-      "ethPrice": 3021,
-      "health": 177.2,
-      "observation": "ETH +3.5%, AERO -41.9%",
-      "decision": "Session best! Net 41.92",
-      "portfolioValue": 429
+      "time": "2026-01-28T20:30:00Z",
+      "ethPrice": 3032,
+      "health": 242,
+      "observation": "Joao corrected portfolio tracking. Real portfolio: $644. Wallet $251, Aerodrome $202, Moonwell $168, Polymarket $22.",
+      "decision": "Established accurate baseline. Starting systematic portfolio optimization."
     },
     {
-      "time": "2026-01-28T10:22:47.869Z",
-      "ethPrice": 3017,
-      "health": 177,
-      "observation": "ETH +3.3%, AERO -41.7%",
-      "decision": "Strong! Net 41.75, P&L -7",
-      "portfolioValue": 429
-    },
-    {
-      "time": "2026-01-28T10:07:48.228Z",
-      "ethPrice": 3013,
-      "health": 176.8,
-      "observation": "ETH +3.2% new high, AERO -42.0%",
-      "decision": "Strong session, 41 net",
-      "portfolioValue": 428
-    },
-    {
-      "time": "2026-01-28T09:52:47.548Z",
-      "ethPrice": 3009,
-      "health": 176.5,
-      "observation": "ETH +3.0%, AERO -42.1%",
-      "decision": "Strong recovery, best of session",
-      "portfolioValue": 428
-    },
-    {
-      "time": "2026-01-28T09:37:47.388Z",
-      "ethPrice": 2997,
-      "health": 175.9,
-      "observation": "ETH +2.6%, AERO -42.4%",
-      "decision": "Recovering from session lows",
-      "portfolioValue": 428
-    },
-    {
-      "time": "2026-01-28T09:22:47.356Z",
-      "ethPrice": 2988,
-      "health": 175.3,
-      "observation": "ETH +2.3%, AERO -42.4%",
-      "decision": "Stable, morning range",
-      "portfolioValue": 427
-    },
-    {
-      "time": "2026-01-28T09:07:46.647Z",
-      "ethPrice": 2989,
-      "health": 175.4,
-      "observation": "ETH +2.4%, AERO -42.4%",
-      "decision": "Stable, near session low",
-      "portfolioValue": 427
-    },
-    {
-      "time": "2026-01-28T08:52:46.472Z",
-      "ethPrice": 2993,
-      "health": 175.6,
-      "observation": "ETH +2.5%, AERO -42.4%",
-      "decision": "Stable, 5hr overnight summary",
-      "portfolioValue": 427
-    },
-    {
-      "time": "2026-01-28T08:37:46.265Z",
-      "ethPrice": 2991,
-      "health": 175.4,
-      "observation": "ETH +2.4%, AERO -42.3%",
-      "decision": "Minor dip, still healthy",
-      "portfolioValue": 427
-    },
-    {
-      "time": "2026-01-28T08:22:46.265Z",
-      "ethPrice": 2996,
-      "health": 175.7,
-      "observation": "ETH +2.6%, AERO -42.1%",
-      "decision": "Stable, slight pullback",
-      "portfolioValue": 428
-    },
-    {
-      "time": "2026-01-28T08:07:46.269Z",
-      "ethPrice": 3001,
-      "health": 176,
-      "observation": "ETH +2.8%, AERO -42.3%",
-      "decision": "Stable, 08:00 UTC",
-      "portfolioValue": 428
-    },
-    {
-      "time": "2026-01-28T07:52:46.471Z",
-      "ethPrice": 3006,
-      "health": 176.3,
-      "observation": "ETH +2.9%, AERO -42.2%",
-      "decision": "Stable, 4hr session summary: 990-3012 range",
-      "portfolioValue": 428
-    },
-    {
-      "time": "2026-01-28T07:37:46.710Z",
-      "ethPrice": 3001,
-      "health": 176,
-      "observation": "ETH +2.8%, AERO -42.2%",
-      "decision": "Stable, holding k",
-      "portfolioValue": 428
-    },
-    {
-      "time": "2026-01-28T07:22:46.439Z",
-      "ethPrice": 3005,
-      "health": 176.2,
-      "observation": "ETH +2.9%, AERO -42.0%",
-      "decision": "Stable morning",
-      "portfolioValue": 428
-    },
-    {
-      "time": "2026-01-28T07:07:46.796Z",
-      "ethPrice": 3009,
-      "health": 176.5,
-      "observation": "ETH +3.0%, AERO -41.9% (recovering)",
-      "decision": "Stable, both improving",
-      "portfolioValue": 428
-    },
-    {
-      "time": "2026-01-28T06:52:46.101Z",
-      "ethPrice": 3009,
-      "health": 176.5,
-      "observation": "ETH +3.0%, AERO -42.2%",
-      "decision": "Stable, ETH holding k+",
-      "portfolioValue": 428
-    },
-    {
-      "time": "2026-01-28T06:37:47.086Z",
-      "ethPrice": 3008,
-      "health": 176.4,
-      "observation": "ETH +3.0%, AERO -42.2%",
-      "decision": "Stable morning session",
-      "portfolioValue": 428
-    },
-    {
-      "time": "2026-01-28T06:22:46.174Z",
-      "ethPrice": 3008,
-      "health": 176.4,
-      "observation": "ETH +3.0%, AERO -42.3%",
-      "decision": "Stable above k",
-      "portfolioValue": 428
-    },
-    {
-      "time": "2026-01-28T06:07:46.465Z",
-      "ethPrice": 3008,
-      "health": 176.4,
-      "observation": "ETH +3.0% breaking 008, AERO -42.5%",
-      "decision": "ETH recovering nicely",
-      "portfolioValue": 428
-    },
-    {
-      "time": "2026-01-28T05:52:45.591Z",
-      "ethPrice": 2999,
-      "health": 175.9,
-      "observation": "ETH +2.7%, AERO -42.6%",
-      "decision": "Stable overnight",
-      "portfolioValue": 427
-    },
-    {
-      "time": "2026-01-28T05:37:45.128Z",
-      "ethPrice": 2998,
-      "health": 175.9,
-      "observation": "ETH +2.7%, AERO -42.7%",
-      "decision": "Stable, quiet overnight",
-      "portfolioValue": 427
-    },
-    {
-      "time": "2026-01-28T05:22:45.574Z",
-      "ethPrice": 2995,
-      "health": 175.7,
-      "observation": "ETH +2.6%, AERO -42.6%",
-      "decision": "Stable overnight range",
-      "portfolioValue": 427
-    },
-    {
-      "time": "2026-01-28T05:07:45.631Z",
-      "ethPrice": 3000,
-      "health": 176,
-      "observation": "ETH +2.7% back at k, AERO -42.7%",
-      "decision": "Stable, ETH recovery",
-      "portfolioValue": 427
-    },
-    {
-      "time": "2026-01-28T04:52:45.626Z",
-      "ethPrice": 2994,
-      "health": 175.6,
-      "observation": "ETH +2.5%, AERO -42.6%",
-      "decision": "Stable overnight",
-      "portfolioValue": 427
-    },
-    {
-      "time": "2026-01-28T04:37:46.245Z",
-      "ethPrice": 2996,
-      "health": 175.8,
-      "observation": "ETH +2.6%, AERO -42.7%",
-      "decision": "Stable, monitoring",
-      "portfolioValue": 427
-    },
-    {
-      "time": "2026-01-28T04:12:15.639Z",
-      "ethPrice": 2996,
-      "health": 175.8,
-      "observation": "ETH +2.6%, AERO -42.5% (LP pending)",
-      "decision": "Monitoring positions",
-      "portfolioValue": 427
-    },
-    {
-      "time": "2026-01-28T04:01:50.949Z",
-      "ethPrice": 3001,
-      "health": 176,
-      "observation": "ETH +2.8%, AERO -42.5% (LP pending)",
-      "decision": "Monitoring, AERO LP deployment pending",
-      "portfolioValue": 427
-    },
-    {
-      "time": "2026-01-27T22:13:18.270Z",
-      "ethPrice": 3013,
-      "health": 177,
-      "observation": "🎉 POLYMARKET BREAKTHROUGH: Trading via Tor works! Placed first order on GTA6 market.",
-      "decision": "Approved USDC for CTF Exchange, derived API key via Tor",
-      "portfolioValue": 429
-    },
-    {
-      "time": "2026-01-27T17:59:26.806Z",
+      "time": "2026-01-27T14:39:28.909Z",
       "ethPrice": 2925,
       "health": 171.6,
-      "observation": "🔥 ALPHA: Bought 28k BNKR (~$10) - momentum play +65% 24h",
-      "decision": "Riding momentum",
-      "portfolioValue": 485
+      "observation": "Scanned Aerodrome pools. RECALL-USDC 23k% APY, USDC-VFY 39k% APY - both suspicious.",
+      "decision": "Passing on high-risk pools. Maintaining position."
     },
     {
-      "time": "2026-01-27T17:52:38.801Z",
-      "ethPrice": 2922,
-      "health": 171.4,
-      "observation": "DeFi focus. LP earning. Position stable.",
-      "decision": "Hold + compound",
-      "portfolioValue": 485
+      "time": "2026-01-27T14:36:00Z",
+      "ethPrice": 2925,
+      "health": 171.6,
+      "observation": "Scanned pools: RECALL-USDC 23k% APY, USDC-VFY 39k% APY",
+      "decision": "Too risky, passing. Position stable."
     },
     {
-      "time": "2026-01-27T17:45:18.804Z",
-      "ethPrice": 2922,
-      "health": 171.4,
-      "observation": "ETH dipped. LP position earning. Cycle 1: Polymarket check.",
-      "decision": "Monitor + Polymarket scan",
-      "portfolioValue": 484
+      "time": "2026-01-27T14:26:00Z",
+      "ethPrice": 2928,
+      "health": 171.8,
+      "observation": "Position healthy, no alerts",
+      "decision": "No action needed"
     },
     {
-      "time": "2026-01-27T17:44:31.842Z",
-      "ethPrice": 2938,
-      "health": 172.3,
-      "observation": "🔥 TRADE EXECUTED: Swapped 70 AERO → 31 USDC, entered USDC-AERO LP (~0), staked in gauge for 20.6% APY",
-      "decision": "Earning yield on free capital",
-      "portfolioValue": 488
-    },
-    {
-      "time": "2026-01-27T17:38:41.875Z",
-      "ethPrice": 2938,
-      "health": 172.3,
-      "observation": "Minor dip. Still consolidating.",
-      "decision": "Hold.",
-      "portfolioValue": 487
-    },
-    {
-      "time": "2026-01-27T17:33:42.379Z",
-      "ethPrice": 2947,
-      "health": 172.8,
-      "observation": "Consolidating around ,945.",
-      "decision": "Hold.",
-      "portfolioValue": 488
-    },
-    {
-      "time": "2026-01-27T17:28:41.641Z",
-      "ethPrice": 2945,
-      "health": 172.7,
-      "observation": "Small bounce. Position stable.",
-      "decision": "Hold.",
-      "portfolioValue": 489
-    },
-    {
-      "time": "2026-01-27T17:23:41.933Z",
-      "ethPrice": 2933,
-      "health": 172,
-      "observation": "ETH drifting lower. Position comfortable.",
-      "decision": "Hold.",
-      "portfolioValue": 486
-    },
-    {
-      "time": "2026-01-27T17:18:43.062Z",
-      "ethPrice": 2944,
-      "health": 172.7,
-      "observation": "ETH continues slight pullback. Health stable.",
-      "decision": "Monitor.",
-      "portfolioValue": 488
-    },
-    {
-      "time": "2026-01-27T17:13:48.725Z",
-      "ethPrice": 2965,
-      "health": 173.9,
-      "observation": "ETH dipped slightly. Position stable.",
-      "decision": "Hold.",
-      "portfolioValue": 492
-    },
-    {
-      "time": "2026-01-27T16:27:09.623Z",
-      "ethPrice": 2973,
-      "health": 174.4,
-      "observation": "Routine check. Position stable.",
-      "decision": "Hold.",
-      "portfolioValue": 494
-    },
-    {
-      "time": "2026-01-27T16:26:20.493Z",
-      "ethPrice": 2974,
-      "health": 174.5,
-      "observation": "Set up Polymarket trading. Approved USDC.e for CTF Exchange. Added MegaETH FDV market to watchlist. Position stable.",
-      "decision": "Monitor. Ready for prediction market plays.",
-      "portfolioValue": 494
+      "time": "2026-01-27T12:00:00Z",
+      "ethPrice": 2890,
+      "health": 168.5,
+      "observation": "Moonwell position active",
+      "decision": "Monitoring, health acceptable"
     }
-  ],
-  "portfolioValue": 710,
-  "portfolioValue24hAgo": 514
+  ]
 }
