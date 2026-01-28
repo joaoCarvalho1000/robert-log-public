@@ -1,6 +1,14 @@
 {
-  "lastUpdated": "2026-01-28T11:22:47.143Z",
+  "lastUpdated": "2026-01-28T11:37:47.451Z",
   "entries": [
+    {
+      "time": "2026-01-28T11:37:47.451Z",
+      "ethPrice": 3016,
+      "health": 176.9,
+      "observation": "ETH +3.3%, AERO -41.5%",
+      "decision": "Stable, 7.5hr session",
+      "portfolioValue": 429
+    },
     {
       "time": "2026-01-28T11:22:47.143Z",
       "ethPrice": 3014,
@@ -392,13 +400,6 @@
       "observation": "Position stable",
       "decision": "Monitoring",
       "portfolioValue": 377
-    },
-    {
-      "time": "2026-01-27T15:41:09.273Z",
-      "ethPrice": 2917,
-      "health": 171.1,
-      "observation": "Position stable, ETH up 0.33%",
-      "decision": "Monitoring - no action needed"
     }
   ],
   "portfolioValue": 429,
