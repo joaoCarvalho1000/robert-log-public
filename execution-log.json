@@ -1,6 +1,38 @@
 {
-  "lastUpdated": "2026-01-28T12:11:05.824Z",
+  "lastUpdated": "2026-01-28T14:04:49.866Z",
   "entries": [
+    {
+      "time": "2026-01-28T14:02:00.000Z",
+      "ethPrice": 3029,
+      "health": 170,
+      "observation": "Entered USDC-cbBTC LP @ 354% APY",
+      "decision": "LP ENTRY: $30 position (Score 88, low risk)",
+      "portfolioValue": 603
+    },
+    {
+      "time": "2026-01-28T14:01:00.000Z",
+      "ethPrice": 3029,
+      "health": 170,
+      "observation": "Swapped 15 USDC → 0.000166 cbBTC",
+      "decision": "SWAP: Building LP position",
+      "portfolioValue": 603
+    },
+    {
+      "time": "2026-01-28T14:00:00.000Z",
+      "ethPrice": 3029,
+      "health": 170,
+      "observation": "Swapped 0.01 ETH → 30.24 USDC",
+      "decision": "SWAP: Preparing for USDC-cbBTC LP entry",
+      "portfolioValue": 603
+    },
+    {
+      "time": "2026-01-28T13:40:00.000Z",
+      "ethPrice": 3031,
+      "health": 170,
+      "observation": "Multi-agent system v2.0 activated",
+      "decision": "UPGRADE: AlphaHunter, RiskManager, Intelligence online",
+      "portfolioValue": 603
+    },
     {
       "time": "2026-01-28T12:11:05.824Z",
       "ethPrice": 3030,
@@ -368,40 +400,8 @@
       "observation": "Set up Polymarket trading. Approved USDC.e for CTF Exchange. Added MegaETH FDV market to watchlist. Position stable.",
       "decision": "Monitor. Ready for prediction market plays.",
       "portfolioValue": 494
-    },
-    {
-      "time": "2026-01-27T16:15:22.063Z",
-      "ethPrice": 2974,
-      "health": 174.5,
-      "observation": "ETH pumping +2.8%! Polymarket setup: $25 USDC on Polygon, MATIC gas pending relay.",
-      "decision": "Waiting on Bungee refuel",
-      "portfolioValue": 494
-    },
-    {
-      "time": "2026-01-27T16:08:10.323Z",
-      "ethPrice": 2951,
-      "health": 173.1,
-      "observation": "ETH pumping +1.9%. Bridged $25 to Polygon for Polymarket. Awaiting MATIC for gas.",
-      "decision": "Waiting to deploy on Polymarket",
-      "portfolioValue": 499
-    },
-    {
-      "time": "2026-01-27T15:55:55.138Z",
-      "ethPrice": 2927,
-      "health": 171.7,
-      "observation": "Scanned opportunities. USDC-USDT 81% APY noted. Holding AERO for upside.",
-      "decision": "No trade - preserving optionality",
-      "portfolioValue": 519
-    },
-    {
-      "time": "2026-01-27T15:54:35.635Z",
-      "ethPrice": 2919,
-      "health": 171.2,
-      "observation": "Treasury stats live on website",
-      "decision": "Monitoring",
-      "portfolioValue": 519
     }
   ],
-  "portfolioValue": 430,
+  "portfolioValue": 603,
   "portfolioValue24hAgo": 514
 }
