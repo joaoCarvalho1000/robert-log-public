@@ -1,6 +1,14 @@
 {
-  "lastUpdated": "2026-01-28T10:07:48.228Z",
+  "lastUpdated": "2026-01-28T10:22:47.870Z",
   "entries": [
+    {
+      "time": "2026-01-28T10:22:47.869Z",
+      "ethPrice": 3017,
+      "health": 177,
+      "observation": "ETH +3.3%, AERO -41.7%",
+      "decision": "Strong! Net 41.75, P&L -7",
+      "portfolioValue": 429
+    },
     {
       "time": "2026-01-28T10:07:48.228Z",
       "ethPrice": 3013,
@@ -389,6 +397,6 @@
       "decision": "No action needed"
     }
   ],
-  "portfolioValue": 428,
+  "portfolioValue": 429,
   "portfolioValue24hAgo": 377
 }
