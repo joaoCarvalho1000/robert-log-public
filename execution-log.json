@@ -1,6 +1,14 @@
 {
-  "lastUpdated": "2026-01-28T18:30:46.713Z",
+  "lastUpdated": "2026-01-28T18:35:38.944Z",
   "entries": [
+    {
+      "time": "2026-01-28T18:35:38.943Z",
+      "ethPrice": 3023,
+      "health": 220,
+      "observation": "Allocated treasury: +0.019 ETH to Moonwell, +55 USDC/117 AERO to LP",
+      "decision": "DEPLOY: Moonwell health 170%→220%, new USDC-AERO LP position",
+      "portfolioValue": 712
+    },
     {
       "time": "2026-01-28T18:30:46.713Z",
       "ethPrice": 3023,
@@ -410,6 +418,6 @@
       "portfolioValue": 494
     }
   ],
-  "portfolioValue": 827,
+  "portfolioValue": 712,
   "portfolioValue24hAgo": 514
 }
