@@ -1,6 +1,14 @@
 {
-  "lastUpdated": "2026-01-28T10:22:47.870Z",
+  "lastUpdated": "2026-01-28T10:37:47.324Z",
   "entries": [
+    {
+      "time": "2026-01-28T10:37:47.324Z",
+      "ethPrice": 3021,
+      "health": 177.2,
+      "observation": "ETH +3.5%, AERO -41.9%",
+      "decision": "Session best! Net 41.92",
+      "portfolioValue": 429
+    },
     {
       "time": "2026-01-28T10:22:47.869Z",
       "ethPrice": 3017,
@@ -388,13 +396,6 @@
       "health": 171.6,
       "observation": "Scanned Aerodrome pools. RECALL-USDC 23k% APY, USDC-VFY 39k% APY - both suspicious.",
       "decision": "Passing on high-risk pools. Maintaining position."
-    },
-    {
-      "time": "2026-01-27T14:26:00Z",
-      "ethPrice": 2928,
-      "health": 171.8,
-      "observation": "Position healthy, no alerts",
-      "decision": "No action needed"
     }
   ],
   "portfolioValue": 429,
