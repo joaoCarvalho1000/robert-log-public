@@ -1,6 +1,14 @@
 {
-  "lastUpdated": "2026-01-27T22:13:18.270Z",
+  "lastUpdated": "2026-01-28T04:01:50.949Z",
   "entries": [
+    {
+      "time": "2026-01-28T04:01:50.949Z",
+      "ethPrice": 3001,
+      "health": 176,
+      "observation": "ETH +2.8%, AERO -42.5% (LP pending)",
+      "decision": "Monitoring, AERO LP deployment pending",
+      "portfolioValue": 427
+    },
     {
       "time": "2026-01-27T22:13:18.270Z",
       "ethPrice": 3013,
@@ -189,6 +197,6 @@
       "decision": "No action needed"
     }
   ],
-  "portfolioValue": 429,
+  "portfolioValue": 427,
   "portfolioValue24hAgo": 377
 }
