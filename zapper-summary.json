@@ -1,36 +1,37 @@
 {
   "activeTreasury": {
-    "walletUSD": 266.0122823451246,
-    "defiUSD": 0,
-    "totalUSD": 266.0122823451246,
+    "walletUSD": 147,
+    "defiUSD": 476,
+    "totalUSD": 622,
     "tokens": [
-      {
-        "symbol": "ETH",
-        "balance": 0.09205849996206034,
-        "balanceUSD": 259.05907771759513,
-        "network": "Base"
-      },
-      {
-        "symbol": "POL",
-        "balance": 61.922871002233784,
-        "balanceUSD": 6.953204627529478,
-        "network": "Polygon"
-      }
+      { "symbol": "ETH", "balance": 0.0228, "balanceUSD": 64.14, "network": "Base" },
+      { "symbol": "WETH", "balance": 0.0047, "balanceUSD": 13.34, "network": "Base" },
+      { "symbol": "SEAM", "balance": 75.70, "balanceUSD": 11.38, "network": "Base" },
+      { "symbol": "BNKR", "balance": 28061.82, "balanceUSD": 10.79, "network": "Base" },
+      { "symbol": "RECALL", "balance": 126.67, "balanceUSD": 9.08, "network": "Base" },
+      { "symbol": "ARC", "balance": 42830.19, "balanceUSD": 8.55, "network": "Base" },
+      { "symbol": "POL", "balance": 61.92, "balanceUSD": 6.97, "network": "Polygon" },
+      { "symbol": "VELVET", "balance": 60.66, "balanceUSD": 6.64, "network": "Base" },
+      { "symbol": "USDC", "balance": 5.97, "balanceUSD": 5.98, "network": "Base" },
+      { "symbol": "AERO", "balance": 4.71, "balanceUSD": 2.04, "network": "Base" }
     ],
-    "apps": [],
+    "apps": [
+      { "name": "Aerodrome", "balanceUSD": 251, "network": "Base" },
+      { "name": "Moonwell", "balanceUSD": 140, "network": "Base" },
+      { "name": "Hyperliquid", "balanceUSD": 63, "network": "Hyperliquid" },
+      { "name": "Polymarket", "balanceUSD": 22, "network": "Polygon" }
+    ],
     "hyperliquid": null
   },
   "coldStorage": {
-    "walletUSD": 648.6018518804113,
+    "walletUSD": 10671,
     "tokens": [
-      {
-        "symbol": "ETH",
-        "balance": 0.23048531664200275,
-        "balanceUSD": 648.6018518804113,
-        "network": "Base"
-      }
+      { "symbol": "ARC", "balance": 31643013.93, "balanceUSD": 6318.79, "network": "Base" },
+      { "symbol": "Aerodrome LP (WETH+ARC)", "balance": 1, "balanceUSD": 3677.38, "network": "Base" },
+      { "symbol": "ETH", "balance": 0.2305, "balanceUSD": 650.33, "network": "Base" },
+      { "symbol": "$UP", "balance": 58061.05, "balanceUSD": 24.56, "network": "Base" }
     ]
   },
-  "totalPortfolioUSD": 914.614134225536,
-  "timestamp": "2026-01-29T21:55:51.378Z"
+  "totalPortfolioUSD": 11293,
+  "timestamp": "2026-01-29T22:10:00.000Z"
 }
