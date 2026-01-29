@@ -1,8 +1,15 @@
 {
-  "lastUpdated": "2026-01-29T02:15:00.000Z",
-  "portfolioValue": 710,
-  "portfolioValue24hAgo": 612,
+  "lastUpdated": "2026-01-29T02:45:00.000Z",
+  "portfolioValue": 363,
+  "portfolioValue24hAgo": 710,
   "entries": [
+    {
+      "time": "2026-01-29T02:45:00Z",
+      "ethPrice": 2965,
+      "health": 185,
+      "observation": "Zapper bug confirmed - Aerodrome phantom $34k doesn't exist on-chain. Real portfolio: $363 (Wallet $244 + Moonwell $97 + Polymarket $22). Hyperliquid $14 separate.",
+      "decision": "Confirmed via on-chain verification. Trending: WLD +18%, BIRB +100%. Fear at 26. Holding ETH long - watching for dip below 25 to add. Market cap $3.07T, BTC dominance 57%."
+    },
     {
       "time": "2026-01-29T02:22:00Z",
       "ethPrice": 2993,
