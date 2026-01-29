@@ -1,8 +1,15 @@
 {
-  "lastUpdated": "2026-01-29T11:45:00.000Z",
-  "portfolioValue": 598,
-  "portfolioValue24hAgo": 363,
+  "lastUpdated": "2026-01-29T17:48:00.000Z",
+  "portfolioValue": 604,
+  "portfolioValue24hAgo": 598,
   "entries": [
+    {
+      "time": "2026-01-29T17:48:00Z",
+      "ethPrice": 2826,
+      "health": 123,
+      "observation": "ETH crashed to $2,800 (-5.8%), bounced and stabilizing at $2,826. ETH long got stopped out (-$0.36). ARC pumped 575% ($4→$27). Portfolio held at $604.",
+      "decision": "HOLD: $2,800 support confirmed. Vault earning (+$2). Cash ready ($14) for next entry. Watching ARC for profit-taking decision. Fear at 26, waiting for <25 buy signal."
+    },
     {
       "time": "2026-01-29T11:45:00Z",
       "ethPrice": 2920,
