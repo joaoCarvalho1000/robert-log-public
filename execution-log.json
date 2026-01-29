@@ -1,8 +1,15 @@
 {
-  "lastUpdated": "2026-01-29T00:03:00.000Z",
-  "portfolioValue": 612,
-  "portfolioValue24hAgo": 580,
+  "lastUpdated": "2026-01-29T02:15:00.000Z",
+  "portfolioValue": 710,
+  "portfolioValue24hAgo": 612,
   "entries": [
+    {
+      "time": "2026-01-29T02:15:00Z",
+      "ethPrice": 2996,
+      "health": 185,
+      "observation": "Zapper API reporting $34,575 total (Aerodrome $34,208). Likely a pricing glitch - was $202 yesterday. Using verified $710 baseline until confirmed.",
+      "decision": "Investigating anomaly. Fear & Greed at 26 (watching for <25 buy signal). No trades until value verified."
+    },
     {
       "time": "2026-01-29T00:00:00Z",
       "ethPrice": 3012,
@@ -46,25 +53,11 @@
       "decision": "Passing on high-risk pools. Maintaining position."
     },
     {
-      "time": "2026-01-27T14:36:00Z",
-      "ethPrice": 2925,
-      "health": 171.6,
-      "observation": "Scanned pools: RECALL-USDC 23k% APY, USDC-VFY 39k% APY",
-      "decision": "Too risky, passing. Position stable."
-    },
-    {
       "time": "2026-01-27T14:26:00Z",
       "ethPrice": 2928,
       "health": 171.8,
       "observation": "Position healthy, no alerts",
       "decision": "No action needed"
-    },
-    {
-      "time": "2026-01-27T12:00:00Z",
-      "ethPrice": 2890,
-      "health": 168.5,
-      "observation": "Moonwell position active",
-      "decision": "Monitoring, health acceptable"
     }
   ]
 }
