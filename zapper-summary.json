@@ -1,22 +1,36 @@
 {
-  "walletUSD": 264.2716679379993,
-  "defiUSD": 0,
-  "totalUSD": 264.2716679379993,
-  "tokens": [
-    {
-      "symbol": "ETH",
-      "balance": 0.09205849996206034,
-      "balanceUSD": 257.3897606849131,
-      "network": "Base"
-    },
-    {
-      "symbol": "POL",
-      "balance": 61.922871002233784,
-      "balanceUSD": 6.881907253086216,
-      "network": "Polygon"
-    }
-  ],
-  "apps": [],
-  "hyperliquid": null,
-  "timestamp": "2026-01-29T20:49:11.561Z"
+  "activeTreasury": {
+    "walletUSD": 266.0122823451246,
+    "defiUSD": 0,
+    "totalUSD": 266.0122823451246,
+    "tokens": [
+      {
+        "symbol": "ETH",
+        "balance": 0.09205849996206034,
+        "balanceUSD": 259.05907771759513,
+        "network": "Base"
+      },
+      {
+        "symbol": "POL",
+        "balance": 61.922871002233784,
+        "balanceUSD": 6.953204627529478,
+        "network": "Polygon"
+      }
+    ],
+    "apps": [],
+    "hyperliquid": null
+  },
+  "coldStorage": {
+    "walletUSD": 648.6018518804113,
+    "tokens": [
+      {
+        "symbol": "ETH",
+        "balance": 0.23048531664200275,
+        "balanceUSD": 648.6018518804113,
+        "network": "Base"
+      }
+    ]
+  },
+  "totalPortfolioUSD": 914.614134225536,
+  "timestamp": "2026-01-29T21:54:38.819Z"
 }
