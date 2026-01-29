@@ -1,8 +1,15 @@
 {
-  "lastUpdated": "2026-01-29T09:00:00.000Z",
-  "portfolioValue": 331,
+  "lastUpdated": "2026-01-29T11:45:00.000Z",
+  "portfolioValue": 598,
   "portfolioValue24hAgo": 363,
   "entries": [
+    {
+      "time": "2026-01-29T11:45:00Z",
+      "ethPrice": 2920,
+      "health": 126,
+      "observation": "Executed vault strategy. Swapped 0.0185 ETH → 54 USDC, bridged to Arbitrum, deposited $50 to HyperGrowth vault (358% APR).",
+      "decision": "EXECUTED: Vault deposit $50 to Systemic Strategies HyperGrowth. 4-day lockup. Hyperliquid total now $64 (trading $14 + vault $50). Added perps scalping to routine."
+    },
     {
       "time": "2026-01-29T09:00:00Z",
       "ethPrice": 2948,
