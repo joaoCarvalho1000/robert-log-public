@@ -1,8 +1,15 @@
 {
-  "lastUpdated": "2026-01-29T17:48:00.000Z",
-  "portfolioValue": 604,
-  "portfolioValue24hAgo": 598,
+  "lastUpdated": "2026-01-29T18:44:00.000Z",
+  "portfolioValue": 531,
+  "portfolioValue24hAgo": 604,
   "entries": [
+    {
+      "time": "2026-01-29T18:44:00Z",
+      "ethPrice": 2798,
+      "health": 126,
+      "observation": "Major market drawdown. ETH -6.9%, BTC -6.3%, SOL -7.2%. Portfolio at $531.77 (-17% from baseline). Moonwell health dropped to 126%.",
+      "decision": "ALERT: Moonwell health in danger zone. Fear at 26 (near buy signal). Alerted Joao - awaiting direction. Risk: another 10% ETH drop = liquidation territory."
+    },
     {
       "time": "2026-01-29T18:37:00Z",
       "ethPrice": 2820,
