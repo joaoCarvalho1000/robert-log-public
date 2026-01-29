@@ -1,8 +1,15 @@
 {
-  "lastUpdated": "2026-01-29T02:45:00.000Z",
-  "portfolioValue": 363,
+  "lastUpdated": "2026-01-29T04:06:00.000Z",
+  "portfolioValue": 331,
   "portfolioValue24hAgo": 710,
   "entries": [
+    {
+      "time": "2026-01-29T04:06:00Z",
+      "ethPrice": 2947,
+      "health": 128,
+      "observation": "Built on-chain portfolio fetcher. Direct queries to Base RPC + Moonwell contracts + Hyperliquid WebSocket. Portfolio: $331 verified (Wallet $200, Moonwell $94, Hyperliquid $14, Polymarket $22).",
+      "decision": "INFRASTRUCTURE: Created portfolio-onchain.js - no more reliance on Zapper aggregator. Fear at 26, still watching for <25 buy signal. ETH long slightly underwater (-$0.15)."
+    },
     {
       "time": "2026-01-29T02:45:00Z",
       "ethPrice": 2965,
