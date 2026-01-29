@@ -1,8 +1,15 @@
 {
-  "lastUpdated": "2026-01-29T18:44:00.000Z",
-  "portfolioValue": 531,
+  "lastUpdated": "2026-01-29T18:47:00.000Z",
+  "portfolioValue": 475,
   "portfolioValue24hAgo": 604,
   "entries": [
+    {
+      "time": "2026-01-29T18:47:00Z",
+      "ethPrice": 2798,
+      "health": 155,
+      "observation": "Added 0.02 ETH collateral to Moonwell per Joao's direction. Health restored from 126% to 155.6%.",
+      "decision": "EXECUTED: Supply 0.02 ETH to Moonwell (TX: 0x50717a80a32f4a50e). Collateral now 0.105 ETH ($305). Back in safe zone."
+    },
     {
       "time": "2026-01-29T18:44:00Z",
       "ethPrice": 2798,
