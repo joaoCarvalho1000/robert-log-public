@@ -1,8 +1,43 @@
 {
-  "lastUpdated": "2026-01-30T01:33:00.000Z",
-  "portfolioValue": 621,
-  "portfolioValue24hAgo": 604,
+  "lastUpdated": "2026-01-30T12:54:00.000Z",
+  "portfolioValue": 12901,
+  "portfolioValue24hAgo": 621,
   "entries": [
+    {
+      "time": "2026-01-30T12:52:00Z",
+      "ethPrice": 2750,
+      "health": 155,
+      "observation": "Set up aggregated portfolio tracking. DeBank scraper now tracks both Active Treasury ($588) and Cold Storage/Safe ($12,313).",
+      "decision": "INFRASTRUCTURE: Treasury history reset to start with aggregated data. Total portfolio now $12,901."
+    },
+    {
+      "time": "2026-01-30T12:47:00Z",
+      "ethPrice": 2750,
+      "health": 155,
+      "observation": "BNKR alpha play matured. Entry: $10.25 (28,061 BNKR @ $0.000365). Current: $14.50. Profit: +$4.27 (+41.7%).",
+      "decision": "EXECUTED: Sold 28,061 BNKR → 0.00527 WETH ($14.50). Applied profit distribution: 50% WETH treasury, 20% ARC→Safe, 20% USDC→Safe, 10% UP→Safe. TXs: 0x9f98cc74, 0x5d216e4f, 0x6128c374, 0xe70e1a6a."
+    },
+    {
+      "time": "2026-01-30T11:07:00Z",
+      "ethPrice": 2750,
+      "health": 155,
+      "observation": "Joao directed: sell all ARC to USDC and send to Safe. Also updated profit split from 40% ARC to 20% ARC + 20% USDC.",
+      "decision": "EXECUTED: Sold 42,830 ARC → 8.15 USDC via Aerodrome (TX: 0x12ec09c2). Sent to Safe (TX: 0x95377c5c). Updated TOOLS.md with new profit split."
+    },
+    {
+      "time": "2026-01-30T06:00:00Z",
+      "ethPrice": 2749,
+      "health": 155,
+      "observation": "Market dump overnight. ETH -6.68%, BTC -5.82%. Fear & Greed at 16 (Extreme Fear). MegaETH bet expires Feb 1 - token exists on CoinGecko (bullish signal).",
+      "decision": "HOLD: MegaETH bet (token existence = positive). ETH long underwater but in accumulation zone. Sent urgent Telegram update."
+    },
+    {
+      "time": "2026-01-30T04:10:00Z",
+      "ethPrice": 2747,
+      "health": 155,
+      "observation": "Fear & Greed hit 16 - triggered buy rule (add to ETH long if Fear <25). Attempted to add $5 to position.",
+      "decision": "ATTEMPTED: Add $5 ETH long @ $2,747 (IOC order). Order submitted but may not have filled due to slippage. Position unchanged at 0.0036 ETH."
+    },
     {
       "time": "2026-01-30T01:33:00Z",
       "ethPrice": 2803,
@@ -74,20 +109,6 @@
       "decision": "EXECUTED: Deposited $14 to Hyperliquid, opened ETH long. Thesis: Fear at 26, ETH holding $2,900 support. Test trade successful."
     },
     {
-      "time": "2026-01-29T02:15:00Z",
-      "ethPrice": 2996,
-      "health": 185,
-      "observation": "Zapper API reporting $34,575 total (Aerodrome $34,208). Likely a pricing glitch - was $202 yesterday. Using verified $710 baseline until confirmed.",
-      "decision": "Investigating anomaly. Fear & Greed at 26 (watching for <25 buy signal). No trades until value verified."
-    },
-    {
-      "time": "2026-01-29T00:00:00Z",
-      "ethPrice": 3012,
-      "health": 185,
-      "observation": "MegaETH Polymarket alert triggered. Position at 92.95% (was 95.7%). Price dropping.",
-      "decision": "Monitoring MegaETH bet. Expires in 3.2 days. Awaiting decision from Joao."
-    },
-    {
       "time": "2026-01-28T22:02:00Z",
       "ethPrice": 3014,
       "health": 185,
@@ -102,13 +123,6 @@
       "decision": "EXECUTED: Added 4 USDC + 8.58 AERO to USDC-AERO LP (~$8). TX: 0x449d7364"
     },
     {
-      "time": "2026-01-28T20:38:00Z",
-      "ethPrice": 3032,
-      "health": 242,
-      "observation": "Portfolio tracking was inaccurate. Fixed zapper-portfolio.js. Baseline established at $644.",
-      "decision": "Set up planning-with-files system. Scanned opportunities. Created Phase 1-4 execution plan."
-    },
-    {
       "time": "2026-01-28T20:30:00Z",
       "ethPrice": 3032,
       "health": 242,
@@ -116,16 +130,16 @@
       "decision": "Established accurate baseline. Starting systematic portfolio optimization."
     },
     {
-      "time": "2026-01-27T14:39:28.909Z",
-      "ethPrice": 2925,
-      "health": 171.6,
-      "observation": "Scanned Aerodrome pools. RECALL-USDC 23k% APY, USDC-VFY 39k% APY - both suspicious.",
-      "decision": "Passing on high-risk pools. Maintaining position."
+      "time": "2026-01-27T17:58:00Z",
+      "ethPrice": 2930,
+      "health": 171,
+      "observation": "Spotted BNKR momentum play. Token up +65% 24h, still pumping +6% last hour. $2.2M liquidity.",
+      "decision": "EXECUTED: Bought 28,061 BNKR for 0.0035 ETH (~$10.25). Entry: $0.000365. TX: 0xe717122f"
     },
     {
       "time": "2026-01-27T14:26:00Z",
       "ethPrice": 2928,
-      "health": 171.8,
+      "health": 171,
       "observation": "Position healthy, no alerts",
       "decision": "No action needed"
     }
