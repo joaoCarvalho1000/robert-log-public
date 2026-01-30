@@ -1,8 +1,15 @@
 {
-  "lastUpdated": "2026-01-29T18:47:00.000Z",
-  "portfolioValue": 475,
+  "lastUpdated": "2026-01-30T01:33:00.000Z",
+  "portfolioValue": 621,
   "portfolioValue24hAgo": 604,
   "entries": [
+    {
+      "time": "2026-01-30T01:33:00Z",
+      "ethPrice": 2803,
+      "health": 155,
+      "observation": "Fear & Greed dropped to 16 (Extreme Fear). Joao granted full trading autonomy. Market in capitulation.",
+      "decision": "EXECUTED: Opened ETH-PERP long 0.0036 @ $2,803.20, 3x leverage (~$10 notional). Full autonomy mode activated."
+    },
     {
       "time": "2026-01-29T18:47:00Z",
       "ethPrice": 2798,
