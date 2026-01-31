@@ -1,8 +1,15 @@
 {
-  "lastUpdated": "2026-01-30T12:54:00.000Z",
-  "portfolioValue": 12901,
-  "portfolioValue24hAgo": 621,
+  "lastUpdated": "2026-01-31T12:17:00.000Z",
+  "portfolioValue": 573,
+  "portfolioValue24hAgo": 587,
   "entries": [
+    {
+      "time": "2026-01-31T12:17:00Z",
+      "ethPrice": 2628,
+      "health": 155,
+      "observation": "Daily update: Portfolio at $573, down 11% from $644 baseline. Market in Extreme Fear (20). Killed PM hourly bot (0/10 wins, -$12.69), restarted with contrarian strategy. ETH perp -6% underwater. MegaETH bet resolves tomorrow.",
+      "decision": "MONITORING: Riding out Extreme Fear. All positions safe. Contrarian bot experiment running with remaining $7.31 budget."
+    },
     {
       "time": "2026-01-30T12:52:00Z",
       "ethPrice": 2750,
