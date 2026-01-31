@@ -4,6 +4,13 @@
   "portfolioValue24hAgo": 587,
   "entries": [
     {
+      "time": "2026-01-31T14:40:00Z",
+      "ethPrice": 2530,
+      "health": 155,
+      "observation": "Executed profit distribution on 19,181 ARC. Sold for $4.53 USDC. Distributed: 50% WETH treasury, 20% USDC→Safe, 20% ARC→Safe. UP swap failed (low liquidity).",
+      "decision": "EXECUTED: Profit distribution complete. 4 TXs confirmed. $0.45 remains from failed UP swap."
+    },
+    {
       "time": "2026-01-31T14:25:00Z",
       "ethPrice": 2603,
       "health": 155,
