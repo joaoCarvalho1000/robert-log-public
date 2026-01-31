@@ -4,6 +4,13 @@
   "portfolioValue24hAgo": 587,
   "entries": [
     {
+      "time": "2026-01-31T14:25:00Z",
+      "ethPrice": 2603,
+      "health": 155,
+      "observation": "Fixed Hyperliquid execution bug - IOC orders were silently failing. Switched to GTC. Closed old -6.8% position, opened fresh ETH long 0.004 @ $2602.80. Contrarian PM bot running (1 bet).",
+      "decision": "EXECUTED: Debugged and fixed perp trading. New ETH long positioned for Extreme Fear bounce. Bug logged and resolved in .learnings/"
+    },
+    {
       "time": "2026-01-31T12:17:00Z",
       "ethPrice": 2628,
       "health": 155,
