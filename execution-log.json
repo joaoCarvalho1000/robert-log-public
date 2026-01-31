@@ -4,6 +4,13 @@
   "portfolioValue24hAgo": 587,
   "entries": [
     {
+      "time": "2026-01-31T18:15:00Z",
+      "ethPrice": 2400,
+      "health": 310,
+      "observation": "Market dumped to ETH $2,400. Added collateral from Safe (0.173 ETH) + looped 20%. Health improved from ~130% to 309.5%.",
+      "decision": "EXECUTED: Supplied 0.166 ETH, borrowed $79 USDC, looped to 0.315 ETH total collateral. Position secured."
+    },
+    {
       "time": "2026-01-31T14:40:00Z",
       "ethPrice": 2530,
       "health": 155,
