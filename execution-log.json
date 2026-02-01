@@ -1,8 +1,15 @@
 {
-  "lastUpdated": "2026-01-31T12:17:00.000Z",
-  "portfolioValue": 573,
-  "portfolioValue24hAgo": 587,
+  "lastUpdated": "2026-02-01T12:32:00.000Z",
+  "portfolioValue": 17182,
+  "portfolioValue24hAgo": 11612,
   "entries": [
+    {
+      "time": "2026-02-01T12:27:00Z",
+      "ethPrice": 2385,
+      "health": 310,
+      "observation": "Profit distribution executed on 21,846 ARC ($7.82). Market recovering - portfolio up 64% overnight. Active treasury at $939 (was $573). Cold storage $16,243.",
+      "decision": "EXECUTED: Profit split - 50% ETH (treasury), 20% ARC→Safe, 20% USDC→Safe, 10% UP→Safe. 4 TXs confirmed: 0x02af, 0xedee, 0xf690, 0xc8c3."
+    },
     {
       "time": "2026-01-31T18:15:00Z",
       "ethPrice": 2400,
