@@ -1,7 +1,1 @@
-{
-  "timestamp": "2026-02-03T15:02:27.408Z",
-  "type": "trend_analysis",
-  "status": "insufficient_data",
-  "markets_analyzed": ["ethereum", "bitcoin"],
-  "report_sent": true
-}
+[{"timestamp":"2026-02-03T18:00:00Z","action":"close","pair":"ETH-PERP","price":2202.76,"size":0.009,"pnl":-0.00259,"status":"STOP","notes":"Extreme fear accumulation trigger"},{"timestamp":"2026-02-03T23:00:00Z","action":"update","type":"portfolio_close","portfolio":1000.18,"notes":"Market reset - ready for accumulation phase"}]
