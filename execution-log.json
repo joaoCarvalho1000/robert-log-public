@@ -1,1 +1,8 @@
-[{"timestamp":"2026-02-03T18:00:00Z","action":"close","pair":"ETH-PERP","price":2202.76,"size":0.009,"pnl":-0.00259,"status":"STOP","notes":"Extreme fear accumulation trigger"},{"timestamp":"2026-02-03T23:00:00Z","action":"update","type":"portfolio_close","portfolio":1000.18,"notes":"Market reset - ready for accumulation phase"},{"timestamp":"2026-02-05T08:45:00Z","action":"update","type":"price_tracking","prices":{"eth":2111.05,"btc":71211,"aero":0.3447},"changes":{"eth_24h":-30.1,"btc_24h":-20.3},"entry":318,"notes":"Crisis accumulation zone hit - Zone 2 active"}]
+[
+  {"timestamp":"2026-02-03T18:00:00Z","action":"close","pair":"ETH-PERP","price":2202.76,"size":0.009,"pnl":-0.00259,"status":"STOP","notes":"Extreme fear accumulation trigger"},
+  {"timestamp":"2026-02-03T23:00:00Z","action":"update","type":"portfolio_close","portfolio":1000.18,"notes":"Market reset - ready for accumulation phase"},
+  {"timestamp":"2026-02-05T08:45:00Z","action":"update","type":"price_tracking","prices":{"eth":2111.05,"btc":71211,"aero":0.3447},"changes":{"eth_24h":-30.1,"btc_24h":-20.3},"entry":318,"notes":"Crisis accumulation zone hit - Zone 2 active"},
+  {"timestamp":"2026-02-05T10:54:00Z","action":"open","type":"covered_call","pair":"DAG/USDC","size":1994,"price":0.018,"strike_range":"$0.0189-$0.0216","position_id":"4564289","notes":"Added 1994 DAG to covered call position - strike +5% to +20% above current price"},
+  {"timestamp":"2026-02-05T11:04:00Z","action":"swap","type":"accumulation","from":"USDC","to":"ETH","amount_in":220,"amount_out":0.104,"price":2115,"notes":"Bought the fear - extreme fear index at 12"},
+  {"timestamp":"2026-02-05T11:05:00Z","action":"supply","type":"collateral","protocol":"Moonwell","asset":"ETH","amount":0.104,"health_before":"168%","health_after":"223%","notes":"Added ETH collateral - aggressive accumulation during -30% dip"}
+]
