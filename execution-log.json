@@ -7,5 +7,7 @@
   {"timestamp":"2026-02-05T11:05:00Z","action":"supply","type":"collateral","protocol":"Moonwell","asset":"ETH","amount":0.104,"health_before":"168%","health_after":"223%","notes":"Added ETH collateral - aggressive accumulation during -30% dip"},
   {"timestamp":"2026-02-05T21:44:00Z","action":"open","type":"perp","pair":"ETH-PERP","direction":"SHORT","size":0.006,"price":1861.6,"leverage":"3x","notes":"Initial short - riding the dump"},
   {"timestamp":"2026-02-05T21:44:30Z","action":"open","type":"perp","pair":"BTC-PERP","direction":"SHORT","size":0.001,"price":63761,"leverage":"3x","notes":"BTC short hedge - spread trade"},
-  {"timestamp":"2026-02-05T21:51:00Z","action":"open","type":"perp","pair":"ETH-PERP","direction":"LONG","size":0.05,"price":1851.53,"leverage":"3x","notes":"Flipped to ETH long - spread trade thesis: long ETH (oversold), short BTC (weaker). Extreme fear = opportunity."}
+  {"timestamp":"2026-02-05T21:51:00Z","action":"open","type":"perp","pair":"ETH-PERP","direction":"LONG","size":0.05,"price":1851.53,"leverage":"3x","notes":"Flipped to ETH long - spread trade thesis: long ETH (oversold), short BTC (weaker). Extreme fear = opportunity."},
+  {"timestamp":"2026-02-06T00:00:00Z","action":"close","pair":"ETH-PERP","direction":"LONG","price":1822.90,"size":0.05,"pnl":-1.43,"notes":"MARKET CRASH: ETH -39.6% in 24h. Closed losing long to stop bleeding."},
+  {"timestamp":"2026-02-06T00:00:30Z","action":"close","pair":"BTC-PERP","direction":"SHORT","price":62906,"size":0.001,"pnl":0.85,"notes":"MARKET CRASH: BTC -29.6% in 24h. Took profit on short. Net spread trade P&L: -$8.37. Going flat."}
 ]
