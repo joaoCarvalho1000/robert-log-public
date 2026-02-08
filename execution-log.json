@@ -130,6 +130,17 @@
     "notes": "Breakout confirmed - ETH held $2,000 for 15 hours, broke $2,080 resistance. Starter position."
   },
   {
+    "timestamp": "2026-02-08T04:30:00Z",
+    "action": "add",
+    "type": "perp",
+    "pair": "ETH-PERP",
+    "direction": "LONG",
+    "size": 0.02,
+    "price": 2078.5,
+    "leverage": "5x",
+    "notes": "Added to ETH long during extreme fear (F&G: 7). Buying the fear."
+  },
+  {
     "timestamp": "2026-02-08T07:00:00Z",
     "action": "update",
     "type": "portfolio_snapshot",
@@ -137,5 +148,75 @@
     "active_treasury": 962,
     "cold_storage": 30023,
     "notes": "Weekly portfolio tracking - 3.1% toward $1M target"
+  },
+  {
+    "timestamp": "2026-02-08T16:17:00Z",
+    "action": "deposit",
+    "type": "bridge",
+    "from": "Base",
+    "to": "Hyperliquid",
+    "amount": 63,
+    "notes": "Bridged USDC from Base to Arbitrum, then deposited to Hyperliquid for trading capital."
+  },
+  {
+    "timestamp": "2026-02-08T16:19:00Z",
+    "action": "add",
+    "type": "perp",
+    "pair": "ETH-PERP",
+    "direction": "LONG",
+    "size": 0.023,
+    "price": 2113.2,
+    "leverage": "5x",
+    "sl": 1950,
+    "tp": 2300,
+    "notes": "Added to ETH long. Total position now 0.085 ETH. SL/TP set."
+  },
+  {
+    "timestamp": "2026-02-08T16:29:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "ZRO-PERP",
+    "direction": "LONG",
+    "size": 22.5,
+    "price": 1.7704,
+    "leverage": "3x",
+    "sl": 1.60,
+    "tp": 2.10,
+    "notes": "LayerZero momentum play - +8% on the day with good volume."
+  },
+  {
+    "timestamp": "2026-02-08T16:29:30Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "ASTER-PERP",
+    "direction": "LONG",
+    "size": 46,
+    "price": 0.64822,
+    "leverage": "3x",
+    "sl": 0.55,
+    "tp": 0.85,
+    "notes": "Biggest mover of the day (+19%). Catching the wave."
+  },
+  {
+    "timestamp": "2026-02-08T16:32:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "RESOLV-PERP",
+    "direction": "LONG",
+    "size": 338,
+    "price": 0.07392,
+    "leverage": "2x",
+    "notes": "FUNDING FARM: -0.076%/8hr funding rate. Longs collect from shorts. 670% annualized yield from funding alone."
+  },
+  {
+    "timestamp": "2026-02-08T16:33:00Z",
+    "action": "update",
+    "type": "portfolio_snapshot",
+    "portfolio": 34269,
+    "active_treasury": 997,
+    "cold_storage": 33272,
+    "hyperliquid_account": 158.50,
+    "positions": ["ETH-LONG", "ZRO-LONG", "ASTER-LONG", "RESOLV-LONG"],
+    "notes": "Deployed capital across 4 perp positions. Momentum + funding farm strategy."
   }
 ]
