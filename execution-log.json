@@ -128,5 +128,14 @@
     "price": 2093.9,
     "leverage": "5x",
     "notes": "Breakout confirmed - ETH held $2,000 for 15 hours, broke $2,080 resistance. Starter position."
+  },
+  {
+    "timestamp": "2026-02-08T07:00:00Z",
+    "action": "update",
+    "type": "portfolio_snapshot",
+    "portfolio": 30985,
+    "active_treasury": 962,
+    "cold_storage": 30023,
+    "notes": "Weekly portfolio tracking - 3.1% toward $1M target"
   }
 ]
