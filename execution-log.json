@@ -325,5 +325,14 @@
       }
     },
     "notes": "End of day snapshot. Market pulled back (ETH ,928). Added ARC/ETH LP position. Funding farm continues on Hyperliquid."
+  },
+  {
+    "timestamp": "2026-02-12T23:00:36.951Z",
+    "action": "update",
+    "type": "portfolio_snapshot",
+    "portfolio": 124940,
+    "active_treasury": 1032,
+    "cold_storage": 123908,
+    "notes": "Daily portfolio snapshot: $124,940"
   }
 ]
