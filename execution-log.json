@@ -180,8 +180,8 @@
     "size": 22.5,
     "price": 1.7704,
     "leverage": "3x",
-    "sl": 1.60,
-    "tp": 2.10,
+    "sl": 1.6,
+    "tp": 2.1,
     "notes": "LayerZero momentum play - +8% on the day with good volume."
   },
   {
@@ -215,8 +215,115 @@
     "portfolio": 34269,
     "active_treasury": 997,
     "cold_storage": 33272,
-    "hyperliquid_account": 158.50,
-    "positions": ["ETH-LONG", "ZRO-LONG", "ASTER-LONG", "RESOLV-LONG"],
+    "hyperliquid_account": 158.5,
+    "positions": [
+      "ETH-LONG",
+      "ZRO-LONG",
+      "ASTER-LONG",
+      "RESOLV-LONG"
+    ],
     "notes": "Deployed capital across 4 perp positions. Momentum + funding farm strategy."
+  },
+  {
+    "timestamp": "2026-02-12T10:18:00Z",
+    "action": "swap",
+    "type": "consolidation",
+    "from": "RECALL",
+    "to": "USDC",
+    "amount_in": 126,
+    "amount_out": 5.45,
+    "notes": "Consolidated dust position into trading capital"
+  },
+  {
+    "timestamp": "2026-02-12T10:19:00Z",
+    "action": "swap",
+    "type": "consolidation",
+    "from": "AERO",
+    "to": "USDC",
+    "amount_in": 4.7,
+    "amount_out": 1.41,
+    "notes": "Consolidated dust position into trading capital"
+  },
+  {
+    "timestamp": "2026-02-12T10:20:00Z",
+    "action": "redeem",
+    "type": "polymarket",
+    "market": "Cardi B Super Bowl Halftime",
+    "outcome": "YES",
+    "shares": 8,
+    "payout": 8,
+    "chain": "Polygon",
+    "notes": "Redeemed winning Polymarket position"
+  },
+  {
+    "timestamp": "2026-02-12T18:32:00Z",
+    "action": "swap",
+    "type": "preparation",
+    "from": "USDC",
+    "to": "ETH",
+    "amount_in": 6,
+    "amount_out": 0.003,
+    "notes": "Swapped USDC to ETH for ARC/ETH LP position"
+  },
+  {
+    "timestamp": "2026-02-12T18:34:00Z",
+    "action": "add_liquidity",
+    "type": "lp",
+    "protocol": "Aerodrome",
+    "pair": "ARC/ETH",
+    "arc_amount": 1500,
+    "eth_amount": 0.0027,
+    "lp_received": 2.01,
+    "notes": "Initial ARC/ETH liquidity position - testing router method"
+  },
+  {
+    "timestamp": "2026-02-12T18:38:00Z",
+    "action": "swap",
+    "type": "rebalance",
+    "from": "ARC",
+    "to": "WETH",
+    "amount_in": 3138,
+    "amount_out": 0.00568,
+    "method": "direct_pair_swap",
+    "notes": "Swapped half of ARC to WETH via direct pair interaction"
+  },
+  {
+    "timestamp": "2026-02-12T18:40:00Z",
+    "action": "add_liquidity",
+    "type": "lp",
+    "protocol": "Aerodrome",
+    "pair": "ARC/ETH",
+    "arc_amount": 3138,
+    "eth_amount": 0.005,
+    "lp_total": 6.22,
+    "notes": "Scaled up ARC/ETH LP - added remaining ARC + ETH. Full position deployed."
+  },
+  {
+    "timestamp": "2026-02-12T19:30:00Z",
+    "action": "update",
+    "type": "portfolio_snapshot",
+    "portfolio": 141899,
+    "active_treasury": 1026,
+    "cold_storage": 140873,
+    "positions": {
+      "hyperliquid": {
+        "account_value": 292,
+        "positions": [
+          "YZY-LONG",
+          "ASTER-LONG"
+        ]
+      },
+      "moonwell": {
+        "health": 1.29,
+        "supplied_eth": 0.428,
+        "borrowed_usdc": 537
+      },
+      "aerodrome_lp": {
+        "pair": "ARC/ETH",
+        "lp_tokens": 6.22,
+        "value_usd": 12
+      }
+    },
+    "notes": "End of day snapshot. Market pulled back (ETH ,928). Added ARC/ETH LP position. Funding farm continues on Hyperliquid."
   }
 ]
