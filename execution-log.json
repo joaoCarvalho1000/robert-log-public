@@ -345,5 +345,34 @@
     "price": 1950.6,
     "leverage": "5x",
     "notes": "Extreme fear accumulation (F&G 9). Neutral funding. Adding ETH exposure."
+  },
+  {
+    "timestamp": "2026-02-13T18:53:00Z",
+    "action": "update",
+    "type": "portfolio_snapshot",
+    "portfolio": 131614,
+    "active_treasury": 1097,
+    "cold_storage": 130517,
+    "positions": {
+      "ETH-PERP": {
+        "size": 0.0256,
+        "entry": 1950.6,
+        "current": 2060,
+        "pnl_pct": 5.6
+      },
+      "YZY-PERP": {
+        "size": 105,
+        "entry": 0.33214,
+        "current": 0.335,
+        "pnl_pct": 0.7
+      },
+      "ASTER-PERP": {
+        "size": 46,
+        "entry": 0.64822,
+        "current": 0.733,
+        "pnl_pct": 13.1
+      }
+    },
+    "notes": "Strong day. Portfolio +$6.5k. ETH long working (+5.6%). Extreme fear bounce thesis validated."
   }
 ]
