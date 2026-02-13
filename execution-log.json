@@ -396,5 +396,14 @@
     "price": 0.713,
     "pnl": 2.98,
     "notes": "TP hit at $0.713. Entry $0.648, +10%. First automated TP working as intended."
+  },
+  {
+    "timestamp": "2026-02-13T23:00:44.751Z",
+    "action": "update",
+    "type": "portfolio_snapshot",
+    "portfolio": 160807,
+    "active_treasury": 1102,
+    "cold_storage": 159705,
+    "notes": "Daily portfolio snapshot: $160,807"
   }
 ]
