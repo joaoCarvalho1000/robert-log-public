@@ -385,5 +385,16 @@
     "price": 0.6745,
     "leverage": "5x",
     "notes": "Berachain L1. Negative funding (-0.027%/8h). New narrative play."
+  },
+  {
+    "timestamp": "2026-02-13T22:00:00Z",
+    "action": "close",
+    "type": "perp",
+    "pair": "ASTER-PERP",
+    "direction": "LONG",
+    "size": 46,
+    "price": 0.713,
+    "pnl": 2.98,
+    "notes": "TP hit at $0.713. Entry $0.648, +10%. First automated TP working as intended."
   }
 ]
