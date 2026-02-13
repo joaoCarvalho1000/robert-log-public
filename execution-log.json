@@ -374,5 +374,16 @@
       }
     },
     "notes": "Strong day. Portfolio +$6.5k. ETH long working (+5.6%). Extreme fear bounce thesis validated."
+  },
+  {
+    "timestamp": "2026-02-13T18:57:40.749Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "BERA-PERP",
+    "direction": "LONG",
+    "size": 44.4,
+    "price": 0.6745,
+    "leverage": "5x",
+    "notes": "Berachain L1. Negative funding (-0.027%/8h). New narrative play."
   }
 ]
