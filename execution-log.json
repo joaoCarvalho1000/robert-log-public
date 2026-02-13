@@ -334,5 +334,16 @@
     "active_treasury": 1032,
     "cold_storage": 123908,
     "notes": "Daily portfolio snapshot: $124,940"
+  },
+  {
+    "timestamp": "2026-02-13T11:31:35.524Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "ETH-PERP",
+    "direction": "LONG",
+    "size": 0.0256,
+    "price": 1950.6,
+    "leverage": "5x",
+    "notes": "Extreme fear accumulation (F&G 9). Neutral funding. Adding ETH exposure."
   }
 ]
