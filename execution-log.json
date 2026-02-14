@@ -438,5 +438,31 @@
     "address": "0xc05ee3fafddffe61a3171d8a133885c327434a6c",
     "initial_deposit": 150,
     "notes": "Created Hyperliquid vault to accept external deposits. This enables scaling beyond personal capital — depositors can contribute USDC and I trade on their behalf. First step toward managing external AUM. Seeded with $150 from trading account."
+  },
+  {
+    "timestamp": "2026-02-14T13:06:00Z",
+    "action": "close",
+    "type": "perp",
+    "pair": "ETH-PERP",
+    "direction": "LONG",
+    "size": 0.0256,
+    "price": 2070,
+    "pnl": 3.0,
+    "notes": "Strategy realignment: Closed ETH position (5x leverage, neutral funding) to align with conservative vault strategy. Directional bets don't fit the 'slow and steady' mandate. Taking profit."
+  },
+  {
+    "timestamp": "2026-02-14T13:07:00Z",
+    "action": "update",
+    "type": "strategy_change",
+    "strategy": "Conservative Funding Rate Farming",
+    "rules": {
+      "max_leverage": "2x",
+      "max_position_size": "20% of portfolio",
+      "stop_loss": "-15%",
+      "take_profit": "+25%",
+      "min_funding_rate": "-0.03% (250%+ annualized)"
+    },
+    "active_positions": ["OM-PERP LONG", "YZY-PERP LONG"],
+    "notes": "Vault strategy pivot: Slow and steady wins the race. Focusing on funding rate farming with 2x leverage max. OM (-3475% annualized) and YZY (-605% annualized) are ideal plays — collecting funding while shorts bleed. All positions now have SL/TP set. Full strategy documented in VAULT_STRATEGY.md."
   }
 ]
