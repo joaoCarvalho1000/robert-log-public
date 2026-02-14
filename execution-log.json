@@ -528,5 +528,31 @@
       "strategy": "Conservative Multi-Strategy"
     },
     "notes": "Vault fully deployed with 3 positions. ~65% capital deployed, 35% reserve. All positions have SL/TP. Autonomous operation begins."
+  },
+  {
+    "timestamp": "2026-02-14T14:15:00Z",
+    "action": "update",
+    "type": "portfolio_snapshot",
+    "portfolio": 149144,
+    "active_treasury": 997,
+    "cold_storage": 148147,
+    "hyperliquid": {
+      "vault_equity": 169.46,
+      "vault_locked_until": "2026-02-15T13:47:50Z",
+      "main_account": 4.63,
+      "positions": {
+        "OM-PERP": {
+          "direction": "LONG",
+          "size": 150.4,
+          "entry": 0.0611,
+          "leverage": "2x",
+          "sl": 0.052,
+          "tp": 0.076,
+          "funding_rate": "-0.24%",
+          "funding_apr": "-2126%"
+        }
+      }
+    },
+    "notes": "Vault capital locked until tomorrow. OM position farming extreme funding (-2126% APR to longs). Funding PnL: +$3.99 over 7 days. Ready to deploy vault capital when lockup ends."
   }
 ]
