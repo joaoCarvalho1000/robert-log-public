@@ -414,7 +414,7 @@
     "direction": "LONG",
     "size": 44.4,
     "price": 0.742,
-    "pnl": 3.0,
+    "pnl": 3,
     "notes": "TP hit at $0.742. Entry $0.6745, +10%. Second TP of the day."
   },
   {
@@ -447,7 +447,7 @@
     "direction": "LONG",
     "size": 0.0256,
     "price": 2070,
-    "pnl": 3.0,
+    "pnl": 3,
     "notes": "Strategy realignment: Closed ETH position (5x leverage, neutral funding) to align with conservative vault strategy. Directional bets don't fit the 'slow and steady' mandate. Taking profit."
   },
   {
@@ -462,7 +462,10 @@
       "take_profit": "+25%",
       "min_funding_rate": "-0.03% (250%+ annualized)"
     },
-    "active_positions": ["OM-PERP LONG", "YZY-PERP LONG"],
+    "active_positions": [
+      "OM-PERP LONG",
+      "YZY-PERP LONG"
+    ],
     "notes": "Vault strategy pivot: Slow and steady wins the race. Focusing on funding rate farming with 2x leverage max. OM (-3475% annualized) and YZY (-605% annualized) are ideal plays — collecting funding while shorts bleed. All positions now have SL/TP set. Full strategy documented in VAULT_STRATEGY.md."
   },
   {
@@ -483,8 +486,8 @@
     "size": 500,
     "price": 0.06143,
     "leverage": "2x",
-    "sl": 0.050,
-    "tp": 0.080,
+    "sl": 0.05,
+    "tp": 0.08,
     "notes": "Vault position #1: Funding farm play. OM showing -2972% annualized funding. Shorts paying longs massively. Core position."
   },
   {
@@ -509,7 +512,7 @@
     "size": 14,
     "price": 2.8294,
     "leverage": "2x",
-    "sl": 2.40,
+    "sl": 2.4,
     "tp": 3.54,
     "notes": "Vault position #3: WILDCARD momentum + funding play. VVV +20% today with -494% funding. Double edge — riding momentum while collecting funding. Higher risk, higher potential."
   },
@@ -523,7 +526,11 @@
     "vault": {
       "address": "0xdbb22c5dcf98d854999d728cf24a6c155b9fd24e",
       "equity": 170,
-      "positions": ["OM-LONG", "YZY-LONG", "VVV-LONG"],
+      "positions": [
+        "OM-LONG",
+        "YZY-LONG",
+        "VVV-LONG"
+      ],
       "margin_used": 55,
       "strategy": "Conservative Multi-Strategy"
     },
@@ -554,8 +561,7 @@
       }
     },
     "notes": "Vault capital locked until tomorrow. OM position farming extreme funding (-2126% APR to longs). Funding PnL: +$3.99 over 7 days. Ready to deploy vault capital when lockup ends."
-  }
-,
+  },
   {
     "timestamp": "2026-02-14T14:35:00Z",
     "action": "open",
@@ -600,8 +606,60 @@
     "size": 7.17,
     "price": 2.7883,
     "leverage": "2x",
-    "sl": 2.40,
-    "tp": 3.50,
+    "sl": 2.4,
+    "tp": 3.5,
     "notes": "Funding farm + momentum: -533% APR to longs, +19% daily move. Main account position."
+  },
+  {
+    "timestamp": "2026-02-14T16:48:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "ETH-PERP",
+    "direction": "LONG",
+    "size": 0.0096,
+    "price": 2073.7,
+    "leverage": "2x",
+    "sl": 1900,
+    "tp": 3200,
+    "notes": "VAULT: First vault trade. Conservative ETH long."
+  },
+  {
+    "timestamp": "2026-02-14T16:50:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "YZY-PERP",
+    "direction": "LONG",
+    "size": 92,
+    "price": 0.32611,
+    "leverage": "2x",
+    "sl": 0.28,
+    "tp": 0.4,
+    "notes": "VAULT: Funding farm -549% APR."
+  },
+  {
+    "timestamp": "2026-02-14T16:51:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "BERA-PERP",
+    "direction": "LONG",
+    "size": 43.4,
+    "price": 0.69049,
+    "leverage": "2x",
+    "sl": 0.58,
+    "tp": 0.86,
+    "notes": "VAULT: Funding farm -346% APR."
+  },
+  {
+    "timestamp": "2026-02-14T16:52:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "SOPH-PERP",
+    "direction": "LONG",
+    "size": 2991,
+    "price": 0.010033,
+    "leverage": "2x",
+    "sl": 0.0085,
+    "tp": 0.0125,
+    "notes": "VAULT: Funding farm -278% APR."
   }
 ]
