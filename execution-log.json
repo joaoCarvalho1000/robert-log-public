@@ -584,5 +584,31 @@
     "sl": 0.0085,
     "tp": 0.0125,
     "notes": "VAULT: Funding farm -278% APR."
+  },
+  {
+    "timestamp": "2026-02-14T22:45:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "AXS-PERP",
+    "direction": "LONG",
+    "size": 26.4,
+    "price": 1.51,
+    "leverage": "2x",
+    "sl": 1.25,
+    "tp": 1.85,
+    "notes": "VAULT: Funding farm -618% APR. Capital injection deployed."
+  },
+  {
+    "timestamp": "2026-02-14T22:45:30Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "COMP-PERP",
+    "direction": "LONG",
+    "size": 1.95,
+    "price": 20.43,
+    "leverage": "2x",
+    "sl": 17,
+    "tp": 25,
+    "notes": "VAULT: Funding farm -523% APR. Capital injection deployed."
   }
 ]
