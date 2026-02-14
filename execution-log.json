@@ -416,5 +416,18 @@
     "price": 0.742,
     "pnl": 3.0,
     "notes": "TP hit at $0.742. Entry $0.6745, +10%. Second TP of the day."
+  },
+  {
+    "timestamp": "2026-02-14T11:47:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "OM-PERP",
+    "direction": "LONG",
+    "size": 30,
+    "price": 0.06058,
+    "leverage": "2x",
+    "sl": 0.045,
+    "tp": 0.09,
+    "notes": "Funding squeeze play. -3976% annualized funding rate — shorts paying longs 0.45%/8h. Low size, asymmetric R/R."
   }
 ]
