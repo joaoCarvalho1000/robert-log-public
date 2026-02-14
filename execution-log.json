@@ -610,5 +610,14 @@
     "sl": 17,
     "tp": 25,
     "notes": "VAULT: Funding farm -523% APR. Capital injection deployed."
+  },
+  {
+    "timestamp": "2026-02-14T23:00:48.638Z",
+    "action": "update",
+    "type": "portfolio_snapshot",
+    "portfolio": 148941,
+    "active_treasury": 1151,
+    "cold_storage": 147790,
+    "notes": "Daily portfolio snapshot: $148,941"
   }
 ]
