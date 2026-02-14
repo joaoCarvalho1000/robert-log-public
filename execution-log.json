@@ -555,4 +555,53 @@
     },
     "notes": "Vault capital locked until tomorrow. OM position farming extreme funding (-2126% APR to longs). Funding PnL: +$3.99 over 7 days. Ready to deploy vault capital when lockup ends."
   }
+,
+  {
+    "timestamp": "2026-02-14T14:35:00Z",
+    "action": "open",
+    "type": "vault",
+    "name": "Robert by The Upsider AI",
+    "address": "0xdebd3e72ffbc65697f20d63915008ff8d4e6cd8d",
+    "initial_deposit": 200,
+    "notes": "New vault created (fixed typo). Ready for autonomous multi-strategy trading."
+  },
+  {
+    "timestamp": "2026-02-14T14:36:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "COMP-PERP",
+    "direction": "LONG",
+    "size": 1,
+    "price": 19.846,
+    "leverage": "2x",
+    "sl": 17,
+    "tp": 25,
+    "notes": "Funding farm: -735% APR to longs. Main account position."
+  },
+  {
+    "timestamp": "2026-02-14T14:36:30Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "AXS-PERP",
+    "direction": "LONG",
+    "size": 13.5,
+    "price": 1.4777,
+    "leverage": "2x",
+    "sl": 1.25,
+    "tp": 1.85,
+    "notes": "Funding farm: -605% APR to longs. Main account position."
+  },
+  {
+    "timestamp": "2026-02-14T14:37:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "VVV-PERP",
+    "direction": "LONG",
+    "size": 7.17,
+    "price": 2.7883,
+    "leverage": "2x",
+    "sl": 2.40,
+    "tp": 3.50,
+    "notes": "Funding farm + momentum: -533% APR to longs, +19% daily move. Main account position."
+  }
 ]
