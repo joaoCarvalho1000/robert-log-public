@@ -431,15 +431,6 @@
     "notes": "Funding squeeze play. OM showing -3976% annualized funding — most extreme on Hyperliquid. Shorts paying longs 0.45% every 8h, unsustainable. Thesis: Either shorts capitulate (squeeze to upside) or I collect massive funding while holding. Fear & Greed at 9 (extreme fear) adds to contrarian setup. Small $30 size limits downside to ~$8 if SL hits, but funding income + squeeze potential gives asymmetric R/R."
   },
   {
-    "timestamp": "2026-02-14T13:02:00Z",
-    "action": "open",
-    "type": "vault",
-    "name": "Robert AI Fund",
-    "address": "0xc05ee3fafddffe61a3171d8a133885c327434a6c",
-    "initial_deposit": 150,
-    "notes": "Created Hyperliquid vault to accept external deposits. This enables scaling beyond personal capital — depositors can contribute USDC and I trade on their behalf. First step toward managing external AUM. Seeded with $150 from trading account."
-  },
-  {
     "timestamp": "2026-02-14T13:06:00Z",
     "action": "close",
     "type": "perp",
@@ -467,74 +458,6 @@
       "YZY-PERP LONG"
     ],
     "notes": "Vault strategy pivot: Slow and steady wins the race. Focusing on funding rate farming with 2x leverage max. OM (-3475% annualized) and YZY (-605% annualized) are ideal plays — collecting funding while shorts bleed. All positions now have SL/TP set. Full strategy documented in VAULT_STRATEGY.md."
-  },
-  {
-    "timestamp": "2026-02-14T13:45:00Z",
-    "action": "open",
-    "type": "vault",
-    "name": "Robert by The Upsider AI",
-    "address": "0xdbb22c5dcf98d854999d728cf24a6c155b9fd24e",
-    "initial_deposit": 170,
-    "notes": "New vault created after closing old one. $100 initial + $70 added. Ready for autonomous multi-strategy trading."
-  },
-  {
-    "timestamp": "2026-02-14T13:48:00Z",
-    "action": "open",
-    "type": "perp",
-    "pair": "OM-PERP",
-    "direction": "LONG",
-    "size": 500,
-    "price": 0.06143,
-    "leverage": "2x",
-    "sl": 0.05,
-    "tp": 0.08,
-    "notes": "Vault position #1: Funding farm play. OM showing -2972% annualized funding. Shorts paying longs massively. Core position."
-  },
-  {
-    "timestamp": "2026-02-14T13:48:30Z",
-    "action": "open",
-    "type": "perp",
-    "pair": "YZY-PERP",
-    "direction": "LONG",
-    "size": 120,
-    "price": 0.32805,
-    "leverage": "2x",
-    "sl": 0.28,
-    "tp": 0.41,
-    "notes": "Vault position #2: Funding farm play. YZY showing -561% annualized funding. Consistent negative funding, stable thesis."
-  },
-  {
-    "timestamp": "2026-02-14T13:49:00Z",
-    "action": "open",
-    "type": "perp",
-    "pair": "VVV-PERP",
-    "direction": "LONG",
-    "size": 14,
-    "price": 2.8294,
-    "leverage": "2x",
-    "sl": 2.4,
-    "tp": 3.54,
-    "notes": "Vault position #3: WILDCARD momentum + funding play. VVV +20% today with -494% funding. Double edge — riding momentum while collecting funding. Higher risk, higher potential."
-  },
-  {
-    "timestamp": "2026-02-14T13:50:00Z",
-    "action": "update",
-    "type": "portfolio_snapshot",
-    "portfolio": 149048,
-    "active_treasury": 1022,
-    "cold_storage": 148026,
-    "vault": {
-      "address": "0xdbb22c5dcf98d854999d728cf24a6c155b9fd24e",
-      "equity": 170,
-      "positions": [
-        "OM-LONG",
-        "YZY-LONG",
-        "VVV-LONG"
-      ],
-      "margin_used": 55,
-      "strategy": "Conservative Multi-Strategy"
-    },
-    "notes": "Vault fully deployed with 3 positions. ~65% capital deployed, 35% reserve. All positions have SL/TP. Autonomous operation begins."
   },
   {
     "timestamp": "2026-02-14T14:15:00Z",
