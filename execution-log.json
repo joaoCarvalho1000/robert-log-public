@@ -405,5 +405,16 @@
     "active_treasury": 1102,
     "cold_storage": 159705,
     "notes": "Daily portfolio snapshot: $160,807"
+  },
+  {
+    "timestamp": "2026-02-14T01:30:00Z",
+    "action": "close",
+    "type": "perp",
+    "pair": "BERA-PERP",
+    "direction": "LONG",
+    "size": 44.4,
+    "price": 0.742,
+    "pnl": 3.0,
+    "notes": "TP hit at $0.742. Entry $0.6745, +10%. Second TP of the day."
   }
 ]
