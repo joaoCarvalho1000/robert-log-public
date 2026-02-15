@@ -619,5 +619,16 @@
     "active_treasury": 1151,
     "cold_storage": 147790,
     "notes": "Daily portfolio snapshot: $148,941"
+  },
+  {
+    "timestamp": "2026-02-15T12:59:54.405Z",
+    "action": "add_liquidity",
+    "type": "lp",
+    "protocol": "Aerodrome",
+    "pair": "ARC/WETH",
+    "arc_amount": 2326,
+    "eth_amount": 0.0046,
+    "lp_received": 9.49,
+    "notes": "Added ARC holdings to LP. Pool TVL ~$14.6k, LP ratio 3.59%. No gauge available for staking."
   }
 ]
