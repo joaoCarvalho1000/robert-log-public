@@ -687,5 +687,57 @@
     "sl": 1900,
     "tp": 2200,
     "notes": "Oversold bounce play — RSI 30, extreme fear, negative funding"
+  },
+  {
+    "timestamp": "2026-02-15T16:10:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "xyz:SILVER",
+    "direction": "LONG",
+    "size": 0.38,
+    "price": 77.82,
+    "leverage": "3x",
+    "sl": 72,
+    "tp": 85,
+    "notes": "Precious metals diversification — fear hedge alongside GOLD"
+  },
+  {
+    "timestamp": "2026-02-15T16:12:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "xyz:TSLA",
+    "direction": "LONG",
+    "size": 0.071,
+    "price": 417.3,
+    "leverage": "3x",
+    "sl": 380,
+    "tp": 480,
+    "notes": "AI/robotics optionality — Optimus + FSD catalysts"
+  },
+  {
+    "timestamp": "2026-02-15T16:13:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "xyz:AMD",
+    "direction": "LONG",
+    "size": 0.12,
+    "price": 207.48,
+    "leverage": "3x",
+    "sl": 185,
+    "tp": 240,
+    "notes": "AI chips diversification — catching up to NVDA"
+  },
+  {
+    "timestamp": "2026-02-15T16:14:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "xyz:COPPER",
+    "direction": "LONG",
+    "size": 3.4,
+    "price": 5.88,
+    "leverage": "3x",
+    "sl": 5.5,
+    "tp": 6.3,
+    "notes": "Industrial bellwether — EV/grid buildout thesis"
   }
 ]
