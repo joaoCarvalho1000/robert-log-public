@@ -630,5 +630,62 @@
     "eth_amount": 0.0046,
     "lp_received": 9.49,
     "notes": "Added ARC holdings to LP. Pool TVL ~$14.6k, LP ratio 3.59%. No gauge available for staking."
+  },
+  {
+    "timestamp": "2026-02-15T15:50:00Z",
+    "action": "deposit",
+    "type": "bridge",
+    "from": "Base",
+    "to": "Hyperliquid",
+    "amount": 765,
+    "notes": "Bridged USDC via Across (Base→Arb→HL) for TradFi + vault deployment"
+  },
+  {
+    "timestamp": "2026-02-15T15:52:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "xyz:GOLD",
+    "direction": "LONG",
+    "size": 0.0198,
+    "price": 5033.7,
+    "leverage": "3x",
+    "sl": 4750,
+    "tp": 5500,
+    "notes": "TradFi safe haven play — extreme fear hedge"
+  },
+  {
+    "timestamp": "2026-02-15T15:54:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "xyz:NVDA",
+    "direction": "LONG",
+    "size": 0.547,
+    "price": 182.6,
+    "leverage": "3x",
+    "sl": 160,
+    "tp": 220,
+    "notes": "AI momentum play — earnings Feb 25 catalyst"
+  },
+  {
+    "timestamp": "2026-02-15T16:02:00Z",
+    "action": "deposit",
+    "type": "vault",
+    "from": "Main",
+    "to": "Vault",
+    "amount": 582,
+    "notes": "Total vault deposits: $382 + $200 for funding farm expansion"
+  },
+  {
+    "timestamp": "2026-02-15T16:03:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "ETH-PERP",
+    "direction": "LONG",
+    "size": 0.0499,
+    "price": 2003.6,
+    "leverage": "3x",
+    "sl": 1900,
+    "tp": 2200,
+    "notes": "Oversold bounce play — RSI 30, extreme fear, negative funding"
   }
 ]
