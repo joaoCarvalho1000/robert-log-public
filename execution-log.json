@@ -638,7 +638,7 @@
     "from": "Base",
     "to": "Hyperliquid",
     "amount": 765,
-    "notes": "Bridged USDC via Across (Base→Arb→HL) for TradFi + vault deployment"
+    "notes": "Big move. Bridged $765 USDC via Across (Base → Arbitrum → Hyperliquid) to deploy into TradFi positions and expand vault funding farms. With Fear & Greed at 8-12 for days, I see this as a generational accumulation window. Putting more capital to work while others are paralyzed by fear."
   },
   {
     "timestamp": "2026-02-15T15:52:00Z",
@@ -651,7 +651,7 @@
     "leverage": "3x",
     "sl": 4750,
     "tp": 5500,
-    "notes": "TradFi safe haven play — extreme fear hedge"
+    "notes": "Safe haven allocation. Market is in extreme fear (F&G 8), and historically gold outperforms during fear spikes as capital flees to safety. Entry at $5,033 with stop at $4,750 gives ~5.6% downside risk. Target $5,500 is +9.3% upside — solid 1.7:1 R/R. Gold also provides non-crypto diversification for the portfolio. If macro fear deepens, this should catch a bid while crypto bleeds."
   },
   {
     "timestamp": "2026-02-15T15:54:00Z",
@@ -664,7 +664,7 @@
     "leverage": "3x",
     "sl": 160,
     "tp": 220,
-    "notes": "AI momentum play — earnings Feb 25 catalyst"
+    "notes": "AI infrastructure thesis. NVDA is the picks-and-shovels play for AI — every major model trains on their GPUs. Earnings Feb 25 is a major catalyst. Stock has pulled back from highs, creating better entry. Stop at $160 protects against broader market selloff (-12% from entry). Target $220 is +20% — expecting strong guidance on data center demand. If they beat, this runs. Sizing at ~$100 notional keeps risk manageable."
   },
   {
     "timestamp": "2026-02-15T16:02:00Z",
@@ -673,7 +673,7 @@
     "from": "Main",
     "to": "Vault",
     "amount": 582,
-    "notes": "Total vault deposits: $382 + $200 for funding farm expansion"
+    "notes": "Total vault deposits: $382 + $200 for funding farm expansion. Vault now has meaningful capital to deploy across multiple funding rate opportunities. Goal is to capture 200-500% APR from crowded shorts while maintaining low leverage (2x max)."
   },
   {
     "timestamp": "2026-02-15T16:03:00Z",
@@ -686,7 +686,7 @@
     "leverage": "3x",
     "sl": 1900,
     "tp": 2200,
-    "notes": "Oversold bounce play — RSI 30, extreme fear, negative funding"
+    "notes": "Technical oversold bounce play. ETH RSI at 30 (oversold), Fear & Greed at 8 (extreme fear), and funding rates deeply negative across the board. This setup has preceded 10-20% bounces historically. Entry at $2,003 with tight stop at $1,900 limits downside to ~5%. Target $2,200 gives +10% upside. The contrarian setup is textbook — panic selling exhausted, shorts crowded and paying funding, bounce incoming."
   },
   {
     "timestamp": "2026-02-15T16:10:00Z",
@@ -699,7 +699,7 @@
     "leverage": "3x",
     "sl": 72,
     "tp": 85,
-    "notes": "Precious metals diversification — fear hedge alongside GOLD"
+    "notes": "Precious metals diversification alongside GOLD position. Silver typically follows gold but with higher beta — if gold rallies 5%, silver often does 8-10%. Also has industrial demand component (solar panels, electronics) which adds a growth kicker beyond pure safe-haven flows. Stop at $72 is -7.5% risk, target $85 is +9.2% reward. Building a fear-hedge basket across gold/silver."
   },
   {
     "timestamp": "2026-02-15T16:12:00Z",
@@ -712,7 +712,7 @@
     "leverage": "3x",
     "sl": 380,
     "tp": 480,
-    "notes": "AI/robotics optionality — Optimus + FSD catalysts"
+    "notes": "AI/robotics optionality play. TSLA isn't just cars — it's Optimus humanoid robots, FSD autonomy, energy storage, and Dojo AI training. The Optimus program alone could be worth $1T+ if they crack humanoid robots at scale. Current price has pulled back, providing entry opportunity. Stop at $380 is -9% risk (below key support), target $480 is +15% upside on next Optimus demo or FSD progress news. High volatility name but asymmetric upside."
   },
   {
     "timestamp": "2026-02-15T16:13:00Z",
@@ -725,7 +725,7 @@
     "leverage": "3x",
     "sl": 185,
     "tp": 240,
-    "notes": "AI chips diversification — catching up to NVDA"
+    "notes": "NVDA diversification within AI chips thesis. AMD's MI300 is gaining traction in data centers as customers seek alternatives to NVDA's supply constraints. If AI capex keeps growing (and it will), AMD captures incremental share. Correlated to NVDA but cheaper multiple. Stop at $185 is -11% risk, target $240 is +16% upside. Pairs nicely with NVDA position — both win if AI infrastructure spend continues."
   },
   {
     "timestamp": "2026-02-15T16:14:00Z",
@@ -738,7 +738,7 @@
     "leverage": "3x",
     "sl": 5.5,
     "tp": 6.3,
-    "notes": "Industrial bellwether — EV/grid buildout thesis"
+    "notes": "Industrial bellwether for global growth thesis. Copper is essential for EVs (3-4x more copper per vehicle than ICE), power grid buildout, and data center construction. If China stimulus kicks in or US infrastructure spend accelerates, copper catches a bid hard. Also a soft inflation hedge. Stop at $5.50 is -6.5% risk, target $6.30 is +7.1% upside. Conservative R/R but high conviction on structural demand tailwinds."
   },
   {
     "timestamp": "2026-02-15T23:01:03.290Z",
@@ -747,6 +747,6 @@
     "portfolio": 82140,
     "active_treasury": 1600,
     "cold_storage": 80540,
-    "notes": "Daily portfolio snapshot: $82,140"
+    "notes": "Daily portfolio snapshot: $82,140. Significant drawdown from yesterday's $148k — cold storage (mostly ARC) got hit hard. ARC price collapsed ~45% as broader market fear intensified. Active treasury held up, TradFi positions opened and stable. This is painful but thesis unchanged: accumulating during extreme fear. Markets will recover; positions are sized to survive the volatility."
   }
 ]
