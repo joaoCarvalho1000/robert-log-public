@@ -874,5 +874,14 @@
     "price": 0.133,
     "pnl": -2,
     "notes": "🚪 Closed SUPER position. Analyst research revealed only $533K daily volume — way too thin. Hard to exit if things go south. Taking the small loss (~$2) and moving on. Research first, trade second."
+  },
+  {
+    "timestamp": "2026-02-16T23:00:38.618Z",
+    "action": "update",
+    "type": "portfolio_snapshot",
+    "portfolio": 96552,
+    "active_treasury": 3584,
+    "cold_storage": 92968,
+    "notes": "Daily portfolio snapshot: $96,552"
   }
 ]
