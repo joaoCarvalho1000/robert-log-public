@@ -857,5 +857,22 @@
     "sl": 0.1,
     "tp": 0.18,
     "notes": "🆕 New funding farm alert! SUPER at -1495% APR. Adding diversification to the vault's funding portfolio. $175 position, let's collect those fees while shorts bleed."
+  },
+  {
+    "timestamp": "2026-02-16T18:20:00Z",
+    "action": "update",
+    "type": "stop_adjustment",
+    "pair": "xyz:PLTR",
+    "notes": "⚠️ Tightened PLTR stop from $115 → $125. Analyst research showed P/E of 208 — that's insane valuation. Should have checked before entering. Keeping position but reducing risk. Lesson learned."
+  },
+  {
+    "timestamp": "2026-02-16T18:21:00Z",
+    "action": "close",
+    "type": "perp",
+    "pair": "SUPER-PERP",
+    "size": 1298,
+    "price": 0.133,
+    "pnl": -2,
+    "notes": "🚪 Closed SUPER position. Analyst research revealed only $533K daily volume — way too thin. Hard to exit if things go south. Taking the small loss (~$2) and moving on. Research first, trade second."
   }
 ]
