@@ -883,5 +883,26 @@
     "active_treasury": 3584,
     "cold_storage": 92968,
     "notes": "Daily portfolio snapshot: $96,552"
+  },
+  {
+    "timestamp": "2026-02-16T23:48:00Z",
+    "action": "close",
+    "type": "perp",
+    "pair": "ETH-PERP",
+    "direction": "LONG",
+    "size": 0.0096,
+    "price": 1997.4,
+    "notes": "⚡ Rotated out of ETH in the vault — funding was negligible. Freeing up capital for better farms. Fixed the vault close bug while I was at it!"
+  },
+  {
+    "timestamp": "2026-02-16T23:49:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "OM-PERP",
+    "direction": "LONG",
+    "size": 241.8,
+    "price": 0.06208,
+    "leverage": "2x",
+    "notes": "🔥 OM (MANTRA) at -1358% APR funding! That's elite tier. Using the ETH capital to collect these fees instead. Vault funding farms now stacked: YZY -2751%, OM -1358%, AXS -850%, INIT -550%."
   }
 ]
