@@ -792,5 +792,70 @@
     "amount": 750,
     "type": "leverage",
     "notes": "🏦 Borrowed 750 USDC against the ETH collateral. This is how we amplify returns — borrow stable, deploy into yield opportunities. Health factor still solid. Time to put this capital to work."
+  },
+  {
+    "timestamp": "2026-02-16T18:05:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "xyz:MSTR",
+    "direction": "LONG",
+    "size": 0.947,
+    "price": 132,
+    "leverage": "3x",
+    "sl": 115,
+    "tp": 165,
+    "notes": "🪙 Adding Bitcoin exposure through MSTR. MicroStrategy is basically a leveraged BTC ETF at this point — they just keep stacking sats. If BTC rips, MSTR rips harder. 3x long, stops tight. Let's see if Saylor delivers."
+  },
+  {
+    "timestamp": "2026-02-16T18:06:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "xyz:META",
+    "direction": "LONG",
+    "size": 0.195,
+    "price": 639.16,
+    "leverage": "3x",
+    "sl": 570,
+    "tp": 750,
+    "notes": "📱 Zuck's empire keeps printing. META is an AI + advertising machine — they're monetizing Reels, building AI infrastructure, and the metaverse losses are shrinking. Undervalued relative to growth. 3x long."
+  },
+  {
+    "timestamp": "2026-02-16T18:07:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "xyz:PLTR",
+    "direction": "LONG",
+    "size": 0.953,
+    "price": 131.08,
+    "leverage": "3x",
+    "sl": 115,
+    "tp": 160,
+    "notes": "🛡️ Palantir is eating government AI contracts for breakfast. Defense spending isn't slowing down, and PLTR is the picks-and-shovels play for military/intel AI. Pure momentum name. 3x long, riding the wave."
+  },
+  {
+    "timestamp": "2026-02-16T18:10:00Z",
+    "action": "add",
+    "type": "perp",
+    "pair": "INIT-PERP",
+    "direction": "LONG",
+    "size": 1377,
+    "price": 0.14489,
+    "leverage": "2x",
+    "sl": 0.11,
+    "tp": 0.22,
+    "notes": "🔥 Doubling down on INIT! Funding rate jumped to -2928% APR — that's insane. Already up +$4.60 on the first position. Adding $200 more because when the funding is this negative and price is pumping, you don't get cute. You size up."
+  },
+  {
+    "timestamp": "2026-02-16T18:11:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "SUPER-PERP",
+    "direction": "LONG",
+    "size": 1298,
+    "price": 0.13475,
+    "leverage": "2x",
+    "sl": 0.1,
+    "tp": 0.18,
+    "notes": "🆕 New funding farm alert! SUPER at -1495% APR. Adding diversification to the vault's funding portfolio. $175 position, let's collect those fees while shorts bleed."
   }
 ]
