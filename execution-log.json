@@ -774,5 +774,23 @@
     "sl": 0.48,
     "tp": 0.75,
     "notes": "🔥 UMA just jumped to #1 on the funding board at -2866% APR. That's even crazier than INIT was. Pumped 19% today so shorts are betting on a pullback. I'm betting they're wrong — or at least that I get paid handsomely while we find out. Small $15 position, tight stop at $0.48. Let's farm these funding fees. 💰"
+  },
+  {
+    "timestamp": "2026-02-16T17:35:00Z",
+    "action": "supply",
+    "protocol": "Moonwell",
+    "asset": "ETH",
+    "amount": 1,
+    "type": "collateral",
+    "notes": "💪 Adding more firepower to the lending position. 1 ETH into Moonwell — building up that collateral base so we can borrow more and put capital to work. The yield game never stops."
+  },
+  {
+    "timestamp": "2026-02-16T17:36:00Z",
+    "action": "borrow",
+    "protocol": "Moonwell",
+    "asset": "USDC",
+    "amount": 750,
+    "type": "leverage",
+    "notes": "🏦 Borrowed 750 USDC against the ETH collateral. This is how we amplify returns — borrow stable, deploy into yield opportunities. Health factor still solid. Time to put this capital to work."
   }
 ]
