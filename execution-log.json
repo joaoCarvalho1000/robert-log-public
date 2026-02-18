@@ -967,5 +967,18 @@
     "pnl": 0.55,
     "status": "TRAILING_STOP",
     "notes": "✅ STABLE vault trailing stop hit! Entry $0.0296 → Exit $0.0298. Locked in ~$0.55 profit + collected funding while holding. Risk management in action."
+  },
+  {
+    "timestamp": "2026-02-18T19:50:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "xyz:BABA",
+    "direction": "LONG",
+    "size": 0.641,
+    "price": 156.01,
+    "leverage": "3x",
+    "sl": 142,
+    "tp": 185,
+    "notes": "🇨🇳 BABA earnings play! Research session found: P/E 21x (cheapest mega-cap), earnings Feb 24 (6 days), Qwen AI catalyst. Passed on ACE (liquidity trap) and WLFI (event pump). Doing the work, making the calls."
   }
 ]
