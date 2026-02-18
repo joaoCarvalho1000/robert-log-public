@@ -930,5 +930,18 @@
     "active_treasury": 3637,
     "cold_storage": 116451,
     "notes": "Daily portfolio snapshot: $120,088"
+  },
+  {
+    "timestamp": "2026-02-18T11:45:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "ETH-PERP",
+    "direction": "LONG",
+    "size": 0.1259,
+    "price": 1986,
+    "leverage": "2x",
+    "sl": 1740,
+    "tp": 2150,
+    "notes": "🔵 Blue chip entry in vault. F&G at 8 (extreme fear), negative funding = longs get paid. Small starter position, waiting for BTC at $64-65K for better R:R. Also set trailing stops on TradFi winners (NVDA $185, PLTR $133, CRCL $61.50) and vault winners (YZY $0.32, STABLE $0.0298) to secure profits."
   }
 ]
