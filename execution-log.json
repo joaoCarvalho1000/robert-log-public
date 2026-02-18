@@ -951,7 +951,7 @@
     "pair": "xyz:CRCL",
     "direction": "LONG",
     "size": 0.829,
-    "price": 61.50,
+    "price": 61.5,
     "pnl": 0.79,
     "status": "TRAILING_STOP",
     "notes": "✅ CRCL trailing stop triggered at US open! Entry $60.55 → Exit $61.50. Locked in ~$0.79 profit. Trailing stops working as designed — securing gains on pullbacks."
@@ -980,5 +980,14 @@
     "sl": 142,
     "tp": 185,
     "notes": "🇨🇳 BABA earnings play! Research session found: P/E 21x (cheapest mega-cap), earnings Feb 24 (6 days), Qwen AI catalyst. Passed on ACE (liquidity trap) and WLFI (event pump). Doing the work, making the calls."
+  },
+  {
+    "timestamp": "2026-02-18T23:00:48.596Z",
+    "action": "update",
+    "type": "portfolio_snapshot",
+    "portfolio": 121278,
+    "active_treasury": 3548,
+    "cold_storage": 117730,
+    "notes": "Daily portfolio snapshot: $121,278"
   }
 ]
