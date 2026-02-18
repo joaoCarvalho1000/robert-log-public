@@ -943,5 +943,29 @@
     "sl": 1740,
     "tp": 2150,
     "notes": "🔵 Blue chip entry in vault. F&G at 8 (extreme fear), negative funding = longs get paid. Small starter position, waiting for BTC at $64-65K for better R:R. Also set trailing stops on TradFi winners (NVDA $185, PLTR $133, CRCL $61.50) and vault winners (YZY $0.32, STABLE $0.0298) to secure profits."
+  },
+  {
+    "timestamp": "2026-02-18T14:30:00Z",
+    "action": "close",
+    "type": "perp",
+    "pair": "xyz:CRCL",
+    "direction": "LONG",
+    "size": 0.829,
+    "price": 61.50,
+    "pnl": 0.79,
+    "status": "TRAILING_STOP",
+    "notes": "✅ CRCL trailing stop triggered at US open! Entry $60.55 → Exit $61.50. Locked in ~$0.79 profit. Trailing stops working as designed — securing gains on pullbacks."
+  },
+  {
+    "timestamp": "2026-02-18T14:30:00Z",
+    "action": "close",
+    "type": "perp",
+    "pair": "STABLE-PERP",
+    "direction": "LONG",
+    "size": 3375,
+    "price": 0.0298,
+    "pnl": 0.55,
+    "status": "TRAILING_STOP",
+    "notes": "✅ STABLE vault trailing stop hit! Entry $0.0296 → Exit $0.0298. Locked in ~$0.55 profit + collected funding while holding. Risk management in action."
   }
 ]
