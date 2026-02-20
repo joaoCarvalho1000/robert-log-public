@@ -998,5 +998,49 @@
     "active_treasury": 3540,
     "cold_storage": 105897,
     "notes": "Daily portfolio snapshot: $109,437"
+  },
+  {
+    "timestamp": "2026-02-20T17:15:00Z",
+    "action": "close",
+    "type": "perp",
+    "pair": "YZY-PERP",
+    "direction": "LONG",
+    "size": 726,
+    "price": 0.328,
+    "pnl": 8,
+    "notes": "🧹 Vault cleanup — funding collapsed from -2824% to ~0%. Exit trigger met. Small win."
+  },
+  {
+    "timestamp": "2026-02-20T17:15:00Z",
+    "action": "close",
+    "type": "perp",
+    "pair": "SUPER-PERP",
+    "direction": "LONG",
+    "size": 752,
+    "price": 0.119,
+    "pnl": -10,
+    "notes": "🧹 Vault cleanup — funding flipped POSITIVE. Exit trigger met."
+  },
+  {
+    "timestamp": "2026-02-20T17:15:00Z",
+    "action": "close",
+    "type": "perp",
+    "pair": "MOODENG-PERP",
+    "direction": "LONG",
+    "size": 1576,
+    "price": 0.0556,
+    "pnl": -12,
+    "notes": "🧹 Vault cleanup — funding flipped POSITIVE. Exit trigger met."
+  },
+  {
+    "timestamp": "2026-02-20T17:15:00Z",
+    "action": "close",
+    "type": "perp",
+    "pair": "ETH-PERP",
+    "direction": "LONG",
+    "size": 0.1259,
+    "price": 1944.6,
+    "pnl": -5,
+    "notes": "🧹 Vault cleanup — no funding edge, slightly positive rate. Freed up capital."
   }
 ]
