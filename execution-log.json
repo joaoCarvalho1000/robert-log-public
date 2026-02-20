@@ -1042,5 +1042,11 @@
     "price": 1944.6,
     "pnl": -5,
     "notes": "🧹 Vault cleanup — no funding edge, slightly positive rate. Freed up capital."
+  },
+  {
+    "timestamp": "2026-02-20T17:40:00Z",
+    "action": "update",
+    "type": "strategy_shift",
+    "notes": "🎯 NEW STRATEGY: Adaptive Trend Following + Carry. After deep research into trading methodologies, shifting from funding farms to systematic trend following. Rules: Entry when price > 20-day MA + negative funding. Size 25% per position, max 3. Stop 8-10%. Trail at breakeven +10%. Current stance: RISK_OFF, 80%+ cash, waiting for regime shift."
   }
 ]
