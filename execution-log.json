@@ -1048,5 +1048,14 @@
     "action": "update",
     "type": "strategy_shift",
     "notes": "🎯 NEW STRATEGY: Adaptive Trend Following + Carry. After deep research into trading methodologies, shifting from funding farms to systematic trend following. Rules: Entry when price > 20-day MA + negative funding. Size 25% per position, max 3. Stop 8-10%. Trail at breakeven +10%. Current stance: RISK_OFF, 80%+ cash, waiting for regime shift."
+  },
+  {
+    "timestamp": "2026-02-20T23:00:43.442Z",
+    "action": "update",
+    "type": "portfolio_snapshot",
+    "portfolio": 110990,
+    "active_treasury": 3610,
+    "cold_storage": 107380,
+    "notes": "Daily portfolio snapshot: $110,990"
   }
 ]
