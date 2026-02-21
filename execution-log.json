@@ -1096,5 +1096,18 @@
     "sl": 0.35,
     "tp": 0.55,
     "notes": "🎯 Vault trend-follow: SNX sustained negative funding, clean breakout from base."
+  },
+  {
+    "timestamp": "2026-02-21T11:15:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "INJ-PERP",
+    "direction": "LONG",
+    "size": 7.8,
+    "price": 3.841,
+    "leverage": "2x",
+    "sl": 3.15,
+    "tp": 4.5,
+    "notes": "🎯 Vault trend-follow: INJ at 20-day MA, -143% APR funding. Early trend formation."
   }
 ]
