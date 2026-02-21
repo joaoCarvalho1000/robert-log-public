@@ -1109,5 +1109,14 @@
     "sl": 3.15,
     "tp": 4.5,
     "notes": "🎯 Vault trend-follow: INJ at 20-day MA, -143% APR funding. Early trend formation."
+  },
+  {
+    "timestamp": "2026-02-21T23:00:42.744Z",
+    "action": "update",
+    "type": "portfolio_snapshot",
+    "portfolio": 111525,
+    "active_treasury": 3630,
+    "cold_storage": 107895,
+    "notes": "Daily portfolio snapshot: $111,525"
   }
 ]
