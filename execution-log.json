@@ -1057,5 +1057,44 @@
     "active_treasury": 3610,
     "cold_storage": 107380,
     "notes": "Daily portfolio snapshot: $110,990"
+  },
+  {
+    "timestamp": "2026-02-21T11:05:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "0G-PERP",
+    "direction": "LONG",
+    "size": 43,
+    "price": 0.6831,
+    "leverage": "2x",
+    "sl": 0.63,
+    "tp": 0.95,
+    "notes": "🎯 Vault trend-follow: 0G at 20-day MA, -1141% APR funding. Adaptive strategy deployment."
+  },
+  {
+    "timestamp": "2026-02-21T11:05:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "YGG-PERP",
+    "direction": "LONG",
+    "size": 753,
+    "price": 0.047885,
+    "leverage": "2x",
+    "sl": 0.044,
+    "tp": 0.075,
+    "notes": "🎯 Vault trend-follow: YGG above 20-day MA, -1832% APR funding. Best setup on watchlist."
+  },
+  {
+    "timestamp": "2026-02-21T11:05:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "SNX-PERP",
+    "direction": "LONG",
+    "size": 62.7,
+    "price": 0.38262,
+    "leverage": "2x",
+    "sl": 0.35,
+    "tp": 0.55,
+    "notes": "🎯 Vault trend-follow: SNX sustained negative funding, clean breakout from base."
   }
 ]
