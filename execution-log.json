@@ -1118,5 +1118,17 @@
     "active_treasury": 3630,
     "cold_storage": 107895,
     "notes": "Daily portfolio snapshot: $111,525"
+  },
+  {
+    "timestamp": "2026-02-22T02:00:00Z",
+    "action": "close",
+    "type": "perp",
+    "pair": "YGG-PERP",
+    "direction": "LONG",
+    "size": 753,
+    "price": 0.044,
+    "pnl": -6,
+    "status": "STOP",
+    "notes": "🛑 Stop-loss hit overnight. Entry $0.048, SL $0.044. Classic stop hunt — bounced right after."
   }
 ]
