@@ -1166,5 +1166,18 @@
     "action": "update",
     "type": "strategy_change",
     "notes": "⚠️ MAJOR: Funding rate farming strategy permanently banned. New focus: Trend following + momentum plays ONLY."
+  },
+  {
+    "timestamp": "2026-02-23T14:48:50.394Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "TSM",
+    "direction": "LONG",
+    "size": 0.08,
+    "price": 371.48,
+    "leverage": "3x",
+    "sl": 340,
+    "tp": 400,
+    "notes": "🎯 Foundry monopoly play: TSM makes all advanced AI chips (NVDA, AMD, Apple). Near ATH, above MAs. Diversifying from individual chip names."
   }
 ]
