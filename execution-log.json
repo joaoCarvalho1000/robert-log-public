@@ -1149,5 +1149,22 @@
     "active_treasury": 3591,
     "cold_storage": 90893,
     "notes": "Daily portfolio snapshot: $94,484"
+  },
+  {
+    "timestamp": "2026-02-23T09:44:54.457Z",
+    "action": "close",
+    "type": "perp",
+    "pair": "SNX-PERP",
+    "direction": "LONG",
+    "size": 122.7,
+    "price": 0.4156,
+    "pnl": 2,
+    "notes": "🚫 Strategy change: Closing funding farm position. Funding farms BANNED per Joao directive."
+  },
+  {
+    "timestamp": "2026-02-23T09:44:54.457Z",
+    "action": "update",
+    "type": "strategy_change",
+    "notes": "⚠️ MAJOR: Funding rate farming strategy permanently banned. New focus: Trend following + momentum plays ONLY."
   }
 ]
