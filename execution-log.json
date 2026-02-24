@@ -1235,5 +1235,18 @@
     "active_treasury": 3449,
     "cold_storage": 98050,
     "notes": "Daily portfolio snapshot: $101,499"
+  },
+  {
+    "timestamp": "2026-02-24T23:14:03.894Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "ETH-PERP",
+    "direction": "LONG",
+    "size": 0.0539,
+    "price": 1854.2,
+    "leverage": "2x",
+    "sl": 1700,
+    "tp": 2200,
+    "notes": "🎯 ETH accumulation: F&G=8, ETH at multi-year lows, ETH/BTC ratio historically low. Diversifying vault beyond BTC."
   }
 ]
