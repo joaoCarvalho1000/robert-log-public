@@ -1200,5 +1200,18 @@
     "pnl": -5,
     "status": "STOP",
     "notes": "📉 SL triggered at $3.15. Entry was $3.841 (-18%). Position from trend following thesis — didn't work out. Vault now 100% cash."
+  },
+  {
+    "timestamp": "2026-02-24T19:32:16.087Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "BTC-PERP",
+    "direction": "LONG",
+    "size": 0.00155,
+    "price": 64281,
+    "leverage": "2x",
+    "sl": 60000,
+    "tp": 72000,
+    "notes": "🎯 Accumulation play: F&G at 8 (extreme fear), 400K BTC accumulated \u0000-70K per CoinDesk. This IS the buy zone. Being proactive."
   }
 ]
