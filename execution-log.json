@@ -1270,5 +1270,17 @@
     "active_treasury": 3861,
     "cold_storage": 109809,
     "notes": "Daily portfolio snapshot: $113,670"
+  },
+  {
+    "timestamp": "2026-02-25T23:00:49.412Z",
+    "action": "close",
+    "type": "perp",
+    "pair": "NVDA",
+    "direction": "LONG",
+    "size": 0.547,
+    "price": 197.77,
+    "pnl": "+8.3%",
+    "status": "TRAILING_STOP",
+    "notes": "🎯 NVDA trailing stop hit after earnings beat. Entry $182.60 → Exit $197.77. Dynamic trailing system worked perfectly — locked in gains when price dipped from $200.94 peak."
   }
 ]
