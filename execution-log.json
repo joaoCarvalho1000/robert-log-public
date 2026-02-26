@@ -1293,5 +1293,40 @@
     "amount_out": 0.0203,
     "price": 0.00157,
     "notes": "🔄 Consolidated ARC → ETH via Aerodrome router. ARC position closed, converted to ETH for deployment."
+  },
+  {
+    "timestamp": "2026-02-26T00:59:46.138Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "SILVER",
+    "direction": "LONG",
+    "size": 0.33,
+    "price": 89.43,
+    "leverage": "3x",
+    "sl": 85,
+    "tp": 100,
+    "notes": "🥈 SILVER breakout play — GOLD working, silver follows harder. Commodities momentum."
+  },
+  {
+    "timestamp": "2026-02-26T00:59:46.138Z",
+    "action": "open",
+    "type": "limit_order",
+    "pair": "NVDA",
+    "direction": "LONG",
+    "size": 50,
+    "price": 192,
+    "leverage": "3x",
+    "notes": "📋 Limit order: NVDA re-entry on pullback after earnings beat."
+  },
+  {
+    "timestamp": "2026-02-26T00:59:46.138Z",
+    "action": "open",
+    "type": "limit_order",
+    "pair": "ETH-PERP",
+    "direction": "LONG",
+    "size": 200,
+    "price": 1950,
+    "leverage": "2x",
+    "notes": "📋 Limit order: ETH add on pullback (RSI overbought, wait for dip)."
   }
 ]
