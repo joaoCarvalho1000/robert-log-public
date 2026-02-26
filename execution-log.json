@@ -1363,5 +1363,14 @@
     "price": 2063.18,
     "leverage": "2x",
     "notes": "💪 Adding to ETH — outperforming BTC, extreme fear accumulation"
+  },
+  {
+    "timestamp": "2026-02-26T23:01:12.242Z",
+    "action": "update",
+    "type": "portfolio_snapshot",
+    "portfolio": 114461,
+    "active_treasury": 3740,
+    "cold_storage": 110721,
+    "notes": "Daily portfolio snapshot: $114,461"
   }
 ]
