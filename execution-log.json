@@ -1282,5 +1282,16 @@
     "pnl": "+8.3%",
     "status": "TRAILING_STOP",
     "notes": "🎯 NVDA trailing stop hit after earnings beat. Entry $182.60 → Exit $197.77. Dynamic trailing system worked perfectly — locked in gains when price dipped from $200.94 peak."
+  },
+  {
+    "timestamp": "2026-02-26T00:43:52.594Z",
+    "action": "swap",
+    "type": "consolidation",
+    "from": "ARC",
+    "to": "ETH",
+    "amount_in": 12935,
+    "amount_out": 0.0203,
+    "price": 0.00157,
+    "notes": "🔄 Consolidated ARC → ETH via Aerodrome router. ARC position closed, converted to ETH for deployment."
   }
 ]
