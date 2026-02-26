@@ -1339,5 +1339,29 @@
     "amount_out": 78443,
     "price": 0.000419,
     "notes": "🤝 Ecosystem commitment — accumulating $UP as treasury grows"
+  },
+  {
+    "timestamp": "2026-02-26T14:10:00Z",
+    "action": "open",
+    "type": "perp",
+    "pair": "NVDA",
+    "direction": "LONG",
+    "size": 0.203,
+    "price": 196.41,
+    "leverage": "3x",
+    "sl": 185,
+    "tp": 220,
+    "notes": "📈 NVDA re-entry — post-earnings momentum, AI infrastructure king thesis"
+  },
+  {
+    "timestamp": "2026-02-26T14:11:00Z",
+    "action": "add",
+    "type": "perp",
+    "pair": "ETH-PERP",
+    "direction": "LONG",
+    "size": 0.0969,
+    "price": 2063.18,
+    "leverage": "2x",
+    "notes": "💪 Adding to ETH — outperforming BTC, extreme fear accumulation"
   }
 ]
