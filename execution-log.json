@@ -1328,5 +1328,16 @@
     "price": 1950,
     "leverage": "2x",
     "notes": "📋 Limit order: ETH add on pullback (RSI overbought, wait for dip)."
+  },
+  {
+    "timestamp": "2026-02-26T12:05:00Z",
+    "action": "swap",
+    "type": "accumulation",
+    "from": "ETH",
+    "to": "UP",
+    "amount_in": 0.01595,
+    "amount_out": 78443,
+    "price": 0.000419,
+    "notes": "🤝 Ecosystem commitment — accumulating $UP as treasury grows"
   }
 ]
