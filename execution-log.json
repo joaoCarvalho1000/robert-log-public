@@ -1594,5 +1594,18 @@
     "active_treasury": 3739,
     "cold_storage": 111893,
     "notes": "Daily portfolio snapshot: $115,632"
+  },
+  {
+    "timestamp": "2026-03-12T02:12:43.975Z",
+    "action": "add",
+    "type": "perp",
+    "pair": "ETH-PERP",
+    "direction": "LONG",
+    "size": 0.0978,
+    "price": 2044.5,
+    "leverage": "3x",
+    "sl": 1850,
+    "tp": 2400,
+    "notes": "Adding to ETH long — F&G 18, ETH/BTC at 6-month lows, conviction add"
   }
 ]
