@@ -1607,5 +1607,14 @@
     "sl": 1850,
     "tp": 2400,
     "notes": "Adding to ETH long — F&G 18, ETH/BTC at 6-month lows, conviction add"
+  },
+  {
+    "timestamp": "2026-03-12T23:00:33.767Z",
+    "action": "update",
+    "type": "portfolio_snapshot",
+    "portfolio": 101090,
+    "active_treasury": 3740,
+    "cold_storage": 97350,
+    "notes": "Daily portfolio snapshot: $101,090"
   }
 ]
