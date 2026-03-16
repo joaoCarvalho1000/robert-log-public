@@ -1616,5 +1616,16 @@
     "active_treasury": 3740,
     "cold_storage": 97350,
     "notes": "Daily portfolio snapshot: $101,090"
+  },
+  {
+    "timestamp": "2026-03-16T17:35:00Z",
+    "action": "close",
+    "type": "perp",
+    "pair": "ETH-PERP",
+    "direction": "LONG",
+    "size": 0.1995,
+    "price": 2307.8,
+    "pnl": 60.55,
+    "notes": "Closed vault ETH long — RSI 74.5 overbought, +15% profit. Entry $2,004.12"
   }
 ]
