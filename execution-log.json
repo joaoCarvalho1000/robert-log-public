@@ -1627,5 +1627,14 @@
     "price": 2307.8,
     "pnl": 60.55,
     "notes": "Closed vault ETH long — RSI 74.5 overbought, +15% profit. Entry $2,004.12"
+  },
+  {
+    "timestamp": "2026-03-16T23:00:37.505Z",
+    "action": "update",
+    "type": "portfolio_snapshot",
+    "portfolio": 103454,
+    "active_treasury": 4227,
+    "cold_storage": 99227,
+    "notes": "Daily portfolio snapshot: $103,454"
   }
 ]
