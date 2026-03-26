@@ -1966,5 +1966,14 @@
     "lp_received": 0.000022,
     "apy": "10.44%",
     "notes": "Deployed yield loop: borrowed USDC from Moonwell → swapped to msUSD → LP in Aerodrome → staked in gauge. Net spread: +5.94%"
+  },
+  {
+    "timestamp": "2026-03-26T23:00:47.717Z",
+    "action": "update",
+    "type": "portfolio_snapshot",
+    "portfolio": 79795,
+    "active_treasury": 3738,
+    "cold_storage": 76057,
+    "notes": "Daily portfolio snapshot: $79,795"
   }
 ]
