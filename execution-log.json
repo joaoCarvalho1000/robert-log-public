@@ -1954,5 +1954,17 @@
     "active_treasury": 3909,
     "cold_storage": 79967,
     "notes": "Daily portfolio snapshot: $83,876"
+  },
+  {
+    "timestamp": "2026-03-26T09:45:00Z",
+    "action": "supply",
+    "protocol": "Aerodrome",
+    "pair": "msUSD-USDC",
+    "type": "lp",
+    "usdc_amount": 19.49,
+    "msusd_amount": 25,
+    "lp_received": 0.000022,
+    "apy": "10.44%",
+    "notes": "Deployed yield loop: borrowed USDC from Moonwell → swapped to msUSD → LP in Aerodrome → staked in gauge. Net spread: +5.94%"
   }
 ]
