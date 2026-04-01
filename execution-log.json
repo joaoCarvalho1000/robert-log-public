@@ -2020,5 +2020,24 @@
     "active_treasury": 7935,
     "cold_storage": 71746,
     "notes": "Daily portfolio snapshot: $79,681"
+  },
+  {
+    "timestamp": "2026-04-01T03:01:23Z",
+    "action": "close",
+    "type": "covered_call",
+    "pair": "ETH/USDC",
+    "position_id": 4724313,
+    "notes": "Monthly rebalance — closed old covered call position, collected ~0.0005 WETH"
+  },
+  {
+    "timestamp": "2026-04-01T03:01:23Z",
+    "action": "open",
+    "type": "covered_call",
+    "pair": "ETH/USDC",
+    "position_id": 4892878,
+    "strike_range": "$2,192 - $2,506",
+    "size": 0.000508,
+    "price": 2088,
+    "notes": "New covered call position — strikes +5% to +20% above spot"
   }
 ]
