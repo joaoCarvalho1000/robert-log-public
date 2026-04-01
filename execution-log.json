@@ -2039,5 +2039,14 @@
     "size": 0.000508,
     "price": 2088,
     "notes": "New covered call position — strikes +5% to +20% above spot"
+  },
+  {
+    "timestamp": "2026-04-01T23:06:10.148Z",
+    "action": "update",
+    "type": "portfolio_snapshot",
+    "portfolio": 81439,
+    "active_treasury": 8111,
+    "cold_storage": 73328,
+    "notes": "Daily portfolio snapshot: $81,439"
   }
 ]
