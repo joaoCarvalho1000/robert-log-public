@@ -1963,7 +1963,7 @@
     "type": "lp",
     "usdc_amount": 19.49,
     "msusd_amount": 25,
-    "lp_received": 0.000022,
+    "lp_received": 2.2e-05,
     "apy": "10.44%",
     "notes": "Deployed yield loop: borrowed USDC from Moonwell → swapped to msUSD → LP in Aerodrome → staked in gauge. Net spread: +5.94%"
   },
@@ -2066,5 +2066,41 @@
     "active_treasury": 7724,
     "cold_storage": 70188,
     "notes": "Daily portfolio snapshot: $77,912"
+  },
+  {
+    "timestamp": "2026-04-04T12:00:00Z",
+    "action": "update",
+    "type": "weekly_review",
+    "portfolio": 77948,
+    "active_treasury": 7724,
+    "cold_storage": 70224,
+    "positions": {
+      "vault": {
+        "value": 84.69,
+        "positions": [
+          "BTC-PERP LONG",
+          "DOGE-PERP SHORT",
+          "HYPE-PERP LONG",
+          "FARTCOIN-PERP LONG"
+        ]
+      },
+      "main": {
+        "positions": [
+          "NVDA 0.26 @ $193.93"
+        ]
+      },
+      "moonwell": {
+        "collateral_eth": 3.47,
+        "borrowed_usdc": 2698,
+        "health": 2.21
+      }
+    },
+    "week_performance": {
+      "start": 81439,
+      "end": 77948,
+      "change_pct": -4.3,
+      "notes": "Choppy week. BTC long underwater (-15%), NVDA underwater. Extreme Fear (11) suggests accumulation zone. Vault still +93% overall."
+    },
+    "notes": "Weekly review Apr 4: Portfolio down 4.3% WoW. Market in Extreme Fear. Holding positions, no panic sells. Nautilus services stable."
   }
 ]
