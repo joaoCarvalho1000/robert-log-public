@@ -2204,5 +2204,17 @@
     "pnl": -0.05,
     "notes": "Closing accidental vault long (wrong side opened). Net vault: flat.",
     "source": "vault-monitor"
+  },
+  {
+    "timestamp": "2026-05-01T03:00:00Z",
+    "action": "rebalance",
+    "type": "covered_call",
+    "pair": "ETH/USDC",
+    "position_closed": 4892878,
+    "position_opened": 5049242,
+    "strike_range": "$2379.52 - $2719.45",
+    "price": 2266.21,
+    "notes": "Monthly rebalance — old position IN_RANGE for 30 days. New position: 5-20% OTM. Price $2266.",
+    "source": "covered-call-rebalance"
   }
 ]
