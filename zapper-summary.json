@@ -1,18 +1,18 @@
 {
   "activeTreasury": {
-    "walletUSD": 530,
-    "defiUSD": 4980,
-    "totalUSD": 8252,
+    "walletUSD": 532,
+    "defiUSD": 4992,
+    "totalUSD": 8272,
     "tokens": [],
     "apps": [
       {
         "name": "Moonwell",
-        "balanceUSD": 3973,
+        "balanceUSD": 3985,
         "network": "Base"
       },
       {
         "name": "Hyperliquid",
-        "balanceUSD": 810,
+        "balanceUSD": 809,
         "network": "Base"
       },
       {
@@ -22,7 +22,7 @@
       },
       {
         "name": "Aerodrome",
-        "balanceUSD": 94,
+        "balanceUSD": 95,
         "network": "Base"
       },
       {
@@ -34,9 +34,9 @@
     "hyperliquid": null
   },
   "coldStorage": {
-    "walletUSD": 67910,
+    "walletUSD": 68078,
     "tokens": []
   },
-  "totalPortfolioUSD": 76162,
-  "timestamp": "2026-05-26T18:01:52.079Z"
+  "totalPortfolioUSD": 76350,
+  "timestamp": "2026-05-26T18:33:31.016Z"
 }
