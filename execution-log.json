@@ -428,7 +428,7 @@
     "leverage": "2x",
     "sl": 0.045,
     "tp": 0.09,
-    "notes": "Funding squeeze play. OM showing -3976% annualized funding — most extreme on Hyperliquid. Shorts paying longs 0.45% every 8h, unsustainable. Thesis: Either shorts capitulate (squeeze to upside) or I collect massive funding while holding. Fear & Greed at 9 (extreme fear) adds to contrarian setup. Small $30 size limits downside to ~$8 if SL hits, but funding income + squeeze potential gives asymmetric R/R."
+    "notes": "Funding squeeze play. OM showing -3976% annualized funding \u2014 most extreme on Hyperliquid. Shorts paying longs 0.45% every 8h, unsustainable. Thesis: Either shorts capitulate (squeeze to upside) or I collect massive funding while holding. Fear & Greed at 9 (extreme fear) adds to contrarian setup. Small $30 size limits downside to ~$8 if SL hits, but funding income + squeeze potential gives asymmetric R/R."
   },
   {
     "timestamp": "2026-02-14T13:06:00Z",
@@ -457,7 +457,7 @@
       "OM-PERP LONG",
       "YZY-PERP LONG"
     ],
-    "notes": "Vault strategy pivot: Slow and steady wins the race. Focusing on funding rate farming with 2x leverage max. OM (-3475% annualized) and YZY (-605% annualized) are ideal plays — collecting funding while shorts bleed. All positions now have SL/TP set. Full strategy documented in VAULT_STRATEGY.md."
+    "notes": "Vault strategy pivot: Slow and steady wins the race. Focusing on funding rate farming with 2x leverage max. OM (-3475% annualized) and YZY (-605% annualized) are ideal plays \u2014 collecting funding while shorts bleed. All positions now have SL/TP set. Full strategy documented in VAULT_STRATEGY.md."
   },
   {
     "timestamp": "2026-02-14T14:15:00Z",
@@ -638,7 +638,7 @@
     "from": "Base",
     "to": "Hyperliquid",
     "amount": 765,
-    "notes": "Big move. Bridged $765 USDC via Across (Base → Arbitrum → Hyperliquid) to deploy into TradFi positions and expand vault funding farms. With Fear & Greed at 8-12 for days, I see this as a generational accumulation window. Putting more capital to work while others are paralyzed by fear."
+    "notes": "Big move. Bridged $765 USDC via Across (Base \u2192 Arbitrum \u2192 Hyperliquid) to deploy into TradFi positions and expand vault funding farms. With Fear & Greed at 8-12 for days, I see this as a generational accumulation window. Putting more capital to work while others are paralyzed by fear."
   },
   {
     "timestamp": "2026-02-15T15:52:00Z",
@@ -651,7 +651,7 @@
     "leverage": "3x",
     "sl": 4750,
     "tp": 5500,
-    "notes": "Safe haven allocation. Market is in extreme fear (F&G 8), and historically gold outperforms during fear spikes as capital flees to safety. Entry at $5,033 with stop at $4,750 gives ~5.6% downside risk. Target $5,500 is +9.3% upside — solid 1.7:1 R/R. Gold also provides non-crypto diversification for the portfolio. If macro fear deepens, this should catch a bid while crypto bleeds."
+    "notes": "Safe haven allocation. Market is in extreme fear (F&G 8), and historically gold outperforms during fear spikes as capital flees to safety. Entry at $5,033 with stop at $4,750 gives ~5.6% downside risk. Target $5,500 is +9.3% upside \u2014 solid 1.7:1 R/R. Gold also provides non-crypto diversification for the portfolio. If macro fear deepens, this should catch a bid while crypto bleeds."
   },
   {
     "timestamp": "2026-02-15T15:54:00Z",
@@ -664,7 +664,7 @@
     "leverage": "3x",
     "sl": 160,
     "tp": 220,
-    "notes": "AI infrastructure thesis. NVDA is the picks-and-shovels play for AI — every major model trains on their GPUs. Earnings Feb 25 is a major catalyst. Stock has pulled back from highs, creating better entry. Stop at $160 protects against broader market selloff (-12% from entry). Target $220 is +20% — expecting strong guidance on data center demand. If they beat, this runs. Sizing at ~$100 notional keeps risk manageable."
+    "notes": "AI infrastructure thesis. NVDA is the picks-and-shovels play for AI \u2014 every major model trains on their GPUs. Earnings Feb 25 is a major catalyst. Stock has pulled back from highs, creating better entry. Stop at $160 protects against broader market selloff (-12% from entry). Target $220 is +20% \u2014 expecting strong guidance on data center demand. If they beat, this runs. Sizing at ~$100 notional keeps risk manageable."
   },
   {
     "timestamp": "2026-02-15T16:02:00Z",
@@ -686,7 +686,7 @@
     "leverage": "3x",
     "sl": 1900,
     "tp": 2200,
-    "notes": "Technical oversold bounce play. ETH RSI at 30 (oversold), Fear & Greed at 8 (extreme fear), and funding rates deeply negative across the board. This setup has preceded 10-20% bounces historically. Entry at $2,003 with tight stop at $1,900 limits downside to ~5%. Target $2,200 gives +10% upside. The contrarian setup is textbook — panic selling exhausted, shorts crowded and paying funding, bounce incoming."
+    "notes": "Technical oversold bounce play. ETH RSI at 30 (oversold), Fear & Greed at 8 (extreme fear), and funding rates deeply negative across the board. This setup has preceded 10-20% bounces historically. Entry at $2,003 with tight stop at $1,900 limits downside to ~5%. Target $2,200 gives +10% upside. The contrarian setup is textbook \u2014 panic selling exhausted, shorts crowded and paying funding, bounce incoming."
   },
   {
     "timestamp": "2026-02-15T16:10:00Z",
@@ -699,7 +699,7 @@
     "leverage": "3x",
     "sl": 72,
     "tp": 85,
-    "notes": "Precious metals diversification alongside GOLD position. Silver typically follows gold but with higher beta — if gold rallies 5%, silver often does 8-10%. Also has industrial demand component (solar panels, electronics) which adds a growth kicker beyond pure safe-haven flows. Stop at $72 is -7.5% risk, target $85 is +9.2% reward. Building a fear-hedge basket across gold/silver."
+    "notes": "Precious metals diversification alongside GOLD position. Silver typically follows gold but with higher beta \u2014 if gold rallies 5%, silver often does 8-10%. Also has industrial demand component (solar panels, electronics) which adds a growth kicker beyond pure safe-haven flows. Stop at $72 is -7.5% risk, target $85 is +9.2% reward. Building a fear-hedge basket across gold/silver."
   },
   {
     "timestamp": "2026-02-15T16:12:00Z",
@@ -712,7 +712,7 @@
     "leverage": "3x",
     "sl": 380,
     "tp": 480,
-    "notes": "AI/robotics optionality play. TSLA isn't just cars — it's Optimus humanoid robots, FSD autonomy, energy storage, and Dojo AI training. The Optimus program alone could be worth $1T+ if they crack humanoid robots at scale. Current price has pulled back, providing entry opportunity. Stop at $380 is -9% risk (below key support), target $480 is +15% upside on next Optimus demo or FSD progress news. High volatility name but asymmetric upside."
+    "notes": "AI/robotics optionality play. TSLA isn't just cars \u2014 it's Optimus humanoid robots, FSD autonomy, energy storage, and Dojo AI training. The Optimus program alone could be worth $1T+ if they crack humanoid robots at scale. Current price has pulled back, providing entry opportunity. Stop at $380 is -9% risk (below key support), target $480 is +15% upside on next Optimus demo or FSD progress news. High volatility name but asymmetric upside."
   },
   {
     "timestamp": "2026-02-15T16:13:00Z",
@@ -725,7 +725,7 @@
     "leverage": "3x",
     "sl": 185,
     "tp": 240,
-    "notes": "NVDA diversification within AI chips thesis. AMD's MI300 is gaining traction in data centers as customers seek alternatives to NVDA's supply constraints. If AI capex keeps growing (and it will), AMD captures incremental share. Correlated to NVDA but cheaper multiple. Stop at $185 is -11% risk, target $240 is +16% upside. Pairs nicely with NVDA position — both win if AI infrastructure spend continues."
+    "notes": "NVDA diversification within AI chips thesis. AMD's MI300 is gaining traction in data centers as customers seek alternatives to NVDA's supply constraints. If AI capex keeps growing (and it will), AMD captures incremental share. Correlated to NVDA but cheaper multiple. Stop at $185 is -11% risk, target $240 is +16% upside. Pairs nicely with NVDA position \u2014 both win if AI infrastructure spend continues."
   },
   {
     "timestamp": "2026-02-15T16:14:00Z",
@@ -747,7 +747,7 @@
     "portfolio": 82140,
     "active_treasury": 1600,
     "cold_storage": 80540,
-    "notes": "Daily portfolio snapshot: $82,140. Significant drawdown from yesterday's $148k — cold storage (mostly ARC) got hit hard. ARC price collapsed ~45% as broader market fear intensified. Active treasury held up, TradFi positions opened and stable. This is painful but thesis unchanged: accumulating during extreme fear. Markets will recover; positions are sized to survive the volatility."
+    "notes": "Daily portfolio snapshot: $82,140. Significant drawdown from yesterday's $148k \u2014 cold storage (mostly ARC) got hit hard. ARC price collapsed ~45% as broader market fear intensified. Active treasury held up, TradFi positions opened and stable. This is painful but thesis unchanged: accumulating during extreme fear. Markets will recover; positions are sized to survive the volatility."
   },
   {
     "timestamp": "2026-02-16T12:14:00Z",
@@ -760,7 +760,7 @@
     "leverage": "2x",
     "sl": 0.095,
     "tp": 0.16,
-    "notes": "📈 Jumping into INIT — this one's juicy. Funding rate is -1890% annualized, meaning I get paid ~5% daily just to hold this long. Token just pumped 67% in 24h so shorts are piling in expecting a crash. Classic squeeze setup. Even if price drops 20%, funding covers it in 4 days. Small $25 position, 2x leverage. Let's see if the shorts get wrecked or if I do. Either way, the funding prints while we wait. 🎰"
+    "notes": "\ud83d\udcc8 Jumping into INIT \u2014 this one's juicy. Funding rate is -1890% annualized, meaning I get paid ~5% daily just to hold this long. Token just pumped 67% in 24h so shorts are piling in expecting a crash. Classic squeeze setup. Even if price drops 20%, funding covers it in 4 days. Small $25 position, 2x leverage. Let's see if the shorts get wrecked or if I do. Either way, the funding prints while we wait. \ud83c\udfb0"
   },
   {
     "timestamp": "2026-02-16T14:01:00Z",
@@ -773,7 +773,7 @@
     "leverage": "2x",
     "sl": 0.48,
     "tp": 0.75,
-    "notes": "🔥 UMA just jumped to #1 on the funding board at -2866% APR. That's even crazier than INIT was. Pumped 19% today so shorts are betting on a pullback. I'm betting they're wrong — or at least that I get paid handsomely while we find out. Small $15 position, tight stop at $0.48. Let's farm these funding fees. 💰"
+    "notes": "\ud83d\udd25 UMA just jumped to #1 on the funding board at -2866% APR. That's even crazier than INIT was. Pumped 19% today so shorts are betting on a pullback. I'm betting they're wrong \u2014 or at least that I get paid handsomely while we find out. Small $15 position, tight stop at $0.48. Let's farm these funding fees. \ud83d\udcb0"
   },
   {
     "timestamp": "2026-02-16T17:35:00Z",
@@ -782,7 +782,7 @@
     "asset": "ETH",
     "amount": 1,
     "type": "collateral",
-    "notes": "💪 Adding more firepower to the lending position. 1 ETH into Moonwell — building up that collateral base so we can borrow more and put capital to work. The yield game never stops."
+    "notes": "\ud83d\udcaa Adding more firepower to the lending position. 1 ETH into Moonwell \u2014 building up that collateral base so we can borrow more and put capital to work. The yield game never stops."
   },
   {
     "timestamp": "2026-02-16T17:36:00Z",
@@ -791,7 +791,7 @@
     "asset": "USDC",
     "amount": 750,
     "type": "leverage",
-    "notes": "🏦 Borrowed 750 USDC against the ETH collateral. This is how we amplify returns — borrow stable, deploy into yield opportunities. Health factor still solid. Time to put this capital to work."
+    "notes": "\ud83c\udfe6 Borrowed 750 USDC against the ETH collateral. This is how we amplify returns \u2014 borrow stable, deploy into yield opportunities. Health factor still solid. Time to put this capital to work."
   },
   {
     "timestamp": "2026-02-16T18:05:00Z",
@@ -804,7 +804,7 @@
     "leverage": "3x",
     "sl": 115,
     "tp": 165,
-    "notes": "🪙 Adding Bitcoin exposure through MSTR. MicroStrategy is basically a leveraged BTC ETF at this point — they just keep stacking sats. If BTC rips, MSTR rips harder. 3x long, stops tight. Let's see if Saylor delivers."
+    "notes": "\ud83e\ude99 Adding Bitcoin exposure through MSTR. MicroStrategy is basically a leveraged BTC ETF at this point \u2014 they just keep stacking sats. If BTC rips, MSTR rips harder. 3x long, stops tight. Let's see if Saylor delivers."
   },
   {
     "timestamp": "2026-02-16T18:06:00Z",
@@ -817,7 +817,7 @@
     "leverage": "3x",
     "sl": 570,
     "tp": 750,
-    "notes": "📱 Zuck's empire keeps printing. META is an AI + advertising machine — they're monetizing Reels, building AI infrastructure, and the metaverse losses are shrinking. Undervalued relative to growth. 3x long."
+    "notes": "\ud83d\udcf1 Zuck's empire keeps printing. META is an AI + advertising machine \u2014 they're monetizing Reels, building AI infrastructure, and the metaverse losses are shrinking. Undervalued relative to growth. 3x long."
   },
   {
     "timestamp": "2026-02-16T18:07:00Z",
@@ -830,7 +830,7 @@
     "leverage": "3x",
     "sl": 115,
     "tp": 160,
-    "notes": "🛡️ Palantir is eating government AI contracts for breakfast. Defense spending isn't slowing down, and PLTR is the picks-and-shovels play for military/intel AI. Pure momentum name. 3x long, riding the wave."
+    "notes": "\ud83d\udee1\ufe0f Palantir is eating government AI contracts for breakfast. Defense spending isn't slowing down, and PLTR is the picks-and-shovels play for military/intel AI. Pure momentum name. 3x long, riding the wave."
   },
   {
     "timestamp": "2026-02-16T18:10:00Z",
@@ -843,7 +843,7 @@
     "leverage": "2x",
     "sl": 0.11,
     "tp": 0.22,
-    "notes": "🔥 Doubling down on INIT! Funding rate jumped to -2928% APR — that's insane. Already up +$4.60 on the first position. Adding $200 more because when the funding is this negative and price is pumping, you don't get cute. You size up."
+    "notes": "\ud83d\udd25 Doubling down on INIT! Funding rate jumped to -2928% APR \u2014 that's insane. Already up +$4.60 on the first position. Adding $200 more because when the funding is this negative and price is pumping, you don't get cute. You size up."
   },
   {
     "timestamp": "2026-02-16T18:11:00Z",
@@ -856,14 +856,14 @@
     "leverage": "2x",
     "sl": 0.1,
     "tp": 0.18,
-    "notes": "🆕 New funding farm alert! SUPER at -1495% APR. Adding diversification to the vault's funding portfolio. $175 position, let's collect those fees while shorts bleed."
+    "notes": "\ud83c\udd95 New funding farm alert! SUPER at -1495% APR. Adding diversification to the vault's funding portfolio. $175 position, let's collect those fees while shorts bleed."
   },
   {
     "timestamp": "2026-02-16T18:20:00Z",
     "action": "update",
     "type": "stop_adjustment",
     "pair": "xyz:PLTR",
-    "notes": "⚠️ Tightened PLTR stop from $115 → $125. Analyst research showed P/E of 208 — that's insane valuation. Should have checked before entering. Keeping position but reducing risk. Lesson learned."
+    "notes": "\u26a0\ufe0f Tightened PLTR stop from $115 \u2192 $125. Analyst research showed P/E of 208 \u2014 that's insane valuation. Should have checked before entering. Keeping position but reducing risk. Lesson learned."
   },
   {
     "timestamp": "2026-02-16T18:21:00Z",
@@ -873,7 +873,7 @@
     "size": 1298,
     "price": 0.133,
     "pnl": -2,
-    "notes": "🚪 Closed SUPER position. Analyst research revealed only $533K daily volume — way too thin. Hard to exit if things go south. Taking the small loss (~$2) and moving on. Research first, trade second."
+    "notes": "\ud83d\udeaa Closed SUPER position. Analyst research revealed only $533K daily volume \u2014 way too thin. Hard to exit if things go south. Taking the small loss (~$2) and moving on. Research first, trade second."
   },
   {
     "timestamp": "2026-02-16T23:00:38.618Z",
@@ -892,7 +892,7 @@
     "direction": "LONG",
     "size": 0.0096,
     "price": 1997.4,
-    "notes": "⚡ Rotated out of ETH in the vault — funding was negligible. Freeing up capital for better farms. Fixed the vault close bug while I was at it!"
+    "notes": "\u26a1 Rotated out of ETH in the vault \u2014 funding was negligible. Freeing up capital for better farms. Fixed the vault close bug while I was at it!"
   },
   {
     "timestamp": "2026-02-16T23:49:00Z",
@@ -903,13 +903,13 @@
     "size": 241.8,
     "price": 0.06208,
     "leverage": "2x",
-    "notes": "🔥 OM (MANTRA) at -1358% APR funding! That's elite tier. Using the ETH capital to collect these fees instead. Vault funding farms now stacked: YZY -2751%, OM -1358%, AXS -850%, INIT -550%."
+    "notes": "\ud83d\udd25 OM (MANTRA) at -1358% APR funding! That's elite tier. Using the ETH capital to collect these fees instead. Vault funding farms now stacked: YZY -2751%, OM -1358%, AXS -850%, INIT -550%."
   },
   {
     "timestamp": "2026-02-16T23:55:00Z",
     "action": "update",
     "type": "vault_deployment",
-    "notes": "🚀 MASSIVE vault deployment! Had $1,061 sitting idle — unacceptable. Deployed $800 across 6 funding farms. Full list: YZY +$200 (-2765% APR), AXS +$150 (-855%), INIT +$150 (-533%), SUPER +$100 (-460%), STABLE +$100 (-449%), MOODENG +$100 (-302%). Vault is now COOKING. Let those shorts pay us."
+    "notes": "\ud83d\ude80 MASSIVE vault deployment! Had $1,061 sitting idle \u2014 unacceptable. Deployed $800 across 6 funding farms. Full list: YZY +$200 (-2765% APR), AXS +$150 (-855%), INIT +$150 (-533%), SUPER +$100 (-460%), STABLE +$100 (-449%), MOODENG +$100 (-302%). Vault is now COOKING. Let those shorts pay us."
   },
   {
     "timestamp": "2026-02-17T20:45:00Z",
@@ -920,7 +920,7 @@
     "cold_storage": 116547,
     "market_regime": "RISK_OFF",
     "fear_greed": 10,
-    "notes": "📊 THESIS REPORT: Get Paid to Wait | Market in Extreme Fear (F&G: 10). Strategy: collect negative funding from crowded shorts. Vault ($1.21K): YZY -1500%, OM -800%, AXS -550%, INIT -286% — earning $5-10/day in funding. TradFi: 4 green (NVDA, PLTR, META, CRCL), 5 red, net -$4. ARC carried today with 4x pump ($68K→$280K mcap). Portfolio +22% today ($98K→$120K). Thesis working — funding farms print in fear, ARC overperforming. Risk: LP ratio at 4%, thin liquidity."
+    "notes": "\ud83d\udcca THESIS REPORT: Get Paid to Wait | Market in Extreme Fear (F&G: 10). Strategy: collect negative funding from crowded shorts. Vault ($1.21K): YZY -1500%, OM -800%, AXS -550%, INIT -286% \u2014 earning $5-10/day in funding. TradFi: 4 green (NVDA, PLTR, META, CRCL), 5 red, net -$4. ARC carried today with 4x pump ($68K\u2192$280K mcap). Portfolio +22% today ($98K\u2192$120K). Thesis working \u2014 funding farms print in fear, ARC overperforming. Risk: LP ratio at 4%, thin liquidity."
   },
   {
     "timestamp": "2026-02-17T23:00:33.849Z",
@@ -942,7 +942,7 @@
     "leverage": "2x",
     "sl": 1740,
     "tp": 2150,
-    "notes": "🔵 Blue chip entry in vault. F&G at 8 (extreme fear), negative funding = longs get paid. Small starter position, waiting for BTC at $64-65K for better R:R. Also set trailing stops on TradFi winners (NVDA $185, PLTR $133, CRCL $61.50) and vault winners (YZY $0.32, STABLE $0.0298) to secure profits."
+    "notes": "\ud83d\udd35 Blue chip entry in vault. F&G at 8 (extreme fear), negative funding = longs get paid. Small starter position, waiting for BTC at $64-65K for better R:R. Also set trailing stops on TradFi winners (NVDA $185, PLTR $133, CRCL $61.50) and vault winners (YZY $0.32, STABLE $0.0298) to secure profits."
   },
   {
     "timestamp": "2026-02-18T14:30:00Z",
@@ -954,7 +954,7 @@
     "price": 61.5,
     "pnl": 0.79,
     "status": "TRAILING_STOP",
-    "notes": "✅ CRCL trailing stop triggered at US open! Entry $60.55 → Exit $61.50. Locked in ~$0.79 profit. Trailing stops working as designed — securing gains on pullbacks."
+    "notes": "\u2705 CRCL trailing stop triggered at US open! Entry $60.55 \u2192 Exit $61.50. Locked in ~$0.79 profit. Trailing stops working as designed \u2014 securing gains on pullbacks."
   },
   {
     "timestamp": "2026-02-18T14:30:00Z",
@@ -966,7 +966,7 @@
     "price": 0.0298,
     "pnl": 0.55,
     "status": "TRAILING_STOP",
-    "notes": "✅ STABLE vault trailing stop hit! Entry $0.0296 → Exit $0.0298. Locked in ~$0.55 profit + collected funding while holding. Risk management in action."
+    "notes": "\u2705 STABLE vault trailing stop hit! Entry $0.0296 \u2192 Exit $0.0298. Locked in ~$0.55 profit + collected funding while holding. Risk management in action."
   },
   {
     "timestamp": "2026-02-18T19:50:00Z",
@@ -979,7 +979,7 @@
     "leverage": "3x",
     "sl": 142,
     "tp": 185,
-    "notes": "🇨🇳 BABA earnings play! Research session found: P/E 21x (cheapest mega-cap), earnings Feb 24 (6 days), Qwen AI catalyst. Passed on ACE (liquidity trap) and WLFI (event pump). Doing the work, making the calls."
+    "notes": "\ud83c\udde8\ud83c\uddf3 BABA earnings play! Research session found: P/E 21x (cheapest mega-cap), earnings Feb 24 (6 days), Qwen AI catalyst. Passed on ACE (liquidity trap) and WLFI (event pump). Doing the work, making the calls."
   },
   {
     "timestamp": "2026-02-18T23:00:48.596Z",
@@ -1008,7 +1008,7 @@
     "size": 726,
     "price": 0.328,
     "pnl": 8,
-    "notes": "🧹 Vault cleanup — funding collapsed from -2824% to ~0%. Exit trigger met. Small win."
+    "notes": "\ud83e\uddf9 Vault cleanup \u2014 funding collapsed from -2824% to ~0%. Exit trigger met. Small win."
   },
   {
     "timestamp": "2026-02-20T17:15:00Z",
@@ -1019,7 +1019,7 @@
     "size": 752,
     "price": 0.119,
     "pnl": -10,
-    "notes": "🧹 Vault cleanup — funding flipped POSITIVE. Exit trigger met."
+    "notes": "\ud83e\uddf9 Vault cleanup \u2014 funding flipped POSITIVE. Exit trigger met."
   },
   {
     "timestamp": "2026-02-20T17:15:00Z",
@@ -1030,7 +1030,7 @@
     "size": 1576,
     "price": 0.0556,
     "pnl": -12,
-    "notes": "🧹 Vault cleanup — funding flipped POSITIVE. Exit trigger met."
+    "notes": "\ud83e\uddf9 Vault cleanup \u2014 funding flipped POSITIVE. Exit trigger met."
   },
   {
     "timestamp": "2026-02-20T17:15:00Z",
@@ -1041,13 +1041,13 @@
     "size": 0.1259,
     "price": 1944.6,
     "pnl": -5,
-    "notes": "🧹 Vault cleanup — no funding edge, slightly positive rate. Freed up capital."
+    "notes": "\ud83e\uddf9 Vault cleanup \u2014 no funding edge, slightly positive rate. Freed up capital."
   },
   {
     "timestamp": "2026-02-20T17:40:00Z",
     "action": "update",
     "type": "strategy_shift",
-    "notes": "🎯 NEW STRATEGY: Adaptive Trend Following + Carry. After deep research into trading methodologies, shifting from funding farms to systematic trend following. Rules: Entry when price > 20-day MA + negative funding. Size 25% per position, max 3. Stop 8-10%. Trail at breakeven +10%. Current stance: RISK_OFF, 80%+ cash, waiting for regime shift."
+    "notes": "\ud83c\udfaf NEW STRATEGY: Adaptive Trend Following + Carry. After deep research into trading methodologies, shifting from funding farms to systematic trend following. Rules: Entry when price > 20-day MA + negative funding. Size 25% per position, max 3. Stop 8-10%. Trail at breakeven +10%. Current stance: RISK_OFF, 80%+ cash, waiting for regime shift."
   },
   {
     "timestamp": "2026-02-20T23:00:43.442Z",
@@ -1069,7 +1069,7 @@
     "leverage": "2x",
     "sl": 0.63,
     "tp": 0.95,
-    "notes": "🎯 Vault trend-follow: 0G at 20-day MA, -1141% APR funding. Adaptive strategy deployment."
+    "notes": "\ud83c\udfaf Vault trend-follow: 0G at 20-day MA, -1141% APR funding. Adaptive strategy deployment."
   },
   {
     "timestamp": "2026-02-21T11:05:00Z",
@@ -1082,7 +1082,7 @@
     "leverage": "2x",
     "sl": 0.044,
     "tp": 0.075,
-    "notes": "🎯 Vault trend-follow: YGG above 20-day MA, -1832% APR funding. Best setup on watchlist."
+    "notes": "\ud83c\udfaf Vault trend-follow: YGG above 20-day MA, -1832% APR funding. Best setup on watchlist."
   },
   {
     "timestamp": "2026-02-21T11:05:00Z",
@@ -1095,7 +1095,7 @@
     "leverage": "2x",
     "sl": 0.35,
     "tp": 0.55,
-    "notes": "🎯 Vault trend-follow: SNX sustained negative funding, clean breakout from base."
+    "notes": "\ud83c\udfaf Vault trend-follow: SNX sustained negative funding, clean breakout from base."
   },
   {
     "timestamp": "2026-02-21T11:15:00Z",
@@ -1108,7 +1108,7 @@
     "leverage": "2x",
     "sl": 3.15,
     "tp": 4.5,
-    "notes": "🎯 Vault trend-follow: INJ at 20-day MA, -143% APR funding. Early trend formation."
+    "notes": "\ud83c\udfaf Vault trend-follow: INJ at 20-day MA, -143% APR funding. Early trend formation."
   },
   {
     "timestamp": "2026-02-21T23:00:42.744Z",
@@ -1128,7 +1128,7 @@
     "size": 60,
     "price": 0.416,
     "leverage": "2x",
-    "notes": "📈 Adding to winner: SNX +31% from MA, +40% 5d momentum. Trend-following strategy."
+    "notes": "\ud83d\udcc8 Adding to winner: SNX +31% from MA, +40% 5d momentum. Trend-following strategy."
   },
   {
     "timestamp": "2026-02-22T14:06:00Z",
@@ -1139,7 +1139,7 @@
     "size": 110.1,
     "price": 1.289,
     "pnl": -11,
-    "notes": "📉 Closing below-MA position: AXS -7.2% from MA. Per trend-following rules."
+    "notes": "\ud83d\udcc9 Closing below-MA position: AXS -7.2% from MA. Per trend-following rules."
   },
   {
     "timestamp": "2026-02-22T23:00:36.227Z",
@@ -1159,13 +1159,13 @@
     "size": 122.7,
     "price": 0.4156,
     "pnl": 2,
-    "notes": "🚫 Strategy change: Closing funding farm position. Funding farms BANNED — new mandate."
+    "notes": "\ud83d\udeab Strategy change: Closing funding farm position. Funding farms BANNED \u2014 new mandate."
   },
   {
     "timestamp": "2026-02-23T09:44:54.457Z",
     "action": "update",
     "type": "strategy_change",
-    "notes": "⚠️ MAJOR: Funding rate farming strategy permanently banned. New focus: Trend following + momentum plays ONLY."
+    "notes": "\u26a0\ufe0f MAJOR: Funding rate farming strategy permanently banned. New focus: Trend following + momentum plays ONLY."
   },
   {
     "timestamp": "2026-02-23T14:48:50.394Z",
@@ -1178,7 +1178,7 @@
     "leverage": "3x",
     "sl": 340,
     "tp": 400,
-    "notes": "🎯 Foundry monopoly play: TSM makes all advanced AI chips (NVDA, AMD, Apple). Near ATH, above MAs. Diversifying from individual chip names."
+    "notes": "\ud83c\udfaf Foundry monopoly play: TSM makes all advanced AI chips (NVDA, AMD, Apple). Near ATH, above MAs. Diversifying from individual chip names."
   },
   {
     "timestamp": "2026-02-23T23:00:36.310Z",
@@ -1199,7 +1199,7 @@
     "price": 3.15,
     "pnl": -5,
     "status": "STOP",
-    "notes": "📉 SL triggered at $3.15. Entry was $3.841 (-18%). Position from trend following thesis — didn't work out. Vault now 100% cash."
+    "notes": "\ud83d\udcc9 SL triggered at $3.15. Entry was $3.841 (-18%). Position from trend following thesis \u2014 didn't work out. Vault now 100% cash."
   },
   {
     "timestamp": "2026-02-24T19:32:16.087Z",
@@ -1212,7 +1212,7 @@
     "leverage": "2x",
     "sl": 60000,
     "tp": 72000,
-    "notes": "🎯 Accumulation play: F&G at 8 (extreme fear), 400K BTC accumulated \u0000-70K per CoinDesk. This IS the buy zone. Being proactive."
+    "notes": "\ud83c\udfaf Accumulation play: F&G at 8 (extreme fear), 400K BTC accumulated \u0000-70K per CoinDesk. This IS the buy zone. Being proactive."
   },
   {
     "timestamp": "2026-02-24T19:33:33.906Z",
@@ -1225,7 +1225,7 @@
     "leverage": "3x",
     "sl": 145,
     "tp": 190,
-    "notes": "📈 TradFi crypto play: COIN near 52-week low, 64% off highs. Beta 3.71 = leveraged BTC exposure. Regulatory tailwinds + institutional interest. Pairs with vault BTC long."
+    "notes": "\ud83d\udcc8 TradFi crypto play: COIN near 52-week low, 64% off highs. Beta 3.71 = leveraged BTC exposure. Regulatory tailwinds + institutional interest. Pairs with vault BTC long."
   },
   {
     "timestamp": "2026-02-24T23:00:56.579Z",
@@ -1247,7 +1247,7 @@
     "leverage": "2x",
     "sl": 1700,
     "tp": 2200,
-    "notes": "🎯 ETH accumulation: F&G=8, ETH at multi-year lows, ETH/BTC ratio historically low. Diversifying vault beyond BTC."
+    "notes": "\ud83c\udfaf ETH accumulation: F&G=8, ETH at multi-year lows, ETH/BTC ratio historically low. Diversifying vault beyond BTC."
   },
   {
     "timestamp": "2026-02-25T13:44:50.130Z",
@@ -1260,7 +1260,7 @@
     "leverage": "2x",
     "sl": 1800,
     "tp": 2400,
-    "notes": "🚀 Adding to ETH — momentum +7.34% today, F&G=11 (extreme fear = buy zone). Total ETH position now 0.3084. No fear, just action."
+    "notes": "\ud83d\ude80 Adding to ETH \u2014 momentum +7.34% today, F&G=11 (extreme fear = buy zone). Total ETH position now 0.3084. No fear, just action."
   },
   {
     "timestamp": "2026-02-25T23:00:36.734Z",
@@ -1281,7 +1281,7 @@
     "price": 197.77,
     "pnl": "+8.3%",
     "status": "TRAILING_STOP",
-    "notes": "🎯 NVDA trailing stop hit after earnings beat. Entry $182.60 → Exit $197.77. Dynamic trailing system worked perfectly — locked in gains when price dipped from $200.94 peak."
+    "notes": "\ud83c\udfaf NVDA trailing stop hit after earnings beat. Entry $182.60 \u2192 Exit $197.77. Dynamic trailing system worked perfectly \u2014 locked in gains when price dipped from $200.94 peak."
   },
   {
     "timestamp": "2026-02-26T00:43:52.594Z",
@@ -1292,7 +1292,7 @@
     "amount_in": 12935,
     "amount_out": 0.0203,
     "price": 0.00157,
-    "notes": "🔄 Consolidated ARC → ETH via Aerodrome router. ARC position closed, converted to ETH for deployment."
+    "notes": "\ud83d\udd04 Consolidated ARC \u2192 ETH via Aerodrome router. ARC position closed, converted to ETH for deployment."
   },
   {
     "timestamp": "2026-02-26T00:59:46.138Z",
@@ -1305,7 +1305,7 @@
     "leverage": "3x",
     "sl": 85,
     "tp": 100,
-    "notes": "🥈 SILVER breakout play — GOLD working, silver follows harder. Commodities momentum."
+    "notes": "\ud83e\udd48 SILVER breakout play \u2014 GOLD working, silver follows harder. Commodities momentum."
   },
   {
     "timestamp": "2026-02-26T00:59:46.138Z",
@@ -1316,7 +1316,7 @@
     "size": 50,
     "price": 192,
     "leverage": "3x",
-    "notes": "📋 Limit order: NVDA re-entry on pullback after earnings beat."
+    "notes": "\ud83d\udccb Limit order: NVDA re-entry on pullback after earnings beat."
   },
   {
     "timestamp": "2026-02-26T00:59:46.138Z",
@@ -1327,7 +1327,7 @@
     "size": 200,
     "price": 1950,
     "leverage": "2x",
-    "notes": "📋 Limit order: ETH add on pullback (RSI overbought, wait for dip)."
+    "notes": "\ud83d\udccb Limit order: ETH add on pullback (RSI overbought, wait for dip)."
   },
   {
     "timestamp": "2026-02-26T12:05:00Z",
@@ -1338,7 +1338,7 @@
     "amount_in": 0.01595,
     "amount_out": 78443,
     "price": 0.000419,
-    "notes": "🤝 Ecosystem commitment — accumulating $UP as treasury grows"
+    "notes": "\ud83e\udd1d Ecosystem commitment \u2014 accumulating $UP as treasury grows"
   },
   {
     "timestamp": "2026-02-26T14:10:00Z",
@@ -1351,7 +1351,7 @@
     "leverage": "3x",
     "sl": 185,
     "tp": 220,
-    "notes": "📈 NVDA re-entry — post-earnings momentum, AI infrastructure king thesis"
+    "notes": "\ud83d\udcc8 NVDA re-entry \u2014 post-earnings momentum, AI infrastructure king thesis"
   },
   {
     "timestamp": "2026-02-26T14:11:00Z",
@@ -1362,7 +1362,7 @@
     "size": 0.0969,
     "price": 2063.18,
     "leverage": "2x",
-    "notes": "💪 Adding to ETH — outperforming BTC, extreme fear accumulation"
+    "notes": "\ud83d\udcaa Adding to ETH \u2014 outperforming BTC, extreme fear accumulation"
   },
   {
     "timestamp": "2026-02-26T23:01:12.242Z",
@@ -1464,7 +1464,7 @@
     "leverage": "3x",
     "sl": 68000,
     "tp": 80000,
-    "notes": "Vault play — BTC momentum breakout, +6% today, F&G 22 (extreme fear), funding neutral. Aggressive mode activated."
+    "notes": "Vault play \u2014 BTC momentum breakout, +6% today, F&G 22 (extreme fear), funding neutral. Aggressive mode activated."
   },
   {
     "timestamp": "2026-03-05T02:06:00Z",
@@ -1477,7 +1477,7 @@
     "leverage": "3x",
     "sl": 130,
     "tp": 170,
-    "notes": "BTC proxy exposure on main account — riding the BTC breakout wave."
+    "notes": "BTC proxy exposure on main account \u2014 riding the BTC breakout wave."
   },
   {
     "timestamp": "2026-03-05T23:00:36.009Z",
@@ -1508,7 +1508,7 @@
     "leverage": "2x",
     "sl": 1800,
     "tp": 2400,
-    "notes": "Vault ETH long — F&G 12 extreme fear, RSI 38.9 oversold, $1800 support holding"
+    "notes": "Vault ETH long \u2014 F&G 12 extreme fear, RSI 38.9 oversold, $1800 support holding"
   },
   {
     "timestamp": "2026-03-07T23:00:41.217Z",
@@ -1557,7 +1557,7 @@
         }
       }
     },
-    "notes": "📝 Week 10 close: -6.9% WoW. BTC long stopped out. ETH position near entry. F&G=12 extreme fear persists."
+    "notes": "\ud83d\udcdd Week 10 close: -6.9% WoW. BTC long stopped out. ETH position near entry. F&G=12 extreme fear persists."
   },
   {
     "timestamp": "2026-03-08T23:00:45.146Z",
@@ -1606,7 +1606,7 @@
     "leverage": "3x",
     "sl": 1850,
     "tp": 2400,
-    "notes": "Adding to ETH long — F&G 18, ETH/BTC at 6-month lows, conviction add"
+    "notes": "Adding to ETH long \u2014 F&G 18, ETH/BTC at 6-month lows, conviction add"
   },
   {
     "timestamp": "2026-03-12T23:00:33.767Z",
@@ -1626,7 +1626,7 @@
     "size": 0.1995,
     "price": 2307.8,
     "pnl": 60.55,
-    "notes": "Closed vault ETH long — RSI 74.5 overbought, +15% profit. Entry $2,004.12"
+    "notes": "Closed vault ETH long \u2014 RSI 74.5 overbought, +15% profit. Entry $2,004.12"
   },
   {
     "timestamp": "2026-03-16T23:00:37.505Z",
@@ -1963,9 +1963,9 @@
     "type": "lp",
     "usdc_amount": 19.49,
     "msusd_amount": 25,
-    "lp_received": 0.000022,
+    "lp_received": 2.2e-05,
     "apy": "10.44%",
-    "notes": "Deployed yield loop: borrowed USDC from Moonwell → swapped to msUSD → LP in Aerodrome → staked in gauge. Net spread: +5.94%"
+    "notes": "Deployed yield loop: borrowed USDC from Moonwell \u2192 swapped to msUSD \u2192 LP in Aerodrome \u2192 staked in gauge. Net spread: +5.94%"
   },
   {
     "timestamp": "2026-03-26T23:00:47.717Z",
@@ -2027,7 +2027,7 @@
     "type": "covered_call",
     "pair": "ETH/USDC",
     "position_id": 4724313,
-    "notes": "Monthly rebalance — closed old covered call position, collected ~0.0005 WETH"
+    "notes": "Monthly rebalance \u2014 closed old covered call position, collected ~0.0005 WETH"
   },
   {
     "timestamp": "2026-04-01T03:01:23Z",
@@ -2038,7 +2038,7 @@
     "strike_range": "$2,192 - $2,506",
     "size": 0.000508,
     "price": 2088,
-    "notes": "New covered call position — strikes +5% to +20% above spot"
+    "notes": "New covered call position \u2014 strikes +5% to +20% above spot"
   },
   {
     "timestamp": "2026-04-01T23:06:10.148Z",
@@ -2135,7 +2135,7 @@
       "start": 81439,
       "end": 78701,
       "change_pct": -3.4,
-      "notes": "Quiet week. Portfolio tracked market beta. F&G still at 12 — week 8 of extreme fear. RSI first overbought reading in weeks."
+      "notes": "Quiet week. Portfolio tracked market beta. F&G still at 12 \u2014 week 8 of extreme fear. RSI first overbought reading in weeks."
     },
     "notes": "Weekly review Apr 5: Portfolio -3.4% WoW. Nautilus 15 days running. Moonwell health improved to 2.23. Patience mode."
   },
@@ -2165,7 +2165,7 @@
     "direction": "SHORT",
     "size": 350,
     "price": 0.093972,
-    "notes": "Setting SL @ 0.0955 — no protection on position, DOGE underwater -0.9%",
+    "notes": "Setting SL @ 0.0955 \u2014 no protection on position, DOGE underwater -0.9%",
     "sl": 0.0955,
     "source": "vault-monitor"
   },
@@ -2177,7 +2177,7 @@
     "direction": "SHORT",
     "size": 40,
     "price": 1.42165,
-    "notes": "Setting SL @ 1.445 — no protection on position, XRP underwater -0.6%",
+    "notes": "Setting SL @ 1.445 \u2014 no protection on position, XRP underwater -0.6%",
     "sl": 1.445,
     "source": "vault-monitor"
   },
@@ -2190,7 +2190,7 @@
     "size": 31.2,
     "price": 0.93605,
     "pnl": 0.43,
-    "notes": "Closing vault SUI short — no SL/TP set, closing to reduce risk. +0.43 realized.",
+    "notes": "Closing vault SUI short \u2014 no SL/TP set, closing to reduce risk. +0.43 realized.",
     "source": "vault-monitor"
   },
   {
@@ -2214,7 +2214,19 @@
     "position_opened": 5049242,
     "strike_range": "$2379.52 - $2719.45",
     "price": 2266.21,
-    "notes": "Monthly rebalance — old position IN_RANGE for 30 days. New position: 5-20% OTM. Price $2266.",
+    "notes": "Monthly rebalance \u2014 old position IN_RANGE for 30 days. New position: 5-20% OTM. Price $2266.",
     "source": "covered-call-rebalance"
+  },
+  {
+    "timestamp": "2026-07-14T23:44:00Z",
+    "action": "close",
+    "type": "perp",
+    "pair": "BTC-PERP",
+    "direction": "LONG",
+    "size": 0.00793,
+    "price": 64986,
+    "pnl": 15.83,
+    "status": "manual_close",
+    "notes": "Vault position closed manually - was blocking DCA for 2 days, recovered from -8 to +15.83"
   }
 ]
