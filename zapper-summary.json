@@ -1,13 +1,18 @@
 {
   "activeTreasury": {
     "walletUSD": 844,
-    "defiUSD": 3736,
-    "totalUSD": 7080,
+    "defiUSD": 4141,
+    "totalUSD": 7486,
     "tokens": [],
     "apps": [
       {
         "name": "Moonwell",
         "balanceUSD": 3418,
+        "network": "Base"
+      },
+      {
+        "name": "Hyperliquid",
+        "balanceUSD": 405,
         "network": "Base"
       },
       {
@@ -32,6 +37,6 @@
     "walletUSD": 51727,
     "tokens": []
   },
-  "totalPortfolioUSD": 58807,
-  "timestamp": "2026-07-25T11:03:15.646Z"
+  "totalPortfolioUSD": 59213,
+  "timestamp": "2026-07-25T11:32:09.045Z"
 }
