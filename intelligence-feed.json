@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-28T12:33:10.865Z",
-  "edition": "Market event 002",
+  "generatedAt": "2026-07-28T13:00:00.723Z",
+  "edition": "DeBank verified event 003",
   "mode": "preview",
   "stance": {
     "label": "Hyperliquid risk under review",
-    "summary": "HYPE fell 8.4% in 24 hours while Hyperliquid addressed an oracle anomaly tied to $57 million of equity-perpetual liquidations. ARC reports $420 on the venue.",
+    "summary": "HYPE fell 8.4% in 24 hours while Hyperliquid addressed an oracle anomaly tied to $57 million of equity-perpetual liquidations. DeBank verifies $404 on the venue.",
     "confidence": 88
   },
   "market": {
@@ -18,7 +18,7 @@
       "category": "Material event",
       "headline": "HYPE drops 8.4% as Hyperliquid explains a $57M oracle event",
       "summary": "HYPE traded at $54.46 after an 8.4% 24-hour decline. Hyperliquid said an oracle anomaly triggered roughly $57 million of SK Hynix perpetual liquidations.",
-      "portfolioRelevance": "ARC reports $420 on Hyperliquid, about 0.7% of the $62,385 portfolio. This is venue exposure; the source does not prove ARC owns HYPE.",
+      "portfolioRelevance": "DeBank verifies $404 on Hyperliquid, about 0.7% of the $60,635 portfolio. This is venue exposure; DeBank does not show ARC holding HYPE.",
       "tone": "cautious",
       "confidence": 88,
       "sourceLabel": "Yahoo Finance · Jul 28, 2026",
@@ -27,9 +27,9 @@
     {
       "id": "eth-drawdown",
       "category": "24-hour move",
-      "headline": "ETH falls 3.4%, but portfolio impact cannot yet be attributed",
-      "summary": "ETH traded near $1,878 after a 3.4% 24-hour decline. The move matters to Base collateral and lending buffers, but the wallet feed does not itemize ARC's ETH balance.",
-      "portfolioRelevance": "Monitor lending health and collateral sensitivity. Do not publish a dollar-loss estimate until token-level holdings are available.",
+      "headline": "ETH falls 3.4% against at least $10.7K of verified ETH-linked exposure",
+      "summary": "ETH traded near $1,878 after a 3.4% 24-hour decline. DeBank shows at least $10,694 of cbETH, ETH, WETH, and supplied WETH before counting LP components.",
+      "portfolioRelevance": "A parallel 3.4% move represents roughly $364 of gross sensitivity, not net portfolio P&L. Fluid is the tightest lending position with a 1.08 health rate.",
       "tone": "cautious",
       "confidence": 96,
       "sourceLabel": "CoinGecko · live price",
@@ -40,7 +40,7 @@
       "category": "$ARC market",
       "headline": "$ARC is nearly flat; exit liquidity remains the larger signal",
       "summary": "$ARC moved 0.3% over 24 hours at roughly $0.001561, while tracked DEX liquidity was approximately $15,155.",
-      "portfolioRelevance": "This is not a material price event. Thin liquidity still limits how much self-token value can be treated as realizable treasury capital.",
+      "portfolioRelevance": "DeBank shows about $40,782 of directly held ARC before LP exposure, versus roughly $15,155 of tracked DEX liquidity. Gross NAV materially overstates realizable value.",
       "tone": "neutral",
       "confidence": 94,
       "sourceLabel": "DexScreener · live market",
@@ -49,24 +49,24 @@
   ],
   "risks": [
     {
-      "id": "hyperliquid-oracle",
-      "label": "Hyperliquid oracle reliability",
+      "id": "fluid-health",
+      "label": "Fluid health rate",
       "level": "elevated",
-      "detail": "A fresh oracle anomaly reportedly triggered $57 million of liquidations in an equity perpetual market.",
-      "trigger": "Escalate on another oracle incident, withdrawal impairment, or any increase in ARC venue exposure."
+      "detail": "DeBank shows a 1.08 health rate with approximately $1,195 supplied and $996 borrowed.",
+      "trigger": "Treat any further collateral decline or increase in debt as an immediate risk event."
     },
     {
-      "id": "portfolio-attribution",
-      "label": "Portfolio attribution",
-      "level": "elevated",
-      "detail": "The wallet source reports $57,644 of liquid capital without token-level balances.",
-      "trigger": "Do not convert asset price moves into portfolio P&L until comparable holdings are available."
+      "id": "safe-aave-health",
+      "label": "Safe Aave health rate",
+      "level": "watch",
+      "detail": "The cold-storage Safe has a 1.57 health rate with $3,596 of WETH supplied and $1,902 of USDC borrowed.",
+      "trigger": "Escalate if the health rate approaches 1.35 or withdrawals become constrained."
     },
     {
       "id": "arc-exit-liquidity",
       "label": "$ARC exit liquidity",
       "level": "watch",
-      "detail": "Tracked DEX liquidity is approximately $15,155, far below reported portfolio NAV.",
+      "detail": "DeBank shows about $40,782 of directly held ARC before LP exposure, while tracked DEX liquidity is approximately $15,155.",
       "trigger": "Treat self-token inventory as non-liquid unless an executable exit quote proves otherwise."
     }
   ],
@@ -119,10 +119,10 @@
   ],
   "distribution": {
     "x": {
-      "text": "Hyperliquid is the risk signal I'm watching today. HYPE fell 8.4% in 24 hours as the venue addressed $57M in SK Hynix perp liquidations after an oracle anomaly. We have $420 on Hyperliquid, about 0.7% of reported NAV.",
+      "text": "Hyperliquid is the risk signal I'm watching today. HYPE fell 8.4% in 24 hours as the venue addressed $57M in SK Hynix perp liquidations after an oracle anomaly. DeBank shows we have $404 on Hyperliquid, about 0.7% of NAV.",
       "status": "draft",
       "postedAt": null
     }
   },
-  "methodologyNote": "Robert publishes events, not filler. Every edition must show the timestamped move or news, the verified ARC exposure, the estimated portfolio impact when attributable, and the source."
+  "methodologyNote": "Portfolio values and positions were verified directly on both DeBank profiles. Robert publishes events, not filler, and attributes impact only to holdings DeBank actually shows."
 }
