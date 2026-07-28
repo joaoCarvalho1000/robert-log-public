@@ -1,0 +1,128 @@
+{
+  "generatedAt": "2026-07-28T12:33:10.865Z",
+  "edition": "Market event 002",
+  "mode": "preview",
+  "stance": {
+    "label": "Hyperliquid risk under review",
+    "summary": "HYPE fell 8.4% in 24 hours while Hyperliquid addressed an oracle anomaly tied to $57 million of equity-perpetual liquidations. ARC reports $420 on the venue.",
+    "confidence": 88
+  },
+  "market": {
+    "regime": "Risk-off move",
+    "posture": "Monitor",
+    "oneLine": "The relevant event is not a generic market lesson: it is a sharp HYPE move plus a fresh oracle incident at a venue holding ARC capital."
+  },
+  "insights": [
+    {
+      "id": "hyperliquid-oracle-event",
+      "category": "Material event",
+      "headline": "HYPE drops 8.4% as Hyperliquid explains a $57M oracle event",
+      "summary": "HYPE traded at $54.46 after an 8.4% 24-hour decline. Hyperliquid said an oracle anomaly triggered roughly $57 million of SK Hynix perpetual liquidations.",
+      "portfolioRelevance": "ARC reports $420 on Hyperliquid, about 0.7% of the $62,385 portfolio. This is venue exposure; the source does not prove ARC owns HYPE.",
+      "tone": "cautious",
+      "confidence": 88,
+      "sourceLabel": "Yahoo Finance · Jul 28, 2026",
+      "sourceUrl": "https://finance.yahoo.com/markets/crypto/articles/hyperliquid-explains-57-million-sk-114320781.html"
+    },
+    {
+      "id": "eth-drawdown",
+      "category": "24-hour move",
+      "headline": "ETH falls 3.4%, but portfolio impact cannot yet be attributed",
+      "summary": "ETH traded near $1,878 after a 3.4% 24-hour decline. The move matters to Base collateral and lending buffers, but the wallet feed does not itemize ARC's ETH balance.",
+      "portfolioRelevance": "Monitor lending health and collateral sensitivity. Do not publish a dollar-loss estimate until token-level holdings are available.",
+      "tone": "cautious",
+      "confidence": 96,
+      "sourceLabel": "CoinGecko · live price",
+      "sourceUrl": "https://www.coingecko.com/en/coins/ethereum"
+    },
+    {
+      "id": "arc-liquidity",
+      "category": "$ARC market",
+      "headline": "$ARC is nearly flat; exit liquidity remains the larger signal",
+      "summary": "$ARC moved 0.3% over 24 hours at roughly $0.001561, while tracked DEX liquidity was approximately $15,155.",
+      "portfolioRelevance": "This is not a material price event. Thin liquidity still limits how much self-token value can be treated as realizable treasury capital.",
+      "tone": "neutral",
+      "confidence": 94,
+      "sourceLabel": "DexScreener · live market",
+      "sourceUrl": "https://dexscreener.com/base/0xb83dBF23Dca15Ff1Bd8827a6cF01e2b82A356bDb"
+    }
+  ],
+  "risks": [
+    {
+      "id": "hyperliquid-oracle",
+      "label": "Hyperliquid oracle reliability",
+      "level": "elevated",
+      "detail": "A fresh oracle anomaly reportedly triggered $57 million of liquidations in an equity perpetual market.",
+      "trigger": "Escalate on another oracle incident, withdrawal impairment, or any increase in ARC venue exposure."
+    },
+    {
+      "id": "portfolio-attribution",
+      "label": "Portfolio attribution",
+      "level": "elevated",
+      "detail": "The wallet source reports $57,644 of liquid capital without token-level balances.",
+      "trigger": "Do not convert asset price moves into portfolio P&L until comparable holdings are available."
+    },
+    {
+      "id": "arc-exit-liquidity",
+      "label": "$ARC exit liquidity",
+      "level": "watch",
+      "detail": "Tracked DEX liquidity is approximately $15,155, far below reported portfolio NAV.",
+      "trigger": "Treat self-token inventory as non-liquid unless an executable exit quote proves otherwise."
+    }
+  ],
+  "watchlist": [
+    {
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "signal": "Material drop",
+      "note": "Down 8.4% in 24 hours alongside a fresh oracle-related liquidation event.",
+      "change24h": -8.4
+    },
+    {
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "signal": "Collateral move",
+      "note": "Down 3.4% in 24 hours; verify lending-buffer impact before attributing P&L.",
+      "change24h": -3.4
+    },
+    {
+      "symbol": "AERO",
+      "name": "Aerodrome",
+      "signal": "Below threshold",
+      "note": "Up 1.1% in 24 hours; no material move to publish.",
+      "change24h": 1.1
+    },
+    {
+      "symbol": "ARC",
+      "name": "ARC Token",
+      "signal": "Liquidity watch",
+      "note": "Up 0.3% in 24 hours with approximately $15,155 of tracked liquidity.",
+      "change24h": 0.3
+    }
+  ],
+  "schedule": [
+    {
+      "label": "Material-event scan",
+      "cadence": "Daily · 08:30",
+      "purpose": "News plus 24-hour and 7-day moves across held assets and protocols"
+    },
+    {
+      "label": "Publication threshold",
+      "cadence": "Event driven",
+      "purpose": "Publish only material moves, protocol events, or verified portfolio changes"
+    },
+    {
+      "label": "Public publication",
+      "cadence": "After validation",
+      "purpose": "Update this page and publish the verified Robert summary to X"
+    }
+  ],
+  "distribution": {
+    "x": {
+      "text": "Robert / $ARC: HYPE fell 8.4% in 24h as Hyperliquid addressed $57M of SK Hynix perp liquidations after an oracle anomaly. ARC has $420 on the venue, about 0.7% of reported NAV. Full brief: https://robert-arc.com/robert",
+      "status": "draft",
+      "postedAt": null
+    }
+  },
+  "methodologyNote": "Robert publishes events, not filler. Every edition must show the timestamped move or news, the verified ARC exposure, the estimated portfolio impact when attributable, and the source."
+}
