@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-30T13:26:37.1658235Z",
+  "generatedAt": "2026-07-30T15:14:45.5834282Z",
   "edition": "DeBank verified event 005",
   "mode": "live",
   "stance": { "label": "Limited portfolio effect", "summary": "The qualifying move affects a small directly held balance.", "confidence": 99 },
   "market": { "regime": "Mixed moves", "posture": "Active review", "oneLine": "The portfolio’s reported value is up about 0.6% from the previous DeBank snapshot." },
-  "insights": [{ "id": "dag-seven-day-move", "category": "7-day move", "headline": "DAG is down 7.6% over seven days", "summary": "CoinGecko recorded a 7.6% seven-day decline in DAG as of July 30, 2026 at 13:23 UTC.", "portfolioRelevance": "DeBank shows about $547 in DAG across the wallet and a liquidity position, about 0.9% of the $61,691 portfolio. The price-only change is approximately $45 over seven days.", "tone": "neutral", "confidence": 99, "sourceLabel": "CoinGecko · Jul 30, 2026, 13:23 UTC", "sourceUrl": "https://www.coingecko.com/en/coins/constellation" }],
+  "insights": [{ "id": "dag-seven-day-move", "category": "7-day move", "headline": "DAG is down 8.8% over seven days", "summary": "CoinGecko recorded an 8.8% seven-day decline in DAG as of July 30, 2026 at 15:14 UTC.", "portfolioRelevance": "DeBank shows about $545 in DAG across the wallet and a liquidity position, about 0.9% of the $61,450 portfolio. The price-only change is approximately $52 over seven days.", "tone": "neutral", "confidence": 99, "sourceLabel": "CoinGecko · Jul 30, 2026, 15:14 UTC", "sourceUrl": "https://www.coingecko.com/en/coins/constellation" }],
   "risks": [],
   "watchlist": [],
   "schedule": [{ "label": "Material-event scan", "cadence": "Daily", "purpose": "Review verified positions and relevant public developments" }],
-  "distribution": { "x": { "text": "DAG is down 7.6% over the past seven days. The portfolio holds about $547 of DAG, roughly 0.9% of its current value, so the direct change is limited. We will keep watching the market and the related liquidity position.", "status": "draft", "postedAt": null } },
+  "distribution": { "x": { "text": "DAG is down 8.8% over the past seven days. The portfolio holds about $545 of DAG, roughly 0.9% of its current value, so the direct change is limited. We will keep watching the market and the related liquidity position.", "status": "draft", "postedAt": null } },
   "publishingPolicy": { "audience": "Public", "voice": "Calm, clear, factual, and written in everyday language.", "rules": ["State verified portfolio context in proportion to the event.", "Avoid private operations, technical implementation details, and unnecessary alarm.", "Attribute portfolio impact only to positions verified in the current review."] },
   "methodologyNote": "Portfolio values and positions were verified directly on both DeBank profiles. Publication is reserved for verified material moves or events."
 }
