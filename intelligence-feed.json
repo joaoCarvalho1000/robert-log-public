@@ -1,14 +1,63 @@
 {
-  "generatedAt": "2026-07-30T15:14:45.5834282Z",
-  "edition": "DeBank verified event 005",
+  "generatedAt": "2026-08-01T11:49:11.976Z",
+  "edition": "DeBank verified event 006",
   "mode": "live",
-  "stance": { "label": "Limited portfolio effect", "summary": "The qualifying move affects a small directly held balance.", "confidence": 99 },
-  "market": { "regime": "Mixed moves", "posture": "Active review", "oneLine": "The portfolio’s reported value is up about 0.6% from the previous DeBank snapshot." },
-  "insights": [{ "id": "dag-seven-day-move", "category": "7-day move", "headline": "DAG is down 8.8% over seven days", "summary": "CoinGecko recorded an 8.8% seven-day decline in DAG as of July 30, 2026 at 15:14 UTC.", "portfolioRelevance": "DeBank shows about $545 in DAG across the wallet and a liquidity position, about 0.9% of the $61,450 portfolio. The price-only change is approximately $52 over seven days.", "tone": "neutral", "confidence": 99, "sourceLabel": "CoinGecko · Jul 30, 2026, 15:14 UTC", "sourceUrl": "https://www.coingecko.com/en/coins/constellation" }],
-  "risks": [],
+  "stance": {
+    "label": "Current review",
+    "summary": "Live values are based on a fresh DeBank check of the two tracked accounts.",
+    "confidence": 99
+  },
+  "market": {
+    "regime": "Mixed moves",
+    "posture": "Active review",
+    "oneLine": "Daily price changes among the tracked liquid assets remained below the publication threshold."
+  },
+  "insights": [
+    {
+      "id": "long-term-holdings-change",
+      "category": "Portfolio change",
+      "headline": "Long-term holdings moved lower since July 30",
+      "summary": "DeBank reported $50,420 at 11:49 UTC on August 1, compared with $51,805 at the July 30 review.",
+      "portfolioRelevance": "This account represents about 84.3% of the $59,810 portfolio, so it accounts for most of the $1,640 difference since the prior review.",
+      "tone": "neutral",
+      "confidence": 99,
+      "sourceLabel": "DeBank profile crawl Â· Aug 1, 2026, 11:49 UTC",
+      "sourceUrl": "https://debank.com/profile/0x3e33Be1294d66D8B468407416f2DA777802a531d"
+    }
+  ],
+  "risks": [
+    {
+      "id": "portfolio-monitoring",
+      "label": "Portfolio monitoring",
+      "level": "watch",
+      "detail": "The review will track whether the change is driven by ongoing pricing shifts or a change in the mix of holdings.",
+      "trigger": "No action is indicated by this review alone."
+    }
+  ],
   "watchlist": [],
-  "schedule": [{ "label": "Material-event scan", "cadence": "Daily", "purpose": "Review verified positions and relevant public developments" }],
-  "distribution": { "x": { "text": "DAG is down 8.8% over the past seven days. The portfolio holds about $545 of DAG, roughly 0.9% of its current value, so the direct change is limited. We will keep watching the market and the related liquidity position.", "status": "posted", "postedAt": "2026-07-30T15:53:54.6282722Z" } },
-  "publishingPolicy": { "audience": "Public", "voice": "Calm, clear, factual, and written in everyday language.", "rules": ["State verified portfolio context in proportion to the event.", "Avoid private operations, technical implementation details, and unnecessary alarm.", "Attribute portfolio impact only to positions verified in the current review."] },
+  "schedule": [
+    {
+      "label": "Material-event scan",
+      "cadence": "Daily",
+      "purpose": "Review verified positions and relevant public developments"
+    }
+  ],
+  "distribution": {
+    "x": {
+      "text": "The portfolio's largest holdings account is $1,385 lower than at the July 30 review. It now represents about 84% of the $59,810 portfolio, so it explains most of the overall change. We are monitoring market prices and trading conditions.",
+      "status": "draft",
+      "postedAt": null
+    }
+  },
+  "publishingPolicy": {
+    "audience": "Public",
+    "voice": "Calm, clear, factual, and written in everyday language.",
+    "rules": [
+      "State verified portfolio context in proportion to the event.",
+      "Avoid private operations, technical implementation details, and unnecessary alarm.",
+      "Attribute portfolio impact only to positions verified in the current review."
+    ]
+  },
   "methodologyNote": "Portfolio values and positions were verified directly on both DeBank profiles. Publication is reserved for verified material moves or events."
 }
+

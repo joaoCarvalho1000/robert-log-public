@@ -1,10 +1,84 @@
 {
   "source": "DeBank",
-  "verifiedAt": "2026-07-30T15:14:45.5834282Z",
-  "totalPortfolioUSD": 61450,
-  "wallets": { "activeTreasury": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9", "coldStorageSafe": "0x3e33Be1294d66D8B468407416f2DA777802a531d" },
-  "verification": { "method": "DeBank profile crawl", "activeTreasuryUrl": "https://debank.com/profile/0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9", "coldStorageSafeUrl": "https://debank.com/profile/0x3e33Be1294d66D8B468407416f2DA777802a531d", "notes": "Verified directly after both DeBank profiles showed Data updated. Values are DeBank-reported current-state estimates; category totals can differ from rounded rows by one dollar." },
-  "reconciliation": { "grossAssetsUSD": 65350, "walletBalancesUSD": 46529, "productivePositionsUSD": 14921, "totalBorrowedUSD": 3900, "reportedNetPortfolioUSD": 61450, "roundingDeltaUSD": 0 },
-  "activeTreasury": { "walletUSD": 4909, "defiUSD": 4736, "totalUSD": 9645, "change24h": 1.15, "tokens": [{ "symbol": "cbETH", "balance": 1.582, "balanceUSD": 3442.09, "network": "Base" }, { "symbol": "ETH", "balance": 0.2905, "balanceUSD": 556.58, "network": "Base" }, { "symbol": "DAG", "balance": 67675.6029, "balanceUSD": 493.96, "network": "Base" }, { "symbol": "UP", "balance": 1501356.291, "balanceUSD": 354.66, "network": "Base" }, { "symbol": "ARC", "balance": 37035.8035, "balanceUSD": 57.18, "network": "Base" }], "apps": [{ "name": "Aave V3", "balanceUSD": 1873, "network": "Base", "type": "Lending", "healthFactor": 2.38, "suppliedUSD": 2874.77, "borrowedUSD": 1001.39, "details": "1.5002 WETH supplied; 1,000.4879 USDC borrowed" }, { "name": "Beefy", "balanceUSD": 1779, "network": "Base", "type": "Yield", "details": "DeBank shows USDC/eUSD, USDC, USDC/AERO, AERO/cbBTC and WETH/USDC rows, plus a $201.11 row; AERO and CAKE rewards are shown" }, { "name": "Hyperliquid", "balanceUSD": 410, "network": "Hyperliquid", "type": "Vault", "details": "291.6187 USDC and 118.6453 USDC in Main-Account Vaults; small spot and perpetual-withdrawable USDC balances are also shown" }, { "name": "Aerodrome", "balanceUSD": 269, "network": "Base", "type": "Liquidity", "details": "0.0700 WETH and 87,231.8090 ARC in a liquidity pool; 1.0000 locked AERO and 0.1193 AERO reward are shown" }, { "name": "Fluid", "balanceUSD": 203, "network": "Base", "type": "Lending", "healthFactor": 1.08, "suppliedUSD": 1195.2, "borrowedUSD": 995.97, "details": "633.5878 USDC and 476.8490 syrupUSDC supplied; 995.0780 USDC borrowed; 3.6680 USDC yield and 0.0018 FLUID reward shown" }, { "name": "Morpho", "balanceUSD": 146, "network": "Base", "type": "Lending", "suppliedUSD": 146.18, "details": "0.0023 cbBTC supplied" }, { "name": "Uniswap V3", "balanceUSD": 51, "network": "Base", "type": "Liquidity", "details": "USDC/DAG position #4593158 with 7,050.9750 DAG shown" }, { "name": "Polymarket", "balanceUSD": 3, "network": "Polygon", "type": "Prediction", "details": "One Bitcoin/GTA VI prediction position shown" }, { "name": "Moonwell", "balanceUSD": 1, "network": "Base", "type": "Lending", "suppliedUSD": 0.51, "details": "0.5119 USDC supplied and 74.9557 WELL rewards shown" }], "hyperliquid": { "accountValue": 410, "positions": [] } },
-  "coldStorage": { "walletUSD": 41620, "defiUSD": 10185, "totalUSD": 51805, "change24h": 1.05, "tokens": [{ "symbol": "ARC", "balance": 26740808.9665, "balanceUSD": 41284.6, "network": "Base" }, { "symbol": "ETH", "balance": 0.1399, "balanceUSD": 268.19, "network": "Base" }, { "symbol": "WETH", "balance": 0.0276, "balanceUSD": 52.83, "network": "Base" }, { "symbol": "UP", "balance": 61456.1863, "balanceUSD": 14.52, "network": "Base" }, { "symbol": "ETH", "balance": 0.00003485, "balanceUSD": 0.07, "network": "Ethereum" }, { "symbol": "USDC", "balance": 0.000019, "balanceUSD": 0, "network": "Base" }], "apps": [{ "name": "Aerodrome", "balanceUSD": 8446, "network": "Base", "type": "Liquidity", "details": "2.1990 WETH and 2,740,759.7144 ARC in a liquidity pool" }, { "name": "Aave V3", "balanceUSD": 1739, "network": "Base", "type": "Lending", "healthFactor": 1.59, "suppliedUSD": 3641.79, "borrowedUSD": 1902.66, "details": "1.9003 WETH supplied; 1,900.9437 USDC borrowed" }] }
+  "verifiedAt": "2026-08-01T11:49:11.976Z",
+  "totalPortfolioUSD": 59810,
+  "wallets": {
+    "activeTreasury": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
+    "coldStorageSafe": "0x3e33Be1294d66D8B468407416f2DA777802a531d"
+  },
+  "verification": {
+    "method": "DeBank profile crawl",
+    "activeTreasuryUrl": "https://debank.com/profile/0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
+    "coldStorageSafeUrl": "https://debank.com/profile/0x3e33Be1294d66D8B468407416f2DA777802a531d",
+    "notes": "Verified directly after both DeBank profiles showed Data updated. Values are DeBank-reported current-state estimates; category totals can differ from rounded rows by one dollar."
+  },
+  "reconciliation": {
+    "grossAssetsUSD": 63711,
+    "walletBalancesUSD": 45323,
+    "productivePositionsUSD": 14489,
+    "totalBorrowedUSD": 3901,
+    "reportedNetPortfolioUSD": 59810,
+    "roundingDeltaUSD": -2
+  },
+  "activeTreasury": {
+    "walletUSD": 4774,
+    "defiUSD": 4617,
+    "totalUSD": 9390,
+    "change24h": -0.85,
+    "tokens": [
+      { "symbol": "cbETH", "balance": 1.582, "balanceUSD": 3350.26, "network": "Base" },
+      { "symbol": "ETH", "balance": 0.2905, "balanceUSD": 542.15, "network": "Base" },
+      { "symbol": "DAG", "balance": 67675.6029, "balanceUSD": 480.05, "network": "Base" },
+      { "symbol": "UP", "balance": 1501356.291, "balanceUSD": 328.22, "network": "Base" },
+      { "symbol": "ARC", "balance": 37042.3019, "balanceUSD": 55.72, "network": "Base" },
+      { "symbol": "USDC", "balance": 10.9099, "balanceUSD": 10.92, "network": "Base" },
+      { "symbol": "AERO", "balance": 4.9415, "balanceUSD": 2.06, "network": "Base" },
+      { "symbol": "ETH", "balance": 0.001, "balanceUSD": 1.79, "network": "Base" },
+      { "symbol": "POL", "balance": 15.3782, "balanceUSD": 1.11, "network": "Polygon" },
+      { "symbol": "WELL", "balance": 243.2085, "balanceUSD": 0.73, "network": "Base" },
+      { "symbol": "FLOCK", "balance": 12, "balanceUSD": 0.34, "network": "Base" },
+      { "symbol": "GHST", "balance": 6.2579, "balanceUSD": 0.28, "network": "Polygon" },
+      { "symbol": "ETH", "balance": 0.0001, "balanceUSD": 0.24, "network": "Ethereum" },
+      { "symbol": "EURC", "balance": 0.0836, "balanceUSD": 0.1, "network": "Base" },
+      { "symbol": "RECALL", "balance": 0.6697, "balanceUSD": 0.03, "network": "Base" },
+      { "symbol": "WETH", "balance": 0.00006386, "balanceUSD": 0.01, "network": "Base" },
+      { "symbol": "ETH", "balance": 0.00005365, "balanceUSD": 0.01, "network": "Ethereum" },
+      { "symbol": "BNKR", "balance": 0.8221, "balanceUSD": 0, "network": "Base" },
+      { "symbol": "WAVAX", "balance": 0.00007179, "balanceUSD": 0, "network": "Avalanche" },
+      { "symbol": "AVAX", "balance": 0.00005532, "balanceUSD": 0, "network": "Avalanche" },
+      { "symbol": "VFY", "balance": 0.00005402, "balanceUSD": 0, "network": "Base" },
+      { "symbol": "YO", "balance": 34.3267, "balanceUSD": 0, "network": "Base" }
+    ],
+    "apps": [
+      { "name": "Aave V3", "balanceUSD": 1799, "network": "Base", "type": "Lending", "healthFactor": 2.32, "suppliedUSD": 2800.48, "borrowedUSD": 1001.51, "details": "1.5004 WETH supplied; 1,000.7118 USDC borrowed" },
+      { "name": "Beefy", "balanceUSD": 1760, "network": "Base", "type": "Yield", "details": "USDC/eUSD ($702.76), USDC ($200.58), USDC/AERO ($100.60), AERO/cbBTC ($307.37), USDC/AERO ($249.51), and WETH/USDC ($199.40); AERO rewards of $0.25 and $0.16 plus CAKE rewards of $0.23 are shown" },
+      { "name": "Hyperliquid", "balanceUSD": 396, "network": "Hyperliquid", "type": "Vault", "details": "289.4933 USDC and 106.7016 USDC in Main-Account Vaults; small spot and perpetual-withdrawable USDC balances are also shown" },
+      { "name": "Aerodrome", "balanceUSD": 262, "network": "Base", "type": "Liquidity", "details": "0.0700 WETH and 87,243.3015 ARC in a liquidity pool; 1.0000 locked AERO and 0.1193 AERO reward are shown" },
+      { "name": "Fluid", "balanceUSD": 203, "network": "Base", "type": "Lending", "healthFactor": 1.08, "suppliedUSD": 1195.24, "borrowedUSD": 996.21, "details": "546.7700 syrupUSDC and 551.5605 USDC supplied; 995.4095 USDC borrowed; 3.6690 USDC yield and 0.0018 FLUID reward shown" },
+      { "name": "Morpho", "balanceUSD": 143, "network": "Base", "type": "Lending", "suppliedUSD": 142.53, "details": "0.0023 cbBTC supplied" },
+      { "name": "Uniswap V3", "balanceUSD": 50, "network": "Base", "type": "Liquidity", "details": "USDC/DAG position #4593158 with 7,050.9750 DAG shown" },
+      { "name": "Polymarket", "balanceUSD": 3, "network": "Polygon", "type": "Prediction", "details": "One Bitcoin/GTA VI prediction position valued at $2.50 shown" },
+      { "name": "Moonwell", "balanceUSD": 1, "network": "Base", "type": "Lending", "suppliedUSD": 0.51, "details": "0.5120 USDC supplied and 74.9584 WELL rewards valued at $0.22 shown" }
+    ],
+    "hyperliquid": { "accountValue": 396, "positions": [] }
+  },
+  "coldStorage": {
+    "walletUSD": 40549,
+    "defiUSD": 9871,
+    "totalUSD": 50420,
+    "change24h": -0.88,
+    "tokens": [
+      { "symbol": "ARC", "balance": 26740808.9665, "balanceUSD": 40222.57, "network": "Base" },
+      { "symbol": "ETH", "balance": 0.1399, "balanceUSD": 261.21, "network": "Base" },
+      { "symbol": "WETH", "balance": 0.0276, "balanceUSD": 51.46, "network": "Base" },
+      { "symbol": "UP", "balance": 61456.1863, "balanceUSD": 13.44, "network": "Base" },
+      { "symbol": "ETH", "balance": 0.00003485, "balanceUSD": 0.07, "network": "Ethereum" },
+      { "symbol": "USDC", "balance": 0.000019, "balanceUSD": 0, "network": "Base" }
+    ],
+    "apps": [
+      { "name": "Aerodrome", "balanceUSD": 8227, "network": "Base", "type": "Liquidity", "details": "2.1988 WETH and 2,741,120.7986 ARC in a liquidity pool" },
+      { "name": "Aave V3", "balanceUSD": 1644, "network": "Base", "type": "Lending", "healthFactor": 1.55, "suppliedUSD": 3547.28, "borrowedUSD": 1902.89, "details": "1.9005 WETH supplied; 1,901.3691 USDC borrowed" }
+    ]
+  }
 }
+
