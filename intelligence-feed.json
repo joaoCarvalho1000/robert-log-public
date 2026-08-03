@@ -1,62 +1,36 @@
 {
-  "generatedAt": "2026-08-01T11:49:11.976Z",
-  "edition": "DeBank verified event 006",
+  "generatedAt": "2026-08-03T11:34:00.000Z",
+  "edition": "DeBank verified event 007",
   "mode": "live",
-  "stance": {
-    "label": "Current review",
-    "summary": "Live values are based on a fresh DeBank check of the two tracked accounts.",
-    "confidence": 99
-  },
-  "market": {
-    "regime": "Mixed moves",
-    "posture": "Active review",
-    "oneLine": "Daily price changes among the tracked liquid assets remained below the publication threshold."
-  },
+  "stance": { "label": "Current review", "summary": "The latest portfolio check is complete.", "confidence": 99 },
+  "market": { "regime": "Mixed moves", "posture": "Active review", "oneLine": "No broader protocol event was confirmed in this scan." },
   "insights": [
     {
-      "id": "long-term-holdings-change",
-      "category": "Portfolio change",
-      "headline": "Long-term holdings moved lower since July 30",
-      "summary": "DeBank reported $50,420 at 11:49 UTC on August 1, compared with $51,805 at the July 30 review.",
-      "portfolioRelevance": "This account represents about 84.3% of the $59,810 portfolio, so it accounts for most of the $1,640 difference since the prior review.",
+      "id": "up-seven-day-move",
+      "category": "7-day move",
+      "headline": "UP fell 12.8% over seven days",
+      "summary": "CoinGecko recorded a price of $0.00021048 at 11:33 UTC on August 3, 2026.",
+      "portfolioRelevance": "DeBank shows about $330 in UP across the two accounts, about 0.5% of the $60,097 portfolio. The price-only change is approximately $49 over seven days.",
       "tone": "neutral",
       "confidence": 99,
-      "sourceLabel": "DeBank profile crawl Â· Aug 1, 2026, 11:49 UTC",
-      "sourceUrl": "https://debank.com/profile/0x3e33Be1294d66D8B468407416f2DA777802a531d"
+      "sourceLabel": "CoinGecko · Aug 3, 2026, 11:33 UTC",
+      "sourceUrl": "https://www.coingecko.com/en/coins/the-upsider-ai"
     }
   ],
-  "risks": [
-    {
-      "id": "portfolio-monitoring",
-      "label": "Portfolio monitoring",
-      "level": "watch",
-      "detail": "The review will track whether the change is driven by ongoing pricing shifts or a change in the mix of holdings.",
-      "trigger": "No action is indicated by this review alone."
-    }
-  ],
+  "risks": [],
   "watchlist": [],
-  "schedule": [
-    {
-      "label": "Material-event scan",
-      "cadence": "Daily",
-      "purpose": "Review verified positions and relevant public developments"
-    }
-  ],
+  "schedule": [ { "label": "Material-event scan", "cadence": "Daily", "purpose": "Review verified positions and relevant public developments" } ],
   "distribution": {
     "x": {
-      "text": "The portfolio's largest holdings account is $1,385 lower than at the July 30 review. It now represents about 84% of the $59,810 portfolio, so it explains most of the overall change. We are monitoring market prices and trading conditions.",
-      "status": "posted",
-      "postedAt": "2026-08-01T12:32:15.3823674Z"
+      "text": "UP is down 12.8% over seven days. We hold about $330 in the token across the two tracked accounts, about 0.5% of the portfolio. The direct price effect is roughly $49, so it is limited.",
+      "status": "draft",
+      "postedAt": null
     }
   },
   "publishingPolicy": {
     "audience": "Public",
     "voice": "Calm, clear, factual, and written in everyday language.",
-    "rules": [
-      "State verified portfolio context in proportion to the event.",
-      "Avoid private operations, technical implementation details, and unnecessary alarm.",
-      "Attribute portfolio impact only to positions verified in the current review."
-    ]
+    "rules": ["State verified portfolio context in proportion to the event.", "Avoid private operations, technical implementation details, and unnecessary alarm.", "Attribute portfolio impact only to positions verified in the current review."]
   },
   "methodologyNote": "Portfolio values and positions were verified directly on both DeBank profiles. Publication is reserved for verified material moves or events."
 }
