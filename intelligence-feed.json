@@ -1,30 +1,28 @@
 {
-  "generatedAt": "2026-08-03T11:34:00.000Z",
-  "edition": "DeBank verified event 007",
+  "generatedAt": "2026-08-04T11:35:33.5853743Z",
+  "edition": "DeBank verified event 008",
   "mode": "live",
   "stance": { "label": "Current review", "summary": "The latest portfolio check is complete.", "confidence": 99 },
-  "market": { "regime": "Mixed moves", "posture": "Active review", "oneLine": "No broader protocol event was confirmed in this scan." },
-  "insights": [
-    {
-      "id": "up-seven-day-move",
-      "category": "7-day move",
-      "headline": "UP fell 12.8% over seven days",
-      "summary": "CoinGecko recorded a price of $0.00021048 at 11:33 UTC on August 3, 2026.",
-      "portfolioRelevance": "DeBank shows about $330 in UP across the two accounts, about 0.5% of the $60,097 portfolio. The price-only change is approximately $49 over seven days.",
-      "tone": "neutral",
-      "confidence": 99,
-      "sourceLabel": "CoinGecko · Aug 3, 2026, 11:33 UTC",
-      "sourceUrl": "https://www.coingecko.com/en/coins/the-upsider-ai"
-    }
-  ],
+  "market": { "regime": "Mixed moves", "posture": "Active review", "oneLine": "No additional protocol event was confirmed in this scan." },
+  "insights": [{
+    "id": "dag-twenty-four-hour-move",
+    "category": "24-hour move",
+    "headline": "DAG fell 8.1% in 24 hours",
+    "summary": "CoinGecko recorded a price of $0.00644764 at 11:32 UTC on August 4, 2026.",
+    "portfolioRelevance": "DeBank shows about $487 in DAG across the two accounts, about 0.8% of the $60,852 portfolio. The price-only change is approximately $43; we will continue to monitor price and trading conditions.",
+    "tone": "neutral",
+    "confidence": 99,
+    "sourceLabel": "CoinGecko · Aug 4, 2026, 11:32 UTC",
+    "sourceUrl": "https://www.coingecko.com/en/coins/constellation"
+  }],
   "risks": [],
   "watchlist": [],
-  "schedule": [ { "label": "Material-event scan", "cadence": "Daily", "purpose": "Review verified positions and relevant public developments" } ],
+  "schedule": [{ "label": "Material-event scan", "cadence": "Daily", "purpose": "Review verified positions and relevant public developments" }],
   "distribution": {
     "x": {
-      "text": "UP is down 12.8% over seven days. We hold about $330 in the token across the two tracked accounts, about 0.5% of the portfolio. The direct price effect is roughly $49, so it is limited.",
-      "status": "posted",
-      "postedAt": "2026-08-03T15:59:37.5203318Z"
+      "text": "DAG fell 8.1% in the past 24 hours. Our holding is about $487, or 0.8% of the portfolio, with an estimated $43 price effect. The direct effect is limited, but the move is large enough to merit a closer look.",
+      "status": "draft",
+      "postedAt": null
     }
   },
   "publishingPolicy": {
