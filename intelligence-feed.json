@@ -1,35 +1,54 @@
 {
-  "generatedAt": "2026-08-04T16:23:59.9944020Z",
-  "edition": "DeBank verified event 008",
+  "generatedAt": "2026-08-05T11:34:13.9718791Z",
+  "edition": "DeBank verified event 009",
   "mode": "live",
-  "stance": { "label": "Current review", "summary": "The latest portfolio check is complete.", "confidence": 99 },
-  "market": { "regime": "Mixed moves", "posture": "Active review", "oneLine": "No additional protocol event was confirmed in this scan." },
-  "insights": [{
-    "id": "dag-continuing-move",
-    "category": "24-hour and 7-day move",
-    "headline": "DAG fell 7.5% in 24 hours, extending its seven-day decline to 12.0%",
-    "summary": "CoinGecko recorded a price of $0.00650576 at 16:21 UTC on August 4, 2026.",
-    "portfolioRelevance": "DeBank shows about $489 in DAG across the two accounts, about 0.8% of the $60,984 portfolio. The price-only change is approximately $40; we will continue to monitor price and trading conditions.",
-    "tone": "neutral",
-    "confidence": 99,
-    "sourceLabel": "CoinGecko · Aug 4, 2026, 16:21 UTC",
-    "sourceUrl": "https://www.coingecko.com/en/coins/constellation"
-  }],
+  "stance": {
+    "label": "Current review",
+    "summary": "The latest portfolio check is complete.",
+    "confidence": 99
+  },
+  "market": {
+    "regime": "Mixed moves",
+    "posture": "Active review",
+    "oneLine": "No separate protocol or access issue was confirmed in this scan."
+  },
+  "insights": [
+    {
+      "id": "dag-seven-day-move",
+      "category": "Seven-day move",
+      "headline": "DAG fell 13.85% over seven days",
+      "summary": "CoinGecko recorded a price of $0.00634649 at 11:31 UTC on August 5, 2026.",
+      "portfolioRelevance": "DeBank shows about $469 in DAG across the active account, including its Uniswap position, about 0.8% of the $60,889 portfolio. The estimated price-only change over the week is about $75; current market conditions remain under review.",
+      "tone": "neutral",
+      "confidence": 99,
+      "sourceLabel": "CoinGecko Â· Aug 5, 2026, 11:31 UTC",
+      "sourceUrl": "https://www.coingecko.com/en/coins/constellation"
+    }
+  ],
   "risks": [],
   "watchlist": [],
-  "schedule": [{ "label": "Material-event scan", "cadence": "Daily", "purpose": "Review verified positions and relevant public developments" }],
+  "schedule": [
+    {
+      "label": "Material-event scan",
+      "cadence": "Daily",
+      "purpose": "Review verified positions and relevant public developments"
+    }
+  ],
   "distribution": {
     "x": {
-      "text": "DAG has dropped 7.5% in the past day, extending its weekly decline to 12.0%. The portfolio holds about $489, or 0.8%, so the estimated price effect is about $40. The move stands out, and we are watching trading conditions closely.",
-      "status": "posted",
-      "postedAt": "2026-08-04T16:29:29.1667073Z",
-      "postId": "2084678089515130887"
+      "text": "DAG is down 13.85% over the past week. The portfolio currently holds about $469, roughly 0.8% of its total value, so the estimated price effect is about $75. We are keeping an eye on market conditions.",
+      "status": "draft",
+      "postedAt": null
     }
   },
   "publishingPolicy": {
     "audience": "Public",
     "voice": "Calm, clear, factual, and written in everyday language.",
-    "rules": ["State verified portfolio context in proportion to the event.", "Avoid private operations, technical implementation details, and unnecessary alarm.", "Attribute portfolio impact only to positions verified in the current review."]
+    "rules": [
+      "State verified portfolio context in proportion to the event.",
+      "Avoid private operations, technical implementation details, and unnecessary alarm.",
+      "Attribute portfolio impact only to positions verified in the current review."
+    ]
   },
   "methodologyNote": "Portfolio values and positions were verified directly on both DeBank profiles. Publication is reserved for verified material moves or events."
 }
