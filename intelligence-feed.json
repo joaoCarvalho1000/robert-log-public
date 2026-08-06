@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-05T11:34:13.9718791Z",
-  "edition": "DeBank verified event 009",
+  "generatedAt": "2026-08-06T11:45:09.7801443Z",
+  "edition": "DeBank verified event 010",
   "mode": "live",
   "stance": {
     "label": "Current review",
@@ -14,15 +14,14 @@
   },
   "insights": [
     {
-      "id": "dag-seven-day-move",
-      "category": "Seven-day move",
-      "headline": "DAG fell 13.85% over seven days",
-      "summary": "CoinGecko recorded a price of $0.00634649 at 11:31 UTC on August 5, 2026.",
-      "portfolioRelevance": "DeBank shows about $469 in DAG across the active account, including its Uniswap position, about 0.8% of the $60,889 portfolio. The estimated price-only change over the week is about $75; current market conditions remain under review.",
+      "id": "portfolio-daily-increase",
+      "category": "Daily portfolio change",
+      "headline": "$1,318 daily portfolio increase",
+      "summary": "The DeBank-verified review was completed on August 6.",
+      "portfolioRelevance": "The increase is a 2.2% change across the whole verified portfolio. No position-level dollar impact is attributed because no single liquid holding showed an unusually large short-term move.",
       "tone": "neutral",
       "confidence": 99,
-      "sourceLabel": "CoinGecko Â· Aug 5, 2026, 11:31 UTC",
-      "sourceUrl": "https://www.coingecko.com/en/coins/constellation"
+      "sourceLabel": "DeBank profile review Â· Aug 6, 2026, 11:45 UTC"
     }
   ],
   "risks": [],
@@ -36,7 +35,7 @@
   ],
   "distribution": {
     "x": {
-      "text": "DAG is down 13.85% over the past week. The portfolio currently holds about $469, roughly 0.8% of its total value, so the estimated price effect is about $75. We are keeping an eye on market conditions.",
+      "text": "The latest verified review shows the portfolio up about $1,318 since yesterday. That is a 2.2% increase, while the main liquid holdings did not show an unusually large short-term move. The current total is about $62,207, and the regular review continues.",
       "status": "draft",
       "postedAt": null
     }
