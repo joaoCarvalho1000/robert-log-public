@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-08-06T11:45:09.7801443Z",
-  "edition": "DeBank verified event 010",
+  "generatedAt": "2026-08-28T11:00:11.960Z",
+  "edition": "Automated DeBank review - Aug 28, 2026",
   "mode": "live",
   "stance": {
     "label": "Current review",
-    "summary": "The latest portfolio check is complete.",
-    "confidence": 99
+    "summary": "The latest public portfolio check is complete.",
+    "confidence": 100
   },
   "market": {
-    "regime": "Mixed moves",
+    "regime": "Portfolio monitoring",
     "posture": "Active review",
-    "oneLine": "No separate protocol or access issue was confirmed in this scan."
+    "oneLine": "The current DeBank-recorded portfolio value is $94,173."
   },
   "insights": [
     {
-      "id": "portfolio-daily-increase",
+      "id": "portfolio-daily-change",
       "category": "Daily portfolio change",
-      "headline": "$1,318 daily portfolio increase",
-      "summary": "The DeBank-verified review was completed on August 6.",
-      "portfolioRelevance": "The increase is a 2.2% change across the whole verified portfolio. No position-level dollar impact is attributed because no single liquid holding showed an unusually large short-term move.",
+      "headline": "$31,593 daily portfolio increase",
+      "summary": "The public DeBank review completed on Aug 28, 2026.",
+      "portfolioRelevance": "The change is 50.48% across the verified portfolio.",
       "tone": "neutral",
-      "confidence": 99,
-      "sourceLabel": "DeBank profile review Â· Aug 6, 2026, 11:45 UTC"
+      "confidence": 100,
+      "sourceLabel": "DeBank public profiles - Aug 28, 2026"
     }
   ],
   "risks": [],
   "watchlist": [],
   "schedule": [
     {
-      "label": "Material-event scan",
+      "label": "Public portfolio scrape",
       "cadence": "Daily",
-      "purpose": "Review verified positions and relevant public developments"
+      "purpose": "Refresh both public DeBank wallet snapshots"
     }
   ],
   "distribution": {
     "x": {
-      "text": "The latest verified review shows the portfolio up about $1,318 since yesterday. That is a 2.2% increase, while the main liquid holdings did not show an unusually large short-term move. The current total is about $62,207, and the regular review continues.",
+      "text": "Latest public portfolio review: $94,173 recorded across the active treasury and cold storage.",
       "status": "draft",
       "postedAt": null
     }
@@ -44,10 +44,10 @@
     "audience": "Public",
     "voice": "Calm, clear, factual, and written in everyday language.",
     "rules": [
-      "State verified portfolio context in proportion to the event.",
-      "Avoid private operations, technical implementation details, and unnecessary alarm.",
-      "Attribute portfolio impact only to positions verified in the current review."
+      "Publish only values visible on the public DeBank profiles.",
+      "Do not infer causes for portfolio movements.",
+      "Do not publish when either profile fails validation."
     ]
   },
-  "methodologyNote": "Portfolio values and positions were verified directly on both DeBank profiles. Publication is reserved for verified material moves or events."
+  "methodologyNote": "Portfolio values and positions were read from the rendered public DeBank profile pages. No private wallet access or DeBank API was used."
 }
