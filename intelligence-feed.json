@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-02T21:37:39.401Z",
-  "edition": "Automated DeBank review - Sep 2, 2026",
+  "generatedAt": "2026-09-03T15:38:17.517Z",
+  "edition": "Automated DeBank review - Sep 3, 2026",
   "mode": "live",
   "stance": {
     "label": "Current review",
@@ -10,18 +10,18 @@
   "market": {
     "regime": "Portfolio monitoring",
     "posture": "Active review",
-    "oneLine": "The current DeBank-recorded portfolio value is $98,018."
+    "oneLine": "The current DeBank-recorded portfolio value is $103,312."
   },
   "insights": [
     {
       "id": "portfolio-daily-change",
       "category": "Daily portfolio change",
-      "headline": "$204 daily portfolio decrease",
-      "summary": "The public DeBank review completed on Sep 2, 2026.",
-      "portfolioRelevance": "The change is 0.21% across the verified portfolio.",
+      "headline": "$5,294 daily portfolio increase",
+      "summary": "The public DeBank review completed on Sep 3, 2026.",
+      "portfolioRelevance": "The change is 5.4% across the verified portfolio.",
       "tone": "neutral",
       "confidence": 100,
-      "sourceLabel": "DeBank public profiles - Sep 2, 2026"
+      "sourceLabel": "DeBank public profiles - Sep 3, 2026"
     }
   ],
   "risks": [],
@@ -35,7 +35,7 @@
   ],
   "distribution": {
     "x": {
-      "text": "Latest public portfolio review: $98,018 recorded across the active treasury and cold storage.",
+      "text": "Latest public portfolio review: $103,312 recorded across the active treasury and cold storage.",
       "status": "draft",
       "postedAt": null
     }
