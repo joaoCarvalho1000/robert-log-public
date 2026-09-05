@@ -1,7 +1,7 @@
 {
   "source": "DeBank public profile pages",
-  "verifiedAt": "2026-09-04T21:36:50.607Z",
-  "totalPortfolioUSD": 101632,
+  "verifiedAt": "2026-09-05T21:37:05.660Z",
+  "totalPortfolioUSD": 102090,
   "wallets": {
     "activeTreasury": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
     "coldStorageSafe": "0x3e33Be1294d66D8B468407416f2DA777802a531d"
@@ -13,69 +13,69 @@
     "notes": "Values were read from the visible DeBank portfolio pages. The automation publishes nothing when either page is incomplete."
   },
   "reconciliation": {
-    "walletBalancesUSD": 80181,
-    "productivePositionsUSD": 21451,
-    "reportedNetPortfolioUSD": 101632
+    "walletBalancesUSD": 80436,
+    "productivePositionsUSD": 21654,
+    "reportedNetPortfolioUSD": 102090
   },
   "activeTreasury": {
-    "walletUSD": 6142,
-    "defiUSD": 5920,
-    "totalUSD": 12062,
+    "walletUSD": 6218,
+    "defiUSD": 5994,
+    "totalUSD": 12212,
     "tokens": [
       {
         "symbol": "cbETH",
         "balance": 1.582,
-        "balanceUSD": 4420.41,
+        "balanceUSD": 4471.51,
         "network": "Base"
       },
       {
         "symbol": "ETH",
         "balance": 0.2904,
-        "balanceUSD": 713.08,
+        "balanceUSD": 720.51,
         "network": "Base"
       },
       {
         "symbol": "DAG",
         "balance": 74786.7667,
-        "balanceUSD": 511.21,
+        "balanceUSD": 512.65,
         "network": "Base"
       },
       {
         "symbol": "UP",
         "balance": 1501356.291,
-        "balanceUSD": 343.91,
+        "balanceUSD": 359.26,
         "network": "Base"
       },
       {
         "symbol": "ARC",
-        "balance": 51949.8828,
-        "balanceUSD": 143.01,
+        "balance": 52126.5209,
+        "balanceUSD": 143.84,
         "network": "Base"
       }
     ],
     "apps": [
       {
         "name": "Aave V3",
-        "balanceUSD": 2686,
+        "balanceUSD": 2724,
         "network": "Base",
         "type": "Lending",
-        "healthFactor": 3.05
+        "healthFactor": 3.08
       },
       {
         "name": "Beefy",
-        "balanceUSD": 1906,
+        "balanceUSD": 1935,
         "network": "Base",
         "type": "Yield"
       },
       {
         "name": "Hyperliquid",
-        "balanceUSD": 539,
+        "balanceUSD": 543,
         "network": "Hyperliquid",
         "type": "Yield"
       },
       {
         "name": "Aerodrome",
-        "balanceUSD": 407,
+        "balanceUSD": 410,
         "network": "Base",
         "type": "Liquidity Pool"
       },
@@ -106,38 +106,38 @@
       }
     ],
     "hyperliquid": {
-      "accountValue": 539,
+      "accountValue": 543,
       "positions": []
     },
-    "change24h": 0.11
+    "change24h": 1.24
   },
   "coldStorage": {
-    "walletUSD": 74039,
-    "defiUSD": 15531,
-    "totalUSD": 89570,
+    "walletUSD": 74218,
+    "defiUSD": 15660,
+    "totalUSD": 89878,
     "tokens": [
       {
         "symbol": "ARC",
         "balance": 26740808.9665,
-        "balanceUSD": 73613.44,
+        "balanceUSD": 73787.23,
         "network": "Base"
       },
       {
         "symbol": "ETH",
         "balance": 0.1399,
-        "balanceUSD": 343.62,
+        "balanceUSD": 347.2,
         "network": "Base"
       },
       {
         "symbol": "WETH",
         "balance": 0.0276,
-        "balanceUSD": 67.69,
+        "balanceUSD": 68.39,
         "network": "Base"
       },
       {
         "symbol": "UP",
         "balance": 61456.1863,
-        "balanceUSD": 14.08,
+        "balanceUSD": 14.71,
         "network": "Base"
       },
       {
@@ -156,19 +156,19 @@
     "apps": [
       {
         "name": "Aerodrome",
-        "balanceUSD": 12765,
+        "balanceUSD": 12847,
         "network": "Base",
         "type": "Liquidity Pool"
       },
       {
         "name": "Aave V3",
-        "balanceUSD": 2766,
+        "balanceUSD": 2814,
         "network": "Base",
         "type": "Lending",
-        "healthFactor": 2.03
+        "healthFactor": 2.05
       }
     ],
     "hyperliquid": null,
-    "change24h": 0.04
+    "change24h": 0.34
   }
 }
