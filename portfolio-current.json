@@ -1,7 +1,7 @@
 {
   "source": "DeBank public profile pages",
-  "verifiedAt": "2026-09-05T21:37:05.660Z",
-  "totalPortfolioUSD": 102090,
+  "verifiedAt": "2026-09-06T03:37:07.372Z",
+  "totalPortfolioUSD": 102340,
   "wallets": {
     "activeTreasury": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
     "coldStorageSafe": "0x3e33Be1294d66D8B468407416f2DA777802a531d"
@@ -13,69 +13,69 @@
     "notes": "Values were read from the visible DeBank portfolio pages. The automation publishes nothing when either page is incomplete."
   },
   "reconciliation": {
-    "walletBalancesUSD": 80436,
-    "productivePositionsUSD": 21654,
-    "reportedNetPortfolioUSD": 102090
+    "walletBalancesUSD": 80531,
+    "productivePositionsUSD": 21809,
+    "reportedNetPortfolioUSD": 102340
   },
   "activeTreasury": {
-    "walletUSD": 6218,
-    "defiUSD": 5994,
-    "totalUSD": 12212,
+    "walletUSD": 6242,
+    "defiUSD": 6038,
+    "totalUSD": 12280,
     "tokens": [
       {
         "symbol": "cbETH",
         "balance": 1.582,
-        "balanceUSD": 4471.51,
+        "balanceUSD": 4504.46,
         "network": "Base"
       },
       {
         "symbol": "ETH",
         "balance": 0.2904,
-        "balanceUSD": 720.51,
+        "balanceUSD": 727.33,
         "network": "Base"
       },
       {
         "symbol": "DAG",
         "balance": 74786.7667,
-        "balanceUSD": 512.65,
+        "balanceUSD": 498.64,
         "network": "Base"
       },
       {
         "symbol": "UP",
         "balance": 1501356.291,
-        "balanceUSD": 359.26,
+        "balanceUSD": 356.26,
         "network": "Base"
       },
       {
         "symbol": "ARC",
-        "balance": 52126.5209,
-        "balanceUSD": 143.84,
+        "balance": 52307.43,
+        "balanceUSD": 144.47,
         "network": "Base"
       }
     ],
     "apps": [
       {
         "name": "Aave V3",
-        "balanceUSD": 2724,
+        "balanceUSD": 2759,
         "network": "Base",
         "type": "Lending",
-        "healthFactor": 3.08
+        "healthFactor": 3.11
       },
       {
         "name": "Beefy",
-        "balanceUSD": 1935,
+        "balanceUSD": 1936,
         "network": "Base",
         "type": "Yield"
       },
       {
         "name": "Hyperliquid",
-        "balanceUSD": 543,
+        "balanceUSD": 548,
         "network": "Hyperliquid",
         "type": "Yield"
       },
       {
         "name": "Aerodrome",
-        "balanceUSD": 410,
+        "balanceUSD": 412,
         "network": "Base",
         "type": "Liquidity Pool"
       },
@@ -106,38 +106,38 @@
       }
     ],
     "hyperliquid": {
-      "accountValue": 543,
+      "accountValue": 548,
       "positions": []
     },
-    "change24h": 1.24
+    "change24h": 0.56
   },
   "coldStorage": {
-    "walletUSD": 74218,
-    "defiUSD": 15660,
-    "totalUSD": 89878,
+    "walletUSD": 74289,
+    "defiUSD": 15771,
+    "totalUSD": 90060,
     "tokens": [
       {
         "symbol": "ARC",
         "balance": 26740808.9665,
-        "balanceUSD": 73787.23,
+        "balanceUSD": 73854.45,
         "network": "Base"
       },
       {
         "symbol": "ETH",
         "balance": 0.1399,
-        "balanceUSD": 347.2,
+        "balanceUSD": 350.48,
         "network": "Base"
       },
       {
         "symbol": "WETH",
         "balance": 0.0276,
-        "balanceUSD": 68.39,
+        "balanceUSD": 69.04,
         "network": "Base"
       },
       {
         "symbol": "UP",
         "balance": 61456.1863,
-        "balanceUSD": 14.71,
+        "balanceUSD": 14.58,
         "network": "Base"
       },
       {
@@ -156,19 +156,19 @@
     "apps": [
       {
         "name": "Aerodrome",
-        "balanceUSD": 12847,
+        "balanceUSD": 12913,
         "network": "Base",
         "type": "Liquidity Pool"
       },
       {
         "name": "Aave V3",
-        "balanceUSD": 2814,
+        "balanceUSD": 2858,
         "network": "Base",
         "type": "Lending",
-        "healthFactor": 2.05
+        "healthFactor": 2.07
       }
     ],
     "hyperliquid": null,
-    "change24h": 0.34
+    "change24h": 0.2
   }
 }
