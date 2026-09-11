@@ -1,7 +1,7 @@
 {
   "source": "DeBank public profile pages",
-  "verifiedAt": "2026-09-11T15:37:29.429Z",
-  "totalPortfolioUSD": 126732,
+  "verifiedAt": "2026-09-11T21:38:50.004Z",
+  "totalPortfolioUSD": 123977,
   "wallets": {
     "activeTreasury": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
     "coldStorageSafe": "0x3e33Be1294d66D8B468407416f2DA777802a531d"
@@ -12,63 +12,63 @@
     "coldStorageSafeUrl": "https://debank.com/profile/0x3e33Be1294d66D8B468407416f2DA777802a531d"
   },
   "reconciliation": {
-    "walletBalancesUSD": 102193,
-    "productivePositionsUSD": 24539,
-    "reportedNetPortfolioUSD": 126732
+    "walletBalancesUSD": 100091,
+    "productivePositionsUSD": 23886,
+    "reportedNetPortfolioUSD": 123977
   },
   "activeTreasury": {
-    "walletUSD": 6355,
-    "defiUSD": 6502,
-    "totalUSD": 12857,
+    "walletUSD": 6167,
+    "defiUSD": 6341,
+    "totalUSD": 12508,
     "tokens": [
       {
         "symbol": "cbETH",
         "balance": 1.582,
-        "balanceUSD": 4699.72,
+        "balanceUSD": 4570.12,
         "network": "Base"
       },
       {
         "symbol": "UP",
         "balance": 3527730.9625,
-        "balanceUSD": 868.24,
+        "balanceUSD": 830.2,
         "network": "Base"
       },
       {
         "symbol": "ETH",
         "balance": 0.2904,
-        "balanceUSD": 757.62,
+        "balanceUSD": 736.84,
         "network": "Base"
       },
       {
         "symbol": "ARC",
-        "balance": 6634.343,
-        "balanceUSD": 23.67,
+        "balance": 6828.1311,
+        "balanceUSD": 23.87,
         "network": "Base"
       }
     ],
     "apps": [
       {
         "name": "Aave V3",
-        "balanceUSD": 2917,
+        "balanceUSD": 2809,
         "network": "Base",
         "type": "Lending",
-        "healthFactor": 3.24
+        "healthFactor": 3.15
       },
       {
         "name": "Beefy",
-        "balanceUSD": 1956,
+        "balanceUSD": 1937,
         "network": "Base",
         "type": "Yield"
       },
       {
         "name": "Aerodrome",
-        "balanceUSD": 679,
+        "balanceUSD": 662,
         "network": "Base",
         "type": "Liquidity Pool"
       },
       {
         "name": "Hyperliquid",
-        "balanceUSD": 570,
+        "balanceUSD": 556,
         "network": "Hyperliquid",
         "type": "Yield"
       },
@@ -81,7 +81,7 @@
       },
       {
         "name": "Morpho",
-        "balanceUSD": 178,
+        "balanceUSD": 175,
         "network": "Base",
         "type": "Lending"
       },
@@ -99,38 +99,38 @@
       }
     ],
     "hyperliquid": {
-      "accountValue": 570,
+      "accountValue": 556,
       "positions": []
     },
-    "change24h": 5.16
+    "change24h": -2.71
   },
   "coldStorage": {
-    "walletUSD": 95838,
-    "defiUSD": 18037,
-    "totalUSD": 113875,
+    "walletUSD": 93924,
+    "defiUSD": 17545,
+    "totalUSD": 111469,
     "tokens": [
       {
         "symbol": "ARC",
         "balance": 26740808.9665,
-        "balanceUSD": 95385.97,
+        "balanceUSD": 93483.94,
         "network": "Base"
       },
       {
         "symbol": "ETH",
         "balance": 0.1399,
-        "balanceUSD": 365.15,
+        "balanceUSD": 355.14,
         "network": "Base"
       },
       {
         "symbol": "WETH",
         "balance": 0.0276,
-        "balanceUSD": 71.93,
+        "balanceUSD": 69.96,
         "network": "Base"
       },
       {
         "symbol": "UP",
         "balance": 61456.1863,
-        "balanceUSD": 15.13,
+        "balanceUSD": 14.46,
         "network": "Base"
       },
       {
@@ -149,19 +149,19 @@
     "apps": [
       {
         "name": "Aerodrome",
-        "balanceUSD": 14980,
+        "balanceUSD": 14625,
         "network": "Base",
         "type": "Liquidity Pool"
       },
       {
         "name": "Aave V3",
-        "balanceUSD": 3057,
+        "balanceUSD": 2921,
         "network": "Base",
         "type": "Lending",
-        "healthFactor": 2.16
+        "healthFactor": 2.1
       }
     ],
     "hyperliquid": null,
-    "change24h": 0.39
+    "change24h": -2.11
   }
 }
