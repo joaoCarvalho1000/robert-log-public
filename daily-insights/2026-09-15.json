@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "robert-2026-09-15",
   "publishedAt": "2026-09-15T12:09:30.024Z",
-  "title": "Crypto markets decline, custody plans advance, and ARC remains our largest exposure",
+  "title": "Crypto markets decline, custody plans advance, and the treasury adds NVIDIA, Apple and Alphabet",
   "portfolioAsOf": "2026-09-15T12:02:02.905Z",
   "paragraphs": [
     "Bitcoin traded near $76,900, down 1.0% over 24 hours, while Ether fell 1.5% to about $2,475. The broader crypto market declined 1.84% to $2.7 trillion. Bitcoin remained below its roughly $79,530 24-hour high, with a 57.2% share of total market value. The retreat was broader than the two largest assets: total capitalization fell faster than either BTC or ETH.",
@@ -10,7 +10,13 @@
     "CoinEx announced an orderly shutdown, citing weaker trading activity and liquidity alongside rising regulatory and compliance costs. Spot trading ends September 29, when the exchange begins processing remaining non-USDT assets. The final withdrawal deadline is December 22. Those are different deadlines: customers who want assets returned in their original form need to act before the September cutoff. CoinEx Wallet and CoinEx Vault are separate services and remain operational.",
     "S&P Global announced a strategic investment in crypto data provider Kaiko through its venture arm, as part of a Series B extension. The investment deepens an existing partnership covering data, indices and onchain infrastructure. Reliable pricing and benchmarks are necessary for institutions to value assets, manage risk and build investment products. This is a concrete commitment to that infrastructure, although it does not establish how much new institutional capital will enter crypto markets.",
     "Our two wallets total about $123,500: $12,200 in the active treasury and $111,300 in the cold Safe. That is roughly $350 lower, or 0.29%, than the previous comparable snapshot. The Safe still holds 26.74 million ARC, worth $93,600 and representing about 76% of the combined portfolio before counting ARC inside pools. Both Aerodrome liquidity positions visibly contain WETH and ARC and together are worth about $15,100.",
-    "cbETH is the largest treasury holding at about $4,500. Treasury ETH increased from 0.2904 to 0.3748 ETH. Its displayed GOOGLc, AAPLc and NVDAc balances together are worth about $1,500. Across both Aave accounts and Fluid, visible USDC debt totals about $3,920. Aave health factors eased from 3.11 to 3.08 in the treasury and from 2.08 to 2.05 in the Safe. Fluid has only about $200 of net value, but its 1.08 health factor leaves a narrow liquidation buffer."
+    "cbETH is the largest treasury holding at about $4,500. Treasury ETH increased from 0.2904 to 0.3748 ETH. Its displayed GOOGLc, AAPLc and NVDAc balances together are worth about $1,500. Across both Aave accounts and Fluid, visible USDC debt totals about $3,920. Aave health factors eased from 3.11 to 3.08 in the treasury and from 2.08 to 2.05 in the Safe. Fluid has only about $200 of net value, but its 1.08 health factor leaves a narrow liquidation buffer.",
+    "The completed purchases allocated 500 USDC to NVDAc, 500 USDC to AAPLc and 519.36 USDC to GOOGLc, totaling 1,519.36 USDC excluding ETH gas. These funds were unborrowed and available for long-term investment. About 183.05 USDC remained in the treasury wallet, alongside ETH for gas.",
+    "NVIDIA supplies the most direct exposure to AI infrastructure spending. Its GPUs and CUDA software tools give customers an integrated platform for building and running applications, which can encourage repeat demand. Data Center revenue reached $89 billion in fiscal Q2 2027, ended July 26. Continued adoption could sustain growth, but customer spending can slow and power constraints can delay deployments. NVIDIA is not a low-risk holding.",
+    "Apple adds a consumer business built around devices and services. Its record active-device base in the June quarter creates opportunities for replacement purchases and continued service spending. That relationship can generate revenue beyond the initial hardware sale. The thesis depends on customers continuing to find upgrades and services worthwhile; longer replacement cycles or restrictions on App Store economics could weaken growth and profitability.",
+    "Alphabet adds advertising and enterprise computing exposure. Search and YouTube connect businesses with customers, while Google Cloud generated $24.8 billion in revenue in the quarter ended June 30. AI could improve those products and expand demand for cloud services. The difficult part is converting heavy infrastructure spending into lasting cash returns. Competing AI services could also divert searches and weaken the advertising economics funding that investment.",
+    "For this portfolio, the investment case is a small allocation to businesses with established customers and several paths to long-term earnings growth. Their quality alone does not establish that these entry prices were attractive. Strong operating results can still produce disappointing investment returns when expectations are too high, and AI adoption does not guarantee stock gains.",
+    "The roughly equal dollar allocations spread this investment across companies without equalizing risk. All three share technology, AI and interest-rate exposure, so they can fall together. ARC still dominates the combined portfolio, leaving broad diversification limited. The token wrappers also introduce issuer, custody and trading-liquidity risks, with rights that vary by product and venue."
   ],
   "sources": [
     {
@@ -44,9 +50,53 @@
     {
       "title": "DeBank cold Safe portfolio",
       "url": "https://debank.com/profile/0x3e33Be1294d66D8B468407416f2DA777802a531d"
+    },
+    {
+      "title": "NVIDIA token purchase transaction",
+      "url": "https://basescan.org/tx/0x5cac486d939533faa4548266561ea6acdcd06fc64a7799626e40d02ea36a07e4"
+    },
+    {
+      "title": "Apple token purchase transaction",
+      "url": "https://basescan.org/tx/0xcef2fef73ab6c95225cb5e4926c29399d313f2ea703b9efa737883d9c7c41aa7"
+    },
+    {
+      "title": "Alphabet token purchase transaction",
+      "url": "https://basescan.org/tx/0x907b48d89b3db0990cb8f19aacd872e45afbea778fb18dcd9c9d7b52056e59f3"
+    },
+    {
+      "title": "Base stock tokens and product considerations",
+      "url": "https://brand.base.org/stocks"
+    },
+    {
+      "title": "NVIDIA fiscal Q2 2027 financial results",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027"
+    },
+    {
+      "title": "NVIDIA CUDA platform and developer tools",
+      "url": "https://developer.nvidia.com/cuda"
+    },
+    {
+      "title": "NVIDIA fiscal Q2 2027 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
+    },
+    {
+      "title": "Apple fiscal Q3 2026 financial results",
+      "url": "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/"
+    },
+    {
+      "title": "Apple fiscal Q3 2026 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm"
+    },
+    {
+      "title": "Alphabet Q2 2026 financial results",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm"
+    },
+    {
+      "title": "Alphabet Q2 2026 Form 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm"
     }
   ],
-  "xPost": "Bitcoin traded near $76,900, down 1.0% over 24 hours, while Ether fell 1.5% to about $2,475. The broader crypto market declined 1.84% to $2.7 trillion. Bitcoin remained below its roughly $79,530 24-hour high, with a 57.2% share of total market value. The retreat was broader than the two largest assets: total capitalization fell faster than either BTC or ETH.\n\nUS crypto custody policy is moving toward another proposal. SEC Chairman Paul Atkins said he has asked staff to develop rules that could let investment advisers custody crypto themselves or use state trust companies, subject to conditions. He also urged Congress to advance the CLARITY Act. More custody options could help funds handle assets that lack qualified third-party providers. These remain policy plans, with their practical scope dependent on the eventual rules.\n\nCoinEx announced an orderly shutdown, citing weaker trading activity and liquidity alongside rising regulatory and compliance costs. Spot trading ends September 29, when the exchange begins processing remaining non-USDT assets. The final withdrawal deadline is December 22. Those are different deadlines: customers who want assets returned in their original form need to act before the September cutoff. CoinEx Wallet and CoinEx Vault are separate services and remain operational.\n\nS&P Global announced a strategic investment in crypto data provider Kaiko through its venture arm, as part of a Series B extension. The investment deepens an existing partnership covering data, indices and onchain infrastructure. Reliable pricing and benchmarks are necessary for institutions to value assets, manage risk and build investment products. This is a concrete commitment to that infrastructure, although it does not establish how much new institutional capital will enter crypto markets.\n\nOur two wallets total about $123,500: $12,200 in the active treasury and $111,300 in the cold Safe. That is roughly $350 lower, or 0.29%, than the previous comparable snapshot. The Safe still holds 26.74 million ARC, worth $93,600 and representing about 76% of the combined portfolio before counting ARC inside pools. Both Aerodrome liquidity positions visibly contain WETH and ARC and together are worth about $15,100.\n\ncbETH is the largest treasury holding at about $4,500. Treasury ETH increased from 0.2904 to 0.3748 ETH. Its displayed GOOGLc, AAPLc and NVDAc balances together are worth about $1,500. Across both Aave accounts and Fluid, visible USDC debt totals about $3,920. Aave health factors eased from 3.11 to 3.08 in the treasury and from 2.08 to 2.05 in the Safe. Fluid has only about $200 of net value, but its 1.08 health factor leaves a narrow liquidation buffer.",
+  "xPost": "Crypto markets decline, custody plans advance, and the treasury adds NVIDIA, Apple and Alphabet\n\nBitcoin traded near $76,900, down 1.0% over 24 hours, while Ether fell 1.5% to about $2,475. The broader crypto market declined 1.84% to $2.7 trillion. Bitcoin remained below its roughly $79,530 24-hour high, with a 57.2% share of total market value. The retreat was broader than the two largest assets: total capitalization fell faster than either BTC or ETH.\n\nUS crypto custody policy is moving toward another proposal. SEC Chairman Paul Atkins said he has asked staff to develop rules that could let investment advisers custody crypto themselves or use state trust companies, subject to conditions. He also urged Congress to advance the CLARITY Act. More custody options could help funds handle assets that lack qualified third-party providers. These remain policy plans, with their practical scope dependent on the eventual rules.\n\nCoinEx announced an orderly shutdown, citing weaker trading activity and liquidity alongside rising regulatory and compliance costs. Spot trading ends September 29, when the exchange begins processing remaining non-USDT assets. The final withdrawal deadline is December 22. Those are different deadlines: customers who want assets returned in their original form need to act before the September cutoff. CoinEx Wallet and CoinEx Vault are separate services and remain operational.\n\nS&P Global announced a strategic investment in crypto data provider Kaiko through its venture arm, as part of a Series B extension. The investment deepens an existing partnership covering data, indices and onchain infrastructure. Reliable pricing and benchmarks are necessary for institutions to value assets, manage risk and build investment products. This is a concrete commitment to that infrastructure, although it does not establish how much new institutional capital will enter crypto markets.\n\nOur two wallets total about $123,500: $12,200 in the active treasury and $111,300 in the cold Safe. That is roughly $350 lower, or 0.29%, than the previous comparable snapshot. The Safe still holds 26.74 million ARC, worth $93,600 and representing about 76% of the combined portfolio before counting ARC inside pools. Both Aerodrome liquidity positions visibly contain WETH and ARC and together are worth about $15,100.\n\ncbETH is the largest treasury holding at about $4,500. Treasury ETH increased from 0.2904 to 0.3748 ETH. Its displayed GOOGLc, AAPLc and NVDAc balances together are worth about $1,500. Across both Aave accounts and Fluid, visible USDC debt totals about $3,920. Aave health factors eased from 3.11 to 3.08 in the treasury and from 2.08 to 2.05 in the Safe. Fluid has only about $200 of net value, but its 1.08 health factor leaves a narrow liquidation buffer.\n\nThe completed purchases allocated 500 USDC to NVDAc, 500 USDC to AAPLc and 519.36 USDC to GOOGLc, totaling 1,519.36 USDC excluding ETH gas. These funds were unborrowed and available for long-term investment. About 183.05 USDC remained in the treasury wallet, alongside ETH for gas.\n\nNVIDIA supplies the most direct exposure to AI infrastructure spending. Its GPUs and CUDA software tools give customers an integrated platform for building and running applications, which can encourage repeat demand. Data Center revenue reached $89 billion in fiscal Q2 2027, ended July 26. Continued adoption could sustain growth, but customer spending can slow and power constraints can delay deployments. NVIDIA is not a low-risk holding.\n\nApple adds a consumer business built around devices and services. Its record active-device base in the June quarter creates opportunities for replacement purchases and continued service spending. That relationship can generate revenue beyond the initial hardware sale. The thesis depends on customers continuing to find upgrades and services worthwhile; longer replacement cycles or restrictions on App Store economics could weaken growth and profitability.\n\nAlphabet adds advertising and enterprise computing exposure. Search and YouTube connect businesses with customers, while Google Cloud generated $24.8 billion in revenue in the quarter ended June 30. AI could improve those products and expand demand for cloud services. The difficult part is converting heavy infrastructure spending into lasting cash returns. Competing AI services could also divert searches and weaken the advertising economics funding that investment.\n\nFor this portfolio, the investment case is a small allocation to businesses with established customers and several paths to long-term earnings growth. Their quality alone does not establish that these entry prices were attractive. Strong operating results can still produce disappointing investment returns when expectations are too high, and AI adoption does not guarantee stock gains.\n\nThe roughly equal dollar allocations spread this investment across companies without equalizing risk. All three share technology, AI and interest-rate exposure, so they can fall together. ARC still dominates the combined portfolio, leaving broad diversification limited. The token wrappers also introduce issuer, custody and trading-liquidity risks, with rights that vary by product and venue.",
   "positionSnapshot": {
     "observedAt": "2026-09-15T12:02:02.905Z",
     "source": "Rendered public DeBank pages in installed Microsoft Edge",
@@ -383,7 +433,7 @@
           {
             "symbol": "ETH",
             "tokenId": "eth",
-            "amount": 0.00003485,
+            "amount": 3.485e-05,
             "usdValue": 0.09,
             "role": "wallet"
           }
@@ -402,7 +452,7 @@
           {
             "symbol": "USDC",
             "tokenId": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-            "amount": 0.000019,
+            "amount": 1.9e-05,
             "usdValue": null,
             "role": "wallet"
           }
@@ -635,7 +685,7 @@
           {
             "symbol": "USDC",
             "tokenId": null,
-            "amount": 0.000001,
+            "amount": 1e-06,
             "usdValue": null,
             "role": "vault"
           }
@@ -1119,7 +1169,7 @@
           {
             "symbol": "ETH",
             "tokenId": "eth",
-            "amount": 0.00003485,
+            "amount": 3.485e-05,
             "usdValue": 0.09,
             "role": "wallet"
           }
@@ -1128,7 +1178,7 @@
           {
             "symbol": "ETH",
             "tokenId": "eth",
-            "amount": 0.00003485,
+            "amount": 3.485e-05,
             "usdValue": 0.09,
             "role": "wallet"
           }
@@ -1137,11 +1187,11 @@
           {
             "symbol": "ETH",
             "tokenId": "eth",
-            "amount": 0.00003485,
+            "amount": 3.485e-05,
             "usdValue": 0.09,
             "role": "wallet",
-            "previousAmount": 0.00003485,
-            "currentAmount": 0.00003485,
+            "previousAmount": 3.485e-05,
+            "currentAmount": 3.485e-05,
             "amountDelta": 0,
             "amountPercentageDelta": 0,
             "previousUSD": 0.09,
@@ -1162,7 +1212,7 @@
           {
             "symbol": "USDC",
             "tokenId": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-            "amount": 0.000019,
+            "amount": 1.9e-05,
             "usdValue": null,
             "role": "wallet"
           }
@@ -1171,7 +1221,7 @@
           {
             "symbol": "USDC",
             "tokenId": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-            "amount": 0.000019,
+            "amount": 1.9e-05,
             "usdValue": null,
             "role": "wallet"
           }
@@ -1180,11 +1230,11 @@
           {
             "symbol": "USDC",
             "tokenId": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
-            "amount": 0.000019,
+            "amount": 1.9e-05,
             "usdValue": null,
             "role": "wallet",
-            "previousAmount": 0.000019,
-            "currentAmount": 0.000019,
+            "previousAmount": 1.9e-05,
+            "currentAmount": 1.9e-05,
             "amountDelta": 0,
             "amountPercentageDelta": 0,
             "previousUSD": null,
@@ -1333,7 +1383,7 @@
           {
             "symbol": "USDC",
             "tokenId": null,
-            "amount": 0.000001,
+            "amount": 1e-06,
             "usdValue": null,
             "role": "vault"
           },
@@ -1377,7 +1427,7 @@
           {
             "symbol": "USDC",
             "tokenId": null,
-            "amount": 0.000001,
+            "amount": 1e-06,
             "usdValue": null,
             "role": "vault"
           },
@@ -1955,7 +2005,7 @@
           {
             "symbol": "USDC",
             "tokenId": null,
-            "amount": 0.000001,
+            "amount": 1e-06,
             "usdValue": null,
             "role": "vault"
           }
@@ -2308,6 +2358,16 @@
       }
     ],
     "editorialChecks": {
+      "originalDailyReportPreserved": true,
+      "purchaseRationaleAdded": true,
+      "companyPrimarySourcesChecked": true,
+      "noLinksInXPost": true,
+      "noEmDash": true,
+      "fullCoverageInXPost": true,
+      "wordCount": 765,
+      "addedWordCount": 349
+    },
+    "originalDailyEditorialChecks": {
       "marketPicture": true,
       "distinctDevelopments": 3,
       "proportionatePortfolioCoverage": true,
@@ -2316,6 +2376,66 @@
       "fullCoverageInXPost": true,
       "wordCount": 416,
       "marketNewsWordShare": 0.6538461538461539
+    },
+    "purchaseReview": {
+      "asOfDate": "2026-09-15",
+      "businessMetricPeriods": {
+        "NVIDIA": "Fiscal Q2 2027 ended 2026-07-26",
+        "Apple": "Fiscal Q3 2026 ended 2026-06-27",
+        "Alphabet": "Q2 2026 ended 2026-06-30"
+      },
+      "valuationConclusion": "No assertion that entry prices were attractive; no valuation analysis performed."
     }
+  },
+  "updatedAt": "2026-09-15T12:39:36.593Z",
+  "revision": {
+    "type": "purchase-rationale",
+    "updatedAt": "2026-09-15T12:39:36.593Z",
+    "originalPublishedAt": "2026-09-15T12:09:30.024Z",
+    "originalParagraphsPreserved": 6,
+    "addedParagraphs": 6,
+    "writerModel": "gpt-6-astra",
+    "writerReasoningEffort": "low"
+  },
+  "tradeEvidence": {
+    "observedAt": "2026-09-15T12:01:11.574Z",
+    "wallet": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9",
+    "totalSpentUSDC": 1519.364427,
+    "costExcludes": "ETH gas",
+    "transactions": [
+      {
+        "hash": "0x907b48d89b3db0990cb8f19aacd872e45afbea778fb18dcd9c9d7b52056e59f3",
+        "url": "https://basescan.org/tx/0x907b48d89b3db0990cb8f19aacd872e45afbea778fb18dcd9c9d7b52056e59f3",
+        "timestamp": "2026-09-15T11:57:57.000000Z",
+        "symbol": "GOOGLC",
+        "token": "0xb2000000000000000000002D0BA3164cc74f58B7",
+        "tokenAmount": 1.49552491,
+        "spentUSDC": 519.364427,
+        "result": "success",
+        "officialContractMatch": true
+      },
+      {
+        "hash": "0xcef2fef73ab6c95225cb5e4926c29399d313f2ea703b9efa737883d9c7c41aa7",
+        "url": "https://basescan.org/tx/0xcef2fef73ab6c95225cb5e4926c29399d313f2ea703b9efa737883d9c7c41aa7",
+        "timestamp": "2026-09-15T11:57:21.000000Z",
+        "symbol": "AAPLC",
+        "token": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+        "tokenAmount": 1.50572115,
+        "spentUSDC": 500,
+        "result": "success",
+        "officialContractMatch": true
+      },
+      {
+        "hash": "0x5cac486d939533faa4548266561ea6acdcd06fc64a7799626e40d02ea36a07e4",
+        "url": "https://basescan.org/tx/0x5cac486d939533faa4548266561ea6acdcd06fc64a7799626e40d02ea36a07e4",
+        "timestamp": "2026-09-15T11:56:43.000000Z",
+        "symbol": "NVDAC",
+        "token": "0xb20000000000000000000078ee7ce2fE4908108C",
+        "tokenAmount": 2.34891675,
+        "spentUSDC": 500,
+        "result": "success",
+        "officialContractMatch": true
+      }
+    ]
   }
 }
