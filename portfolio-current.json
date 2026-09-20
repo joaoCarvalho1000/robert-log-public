@@ -1,7 +1,7 @@
 {
   "source": "DeBank public profile pages",
-  "verifiedAt": "2026-09-20T15:37:09.617Z",
-  "totalPortfolioUSD": 137609,
+  "verifiedAt": "2026-09-20T21:36:51.591Z",
+  "totalPortfolioUSD": 139020,
   "wallets": {
     "activeTreasury": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
     "coldStorageSafe": "0x3e33Be1294d66D8B468407416f2DA777802a531d"
@@ -12,75 +12,75 @@
     "coldStorageSafeUrl": "https://debank.com/profile/0x3e33Be1294d66D8B468407416f2DA777802a531d"
   },
   "reconciliation": {
-    "walletBalancesUSD": 114245,
-    "productivePositionsUSD": 23364,
-    "reportedNetPortfolioUSD": 137609
+    "walletBalancesUSD": 115403,
+    "productivePositionsUSD": 23617,
+    "reportedNetPortfolioUSD": 139020
   },
   "activeTreasury": {
-    "walletUSD": 8250,
-    "defiUSD": 4602,
-    "totalUSD": 12852,
+    "walletUSD": 8348,
+    "defiUSD": 4650,
+    "totalUSD": 12998,
     "tokens": [
       {
         "symbol": "cbETH",
         "balance": 1.582,
-        "balanceUSD": 4679.68,
+        "balanceUSD": 4731.74,
         "network": "Base"
       },
       {
         "symbol": "ETH",
         "balance": 0.3748,
-        "balanceUSD": 973.88,
+        "balanceUSD": 983.48,
         "network": "Base"
       },
       {
         "symbol": "UP",
         "balance": 3527730.9625,
-        "balanceUSD": 851.13,
+        "balanceUSD": 884.9,
         "network": "Base"
       },
       {
         "symbol": "GOOGLc",
         "balance": 1.4955,
-        "balanceUSD": 522.56,
+        "balanceUSD": 523.4,
         "network": "Base"
       },
       {
         "symbol": "NVDAc",
         "balance": 2.3489,
-        "balanceUSD": 518.7,
+        "balanceUSD": 519.75,
         "network": "Base"
       },
       {
         "symbol": "AAPLc",
         "balance": 1.5057,
-        "balanceUSD": 502.94,
+        "balanceUSD": 503.39,
         "network": "Base"
       },
       {
         "symbol": "USDC",
         "balance": 183.0522,
-        "balanceUSD": 183.11,
+        "balanceUSD": 183.09,
         "network": "Base"
       }
     ],
     "apps": [
       {
         "name": "Aave V3",
-        "balanceUSD": 2901,
+        "balanceUSD": 2940,
         "network": "Base",
         "type": "Lending",
-        "healthFactor": 3.22
+        "healthFactor": 3.25
       },
       {
         "name": "Aerodrome",
-        "balanceUSD": 745,
+        "balanceUSD": 753,
         "network": "Base",
         "type": "Liquidity Pool"
       },
       {
         "name": "Hyperliquid",
-        "balanceUSD": 569,
+        "balanceUSD": 571,
         "network": "Hyperliquid",
         "type": "Yield"
       },
@@ -111,38 +111,38 @@
       }
     ],
     "hyperliquid": {
-      "accountValue": 569,
+      "accountValue": 571,
       "positions": []
     },
-    "change24h": -1.03
+    "change24h": 1.14
   },
   "coldStorage": {
-    "walletUSD": 105995,
-    "defiUSD": 18762,
-    "totalUSD": 124757,
+    "walletUSD": 107055,
+    "defiUSD": 18967,
+    "totalUSD": 126022,
     "tokens": [
       {
         "symbol": "ARC",
         "balance": 26740808.9665,
-        "balanceUSD": 105544.72,
+        "balanceUSD": 106599.66,
         "network": "Base"
       },
       {
         "symbol": "ETH",
         "balance": 0.1399,
-        "balanceUSD": 363.67,
+        "balanceUSD": 367.26,
         "network": "Base"
       },
       {
         "symbol": "WETH",
         "balance": 0.0276,
-        "balanceUSD": 71.64,
+        "balanceUSD": 72.35,
         "network": "Base"
       },
       {
         "symbol": "UP",
         "balance": 61456.1863,
-        "balanceUSD": 14.83,
+        "balanceUSD": 15.42,
         "network": "Base"
       },
       {
@@ -161,19 +161,19 @@
     "apps": [
       {
         "name": "Aerodrome",
-        "balanceUSD": 15725,
+        "balanceUSD": 15881,
         "network": "Base",
         "type": "Liquidity Pool"
       },
       {
         "name": "Aave V3",
-        "balanceUSD": 3037,
+        "balanceUSD": 3086,
         "network": "Base",
         "type": "Lending",
-        "healthFactor": 2.15
+        "healthFactor": 2.18
       }
     ],
     "hyperliquid": null,
-    "change24h": -0.95
+    "change24h": 1.01
   }
 }
