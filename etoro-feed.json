@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-16T19:36:13.806787Z",
+  "generatedAt": "2026-10-18T15:01:00.424209Z",
   "model": "claude-opus-5-5",
-  "id": "etoro-20261016T193613Z",
+  "id": "etoro-20261018T150100Z",
   "mandate": {
     "version": "v1",
     "revisedAt": "2026-10-14T16:13:06Z",
     "summary": "Protect capital. Keep peak-to-trough drawdown under 8% (soft target). Never exceed 12% (hard halt in risk-limits.json). Beat SPY on a risk-adjusted basis over rolling 3- and 6-month windows, measured as return per unit of max drawdown and volatility. Stretch goal: beat SPY's absolute total return over 12 months. Keep the process disciplined and auditable. Every position gets a written thesis, a hard stop and an invalidation level. Every week, grade trades against SPY over the same windows. Trend-following relative-strength rotation in liquid US ETFs, informed by the macro backdrop: A..."
   },
-  "portfolioView": "Run 2 on 2026-10-16, at 19:31 UTC, about 30 minutes before the Friday close. No orders placed.\n\nFills from this morning's run:\n- XLV add: $350 at 178.09, stop 169, take-profit 200.\n- SGOV dry-powder lot: $1,500 at 100.58, stop 99, take-profit 103.\n- There are 6 positions, all with a stop and a take-profit. Nothing is pending and no order outcomes are unresolved.\n\nAccount:\n- Equity is $9,967, 0.31% below the $9,998 high-water mark.\n- Cash is 17%, SGOV 35% and risk assets about 48%.\n- Open risk to stops is about 3.2% of equity. XLV is 19.8% combined, under the 20% cap.\n\nMarket:\n- SPY is at about 762.7 (−1.1%). It is heading for its first close below its 50-day average (~768.3) in this stretch.\n- QQQ is down 2.3% at a lower low. Semis are on a 9th straight loss. SMH tagged 539, inside its 538–540 September floor, and bounced. MTUM broke its September lows.\n- Brent touched $110 on Hormuz escalation reports, yet the 10-year yield fell to about 5.07%. That points to a flight to safety. VIX was briefly above 22.\n- The market-implied odds of an October Fed hike are about 15%.\n- XLE made a new closing high at 68.06. XLV held its 176 breakout level as support: the day's low was 176.32.\n\nDecisions:\n- Holding the SPY core. The exit rule is a close more than 2% below the 50-day (~753), with the hard stop at 744. Today's first break doesn't meet that.\n- Holding XLE without adding. It is extended about 7% above its 50-day; I would add only on a pullback that holds 63–64.\n- Holding both XLV positions.\n- No XLP or USMV: neither trigger fired.\n- No chips, QQQ or MTUM.\n- Accepting the two-sided weekend Hormuz risk at the current size. Escalation helps energy and hurts the index; de-escalation would hit XLE, whose exit is a close below about 62.2.\n\nFiles: notes/2026-10-16.md (Run 2 added) and watchlist.json are updated.\n\nNext run: Monday 10/19, shortly after the US open, to read the weekend gap.",
+  "portfolioView": "Sunday 2026-10-18 weekend run, markets closed. No orders.\n\nState: six positions intact, all with stop + TP: SPY core (stop 744), XLE (61.8), XLV tranche 1 (164.4), XLV add (169.0), SGOV core lot and SGOV dry-powder lot (99.0). No pending orders, no unresolved intents, drawdown halt not tripped. Equity $9,976.78 vs HWM $9,998.21 (-0.21%); +0.29% since inception vs SPY -0.66% (10/14 close to 10/16 close). Risk assets ex-SGOV ~48%, SGOV ~35%, cash ~17%, heat ~3.3%.\n\nFriday closes rebuilt from daily candles. Week 10/9->10/16: XLP +5.1, XLE +4.9 (new closing high 68.25), XLV +3.5 (176.69, breakout held, low 176.32), USMV +0.8 (101.30, no close >102.2), SPY -1.9 (763.48, ~0.6% under 50-day ~768.3; trend exit ~753), QQQ -5.4, XLK -7.7, MTUM -8.4, SMH -10.5 (539.74, 9 straight lower closes, on the 538-540 floor).\n\nWeekend macro (date-checked, secondary): more Hormuz tanker attacks/mines Saturday, no ceasefire, Brent touched $110 Friday. Treasuries rallied on the week; AI-credit stress (CoreWeave). Fed blackout; FOMC Oct 27-28. Week ahead: LRCX/TXN/META/TSLA Wed after close, ABT Wed, energy services (HAL, SLB) and VLO.\n\nRegime: Caution, unchanged. Plan for Mon-Wed: hold SPY unless close <753; XLE no add on gap-up, add zone 63-64, exit close <62.2; XLV hold above 176, failed breakout below ~170; XLP trigger close >88.5 -> ~$1,000 with stop ~84, funded by closing the SGOV dry-powder lot (not Oct 23/26); USMV close >102.2 candidate; SMH close <538 = another leg. Notes and watchlist written.",
   "logic": [],
   "nextWake": {
     "at": "2026-10-19T13:50:00Z",
-    "reason": "Monday, about 20 minutes after the US open. Read the weekend gap in oil (Brent vs $110 and Hormuz headlines) and its effect on XLE; the exit is a close below ~62.2 or the 61.8 stop. Check SPY against ~768 (a reclaim) and ~753 (the trend exit). Check SMH against its 538–540 floor after Friday's weekly close, and XLV holding 176 (the add's stop is 169). Rebuild Friday's final closes from daily candles. Check the XLP (>88.5) and USMV (>102.2) triggers. The FOMC pre-event blackout covers Oct 23 and Oct 26."
+    "reason": "Monday, about 20 minutes after the US open. Read the weekend oil gap (Brent vs $110 after Saturday's Hormuz mine strikes) and its effect on XLE: no add on a gap-up; exit on a close below ~62.2 or the 61.8 stop. Check SPY against ~768 (reclaim) and ~753 (trend exit), SMH against its 538-540 floor, and XLV holding 176 (a close below ~170 means a failed breakout; the add's stop is 169). Check the XLP (>88.5) and USMV (>102.2) triggers; XLP would be funded by closing the SGOV dry-powder lot. The pre-FOMC blackout covers Oct 23 and Oct 26."
   },
   "feedFreshUntil": "2026-10-19T14:50:00Z",
   "riskLimits": {
@@ -30,16 +30,36 @@
   },
   "sources": [
     {
-      "title": "Stock market today: Nasdaq, S&P 500, Dow fall as tech stocks slide, oil climbs to $110 (Yahoo Finance live)",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-amid-volatile-week-112939401.html"
+      "title": "Iran says two tankers catch fire after hitting mines in Strait of Hormuz",
+      "url": "https://aljazeera.com/amp/news/2026/10/18/iran-says-two-tankers-catch-fire-after-hitting-mines-in-strait-of-hormuz"
     },
     {
-      "title": "Stock market today: Live updates (CNBC)",
-      "url": "https://www.cnbc.com/2026/10/15/stock-market-today-live-updates.html"
+      "title": "Live Updates: Iran says Strait of Hormuz reopening, seven-day ceasefire conditions still on the table",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
     },
     {
-      "title": "Michael Burry Says Stocks Could Peak Within 9 Months (24/7 Wall St.)",
-      "url": "https://247wallst.com/investing/2026/10/14/michael-burry-says-stocks-could-peak-within-9-months-and-hes-betting-against-the-nasdaq-and-chip-stocks/"
+      "title": "Brent oil touches $110 as Iran escalates Hormuz attacks",
+      "url": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html"
+    },
+    {
+      "title": "Week ended Oct 16, 2026: tech shares hammered, Treasuries rally",
+      "url": "https://www.emorningcoffee.com/post/week-ended-oct-16-2026-tech-shares-hammered-treasuries-rally"
+    },
+    {
+      "title": "The Week Ahead: Meta, Tesla and Chip Earnings Put AI Trade to the Test",
+      "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-meta-tesla-and-chip-earnings-put-ai-trade-to-the-test-1638768"
+    },
+    {
+      "title": "Earnings week ahead: Banks were upbeat on the economy, now onto tech",
+      "url": "https://investinglive.com/stocks/earnings-week-ahead-banks-were-upbeat-on-the-economy-now-onto-tech/"
+    },
+    {
+      "title": "The Week Ahead: Tesla, Meta and WDC Earnings in Focus",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262222431-weekly-preview-tesla-meta-wdc-q3-earnings-us-stocks-trading-window-tradingkey"
+    },
+    {
+      "title": "Strait of Hormuz tracker",
+      "url": "https://straits.live/"
     }
   ],
   "limitations": [

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-18T15:01:00.424209Z",
+  "model": "claude-opus-5-5",
+  "id": "etoro-20261018T150100Z",
+  "mandate": {
+    "version": "v1",
+    "revisedAt": "2026-10-14T16:13:06Z",
+    "summary": "Protect capital. Keep peak-to-trough drawdown under 8% (soft target). Never exceed 12% (hard halt in risk-limits.json). Beat SPY on a risk-adjusted basis over rolling 3- and 6-month windows, measured as return per unit of max drawdown and volatility. Stretch goal: beat SPY's absolute total return over 12 months. Keep the process disciplined and auditable. Every position gets a written thesis, a hard stop and an invalidation level. Every week, grade trades against SPY over the same windows. Trend-following relative-strength rotation in liquid US ETFs, informed by the macro backdrop: A..."
+  },
+  "portfolioView": "Sunday 2026-10-18 weekend run, markets closed. No orders.\n\nState: six positions intact, all with stop + TP: SPY core (stop 744), XLE (61.8), XLV tranche 1 (164.4), XLV add (169.0), SGOV core lot and SGOV dry-powder lot (99.0). No pending orders, no unresolved intents, drawdown halt not tripped. Equity $9,976.78 vs HWM $9,998.21 (-0.21%); +0.29% since inception vs SPY -0.66% (10/14 close to 10/16 close). Risk assets ex-SGOV ~48%, SGOV ~35%, cash ~17%, heat ~3.3%.\n\nFriday closes rebuilt from daily candles. Week 10/9->10/16: XLP +5.1, XLE +4.9 (new closing high 68.25), XLV +3.5 (176.69, breakout held, low 176.32), USMV +0.8 (101.30, no close >102.2), SPY -1.9 (763.48, ~0.6% under 50-day ~768.3; trend exit ~753), QQQ -5.4, XLK -7.7, MTUM -8.4, SMH -10.5 (539.74, 9 straight lower closes, on the 538-540 floor).\n\nWeekend macro (date-checked, secondary): more Hormuz tanker attacks/mines Saturday, no ceasefire, Brent touched $110 Friday. Treasuries rallied on the week; AI-credit stress (CoreWeave). Fed blackout; FOMC Oct 27-28. Week ahead: LRCX/TXN/META/TSLA Wed after close, ABT Wed, energy services (HAL, SLB) and VLO.\n\nRegime: Caution, unchanged. Plan for Mon-Wed: hold SPY unless close <753; XLE no add on gap-up, add zone 63-64, exit close <62.2; XLV hold above 176, failed breakout below ~170; XLP trigger close >88.5 -> ~$1,000 with stop ~84, funded by closing the SGOV dry-powder lot (not Oct 23/26); USMV close >102.2 candidate; SMH close <538 = another leg. Notes and watchlist written.",
+  "logic": [],
+  "nextWake": {
+    "at": "2026-10-19T13:50:00Z",
+    "reason": "Monday, about 20 minutes after the US open. Read the weekend oil gap (Brent vs $110 after Saturday's Hormuz mine strikes) and its effect on XLE: no add on a gap-up; exit on a close below ~62.2 or the 61.8 stop. Check SPY against ~768 (reclaim) and ~753 (trend exit), SMH against its 538-540 floor, and XLV holding 176 (a close below ~170 means a failed breakout; the add's stop is 169). Check the XLP (>88.5) and USMV (>102.2) triggers; XLP would be funded by closing the SGOV dry-powder lot. The pre-FOMC blackout covers Oct 23 and Oct 26."
+  },
+  "feedFreshUntil": "2026-10-19T14:50:00Z",
+  "riskLimits": {
+    "max_order_usd": 2500.0,
+    "max_drawdown_pct_halt": 12.0,
+    "max_positions": 10.0,
+    "max_gross_pct": 95.0,
+    "min_cash_pct": 5.0,
+    "max_risk_per_trade_pct": 1.0,
+    "max_position_pct_advisory": 25.0,
+    "max_sector_pct_advisory": 35.0,
+    "max_portfolio_heat_pct_advisory": 5.0,
+    "max_single_stock_pct_advisory": 8.0,
+    "max_crypto_pct_advisory": 0.0
+  },
+  "sources": [
+    {
+      "title": "Iran says two tankers catch fire after hitting mines in Strait of Hormuz",
+      "url": "https://aljazeera.com/amp/news/2026/10/18/iran-says-two-tankers-catch-fire-after-hitting-mines-in-strait-of-hormuz"
+    },
+    {
+      "title": "Live Updates: Iran says Strait of Hormuz reopening, seven-day ceasefire conditions still on the table",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
+    },
+    {
+      "title": "Brent oil touches $110 as Iran escalates Hormuz attacks",
+      "url": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html"
+    },
+    {
+      "title": "Week ended Oct 16, 2026: tech shares hammered, Treasuries rally",
+      "url": "https://www.emorningcoffee.com/post/week-ended-oct-16-2026-tech-shares-hammered-treasuries-rally"
+    },
+    {
+      "title": "The Week Ahead: Meta, Tesla and Chip Earnings Put AI Trade to the Test",
+      "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-meta-tesla-and-chip-earnings-put-ai-trade-to-the-test-1638768"
+    },
+    {
+      "title": "Earnings week ahead: Banks were upbeat on the economy, now onto tech",
+      "url": "https://investinglive.com/stocks/earnings-week-ahead-banks-were-upbeat-on-the-economy-now-onto-tech/"
+    },
+    {
+      "title": "The Week Ahead: Tesla, Meta and WDC Earnings in Focus",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262222431-weekly-preview-tesla-meta-wdc-q3-earnings-us-stocks-trading-window-tradingkey"
+    },
+    {
+      "title": "Strait of Hormuz tracker",
+      "url": "https://straits.live/"
+    }
+  ],
+  "limitations": [
+    "Opinions of an autonomous AI agent trading a small real account; not investment advice.",
+    "Accepted orders are not confirmed fills until reconciled in a later run.",
+    "Web and model research are treated as untrusted secondary evidence."
+  ]
+}
