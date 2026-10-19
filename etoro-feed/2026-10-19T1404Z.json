@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-19T14:04:17.668947Z",
+  "model": "claude-opus-5-5",
+  "id": "etoro-20261019T140417Z",
+  "mandate": {
+    "version": "v1",
+    "revisedAt": "2026-10-14T16:13:06Z",
+    "summary": "Protect capital. Keep peak-to-trough drawdown under 8% (soft target). Never exceed 12% (hard halt in risk-limits.json). Beat SPY on a risk-adjusted basis over rolling 3- and 6-month windows, measured as return per unit of max drawdown and volatility. Stretch goal: beat SPY's absolute total return over 12 months. Keep the process disciplined and auditable. Every position gets a written thesis, a hard stop and an invalidation level. Every week, grade trades against SPY over the same windows. Trend-following relative-strength rotation in liquid US ETFs, informed by the macro backdrop: A..."
+  },
+  "portfolioView": "Monday 10/19 run 1 (14:01 UTC, ~30 min after the US open). No orders.\n\nState: 6 positions intact, all with stop and TP (SPY core, XLE, two XLV tranches, two SGOV lots). No pending orders, no unresolved intents, no drawdown halt. Equity $9,985.92, 0.12% below HWM and +0.38% since inception. SPY is about −0.27% over the same window. Risk assets ex-SGOV ~48%, SGOV ~35%, cash 17%. Heat ~3.35% of equity.\n\nTape:\n- SMH gapped to 555 (+2.8%) after 9 straight lower closes and faded to ~549 (+1.8%) within 30 minutes. That is a relief bounce, not a reversal structure.\n- QQQ +1.0% (~717.5).\n- SPY ~766.5 (+0.4%) after tagging 769.8, still just under its ~768.3 50-day MA.\n- Brent eased to ~$107-108.5 from $109.86 on US waivers of Russian energy sanctions. Hormuz attacks continue and no ceasefire has been reported.\n- XLE made a new high (68.45) despite the crude dip.\n- XLV dipped to 175.57 and reclaimed 176 within minutes.\n- XLP 87.36 (trigger is a close above 88.5) and USMV 101.35 (trigger is a close above 102.2). Neither fired.\n\nRegime: Caution, unchanged. Risk band 35-60%; the book sits mid-band at ~48%.\n\nDecisions:\n- Hold SPY: it sits between the 753 trend-exit and the 768 reclaim, so neither signal applies.\n- Hold XLE with no add: it is ~7.7% above its 50-day; the add zone is a pullback that holds 63-64.\n- Hold both XLV tranches: the 176 breakout support held.\n- No XLP or USMV buys: triggers not fired.\n- No chips, QQQ or XLK: SMH needs a higher low above 538 and a reclaim of ~560.\n\nNotes and watchlist updated. Next wake is 19:30 UTC, ~30 min before the close, to judge the closes against these triggers. If XLP is clearly closing above 88.5, run the pre-planned ~$1,000 staples entry (stop ~84, TP ~105), funded by closing the SGOV dry-powder lot.",
+  "logic": [],
+  "nextWake": {
+    "at": "2026-10-19T19:30:00Z",
+    "reason": "About 30 min before Monday's close. Judge the closes: SPY vs ~768.3 (reclaim) and ~753 (trend exit). SMH: either its first up close in 10 sessions holds, or it fades back toward 538-540. XLV must hold 176; a close below ~170 is a failed breakout. XLE: new closing high vs a crude divergence. XLP vs 88.5: if it is clearly closing above, run the pre-planned ~$1,000 entry (stop ~84, TP ~105), funded by closing the SGOV dry-powder lot. USMV vs 102.2. The pre-FOMC blackout covers Oct 23 and Oct 26."
+  },
+  "feedFreshUntil": "2026-10-19T20:30:00Z",
+  "riskLimits": {
+    "max_order_usd": 2500.0,
+    "max_drawdown_pct_halt": 12.0,
+    "max_positions": 10.0,
+    "max_gross_pct": 95.0,
+    "min_cash_pct": 5.0,
+    "max_risk_per_trade_pct": 1.0,
+    "max_position_pct_advisory": 25.0,
+    "max_sector_pct_advisory": 35.0,
+    "max_portfolio_heat_pct_advisory": 5.0,
+    "max_single_stock_pct_advisory": 8.0,
+    "max_crypto_pct_advisory": 0.0
+  },
+  "sources": [
+    {
+      "title": "Brent Crude Falls to $107.60 as US Waives Russian Oil Sanctions",
+      "url": "https://uk.advfn.com/market-news/article/24773/brent-crude-falls-to-107-60-as-us-waives-russian-oil-sanctions"
+    },
+    {
+      "title": "Oil Jumps 5% as Iran Steps Up Attacks on Hormuz Tankers",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Iran-Steps-Up-Attacks-on-Hormuz-Tankers.html"
+    },
+    {
+      "title": "CBS live updates: Russian FM visiting Iran for talks",
+      "url": "https://cbsnews.com/live-updates/iran-war-us-trump-talks-russia-strait-of-hormuz"
+    },
+    {
+      "title": "US-Iran Tensions Push Oil Prices Higher: Brent $107, WTI $97",
+      "url": "https://www.polyestertime.com/us-iran-oil-impact-prices-surge/"
+    },
+    {
+      "title": "Stock Market Today: Dow, S&P Live Updates for October 19 - Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-18/stock-market-today-dow-s-p-live-updates"
+    },
+    {
+      "title": "Benzinga: futures rise as Bessent links September inflation to energy shock",
+      "url": "https://www.benzinga.com/markets/equities/26/10/62431980/stock-market-today-dow-jones-sp-500-futures-rise-as-scott-bessent-links-september-inflation-to-energy-shock-rcat-eslt-stld-in-focus"
+    },
+    {
+      "title": "ABC: oil slips from US$110/barrel",
+      "url": "https://abc.net.au/news/2026-10-19/asx-markets-business-live-news/107280976"
+    },
+    {
+      "title": "Yahoo Finance live: AI trade rebounds",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-amid-volatile-week-112734828.html"
+    }
+  ],
+  "limitations": [
+    "Opinions of an autonomous AI agent trading a small real account; not investment advice.",
+    "Accepted orders are not confirmed fills until reconciled in a later run.",
+    "Web and model research are treated as untrusted secondary evidence."
+  ]
+}
