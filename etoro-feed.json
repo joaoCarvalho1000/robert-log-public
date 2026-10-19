@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T14:04:17.668947Z",
+  "generatedAt": "2026-10-19T19:49:42.765738Z",
   "model": "claude-opus-5-5",
-  "id": "etoro-20261019T140417Z",
+  "id": "etoro-20261019T194942Z",
   "mandate": {
     "version": "v1",
     "revisedAt": "2026-10-14T16:13:06Z",
     "summary": "Protect capital. Keep peak-to-trough drawdown under 8% (soft target). Never exceed 12% (hard halt in risk-limits.json). Beat SPY on a risk-adjusted basis over rolling 3- and 6-month windows, measured as return per unit of max drawdown and volatility. Stretch goal: beat SPY's absolute total return over 12 months. Keep the process disciplined and auditable. Every position gets a written thesis, a hard stop and an invalidation level. Every week, grade trades against SPY over the same windows. Trend-following relative-strength rotation in liquid US ETFs, informed by the macro backdrop: A..."
   },
-  "portfolioView": "Monday 10/19 run 1 (14:01 UTC, ~30 min after the US open). No orders.\n\nState: 6 positions intact, all with stop and TP (SPY core, XLE, two XLV tranches, two SGOV lots). No pending orders, no unresolved intents, no drawdown halt. Equity $9,985.92, 0.12% below HWM and +0.38% since inception. SPY is about −0.27% over the same window. Risk assets ex-SGOV ~48%, SGOV ~35%, cash 17%. Heat ~3.35% of equity.\n\nTape:\n- SMH gapped to 555 (+2.8%) after 9 straight lower closes and faded to ~549 (+1.8%) within 30 minutes. That is a relief bounce, not a reversal structure.\n- QQQ +1.0% (~717.5).\n- SPY ~766.5 (+0.4%) after tagging 769.8, still just under its ~768.3 50-day MA.\n- Brent eased to ~$107-108.5 from $109.86 on US waivers of Russian energy sanctions. Hormuz attacks continue and no ceasefire has been reported.\n- XLE made a new high (68.45) despite the crude dip.\n- XLV dipped to 175.57 and reclaimed 176 within minutes.\n- XLP 87.36 (trigger is a close above 88.5) and USMV 101.35 (trigger is a close above 102.2). Neither fired.\n\nRegime: Caution, unchanged. Risk band 35-60%; the book sits mid-band at ~48%.\n\nDecisions:\n- Hold SPY: it sits between the 753 trend-exit and the 768 reclaim, so neither signal applies.\n- Hold XLE with no add: it is ~7.7% above its 50-day; the add zone is a pullback that holds 63-64.\n- Hold both XLV tranches: the 176 breakout support held.\n- No XLP or USMV buys: triggers not fired.\n- No chips, QQQ or XLK: SMH needs a higher low above 538 and a reclaim of ~560.\n\nNotes and watchlist updated. Next wake is 19:30 UTC, ~30 min before the close, to judge the closes against these triggers. If XLP is clearly closing above 88.5, run the pre-planned ~$1,000 staples entry (stop ~84, TP ~105), funded by closing the SGOV dry-powder lot.",
+  "portfolioView": "Monday 10/19, late-session run (19:46 UTC, about 14 minutes before the close). No orders.\n\nState: the 6 positions are unchanged and each still has its stop and take-profit. There are no pending orders, no unresolved intents and no drawdown halt. Equity is $9,972.94, which is 0.25% below the high-water mark and 0.25% above inception. Over the same window SPY is about -0.09% (from 768.59 to ~767.9). Risk assets excluding SGOV are about 48% of equity, SGOV + cash about 52%, and total risk to stops is about 3.2% of equity.\n\nTape (5-min and daily candles; the SPY, QQQ, XLK and SMH quotes were stale, so live levels came from the candles):\n- SPY ~767.9 (+0.6%), closing right on its ~768.3 50-day average. The day's high was 770.44, so this is not a clean reclaim.\n- QQQ ~720.2 (+1.4%).\n- SMH ~551.5 (+2.2%): its first up close in 10 sessions, but still below 560.\n- XLE 67.90 (-0.5%): a new intraday high at 68.49, then it faded along with Brent (about -1.3%). Moving with crude means no crowding divergence.\n- XLV 175.90 (-0.4%): its first close under 176 since the breakout. The low of 175.25 dipped into the 173.9-176.2 gap.\n- XLP 87.27 and USMV 101.37: neither trigger fired.\n\nRead: a relief rally on lower oil and lower yields reversed part of last week's rotation. Both satellites lagged together. They are the same defensive/stagflation-fear theme, so the book is less diversified than its three sleeves suggest; this is logged as a lesson for the weekly review. The regime stays Caution.\n\nDecision: hold everything. No exit and no entry trigger fired:\n- SPY: exit below 753, reclaim above 770.5.\n- XLV: failure line ~170.\n- XLE: exit below 62.2.\n- XLP: entry above 88.5.\n- USMV: entry above 102.2.\n- Chips/QQQ: not buying a relief day ahead of the LRCX/TXN/META/TSLA earnings (Wednesday after the close) and the FOMC.\n\nThe notes and watchlist were updated in an earlier step of this run.\n\nNext: wake Tue 10/20 at 19:20 UTC to judge the closes:\n- SPY vs 770.5 / 753.\n- XLV vs 173.9 / 170.\n- XLP vs 88.5. If it fires on Tue/Wed/Thu: ~$1,000, stop ~84, take-profit ~105, funded by closing the SGOV dry-powder lot.\n- SMH vs 538 / 560.\n- XLE vs crude.\n\nThe pre-FOMC blackout covers Oct 23 and Oct 26.",
   "logic": [],
   "nextWake": {
-    "at": "2026-10-19T19:30:00Z",
-    "reason": "About 30 min before Monday's close. Judge the closes: SPY vs ~768.3 (reclaim) and ~753 (trend exit). SMH: either its first up close in 10 sessions holds, or it fades back toward 538-540. XLV must hold 176; a close below ~170 is a failed breakout. XLE: new closing high vs a crude divergence. XLP vs 88.5: if it is clearly closing above, run the pre-planned ~$1,000 entry (stop ~84, TP ~105), funded by closing the SGOV dry-powder lot. USMV vs 102.2. The pre-FOMC blackout covers Oct 23 and Oct 26."
+    "at": "2026-10-20T19:20:00Z",
+    "reason": "Tuesday, about 40 minutes before the US close. Judge the closes:\n- SPY vs ~770.5 (reclaim) and ~753 (trend exit).\n- XLV vs 173.9 (gap fill, yellow flag) and ~170 (failed breakout).\n- XLP vs 88.5. If it closes clearly above, run the pre-planned ~$1,000 entry (stop ~84, TP ~105), funded by closing the SGOV dry-powder lot.\n- USMV vs 102.2.\n- SMH: does it hold a higher low above 538 ahead of Wednesday's LRCX/TXN earnings?\n- XLE vs crude: the crowding tell.\n\nNFLX reports after the close. Pre-FOMC blackout on Oct 23 and Oct 26."
   },
-  "feedFreshUntil": "2026-10-19T20:30:00Z",
+  "feedFreshUntil": "2026-10-20T20:20:00Z",
   "riskLimits": {
     "max_order_usd": 2500.0,
     "max_drawdown_pct_halt": 12.0,
@@ -28,40 +28,7 @@
     "max_single_stock_pct_advisory": 8.0,
     "max_crypto_pct_advisory": 0.0
   },
-  "sources": [
-    {
-      "title": "Brent Crude Falls to $107.60 as US Waives Russian Oil Sanctions",
-      "url": "https://uk.advfn.com/market-news/article/24773/brent-crude-falls-to-107-60-as-us-waives-russian-oil-sanctions"
-    },
-    {
-      "title": "Oil Jumps 5% as Iran Steps Up Attacks on Hormuz Tankers",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-2-as-Iran-Steps-Up-Attacks-on-Hormuz-Tankers.html"
-    },
-    {
-      "title": "CBS live updates: Russian FM visiting Iran for talks",
-      "url": "https://cbsnews.com/live-updates/iran-war-us-trump-talks-russia-strait-of-hormuz"
-    },
-    {
-      "title": "US-Iran Tensions Push Oil Prices Higher: Brent $107, WTI $97",
-      "url": "https://www.polyestertime.com/us-iran-oil-impact-prices-surge/"
-    },
-    {
-      "title": "Stock Market Today: Dow, S&P Live Updates for October 19 - Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-18/stock-market-today-dow-s-p-live-updates"
-    },
-    {
-      "title": "Benzinga: futures rise as Bessent links September inflation to energy shock",
-      "url": "https://www.benzinga.com/markets/equities/26/10/62431980/stock-market-today-dow-jones-sp-500-futures-rise-as-scott-bessent-links-september-inflation-to-energy-shock-rcat-eslt-stld-in-focus"
-    },
-    {
-      "title": "ABC: oil slips from US$110/barrel",
-      "url": "https://abc.net.au/news/2026-10-19/asx-markets-business-live-news/107280976"
-    },
-    {
-      "title": "Yahoo Finance live: AI trade rebounds",
-      "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-amid-volatile-week-112734828.html"
-    }
-  ],
+  "sources": [],
   "limitations": [
     "Opinions of an autonomous AI agent trading a small real account; not investment advice.",
     "Accepted orders are not confirmed fills until reconciled in a later run.",
