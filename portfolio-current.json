@@ -1,7 +1,7 @@
 {
   "source": "DeBank public profile pages",
-  "verifiedAt": "2026-10-29T21:37:33.309Z",
-  "totalPortfolioUSD": 73165,
+  "verifiedAt": "2026-10-30T21:36:11.578Z",
+  "totalPortfolioUSD": 71474,
   "wallets": {
     "activeTreasury": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
     "coldStorageSafe": "0x3e33Be1294d66D8B468407416f2DA777802a531d"
@@ -12,87 +12,129 @@
     "coldStorageSafeUrl": "https://debank.com/profile/0x3e33Be1294d66D8B468407416f2DA777802a531d"
   },
   "reconciliation": {
-    "walletBalancesUSD": 53766,
-    "productivePositionsUSD": 19399,
-    "reportedNetPortfolioUSD": 73165
+    "walletBalancesUSD": 54082,
+    "productivePositionsUSD": 17392,
+    "reportedNetPortfolioUSD": 71474
   },
   "activeTreasury": {
-    "walletUSD": 5268,
-    "defiUSD": 6916,
-    "totalUSD": 12184,
+    "walletUSD": 6628,
+    "defiUSD": 5224,
+    "totalUSD": 11852,
     "tokens": [
       {
         "symbol": "cbETH",
         "balance": 0.9116,
-        "balanceUSD": 2381.26,
+        "balanceUSD": 2324.2,
         "network": "Base"
       },
       {
         "symbol": "ETH",
-        "balance": 0.6803,
-        "balanceUSD": 1559.33,
+        "balance": 0.6799,
+        "balanceUSD": 1524.25,
         "network": "Base"
       },
       {
         "symbol": "UP",
         "balance": 3444375.7134,
-        "balanceUSD": 582.85,
+        "balanceUSD": 571.51,
+        "network": "Base"
+      },
+      {
+        "symbol": "USDC",
+        "balance": 563.3295,
+        "balanceUSD": 564.01,
+        "network": "Base"
+      },
+      {
+        "symbol": "cbHYPE",
+        "balance": 3.2499,
+        "balanceUSD": 291.81,
         "network": "Base"
       },
       {
         "symbol": "NVDAc",
         "balance": 1.2449,
-        "balanceUSD": 262.72,
+        "balanceUSD": 255.59,
         "network": "Base"
       },
       {
         "symbol": "cbZEC",
         "balance": 0.199,
-        "balanceUSD": 257.07,
+        "balanceUSD": 247.19,
         "network": "Base"
       },
       {
         "symbol": "GOOGLc",
         "balance": 0.7627,
-        "balanceUSD": 215.29,
+        "balanceUSD": 214.55,
         "network": "Base"
       },
       {
-        "symbol": "ARC",
-        "balance": 3029.8162,
-        "balanceUSD": 5.44,
+        "symbol": "eUSD",
+        "balance": 128.1131,
+        "balanceUSD": 127.9,
+        "network": "Base"
+      },
+      {
+        "symbol": "BRLA",
+        "balance": 537.8268,
+        "balanceUSD": 99.96,
+        "network": "Base"
+      },
+      {
+        "symbol": "BRS",
+        "balance": 538.1606,
+        "balanceUSD": 99.47,
+        "network": "Base"
+      },
+      {
+        "symbol": "BRZ",
+        "balance": 545.1397,
+        "balanceUSD": 99.34,
+        "network": "Base"
+      },
+      {
+        "symbol": "wBRL",
+        "balance": 534.737,
+        "balanceUSD": 99.14,
+        "network": "Base"
+      },
+      {
+        "symbol": "BRLV",
+        "balance": 538.102,
+        "balanceUSD": 97.86,
         "network": "Base"
       }
     ],
     "apps": [
       {
+        "name": "Aave V3",
+        "balanceUSD": 2162,
+        "network": "Base",
+        "type": "Lending",
+        "healthFactor": 2.33
+      },
+      {
         "name": "Beefy",
-        "balanceUSD": 3315,
+        "balanceUSD": 1741,
         "network": "Base",
         "type": "DeFi"
       },
       {
-        "name": "Aave V3",
-        "balanceUSD": 2238,
-        "network": "Base",
-        "type": "Lending",
-        "healthFactor": 2.38
-      },
-      {
         "name": "Aerodrome",
-        "balanceUSD": 670,
+        "balanceUSD": 656,
         "network": "Base",
         "type": "Liquidity Pool"
       },
       {
         "name": "Hyperliquid",
-        "balanceUSD": 537,
+        "balanceUSD": 509,
         "network": "Hyperliquid",
         "type": "Yield"
       },
       {
         "name": "Fluid",
-        "balanceUSD": 153,
+        "balanceUSD": 154,
         "network": "Base",
         "type": "Lending",
         "healthFactor": 1.03
@@ -117,44 +159,44 @@
       }
     ],
     "hyperliquid": {
-      "accountValue": 537,
+      "accountValue": 509,
       "positions": []
     },
-    "change24h": -3.24
+    "change24h": -2.72
   },
   "coldStorage": {
-    "walletUSD": 48498,
-    "defiUSD": 12483,
-    "totalUSD": 60981,
+    "walletUSD": 47454,
+    "defiUSD": 12168,
+    "totalUSD": 59622,
     "tokens": [
       {
         "symbol": "ARC",
         "balance": 26740853.954,
-        "balanceUSD": 48019.11,
+        "balanceUSD": 46984.47,
         "network": "Base"
       },
       {
         "symbol": "ETH",
         "balance": 0.1399,
-        "balanceUSD": 320.76,
+        "balanceUSD": 313.72,
         "network": "Base"
       },
       {
         "symbol": "WETH",
         "balance": 0.0303,
-        "balanceUSD": 69.51,
+        "balanceUSD": 67.99,
         "network": "Base"
       },
       {
         "symbol": "UP",
         "balance": 279592.7462,
-        "balanceUSD": 47.31,
+        "balanceUSD": 46.39,
         "network": "Base"
       },
       {
         "symbol": "DAG",
         "balance": 8557.8322,
-        "balanceUSD": 41.63,
+        "balanceUSD": 40.92,
         "network": "Base"
       },
       {
@@ -173,16 +215,16 @@
     "apps": [
       {
         "name": "Aerodrome",
-        "balanceUSD": 10036,
+        "balanceUSD": 9817,
         "network": "Base",
         "type": "Liquidity Pool"
       },
       {
         "name": "Aave V3",
-        "balanceUSD": 2447,
+        "balanceUSD": 2351,
         "network": "Base",
         "type": "Lending",
-        "healthFactor": 1.9
+        "healthFactor": 1.86
       },
       {
         "name": "Merkl",
@@ -192,6 +234,6 @@
       }
     ],
     "hyperliquid": null,
-    "change24h": -3.22
+    "change24h": -2.23
   }
 }
