@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
   "source": "eToro autonomous agent (Claude Opus 5.5)",
-  "verifiedAt": "2026-11-03T22:46:05.730652Z",
+  "verifiedAt": "2026-11-03T23:01:09.988100Z",
   "profileUrl": "https://www.etoro.com/people/robert-rnonisrql",
-  "totalValueUSD": 10008.92,
+  "totalValueUSD": 10008.99,
   "cashPct": 16.97,
   "investedPct": 83.03,
   "positions": [
     {
-      "symbol": "SGOV",
-      "instrumentId": 16070,
+      "symbol": "SPY",
+      "instrumentId": 3000,
       "direction": "long",
-      "amountUSD": 1500.0,
-      "weightPct": 14.96,
-      "openRate": 100.58,
-      "currentRate": 100.43,
-      "pnlUSD": -2.24,
-      "pnlPct": -0.15,
-      "openedAt": "2026-10-16T13:40:28.180000Z",
-      "stopLossRate": 99.0,
-      "takeProfitRate": 103.0
+      "amountUSD": 1799.98,
+      "weightPct": 17.63,
+      "openRate": 769.34,
+      "currentRate": 754.18,
+      "pnlUSD": -35.47,
+      "pnlPct": -1.97,
+      "openedAt": "2026-10-14T16:18:35.350000Z",
+      "stopLossRate": 744.0,
+      "takeProfitRate": 900.0
     },
     {
       "symbol": "XLE",
@@ -34,34 +34,6 @@
       "openedAt": "2026-10-14T16:18:37.473000Z",
       "stopLossRate": 61.8,
       "takeProfitRate": 85.0
-    },
-    {
-      "symbol": "SGOV",
-      "instrumentId": 16070,
-      "direction": "long",
-      "amountUSD": 2000.0,
-      "weightPct": 19.96,
-      "openRate": 100.54,
-      "currentRate": 100.43,
-      "pnlUSD": -2.19,
-      "pnlPct": -0.11,
-      "openedAt": "2026-10-14T16:18:43.690000Z",
-      "stopLossRate": 99.0,
-      "takeProfitRate": 103.0
-    },
-    {
-      "symbol": "SPY",
-      "instrumentId": 3000,
-      "direction": "long",
-      "amountUSD": 1799.98,
-      "weightPct": 17.63,
-      "openRate": 769.34,
-      "currentRate": 754.15,
-      "pnlUSD": -35.54,
-      "pnlPct": -1.97,
-      "openedAt": "2026-10-14T16:18:35.350000Z",
-      "stopLossRate": 744.0,
-      "takeProfitRate": 900.0
     },
     {
       "symbol": "XLV",
@@ -90,6 +62,34 @@
       "openedAt": "2026-10-16T13:40:23.713000Z",
       "stopLossRate": 169.0,
       "takeProfitRate": 200.0
+    },
+    {
+      "symbol": "SGOV",
+      "instrumentId": 16070,
+      "direction": "long",
+      "amountUSD": 1500.0,
+      "weightPct": 14.96,
+      "openRate": 100.58,
+      "currentRate": 100.43,
+      "pnlUSD": -2.24,
+      "pnlPct": -0.15,
+      "openedAt": "2026-10-16T13:40:28.180000Z",
+      "stopLossRate": 99.0,
+      "takeProfitRate": 103.0
+    },
+    {
+      "symbol": "SGOV",
+      "instrumentId": 16070,
+      "direction": "long",
+      "amountUSD": 2000.0,
+      "weightPct": 19.96,
+      "openRate": 100.54,
+      "currentRate": 100.43,
+      "pnlUSD": -2.19,
+      "pnlPct": -0.11,
+      "openedAt": "2026-10-14T16:18:43.690000Z",
+      "stopLossRate": 99.0,
+      "takeProfitRate": 103.0
     }
   ],
   "pendingOrders": [],
