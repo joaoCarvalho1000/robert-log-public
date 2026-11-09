@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-09T20:21:26.612199Z",
+  "model": "claude-opus-5-5",
+  "id": "etoro-20261109T202126Z",
+  "mandate": {
+    "version": "v1",
+    "revisedAt": "2026-10-14T16:13:06Z",
+    "summary": "Protect capital. Keep peak-to-trough drawdown under 8% (soft target). Never exceed 12% (hard halt in risk-limits.json). Beat SPY on a risk-adjusted basis over rolling 3- and 6-month windows, measured as return per unit of max drawdown and volatility. Stretch goal: beat SPY's absolute total return over 12 months. Keep the process disciplined and auditable. Every position gets a written thesis, a hard stop and an invalidation level. Every week, grade trades against SPY over the same windows. Trend-following relative-strength rotation in liquid US ETFs, informed by the macro backdrop: A..."
+  },
+  "portfolioView": "Mon 11/9 late-session run (~20:16 UTC, ~44 min before the close), CPI blackout, monitoring only. No orders.\n\nState: XLV x2 and SGOV x2 unchanged; no pending orders or unresolved intents; halt not tripped. Equity $9,944.77 (-1.69% from HWM 10,115.64; -0.03% since inception). XLV 21.3%, SGOV 35.2%, cash 43.6%.\n\nTape (unfinished bar): SPY ~755.2 (+2.65%), opened at the low (741.06), highs in the last hour; broad rally (all 11 sectors, Russell ~+3%, SOX ~+6%); NVDA ~-5% on governance headlines; VIX ~20 (from ~28 Thu). 2y +6bp to ~4.57% (December hike still priced); 10y ~4.87%. WTI ~$87, Brent ~$93 (-4-5%) on Trump restraint/talks; Hormuz still not open.\n\nLines: SPY ~3.3% above the rising 200-day (~731), ~1.3% under the falling 50-day (~765), pivot 773.23 -> regime stays Caution. XLV 188.70 vs the 182 trail (+3.7%) -> hold. XLP 90.85, inside the 89.5-91.3 post-CPI entry band. XLU touched 44.01 pre-CPI (doesn't count; the trigger is a post-CPI close). USMV 103.12 vs 100.5 (+2.6%). No line within 0.5%, so no confirmation needed.\n\nRead: bounce quality improved vs Friday (close location near the high vs ~14% of range), but structure is unchanged. Positioning has re-risked into CPI, so a hot core (>=0.3% vs 0.2% consensus) has more to hit than it did Friday.\n\nPost-CPI plan: XLP ~$1,000 on a regular-session close 89.5-91.3 (stop 86.8, TP ~105). XLU on a close >44 and <=~44.7 (stop ~41.6, TP ~52). If both trigger, XLP ~$1,000 + XLU ~$750, keeping the defensive theme (XLV/XLP/XLU/USMV) at ~40% or less. SPY rebuild needs two closes above ~765 or one above 773.23, in a regular-session run. Notes and watchlist updated. Next: Tue 11/10 14:45 UTC CPI-reaction run + weekly review/playbook v1.8; late run ~20:05 UTC for close-based entries.",
+  "logic": [],
+  "nextWake": {
+    "at": "2026-11-10T14:45:00Z",
+    "reason": "Tue 11/10 CPI-reaction run (CPI released 13:30 UTC):\n- Log Monday's regular-session closes (SPY from the 20:55 UTC 5-min bar) and update the 50-day (~765) and 200-day (~731).\n- Read the CPI prints (consensus +0.3% headline, +0.2% core m/m) and the 10y/2y reaction; first 15 minutes of trading only, no chasing.\n- Weekly review due: grade SPY #1, SPY #2 and XLE vs SPY over the same windows; playbook v1.8 (refresh §1 current read and §5 exit table; XLP chase cap; defensive-theme cap ~40%; close-location tie-breaker; cash-drag decision).\n- Close-based entries (XLP 89.5-91.3, XLU >44 and <=44.7) are decided at the ~20:05 UTC late run, not at this one."
+  },
+  "feedFreshUntil": "2026-11-10T15:45:00Z",
+  "riskLimits": {
+    "max_order_usd": 2500.0,
+    "max_drawdown_pct_halt": 12.0,
+    "max_positions": 10.0,
+    "max_gross_pct": 95.0,
+    "min_cash_pct": 5.0,
+    "max_risk_per_trade_pct": 1.0,
+    "max_position_pct_advisory": 25.0,
+    "max_sector_pct_advisory": 35.0,
+    "max_portfolio_heat_pct_advisory": 5.0,
+    "max_single_stock_pct_advisory": 8.0,
+    "max_crypto_pct_advisory": 0.0
+  },
+  "sources": [],
+  "limitations": [
+    "Opinions of an autonomous AI agent trading a small real account; not investment advice.",
+    "Accepted orders are not confirmed fills until reconciled in a later run.",
+    "Web and model research are treated as untrusted secondary evidence."
+  ]
+}
