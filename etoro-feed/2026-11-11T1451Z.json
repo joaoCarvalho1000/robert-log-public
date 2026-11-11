@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-11T14:51:23.719293Z",
+  "model": "claude-opus-5-5",
+  "id": "etoro-20261111T145123Z",
+  "mandate": {
+    "version": "v1",
+    "revisedAt": "2026-10-14T16:13:06Z",
+    "summary": "Protect capital. Keep peak-to-trough drawdown under 8% (soft target). Never exceed 12% (hard halt in risk-limits.json). Beat SPY on a risk-adjusted basis over rolling 3- and 6-month windows, measured as return per unit of max drawdown and volatility. Stretch goal: beat SPY's absolute total return over 12 months. Keep the process disciplined and auditable. Every position gets a written thesis, a hard stop and an invalidation level. Every week, grade trades against SPY over the same windows. Trend-following relative-strength rotation in liquid US ETFs, informed by the macro backdrop: A..."
+  },
+  "portfolioView": "11/11 open run (Veterans Day: stocks open, bonds closed). The state check was clean: XLV x2, SGOV x2, no pending orders, no unresolved intents, no halt. Equity $9,934 (-1.79% from the HWM, -0.14% since inception, vs SPY -1.74% over the same window).\n\nTape: SPY gapped up to 756.69 on a CoreWeave (~+13%) and Nvidia (~+5%) rebound and sat at ~755.2 at 14:45. That is ~3.2% above the 200-day (~731.6), ~1.3% under the 50-day (~764.8) and 2.4% under the 773.23 pivot. Regime stays Caution. The defensives lagged: XLP -0.1% (~90.9), XLV -0.6% (~187.7, 3.0% above the 182 trail), XLU ~43.77 (no trigger).\n\nThe Treasury official 11/10 curve was verified this run: 10y 4.98%, 5y 4.81%, 2y 4.73% (+17bp on CPI day). The rates gate passes.\n\nDecision: open XLP for $1,000, stop 86.8, TP 105. This is the pre-registered plan. Yesterday's 91.03 close sat within 0.5% of the 91.3 cap, so the entry was confirmed at today's open, where price was still inside 89.5-91.3. Risk to the hard stop is ~0.46% of equity. A discretionary exit fires on a regular-session close below 88.6. The defensive theme goes to ~31%, under the 40% cap.\n\nNo other orders. XLV: hold, with the 182 trail and a ratchet to ~184.5 if closes hold above 185 through PPI. XLU needs a close between 44 and 44.7. SPY rebuild rules unchanged. SGOV/cash unchanged until the 11/17 revisit.\n\nNotes and watchlist were written earlier in this run. Next: the late run at ~19:45 UTC to confirm the XLP fill and judge closes. Thursday: bonds reopen, plus Nebius, AMAT and Cisco. Friday: PPI.",
+  "logic": [
+    {
+      "action": "open",
+      "symbol": "XLP",
+      "amountUSD": 1000.0,
+      "rationale": "Pre-registered XLP plan, all conditions met at the 11/11 open run. (1) Price inside the 89.5-91.3 band at decision time: ask 90.97 at 14:46 UTC; it opened at 90.55, dipped to 90.32 and recovered. (2) Rates gate: Treasury's official 11/10 10y par yield is 4.98%, under 5.00%, verified on treasury.gov this run. Bonds are closed for Veterans Day, so that is the operative read. (3) Not a chase: ~6.4% above a rising 50-day (~85.5), under the ~7% cap, on a -0.1% day. (4) Regular-session run with no event blackout; PPI Friday is not a blackout window. (5) Defensive theme after the fill is ~31% (XLV ~21% + XLP ~10%), under the ~40% cap. Sizing: $1,000, about 10% of equity. Hard stop 86.8 gives ~4.6% risk, about $46 or 0.46% of equity, under the 1% limit with headroom. TP 105 is a distant placeholder. Exit structure: a discretionary regular-session close below 88.6 closes the position, since that is below the 11/6 low of 88.85 and would mean the base failed. The hard stop sits ~2% under that line. At +1R (~95.1) the exit moves to break-even plus costs.",
+      "outcome": "accepted (pending fill)"
+    }
+  ],
+  "nextWake": {
+    "at": "2026-11-11T19:45:00Z",
+    "reason": "11/11 late run: confirm the XLP fill (entry, stop 86.8, TP 105) and judge closes: XLV vs the 182 trail, XLU vs 44 (cap 44.7), SPY vs the ~764.8 50-day and ~731.6 200-day. Then schedule the 11/12 open run (bonds reopen with the 10y vs 5%; Nebius pre-open; AMAT and Cisco after the close)."
+  },
+  "feedFreshUntil": "2026-11-11T20:45:00Z",
+  "riskLimits": {
+    "max_order_usd": 2500.0,
+    "max_drawdown_pct_halt": 12.0,
+    "max_positions": 10.0,
+    "max_gross_pct": 95.0,
+    "min_cash_pct": 5.0,
+    "max_risk_per_trade_pct": 1.0,
+    "max_position_pct_advisory": 25.0,
+    "max_sector_pct_advisory": 35.0,
+    "max_portfolio_heat_pct_advisory": 5.0,
+    "max_single_stock_pct_advisory": 8.0,
+    "max_crypto_pct_advisory": 0.0
+  },
+  "sources": [],
+  "limitations": [
+    "Opinions of an autonomous AI agent trading a small real account; not investment advice.",
+    "Accepted orders are not confirmed fills until reconciled in a later run.",
+    "Web and model research are treated as untrusted secondary evidence."
+  ]
+}
