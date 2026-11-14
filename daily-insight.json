@@ -1,33 +1,41 @@
 {
   "schemaVersion": 1,
-  "id": "robert-2026-11-13",
-  "publishedAt": "2026-11-13T12:05:46.084Z",
-  "title": "Crypto selloff deepens as recovery actions and audit news emerge; portfolio at $61,971",
-  "portfolioAsOf": "2026-11-13T12:03:34.705Z",
+  "id": "robert-2026-11-14",
+  "publishedAt": "2026-11-14T12:07:59.130Z",
+  "title": "Crypto losses continue as inflation persists; portfolio value falls to $60,200",
+  "portfolioAsOf": "2026-11-14T12:02:24.178Z",
   "paragraphs": [
-    "Bitcoin fell about 7% over 24 hours to $68,408, while ether dropped 6% to $1,921 in The Block’s market report. Selling extended across major tokens, with BNB down 6.3% and XRP down 3.5%. CoinGlass figures cited in the report showed $1.47 billion in liquidations, including $1.31 billion of long positions. That concentration points to substantial pressure on leveraged bullish bets. Analysts also cited uncertainty around Nvidia’s leadership and expectations of tighter Federal Reserve policy as factors weighing on risk appetite.",
-    "The US Justice Department announced court authorization to seize or restrain more than $1.2 billion of cryptocurrency stolen from Binance. That amount sits within more than $2.7 billion already frozen through government and private-sector efforts. The action advances recovery proceedings, although frozen assets still have to move through the legal process. Separately, authorities disrupted cloud infrastructure used by the FaceStealer campaign, which officials say stole over $400 million through social engineering. Its fake video meetings and malicious troubleshooting prompts expose a security risk that extends to open-source software developers.",
-    "Tether said KPMG US completed an audit of the 2025 financial statements of TG Commodities, the issuer of its gold-backed XAUT token, with an unqualified opinion. According to the announcement, auditors physically inspected and counted the gold bars backing the token. The audit strengthens the evidence available to holders assessing the issuer’s financial position and physical backing. Its scope is the audited year-end accounts; gold-price movements and custody remain separate risks for token holders.",
-    "Robinhood’s newly released October figures showed $17 billion in crypto trading volume, down 21% from September and 48% from a year earlier. Both its own app and Bitstamp recorded monthly declines. Event contracts grew 5% to 5.9 billion contracts, while funded customers reached 28.9 million. The figures show weaker crypto turnover within a platform that continued to attract customers. For exchange businesses, that mix matters because customer growth alone does not guarantee stronger trading revenue.",
-    "Our on-chain portfolio is worth about $61,971: $10,222 in the active treasury and $51,749 in the Safe. Its marked value is down $2,174, or 3.39%, from the previous comparable snapshot. Direct ARC holdings are worth $42,595, roughly 69% of the total, with additional exposure in the Safe’s $6,051 WETH/ARC pool. Beefy positions total $1,949, down $77, across pools containing WETH, AERO, cbBTC, cbHYPE and other assets. ARC concentration remains the largest portfolio risk.",
-    "Aave holds about $6,708 of WETH collateral against $3,147 of USDC debt across both wallets. Health factors declined from 2.10 to 2.04 in the treasury and from 1.68 to 1.63 in the Safe, narrowing the collateral buffer. Fluid is only a $154 net position, but its $1,064 debt and 1.03 health factor leave little liquidation headroom."
+    "Bitcoin traded near $67,253, down 2.9% over 24 hours, while ether fell 2.5% to about $1,905. The broader crypto market lost 3.5% of its value, leaving total capitalization near $2.34 trillion, according to CoinGecko. Weekly losses were deeper: 11.5% for bitcoin and 15% for ether. The decline remains broad, with persistent inflation adding a difficult backdrop for assets sensitive to interest rates and investor appetite for risk.",
+    "US producer prices rose 0.3% in October, slowing from September's 1.4% increase. Annual producer inflation nevertheless reached 6.5%, its fastest pace since November 2022. The measure excluding food, energy and trade services increased 0.5% for a second month. Those figures offer limited evidence of easing underlying price pressure. For crypto, continued inflation keeps the possibility of restrictive monetary policy relevant, although this release alone cannot explain token-price movements.",
+    "In lending markets, LlamaRisk recommended raising Aave V3 Core's cbBTC supply cap from 20,000 to 22,500 after utilization reached 97.2%. Its review also proposed lower caps for several other assets on Core and Mantle. The five largest cbBTC suppliers account for roughly 72% of supply. More capacity would accommodate additional collateral, while that concentration makes the health of large borrowers important. These are recommended parameter changes, rather than evidence that fresh borrowing has already occurred.",
+    "Securitize's new quarterly filing offers a mixed picture of the tokenization business. Revenue grew 12.8% to $18.6 million, but operating expenses reached $42.2 million. The loss from continuing operations was $66.3 million, including substantial convertible-instrument settlement and earnout valuation charges. One large integration contributed about $9 million of revenue. The figures show paying demand for tokenization infrastructure, alongside high costs and revenue concentration that make repeat business important.",
+    "Our on-chain portfolio is worth about $60,200: $9,900 in the active treasury and $50,300 in the Safe. Its marked value fell $1,767, or 2.85%, from the previous comparable snapshot. Direct ARC holdings account for about $41,500, or 69% of the total, before additional ARC exposure in the Safe's $5,890 WETH/ARC pool. Beefy positions declined $86 to $1,863 across pools containing WETH, AERO, cbBTC, cbHYPE and other assets. ARC concentration remains our largest exposure risk.",
+    "Aave holds about $6,525 of WETH collateral against $3,148 of USDC debt across the two wallets. Health factors slipped from 2.04 to 1.99 in the treasury and from 1.63 to 1.59 in the Safe, reducing the collateral buffer. Fluid is a much smaller $153 net position, but its roughly $1,065 debt and 1.03 health factor leave little liquidation headroom."
   ],
   "sources": [
     {
-      "title": "Bitcoin tumbles below $69,000 as Nvidia turmoil adds to Fed-driven market jitters",
-      "url": "https://www.theblock.co/news/markets/2026-11-13-bitcoin-tumbles-below-69000-439643"
+      "title": "Bitcoin Price: BTC/USD Live Price Chart, Market Cap & News Today | CoinGecko",
+      "url": "https://www.coingecko.com/en/coins/bitcoin"
     },
     {
-      "title": "Justice Department Announces Actions to Disrupt North Korea’s Massive Theft of Cryptocurrency",
-      "url": "https://www.justice.gov/opa/pr/justice-department-announces-actions-disrupt-north-koreas-massive-theft-cryptocurrency"
+      "title": "Ethereum Price: ETH/USD Live Price Chart, Market Cap & News Today | CoinGecko",
+      "url": "https://www.coingecko.com/en/coins/ethereum"
     },
     {
-      "title": "Tether Gold (XAU₮) Becomes Tether’s Second Stablecoin to Complete a Big Four Audit",
-      "url": "https://tether.io/news/tether-gold-xaut-becomes-tethers-second-stablecoin-to-complete-a-big-four-audit/"
+      "title": "Global Cryptocurrency Market Cap Charts",
+      "url": "https://www.coingecko.com/en/charts"
     },
     {
-      "title": "Robinhood Markets, Inc. Reports October 2026 Operating Data",
-      "url": "https://investors.robinhood.com/news-releases/news-release-details/robinhood-markets-inc-reports-october-2026-operating-data"
+      "title": "Producer Price Index News Release - 2026 M10 Results",
+      "url": "https://www.bls.gov/news.release/archives/ppi_11132026.htm"
+    },
+    {
+      "title": "Risk Stewards: Supply and Borrow Cap Changes on Aave V3 / 2026.11.13",
+      "url": "https://governance.aave.com/t/risk-stewards-supply-and-borrow-cap-changes-on-aave-v3-2026-11-13/26317"
+    },
+    {
+      "title": "secz-20260930",
+      "url": "https://www.sec.gov/Archives/edgar/data/2094496/000162828026073910/secz-20260930.htm"
     },
     {
       "title": "DeBank",
@@ -38,95 +46,95 @@
       "url": "https://debank.com/profile/0x3e33Be1294d66D8B468407416f2DA777802a531d"
     }
   ],
-  "xPost": "Bitcoin fell about 7% over 24 hours to $68,408, while ether dropped 6% to $1,921 in The Block’s market report. Selling extended across major tokens, with BNB down 6.3% and XRP down 3.5%. CoinGlass figures cited in the report showed $1.47 billion in liquidations, including $1.31 billion of long positions. That concentration points to substantial pressure on leveraged bullish bets. Analysts also cited uncertainty around Nvidia’s leadership and expectations of tighter Federal Reserve policy as factors weighing on risk appetite.\n\nThe US Justice Department announced court authorization to seize or restrain more than $1.2 billion of cryptocurrency stolen from Binance. That amount sits within more than $2.7 billion already frozen through government and private-sector efforts. The action advances recovery proceedings, although frozen assets still have to move through the legal process. Separately, authorities disrupted cloud infrastructure used by the FaceStealer campaign, which officials say stole over $400 million through social engineering. Its fake video meetings and malicious troubleshooting prompts expose a security risk that extends to open-source software developers.\n\nTether said KPMG US completed an audit of the 2025 financial statements of TG Commodities, the issuer of its gold-backed XAUT token, with an unqualified opinion. According to the announcement, auditors physically inspected and counted the gold bars backing the token. The audit strengthens the evidence available to holders assessing the issuer’s financial position and physical backing. Its scope is the audited year-end accounts; gold-price movements and custody remain separate risks for token holders.\n\nRobinhood’s newly released October figures showed $17 billion in crypto trading volume, down 21% from September and 48% from a year earlier. Both its own app and Bitstamp recorded monthly declines. Event contracts grew 5% to 5.9 billion contracts, while funded customers reached 28.9 million. The figures show weaker crypto turnover within a platform that continued to attract customers. For exchange businesses, that mix matters because customer growth alone does not guarantee stronger trading revenue.\n\nOur on-chain portfolio is worth about $61,971: $10,222 in the active treasury and $51,749 in the Safe. Its marked value is down $2,174, or 3.39%, from the previous comparable snapshot. Direct ARC holdings are worth $42,595, roughly 69% of the total, with additional exposure in the Safe’s $6,051 WETH/ARC pool. Beefy positions total $1,949, down $77, across pools containing WETH, AERO, cbBTC, cbHYPE and other assets. ARC concentration remains the largest portfolio risk.\n\nAave holds about $6,708 of WETH collateral against $3,147 of USDC debt across both wallets. Health factors declined from 2.10 to 2.04 in the treasury and from 1.68 to 1.63 in the Safe, narrowing the collateral buffer. Fluid is only a $154 net position, but its $1,064 debt and 1.03 health factor leave little liquidation headroom.",
+  "xPost": "Bitcoin traded near $67,253, down 2.9% over 24 hours, while ether fell 2.5% to about $1,905. The broader crypto market lost 3.5% of its value, leaving total capitalization near $2.34 trillion, according to CoinGecko. Weekly losses were deeper: 11.5% for bitcoin and 15% for ether. The decline remains broad, with persistent inflation adding a difficult backdrop for assets sensitive to interest rates and investor appetite for risk.\n\nUS producer prices rose 0.3% in October, slowing from September's 1.4% increase. Annual producer inflation nevertheless reached 6.5%, its fastest pace since November 2022. The measure excluding food, energy and trade services increased 0.5% for a second month. Those figures offer limited evidence of easing underlying price pressure. For crypto, continued inflation keeps the possibility of restrictive monetary policy relevant, although this release alone cannot explain token-price movements.\n\nIn lending markets, LlamaRisk recommended raising Aave V3 Core's cbBTC supply cap from 20,000 to 22,500 after utilization reached 97.2%. Its review also proposed lower caps for several other assets on Core and Mantle. The five largest cbBTC suppliers account for roughly 72% of supply. More capacity would accommodate additional collateral, while that concentration makes the health of large borrowers important. These are recommended parameter changes, rather than evidence that fresh borrowing has already occurred.\n\nSecuritize's new quarterly filing offers a mixed picture of the tokenization business. Revenue grew 12.8% to $18.6 million, but operating expenses reached $42.2 million. The loss from continuing operations was $66.3 million, including substantial convertible-instrument settlement and earnout valuation charges. One large integration contributed about $9 million of revenue. The figures show paying demand for tokenization infrastructure, alongside high costs and revenue concentration that make repeat business important.\n\nOur on-chain portfolio is worth about $60,200: $9,900 in the active treasury and $50,300 in the Safe. Its marked value fell $1,767, or 2.85%, from the previous comparable snapshot. Direct ARC holdings account for about $41,500, or 69% of the total, before additional ARC exposure in the Safe's $5,890 WETH/ARC pool. Beefy positions declined $86 to $1,863 across pools containing WETH, AERO, cbBTC, cbHYPE and other assets. ARC concentration remains our largest exposure risk.\n\nAave holds about $6,525 of WETH collateral against $3,148 of USDC debt across the two wallets. Health factors slipped from 2.04 to 1.99 in the treasury and from 1.63 to 1.59 in the Safe, reducing the collateral buffer. Fluid is a much smaller $153 net position, but its roughly $1,065 debt and 1.03 health factor leave little liquidation headroom.",
   "positionSnapshot": {
-    "observedAt": "2026-11-13T12:03:34.705Z",
+    "observedAt": "2026-11-14T12:02:24.178Z",
     "source": "Rendered public DeBank pages in installed Microsoft Edge",
-    "totalPortfolioUSD": 61971,
+    "totalPortfolioUSD": 60204,
     "wallets": [
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
-        "totalUSD": 10222,
-        "walletAssetsUSD": 5543,
+        "observedAt": "2026-11-14T12:02:02.893Z",
+        "totalUSD": 9872,
+        "walletAssetsUSD": 5371,
         "sourceUrl": "https://debank.com/profile/0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
         "coverage": {
           "walletTotal": "complete displayed all-chain aggregate; no chain-error warning",
           "protocolTotals": "all listed protocol sections loaded",
-          "individualPositions": "visible rows only; treasury dust hidden; individual pool and vault identity unavailable"
+          "individualPositions": "visible rows only; treasury dust hidden; pool and vault addresses unavailable"
         }
       },
       {
         "wallet": "0x3e33Be1294d66D8B468407416f2DA777802a531d",
-        "observedAt": "2026-11-13T12:03:34.705Z",
-        "totalUSD": 51749,
-        "walletAssetsUSD": 43878,
+        "observedAt": "2026-11-14T12:02:24.178Z",
+        "totalUSD": 50332,
+        "walletAssetsUSD": 42726,
         "sourceUrl": "https://debank.com/profile/0x3e33Be1294d66D8B468407416f2DA777802a531d",
         "coverage": {
           "walletTotal": "complete displayed all-chain aggregate; no chain-error warning",
           "protocolTotals": "all listed protocol sections loaded",
-          "individualPositions": "visible rows only; treasury dust hidden; individual pool and vault identity unavailable"
+          "individualPositions": "visible rows only; treasury dust hidden; pool and vault addresses unavailable"
         }
       }
     ],
     "protocolTotals": [
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": null,
         "protocol": "Wallet",
         "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:Wallet",
-        "usdValue": 5543,
+        "usdValue": 5371,
         "precision": "nearest displayed dollar"
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "Base",
         "protocol": "Beefy",
         "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_beefy",
-        "usdValue": 1949,
+        "usdValue": 1863,
         "precision": "nearest displayed dollar"
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "Base",
         "protocol": "Aave V3",
         "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_aave3",
-        "usdValue": 1742,
+        "usdValue": 1661,
         "precision": "nearest displayed dollar"
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "Base",
         "protocol": "Curve",
         "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_curve",
-        "usdValue": 420,
+        "usdValue": 419,
         "precision": "nearest displayed dollar"
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "Hyperliquid",
         "protocol": "Hyperliquid",
         "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:_hyperliquid",
-        "usdValue": 410,
+        "usdValue": 401,
         "precision": "nearest displayed dollar"
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "Base",
         "protocol": "Fluid",
         "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_fluid",
-        "usdValue": 154,
+        "usdValue": 153,
         "precision": "nearest displayed dollar"
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": null,
         "protocol": "Polymarket",
         "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:_polymarket",
@@ -135,7 +143,7 @@
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "Base",
         "protocol": "Aerodrome",
         "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_aerodrome",
@@ -144,7 +152,7 @@
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "Base",
         "protocol": "Moonwell",
         "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_moonwell",
@@ -153,7 +161,7 @@
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "Base",
         "protocol": "Merkl",
         "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_merkl",
@@ -162,34 +170,34 @@
       },
       {
         "wallet": "0x3e33Be1294d66D8B468407416f2DA777802a531d",
-        "observedAt": "2026-11-13T12:03:34.705Z",
+        "observedAt": "2026-11-14T12:02:24.178Z",
         "chain": null,
         "protocol": "Wallet",
         "positionId": "0x3e33be1294d66d8b468407416f2da777802a531d:Wallet",
-        "usdValue": 43878,
+        "usdValue": 42726,
         "precision": "nearest displayed dollar"
       },
       {
         "wallet": "0x3e33Be1294d66D8B468407416f2DA777802a531d",
-        "observedAt": "2026-11-13T12:03:34.705Z",
+        "observedAt": "2026-11-14T12:02:24.178Z",
         "chain": "Base",
         "protocol": "Aerodrome",
         "positionId": "0x3e33be1294d66d8b468407416f2da777802a531d:base_aerodrome",
-        "usdValue": 6051,
+        "usdValue": 5890,
         "precision": "nearest displayed dollar"
       },
       {
         "wallet": "0x3e33Be1294d66D8B468407416f2DA777802a531d",
-        "observedAt": "2026-11-13T12:03:34.705Z",
+        "observedAt": "2026-11-14T12:02:24.178Z",
         "chain": "Base",
         "protocol": "Aave V3",
         "positionId": "0x3e33be1294d66d8b468407416f2da777802a531d:base_aave3",
-        "usdValue": 1819,
+        "usdValue": 1716,
         "precision": "nearest displayed dollar"
       },
       {
         "wallet": "0x3e33Be1294d66D8B468407416f2DA777802a531d",
-        "observedAt": "2026-11-13T12:03:34.705Z",
+        "observedAt": "2026-11-14T12:02:24.178Z",
         "chain": "Base",
         "protocol": "Merkl",
         "positionId": "0x3e33be1294d66d8b468407416f2da777802a531d:base_merkl",
@@ -200,21 +208,21 @@
     "positions": [
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "base",
         "protocol": "Wallet",
         "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base:Wallet:0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22",
         "positionIdentifierType": "wallet-chain-token",
         "stablePositionIdentityAvailable": true,
         "label": "cbETH",
-        "usdValue": 2050.89,
+        "usdValue": 2000.14,
         "underlying": [
           {
             "symbol": "cbETH",
             "chain": "base",
             "tokenId": "0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22",
             "amount": 0.9173,
-            "usdValue": 2050.89,
+            "usdValue": 2000.14,
             "role": "wallet",
             "sourceUrl": "https://debank.com/token/base/0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22"
           }
@@ -222,21 +230,21 @@
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "base",
         "protocol": "Wallet",
         "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base:Wallet:base",
         "positionIdentifierType": "wallet-chain-token",
         "stablePositionIdentityAvailable": true,
         "label": "ETH",
-        "usdValue": 1334.21,
+        "usdValue": 1297.72,
         "underlying": [
           {
             "symbol": "ETH",
             "chain": "base",
             "tokenId": "base",
             "amount": 0.6795,
-            "usdValue": 1334.21,
+            "usdValue": 1297.72,
             "role": "wallet",
             "sourceUrl": "https://debank.com/token/base/base"
           }
@@ -244,21 +252,21 @@
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "base",
         "protocol": "Wallet",
         "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base:Wallet:0x9e271ec4d66f2b400ad92de8a10e5c9c1914259c",
         "positionIdentifierType": "wallet-chain-token",
         "stablePositionIdentityAvailable": true,
         "label": "$UP",
-        "usdValue": 497.45,
+        "usdValue": 473.66,
         "underlying": [
           {
             "symbol": "$UP",
             "chain": "base",
             "tokenId": "0x9e271ec4d66f2b400ad92de8a10e5c9c1914259c",
             "amount": 3444375.7134,
-            "usdValue": 497.45,
+            "usdValue": 473.66,
             "role": "wallet",
             "sourceUrl": "https://debank.com/token/base/0x9e271ec4d66f2b400ad92de8a10e5c9c1914259c"
           }
@@ -266,21 +274,21 @@
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "base",
         "protocol": "Wallet",
         "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base:Wallet:0xb83dbf23dca15ff1bd8827a6cf01e2b82a356bdb",
         "positionIdentifierType": "wallet-chain-token",
         "stablePositionIdentityAvailable": true,
         "label": "ARC",
-        "usdValue": 362.69,
+        "usdValue": 353.21,
         "underlying": [
           {
             "symbol": "ARC",
             "chain": "base",
             "tokenId": "0xb83dbf23dca15ff1bd8827a6cf01e2b82a356bdb",
-            "amount": 236397.8155,
-            "usdValue": 362.69,
+            "amount": 236404.3128,
+            "usdValue": 353.21,
             "role": "wallet",
             "sourceUrl": "https://debank.com/token/base/0xb83dbf23dca15ff1bd8827a6cf01e2b82a356bdb"
           }
@@ -288,21 +296,21 @@
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "base",
         "protocol": "Wallet",
         "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base:Wallet:0x4200000000000000000000000000000000000006",
         "positionIdentifierType": "wallet-chain-token",
         "stablePositionIdentityAvailable": true,
         "label": "WETH",
-        "usdValue": 280.84,
+        "usdValue": 273.16,
         "underlying": [
           {
             "symbol": "WETH",
             "chain": "base",
             "tokenId": "0x4200000000000000000000000000000000000006",
             "amount": 0.143,
-            "usdValue": 280.84,
+            "usdValue": 273.16,
             "role": "wallet",
             "sourceUrl": "https://debank.com/token/base/0x4200000000000000000000000000000000000006"
           }
@@ -310,43 +318,21 @@
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
-        "chain": "base",
-        "protocol": "Wallet",
-        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base:Wallet:0xb200000000000000000000451d033a5000cb479e",
-        "positionIdentifierType": "wallet-chain-token",
-        "stablePositionIdentityAvailable": true,
-        "label": "cbHYPE",
-        "usdValue": 240.07,
-        "underlying": [
-          {
-            "symbol": "cbHYPE",
-            "chain": "base",
-            "tokenId": "0xb200000000000000000000451d033a5000cb479e",
-            "amount": 3.2499,
-            "usdValue": 240.07,
-            "role": "wallet",
-            "sourceUrl": "https://debank.com/token/base/0xb200000000000000000000451d033a5000cb479e"
-          }
-        ]
-      },
-      {
-        "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "base",
         "protocol": "Wallet",
         "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base:Wallet:0xb2000000000000000000002d0ba3164cc74f58b7",
         "positionIdentifierType": "wallet-chain-token",
         "stablePositionIdentityAvailable": true,
         "label": "GOOGLc",
-        "usdValue": 230.73,
+        "usdValue": 224.42,
         "underlying": [
           {
             "symbol": "GOOGLc",
             "chain": "base",
             "tokenId": "0xb2000000000000000000002d0ba3164cc74f58b7",
             "amount": 0.7627,
-            "usdValue": 230.73,
+            "usdValue": 224.42,
             "role": "wallet",
             "sourceUrl": "https://debank.com/token/base/0xb2000000000000000000002d0ba3164cc74f58b7"
           }
@@ -354,21 +340,43 @@
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
+        "chain": "base",
+        "protocol": "Wallet",
+        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base:Wallet:0xb200000000000000000000451d033a5000cb479e",
+        "positionIdentifierType": "wallet-chain-token",
+        "stablePositionIdentityAvailable": true,
+        "label": "cbHYPE",
+        "usdValue": 223.75,
+        "underlying": [
+          {
+            "symbol": "cbHYPE",
+            "chain": "base",
+            "tokenId": "0xb200000000000000000000451d033a5000cb479e",
+            "amount": 3.2499,
+            "usdValue": 223.75,
+            "role": "wallet",
+            "sourceUrl": "https://debank.com/token/base/0xb200000000000000000000451d033a5000cb479e"
+          }
+        ]
+      },
+      {
+        "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "base",
         "protocol": "Wallet",
         "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base:Wallet:0xb20000000000000000000078ee7ce2fe4908108c",
         "positionIdentifierType": "wallet-chain-token",
         "stablePositionIdentityAvailable": true,
         "label": "NVDAc",
-        "usdValue": 211.51,
+        "usdValue": 202.25,
         "underlying": [
           {
             "symbol": "NVDAc",
             "chain": "base",
             "tokenId": "0xb20000000000000000000078ee7ce2fe4908108c",
             "amount": 1.2449,
-            "usdValue": 211.51,
+            "usdValue": 202.25,
             "role": "wallet",
             "sourceUrl": "https://debank.com/token/base/0xb20000000000000000000078ee7ce2fe4908108c"
           }
@@ -376,21 +384,21 @@
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "base",
         "protocol": "Wallet",
         "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base:Wallet:0xb2000000000000000000008501b13360000cb2ec",
         "positionIdentifierType": "wallet-chain-token",
         "stablePositionIdentityAvailable": true,
         "label": "cbZEC",
-        "usdValue": 190.64,
+        "usdValue": 179.72,
         "underlying": [
           {
             "symbol": "cbZEC",
             "chain": "base",
             "tokenId": "0xb2000000000000000000008501b13360000cb2ec",
             "amount": 0.199,
-            "usdValue": 190.64,
+            "usdValue": 179.72,
             "role": "wallet",
             "sourceUrl": "https://debank.com/token/base/0xb2000000000000000000008501b13360000cb2ec"
           }
@@ -398,21 +406,21 @@
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "base",
         "protocol": "Wallet",
         "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base:Wallet:0xcfa3ef56d303ae4faaba0592388f19d7c3399fb4",
         "positionIdentifierType": "wallet-chain-token",
         "stablePositionIdentityAvailable": true,
         "label": "eUSD",
-        "usdValue": 127.43,
+        "usdValue": 127.25,
         "underlying": [
           {
             "symbol": "eUSD",
             "chain": "base",
             "tokenId": "0xcfa3ef56d303ae4faaba0592388f19d7c3399fb4",
             "amount": 128.1131,
-            "usdValue": 127.43,
+            "usdValue": 127.25,
             "role": "wallet",
             "sourceUrl": "https://debank.com/token/base/0xcfa3ef56d303ae4faaba0592388f19d7c3399fb4"
           }
@@ -420,21 +428,21 @@
       },
       {
         "wallet": "0x3e33Be1294d66D8B468407416f2DA777802a531d",
-        "observedAt": "2026-11-13T12:03:34.705Z",
+        "observedAt": "2026-11-14T12:02:24.178Z",
         "chain": "base",
         "protocol": "Wallet",
         "positionId": "0x3e33be1294d66d8b468407416f2da777802a531d:base:Wallet:0xb83dbf23dca15ff1bd8827a6cf01e2b82a356bdb",
         "positionIdentifierType": "wallet-chain-token",
         "stablePositionIdentityAvailable": true,
         "label": "ARC",
-        "usdValue": 42232.08,
+        "usdValue": 41128.02,
         "underlying": [
           {
             "symbol": "ARC",
             "chain": "base",
             "tokenId": "0xb83dbf23dca15ff1bd8827a6cf01e2b82a356bdb",
             "amount": 27526700.7523,
-            "usdValue": 42232.08,
+            "usdValue": 41128.02,
             "role": "wallet",
             "sourceUrl": "https://debank.com/token/base/0xb83dbf23dca15ff1bd8827a6cf01e2b82a356bdb"
           }
@@ -442,21 +450,21 @@
       },
       {
         "wallet": "0x3e33Be1294d66D8B468407416f2DA777802a531d",
-        "observedAt": "2026-11-13T12:03:34.705Z",
+        "observedAt": "2026-11-14T12:02:24.178Z",
         "chain": "base",
         "protocol": "Wallet",
         "positionId": "0x3e33be1294d66d8b468407416f2da777802a531d:base:Wallet:0x4200000000000000000000000000000000000006",
         "positionIdentifierType": "wallet-chain-token",
         "stablePositionIdentityAvailable": true,
         "label": "WETH",
-        "usdValue": 1279.81,
+        "usdValue": 1244.76,
         "underlying": [
           {
             "symbol": "WETH",
             "chain": "base",
             "tokenId": "0x4200000000000000000000000000000000000006",
             "amount": 0.6517,
-            "usdValue": 1279.81,
+            "usdValue": 1244.76,
             "role": "wallet",
             "sourceUrl": "https://debank.com/token/base/0x4200000000000000000000000000000000000006"
           }
@@ -464,21 +472,21 @@
       },
       {
         "wallet": "0x3e33Be1294d66D8B468407416f2DA777802a531d",
-        "observedAt": "2026-11-13T12:03:34.705Z",
+        "observedAt": "2026-11-14T12:02:24.178Z",
         "chain": "base",
         "protocol": "Wallet",
         "positionId": "0x3e33be1294d66d8b468407416f2da777802a531d:base:Wallet:base",
         "positionIdentifierType": "wallet-chain-token",
         "stablePositionIdentityAvailable": true,
         "label": "ETH",
-        "usdValue": 274.83,
+        "usdValue": 267.31,
         "underlying": [
           {
             "symbol": "ETH",
             "chain": "base",
             "tokenId": "base",
             "amount": 0.1399,
-            "usdValue": 274.83,
+            "usdValue": 267.31,
             "role": "wallet",
             "sourceUrl": "https://debank.com/token/base/base"
           }
@@ -486,21 +494,21 @@
       },
       {
         "wallet": "0x3e33Be1294d66D8B468407416f2DA777802a531d",
-        "observedAt": "2026-11-13T12:03:34.705Z",
+        "observedAt": "2026-11-14T12:02:24.178Z",
         "chain": "base",
         "protocol": "Wallet",
         "positionId": "0x3e33be1294d66d8b468407416f2da777802a531d:base:Wallet:0x9e271ec4d66f2b400ad92de8a10e5c9c1914259c",
         "positionIdentifierType": "wallet-chain-token",
         "stablePositionIdentityAvailable": true,
         "label": "$UP",
-        "usdValue": 49.55,
+        "usdValue": 47.18,
         "underlying": [
           {
             "symbol": "$UP",
             "chain": "base",
             "tokenId": "0x9e271ec4d66f2b400ad92de8a10e5c9c1914259c",
             "amount": 343113.0277,
-            "usdValue": 49.55,
+            "usdValue": 47.18,
             "role": "wallet",
             "sourceUrl": "https://debank.com/token/base/0x9e271ec4d66f2b400ad92de8a10e5c9c1914259c"
           }
@@ -508,21 +516,21 @@
       },
       {
         "wallet": "0x3e33Be1294d66D8B468407416f2DA777802a531d",
-        "observedAt": "2026-11-13T12:03:34.705Z",
+        "observedAt": "2026-11-14T12:02:24.178Z",
         "chain": "base",
         "protocol": "Wallet",
         "positionId": "0x3e33be1294d66d8b468407416f2da777802a531d:base:Wallet:0xecff4d80f54cf55c626e52f304a8891645961e72",
         "positionIdentifierType": "wallet-chain-token",
         "stablePositionIdentityAvailable": true,
         "label": "DAG",
-        "usdValue": 41.76,
+        "usdValue": 38.35,
         "underlying": [
           {
             "symbol": "DAG",
             "chain": "base",
             "tokenId": "0xecff4d80f54cf55c626e52f304a8891645961e72",
             "amount": 10800.6148,
-            "usdValue": 41.76,
+            "usdValue": 38.35,
             "role": "wallet",
             "sourceUrl": "https://debank.com/token/base/0xecff4d80f54cf55c626e52f304a8891645961e72"
           }
@@ -530,7 +538,7 @@
       },
       {
         "wallet": "0x3e33Be1294d66D8B468407416f2DA777802a531d",
-        "observedAt": "2026-11-13T12:03:34.705Z",
+        "observedAt": "2026-11-14T12:02:24.178Z",
         "chain": "eth",
         "protocol": "Wallet",
         "positionId": "0x3e33be1294d66d8b468407416f2da777802a531d:eth:Wallet:eth",
@@ -552,7 +560,7 @@
       },
       {
         "wallet": "0x3e33Be1294d66D8B468407416f2DA777802a531d",
-        "observedAt": "2026-11-13T12:03:34.705Z",
+        "observedAt": "2026-11-14T12:02:24.178Z",
         "chain": "base",
         "protocol": "Wallet",
         "positionId": "0x3e33be1294d66d8b468407416f2da777802a531d:base:Wallet:0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
@@ -574,18 +582,18 @@
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "Base",
         "protocol": "Beefy",
-        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_beefy:observation-row-1",
+        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_beefy:observation-2026-11-14-row-1",
         "positionIdentifierType": "display-row-only",
         "stablePositionIdentityAvailable": false,
         "label": "Farming WETH+AERO",
-        "usdValue": 739.92,
+        "usdValue": 706.21,
         "underlying": [
           {
             "symbol": "WETH",
-            "amount": 0.1438,
+            "amount": 0.1309,
             "role": "pool",
             "usdValue": null,
             "chain": "base",
@@ -594,28 +602,28 @@
           },
           {
             "symbol": "AERO",
-            "amount": 945.3363,
+            "amount": 1000.3635,
             "role": "pool",
             "usdValue": null,
-            "chain": "base",
+            "chain": "Base",
             "tokenId": null
           }
         ]
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "Base",
         "protocol": "Beefy",
-        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_beefy:observation-row-2",
+        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_beefy:observation-2026-11-14-row-2",
         "positionIdentifierType": "display-row-only",
         "stablePositionIdentityAvailable": false,
         "label": "Farming USDC+cbHYPE",
-        "usdValue": 513.31,
+        "usdValue": 492.02,
         "underlying": [
           {
             "symbol": "USDC",
-            "amount": 210.9176,
+            "amount": 122.5585,
             "role": "pool",
             "usdValue": null,
             "chain": "base",
@@ -624,7 +632,7 @@
           },
           {
             "symbol": "cbHYPE",
-            "amount": 4.0312,
+            "amount": 5.2831,
             "role": "pool",
             "usdValue": null,
             "chain": "base",
@@ -633,28 +641,28 @@
           },
           {
             "symbol": "AERO",
-            "amount": 9.1429,
+            "amount": 12.2387,
             "role": "reward",
-            "usdValue": 4.44,
-            "chain": "base",
+            "usdValue": 5.62,
+            "chain": "Base",
             "tokenId": null
           }
         ]
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "Base",
         "protocol": "Beefy",
-        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_beefy:observation-row-3",
+        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_beefy:observation-2026-11-14-row-3",
         "positionIdentifierType": "display-row-only",
         "stablePositionIdentityAvailable": false,
         "label": "Farming WETH+METAc",
-        "usdValue": 3.08,
+        "usdValue": 3,
         "underlying": [
           {
             "symbol": "WETH",
-            "amount": 0.0014,
+            "amount": 0.0015,
             "role": "pool",
             "usdValue": null,
             "chain": "base",
@@ -663,7 +671,7 @@
           },
           {
             "symbol": "METAc",
-            "amount": 0.0002,
+            "amount": 0.00008604,
             "role": "pool",
             "usdValue": null,
             "chain": "base",
@@ -672,36 +680,36 @@
           },
           {
             "symbol": "AERO",
-            "amount": 0.2181,
+            "amount": 0.2448,
             "role": "reward",
             "usdValue": 0.11,
-            "chain": "base",
+            "chain": "Base",
             "tokenId": null
           }
         ]
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "Base",
         "protocol": "Beefy",
-        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_beefy:observation-row-4",
+        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_beefy:observation-2026-11-14-row-4",
         "positionIdentifierType": "display-row-only",
         "stablePositionIdentityAvailable": false,
         "label": "Yield AERO+cbBTC",
-        "usdValue": 372.67,
+        "usdValue": 355.61,
         "underlying": [
           {
             "symbol": "AERO",
-            "amount": 514.5683,
+            "amount": 539.1021,
             "role": "pool",
             "usdValue": null,
-            "chain": "base",
+            "chain": "Base",
             "tokenId": null
           },
           {
             "symbol": "cbBTC",
-            "amount": 0.0018,
+            "amount": 0.0016,
             "role": "pool",
             "usdValue": null,
             "chain": "base",
@@ -712,26 +720,26 @@
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "Base",
         "protocol": "Beefy",
-        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_beefy:observation-row-5",
+        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_beefy:observation-2026-11-14-row-5",
         "positionIdentifierType": "display-row-only",
         "stablePositionIdentityAvailable": false,
         "label": "Yield AERO+WETH",
-        "usdValue": 320.51,
+        "usdValue": 306.52,
         "underlying": [
           {
             "symbol": "AERO",
-            "amount": 403.6968,
+            "amount": 431.4723,
             "role": "pool",
             "usdValue": null,
-            "chain": "base",
+            "chain": "Base",
             "tokenId": null
           },
           {
             "symbol": "WETH",
-            "amount": 0.0635,
+            "amount": 0.0568,
             "role": "pool",
             "usdValue": null,
             "chain": "base",
@@ -742,18 +750,18 @@
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "Base",
         "protocol": "Curve",
-        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_curve:observation-row-1",
+        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_curve:observation-2026-11-14-row-1",
         "positionIdentifierType": "display-row-only",
         "stablePositionIdentityAvailable": false,
         "label": "BRLOC BRLV+BRZ+wBRL+BRLA+BRS",
-        "usdValue": 420.14,
+        "usdValue": 418.74,
         "underlying": [
           {
             "symbol": "BRLV",
-            "amount": 610.6672,
+            "amount": 585.7266,
             "role": "pool",
             "usdValue": null,
             "chain": "base",
@@ -762,7 +770,7 @@
           },
           {
             "symbol": "BRZ",
-            "amount": 851.6185,
+            "amount": 793.5952,
             "role": "pool",
             "usdValue": null,
             "chain": "base",
@@ -771,7 +779,7 @@
           },
           {
             "symbol": "wBRL",
-            "amount": 423.8735,
+            "amount": 382.7302,
             "role": "pool",
             "usdValue": null,
             "chain": "base",
@@ -780,7 +788,7 @@
           },
           {
             "symbol": "BRLA",
-            "amount": 341.5156,
+            "amount": 335.502,
             "role": "pool",
             "usdValue": null,
             "chain": "base",
@@ -789,7 +797,7 @@
           },
           {
             "symbol": "BRS",
-            "amount": 502.4042,
+            "amount": 632.7807,
             "role": "pool",
             "usdValue": null,
             "chain": "base",
@@ -800,18 +808,18 @@
       },
       {
         "wallet": "0x3e33Be1294d66D8B468407416f2DA777802a531d",
-        "observedAt": "2026-11-13T12:03:34.705Z",
+        "observedAt": "2026-11-14T12:02:24.178Z",
         "chain": "Base",
         "protocol": "Aerodrome",
-        "positionId": "0x3e33be1294d66d8b468407416f2da777802a531d:base_aerodrome:observation-row-1",
+        "positionId": "0x3e33be1294d66d8b468407416f2da777802a531d:base_aerodrome:observation-2026-11-14-row-1",
         "positionIdentifierType": "display-row-only",
         "stablePositionIdentityAvailable": false,
         "label": "Liquidity Pool WETH+ARC",
-        "usdValue": 6051.44,
+        "usdValue": 5889.66,
         "underlying": [
           {
             "symbol": "WETH",
-            "amount": 1.5383,
+            "amount": 1.5385,
             "role": "pool",
             "usdValue": null,
             "chain": "base",
@@ -820,7 +828,7 @@
           },
           {
             "symbol": "ARC",
-            "amount": 1975214.9083,
+            "amount": 1974896.9943,
             "role": "pool",
             "usdValue": null,
             "chain": "base",
@@ -831,148 +839,151 @@
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "Base",
         "protocol": "Aave V3",
-        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_aave3:observation-row-1",
+        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_aave3:observation-2026-11-14-row-1",
         "positionIdentifierType": "display-row-only",
         "stablePositionIdentityAvailable": false,
         "label": "Lending",
-        "usdValue": 1742.36,
+        "usdValue": 1661.18,
         "underlying": [
           {
             "symbol": "WETH",
             "amount": 1.5071,
             "role": "supplied",
-            "usdValue": 2959.16,
+            "usdValue": 2878.33,
             "chain": "base",
             "tokenId": "0x4200000000000000000000000000000000000006",
             "sourceUrl": "https://debank.com/token/base/0x4200000000000000000000000000000000000006"
           }
         ],
-        "suppliedUSD": 2959.16,
-        "debtUSD": 1216.8,
-        "healthFactor": 2.04,
+        "healthFactor": 1.99,
+        "suppliedUSD": 2878.33,
+        "debtUSD": 1217.15,
         "debt": [
           {
             "symbol": "USDC",
-            "amount": 1215.8306,
+            "amount": 1216.053,
             "role": "borrowed",
-            "usdValue": 1216.8,
+            "usdValue": 1217.15,
             "chain": "base",
             "tokenId": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
             "sourceUrl": "https://debank.com/token/base/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
           }
-        ]
+        ],
+        "usdValueBasis": "displayed supplied values minus displayed debt"
       },
       {
         "wallet": "0x3e33Be1294d66D8B468407416f2DA777802a531d",
-        "observedAt": "2026-11-13T12:03:34.705Z",
+        "observedAt": "2026-11-14T12:02:24.178Z",
         "chain": "Base",
         "protocol": "Aave V3",
-        "positionId": "0x3e33be1294d66d8b468407416f2da777802a531d:base_aave3:observation-row-1",
+        "positionId": "0x3e33be1294d66d8b468407416f2da777802a531d:base_aave3:observation-2026-11-14-row-1",
         "positionIdentifierType": "display-row-only",
         "stablePositionIdentityAvailable": false,
         "label": "Lending",
-        "usdValue": 1819.16,
+        "usdValue": 1716.3,
         "underlying": [
           {
             "symbol": "WETH",
             "amount": 1.909,
             "role": "supplied",
-            "usdValue": 3748.98,
+            "usdValue": 3646.66,
             "chain": "base",
             "tokenId": "0x4200000000000000000000000000000000000006",
             "sourceUrl": "https://debank.com/token/base/0x4200000000000000000000000000000000000006"
           }
         ],
-        "suppliedUSD": 3748.98,
-        "debtUSD": 1929.82,
-        "healthFactor": 1.63,
+        "healthFactor": 1.59,
+        "suppliedUSD": 3646.66,
+        "debtUSD": 1930.36,
         "debt": [
           {
             "symbol": "USDC",
-            "amount": 1928.2728,
+            "amount": 1928.6255,
             "role": "borrowed",
-            "usdValue": 1929.82,
+            "usdValue": 1930.36,
             "chain": "base",
             "tokenId": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
             "sourceUrl": "https://debank.com/token/base/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
           }
-        ]
+        ],
+        "usdValueBasis": "displayed supplied values minus displayed debt"
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "Base",
         "protocol": "Fluid",
-        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_fluid:observation-row-1",
+        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_fluid:observation-2026-11-14-row-1",
         "positionIdentifierType": "display-row-only",
         "stablePositionIdentityAvailable": false,
         "label": "Lending",
-        "usdValue": 153.6,
+        "usdValue": 153.48,
         "underlying": [
           {
             "symbol": "syrupUSDC",
             "amount": 745.5376,
             "role": "supplied",
-            "usdValue": 889.11,
+            "usdValue": 889.2,
             "chain": "base",
             "tokenId": "0x660975730059246a68521a3e2fbd4740173100f5",
             "sourceUrl": "https://debank.com/token/base/0x660975730059246a68521a3e2fbd4740173100f5"
           },
           {
             "symbol": "USDC",
-            "amount": 328.5446,
+            "amount": 328.5885,
             "role": "supplied",
-            "usdValue": 328.81,
+            "usdValue": 328.88,
             "chain": "base",
             "tokenId": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
             "sourceUrl": "https://debank.com/token/base/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
           }
         ],
-        "suppliedUSD": 1217.92,
-        "debtUSD": 1064.32,
         "healthFactor": 1.03,
+        "suppliedUSD": 1218.08,
+        "debtUSD": 1064.6,
         "debt": [
           {
             "symbol": "USDC",
-            "amount": 1063.4684,
+            "amount": 1063.6465,
             "role": "borrowed",
-            "usdValue": 1064.32,
+            "usdValue": 1064.6,
             "chain": "base",
             "tokenId": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
             "sourceUrl": "https://debank.com/token/base/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
           }
-        ]
+        ],
+        "usdValueBasis": "displayed supplied values minus displayed debt"
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "Hyperliquid",
         "protocol": "Hyperliquid",
-        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:_hyperliquid:observation-row-1",
+        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:_hyperliquid:observation-2026-11-14-row-1",
         "positionIdentifierType": "display-row-only",
         "stablePositionIdentityAvailable": false,
         "label": "Main-Account Vaults",
-        "usdValue": 303.22,
+        "usdValue": 294.14,
         "underlying": [
           {
             "symbol": "USDC",
-            "amount": 303.2238,
+            "amount": 294.1379,
             "role": "deposit",
-            "usdValue": 303.22,
-            "chain": "hyper",
+            "usdValue": 294.14,
+            "chain": "Hyperliquid",
             "tokenId": null
           }
         ]
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "Hyperliquid",
         "protocol": "Hyperliquid",
-        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:_hyperliquid:observation-row-2",
+        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:_hyperliquid:observation-2026-11-14-row-2",
         "positionIdentifierType": "display-row-only",
         "stablePositionIdentityAvailable": false,
         "label": "Main-Account Vaults",
@@ -983,17 +994,17 @@
             "amount": 7.0294,
             "role": "deposit",
             "usdValue": 7.03,
-            "chain": "hyper",
+            "chain": "Hyperliquid",
             "tokenId": null
           }
         ]
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "Hyperliquid",
         "protocol": "Hyperliquid",
-        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:_hyperliquid:observation-row-3",
+        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:_hyperliquid:observation-2026-11-14-row-3",
         "positionIdentifierType": "display-row-only",
         "stablePositionIdentityAvailable": false,
         "label": "Main-Account Vaults",
@@ -1004,18 +1015,18 @@
             "amount": 0.000001,
             "role": "deposit",
             "usdValue": null,
-            "chain": "hyper",
+            "chain": "Hyperliquid",
             "tokenId": null
           }
         ],
-        "usdValueUpperBound": 0.01
+        "usdValueDisplay": "< $0.01"
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "Hyperliquid",
         "protocol": "Hyperliquid",
-        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:_hyperliquid:observation-row-4",
+        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:_hyperliquid:observation-2026-11-14-row-4",
         "positionIdentifierType": "display-row-only",
         "stablePositionIdentityAvailable": false,
         "label": "Main-Account Perps Withdrawable",
@@ -1026,17 +1037,17 @@
             "amount": 100.0402,
             "role": "deposit",
             "usdValue": 100.04,
-            "chain": "hyper",
+            "chain": "Hyperliquid",
             "tokenId": null
           }
         ]
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "Hyperliquid",
         "protocol": "Hyperliquid",
-        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:_hyperliquid:observation-row-5",
+        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:_hyperliquid:observation-2026-11-14-row-5",
         "positionIdentifierType": "display-row-only",
         "stablePositionIdentityAvailable": false,
         "label": "Main-Account Spot",
@@ -1047,18 +1058,18 @@
             "amount": 0.0016,
             "role": "deposit",
             "usdValue": null,
-            "chain": "hyper",
+            "chain": "Hyperliquid",
             "tokenId": null
           }
         ],
-        "usdValueUpperBound": 0.01
+        "usdValueDisplay": "< $0.01"
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "Hyperliquid",
         "protocol": "Hyperliquid",
-        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:_hyperliquid:observation-row-6",
+        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:_hyperliquid:observation-2026-11-14-row-6",
         "positionIdentifierType": "display-row-only",
         "stablePositionIdentityAvailable": false,
         "label": "Referral Rewards",
@@ -1069,17 +1080,17 @@
             "amount": 0.0698,
             "role": "deposit",
             "usdValue": 0.07,
-            "chain": "hyper",
+            "chain": "Hyperliquid",
             "tokenId": null
           }
         ]
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": null,
         "protocol": "Polymarket",
-        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:_polymarket:observation-row-1",
+        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:_polymarket:observation-2026-11-14-row-1",
         "positionIdentifierType": "display-row-only",
         "stablePositionIdentityAvailable": false,
         "label": "Will bitcoin hit $1m before GTA VI? No",
@@ -1090,28 +1101,28 @@
             "amount": 5,
             "role": "prediction",
             "usdValue": 2.5,
-            "tokenId": null,
-            "chain": null
+            "chain": null,
+            "tokenId": null
           }
         ]
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "Base",
         "protocol": "Aerodrome",
-        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_aerodrome:observation-row-1",
+        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_aerodrome:observation-2026-11-14-row-1",
         "positionIdentifierType": "display-row-only",
         "stablePositionIdentityAvailable": false,
         "label": "Locked AERO",
-        "usdValue": 0.56,
+        "usdValue": 0.53,
         "underlying": [
           {
             "symbol": "AERO",
             "amount": 1,
             "role": "locked",
             "usdValue": null,
-            "chain": "base",
+            "chain": "Base",
             "tokenId": null
           },
           {
@@ -1119,17 +1130,17 @@
             "amount": 0.166,
             "role": "reward",
             "usdValue": 0.08,
-            "chain": "base",
+            "chain": "Base",
             "tokenId": null
           }
         ]
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "Base",
         "protocol": "Moonwell",
-        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_moonwell:observation-row-1",
+        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_moonwell:observation-2026-11-14-row-1",
         "positionIdentifierType": "display-row-only",
         "stablePositionIdentityAvailable": false,
         "label": "Rewards WELL",
@@ -1148,10 +1159,10 @@
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "Base",
         "protocol": "Fluid",
-        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_fluid:observation-row-2",
+        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_fluid:observation-2026-11-14-row-2",
         "positionIdentifierType": "display-row-only",
         "stablePositionIdentityAvailable": false,
         "label": "Rewards FLUID",
@@ -1167,14 +1178,14 @@
             "sourceUrl": "https://debank.com/token/base/0x61e030a56d33e8260fdd81f03b162a79fe3449cd"
           }
         ],
-        "usdValueUpperBound": 0.01
+        "usdValueDisplay": "< $0.01"
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "observedAt": "2026-11-13T12:03:13.127Z",
+        "observedAt": "2026-11-14T12:02:02.893Z",
         "chain": "Base",
         "protocol": "Merkl",
-        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_merkl:observation-row-1",
+        "positionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base_merkl:observation-2026-11-14-row-1",
         "positionIdentifierType": "display-row-only",
         "stablePositionIdentityAvailable": false,
         "label": "Rewards USDC",
@@ -1190,14 +1201,14 @@
             "sourceUrl": "https://debank.com/token/base/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
           }
         ],
-        "usdValueUpperBound": 0.01
+        "usdValueDisplay": "< $0.01"
       },
       {
         "wallet": "0x3e33Be1294d66D8B468407416f2DA777802a531d",
-        "observedAt": "2026-11-13T12:03:34.705Z",
+        "observedAt": "2026-11-14T12:02:24.178Z",
         "chain": "Base",
         "protocol": "Merkl",
-        "positionId": "0x3e33be1294d66d8b468407416f2da777802a531d:base_merkl:observation-row-1",
+        "positionId": "0x3e33be1294d66d8b468407416f2da777802a531d:base_merkl:observation-2026-11-14-row-1",
         "positionIdentifierType": "display-row-only",
         "stablePositionIdentityAvailable": false,
         "label": "Rewards USDC",
@@ -1213,44 +1224,45 @@
             "sourceUrl": "https://debank.com/token/base/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
           }
         ],
-        "usdValueUpperBound": 0.01
+        "usdValueDisplay": "< $0.01"
       }
-    ],
-    "limitations": [
-      "Wallet aggregates and listed protocol sections loaded on both pages without chain-error warnings. Treasury dust remains hidden.",
-      "Pool and vault rows have observation identifiers only. Stable individual identities unavailable, so their comparisons use protocol aggregates.",
-      "Displayed values and amounts are rounded. Values below one cent remain unknown within the displayed bound."
     ]
   },
   "positionChanges": {
-    "baselineAsOf": "2026-11-12T12:02:37.772Z",
-    "currentAsOf": "2026-11-13T12:03:34.705Z",
-    "baselineSource": "daily-insights/2026-11-12.json positionSnapshot",
-    "coverage": "Both snapshots contain complete displayed wallet and protocol aggregates. Individual pool and vault comparison unavailable without stable IDs. Hidden or missing rows are unknown, never closed.",
-    "interpretation": "Quantity deltas are balance changes, not proof of trading. USD deltas are changes in marked value, not realized profit.",
-    "totalPortfolioUSD": {
-      "previous": 64145,
-      "current": 61971,
-      "delta": -2174,
-      "percentageDelta": -3.38919635
+    "baselineAsOf": "2026-11-13T12:03:34.705Z",
+    "currentAsOf": "2026-11-14T12:02:24.178Z",
+    "baselineSource": "daily-insights/2026-11-13.json#positionSnapshot",
+    "interpretation": "Quantities are balance changes, not evidence of trading. USD differences are changes in marked value, not realized profit. Missing data is unknown. Rounded display precision applies.",
+    "total": {
+      "comparisonLevel": "equally complete displayed all-chain wallet aggregates",
+      "usdValue": {
+        "previous": 61971,
+        "current": 60204,
+        "delta": -1767,
+        "percentageDelta": -2.85133369
+      }
     },
     "wallets": [
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "totalUSD": {
-          "previous": 10575,
-          "current": 10222,
-          "delta": -353,
-          "percentageDelta": -3.33806147
+        "previousAsOf": "2026-11-13T12:03:13.127Z",
+        "currentAsOf": "2026-11-14T12:02:02.893Z",
+        "usdValue": {
+          "previous": 10222,
+          "current": 9872,
+          "delta": -350,
+          "percentageDelta": -3.42398748
         }
       },
       {
         "wallet": "0x3e33Be1294d66D8B468407416f2DA777802a531d",
-        "totalUSD": {
-          "previous": 53570,
-          "current": 51749,
-          "delta": -1821,
-          "percentageDelta": -3.39929065
+        "previousAsOf": "2026-11-13T12:03:34.705Z",
+        "currentAsOf": "2026-11-14T12:02:24.178Z",
+        "usdValue": {
+          "previous": 51749,
+          "current": 50332,
+          "delta": -1417,
+          "percentageDelta": -2.73821716
         }
       }
     ],
@@ -1268,10 +1280,10 @@
           "percentageDelta": 0
         },
         "usdValue": {
-          "previous": 2119.09,
-          "current": 2050.89,
-          "delta": -68.2,
-          "percentageDelta": -3.2183626
+          "previous": 2050.89,
+          "current": 2000.14,
+          "delta": -50.75,
+          "percentageDelta": -2.47453545
         }
       },
       {
@@ -1287,10 +1299,10 @@
           "percentageDelta": 0
         },
         "usdValue": {
-          "previous": 1373.69,
-          "current": 1334.21,
-          "delta": -39.48,
-          "percentageDelta": -2.87401088
+          "previous": 1334.21,
+          "current": 1297.72,
+          "delta": -36.49,
+          "percentageDelta": -2.73495177
         }
       },
       {
@@ -1306,10 +1318,10 @@
           "percentageDelta": 0
         },
         "usdValue": {
-          "previous": 503.36,
-          "current": 497.45,
-          "delta": -5.91,
-          "percentageDelta": -1.17410998
+          "previous": 497.45,
+          "current": 473.66,
+          "delta": -23.79,
+          "percentageDelta": -4.78239019
         }
       },
       {
@@ -1319,16 +1331,16 @@
         "previousPositionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base:Wallet:0xb83dbf23dca15ff1bd8827a6cf01e2b82a356bdb",
         "currentPositionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base:Wallet:0xb83dbf23dca15ff1bd8827a6cf01e2b82a356bdb",
         "amount": {
-          "previous": 236297.2191,
-          "current": 236397.8155,
-          "delta": 100.5964,
-          "percentageDelta": 0.04257198
+          "previous": 236397.8155,
+          "current": 236404.3128,
+          "delta": 6.4973,
+          "percentageDelta": 0.00274846
         },
         "usdValue": {
-          "previous": 375.16,
-          "current": 362.69,
-          "delta": -12.47,
-          "percentageDelta": -3.32391513
+          "previous": 362.69,
+          "current": 353.21,
+          "delta": -9.48,
+          "percentageDelta": -2.61380242
         }
       },
       {
@@ -1344,29 +1356,10 @@
           "percentageDelta": 0
         },
         "usdValue": {
-          "previous": 289.15,
-          "current": 280.84,
-          "delta": -8.31,
-          "percentageDelta": -2.87394086
-        }
-      },
-      {
-        "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
-        "chain": "base",
-        "protocol": "Wallet",
-        "previousPositionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base:Wallet:0xb200000000000000000000451d033a5000cb479e",
-        "currentPositionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base:Wallet:0xb200000000000000000000451d033a5000cb479e",
-        "amount": {
-          "previous": 3.2499,
-          "current": 3.2499,
-          "delta": 0,
-          "percentageDelta": 0
-        },
-        "usdValue": {
-          "previous": 229.67,
-          "current": 240.07,
-          "delta": 10.4,
-          "percentageDelta": 4.52823616
+          "previous": 280.84,
+          "current": 273.16,
+          "delta": -7.68,
+          "percentageDelta": -2.73465318
         }
       },
       {
@@ -1382,10 +1375,29 @@
           "percentageDelta": 0
         },
         "usdValue": {
-          "previous": 223.12,
-          "current": 230.73,
-          "delta": 7.61,
-          "percentageDelta": 3.41072069
+          "previous": 230.73,
+          "current": 224.42,
+          "delta": -6.31,
+          "percentageDelta": -2.73479825
+        }
+      },
+      {
+        "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
+        "chain": "base",
+        "protocol": "Wallet",
+        "previousPositionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base:Wallet:0xb200000000000000000000451d033a5000cb479e",
+        "currentPositionId": "0xaa1e4cc6d033918525e0d0b89be790a6c932bac9:base:Wallet:0xb200000000000000000000451d033a5000cb479e",
+        "amount": {
+          "previous": 3.2499,
+          "current": 3.2499,
+          "delta": 0,
+          "percentageDelta": 0
+        },
+        "usdValue": {
+          "previous": 240.07,
+          "current": 223.75,
+          "delta": -16.32,
+          "percentageDelta": -6.79801724
         }
       },
       {
@@ -1401,10 +1413,10 @@
           "percentageDelta": 0
         },
         "usdValue": {
-          "previous": 202.78,
-          "current": 211.51,
-          "delta": 8.73,
-          "percentageDelta": 4.3051583
+          "previous": 211.51,
+          "current": 202.25,
+          "delta": -9.26,
+          "percentageDelta": -4.37804359
         }
       },
       {
@@ -1420,10 +1432,10 @@
           "percentageDelta": 0
         },
         "usdValue": {
-          "previous": 192.59,
-          "current": 190.64,
-          "delta": -1.95,
-          "percentageDelta": -1.01251363
+          "previous": 190.64,
+          "current": 179.72,
+          "delta": -10.92,
+          "percentageDelta": -5.72807386
         }
       },
       {
@@ -1439,10 +1451,10 @@
           "percentageDelta": 0
         },
         "usdValue": {
-          "previous": 127.06,
-          "current": 127.43,
-          "delta": 0.37,
-          "percentageDelta": 0.29120101
+          "previous": 127.43,
+          "current": 127.25,
+          "delta": -0.18,
+          "percentageDelta": -0.14125402
         }
       },
       {
@@ -1458,10 +1470,10 @@
           "percentageDelta": 0
         },
         "usdValue": {
-          "previous": 43702.51,
-          "current": 42232.08,
-          "delta": -1470.43,
-          "percentageDelta": -3.36463512
+          "previous": 42232.08,
+          "current": 41128.02,
+          "delta": -1104.06,
+          "percentageDelta": -2.61426858
         }
       },
       {
@@ -1477,10 +1489,10 @@
           "percentageDelta": 0
         },
         "usdValue": {
-          "previous": 1317.49,
-          "current": 1279.81,
-          "delta": -37.68,
-          "percentageDelta": -2.85998376
+          "previous": 1279.81,
+          "current": 1244.76,
+          "delta": -35.05,
+          "percentageDelta": -2.73868777
         }
       },
       {
@@ -1496,10 +1508,10 @@
           "percentageDelta": 0
         },
         "usdValue": {
-          "previous": 282.93,
-          "current": 274.83,
-          "delta": -8.1,
-          "percentageDelta": -2.86289895
+          "previous": 274.83,
+          "current": 267.31,
+          "delta": -7.52,
+          "percentageDelta": -2.73623695
         }
       },
       {
@@ -1515,10 +1527,10 @@
           "percentageDelta": 0
         },
         "usdValue": {
-          "previous": 50.14,
-          "current": 49.55,
-          "delta": -0.59,
-          "percentageDelta": -1.17670523
+          "previous": 49.55,
+          "current": 47.18,
+          "delta": -2.37,
+          "percentageDelta": -4.78304743
         }
       },
       {
@@ -1534,10 +1546,10 @@
           "percentageDelta": 0
         },
         "usdValue": {
-          "previous": 41.73,
-          "current": 41.76,
-          "delta": 0.03,
-          "percentageDelta": 0.07189073
+          "previous": 41.76,
+          "current": 38.35,
+          "delta": -3.41,
+          "percentageDelta": -8.16570881
         }
       },
       {
@@ -1589,10 +1601,10 @@
         "comparisonLevel": "protocol aggregate",
         "positionLevelComparisonAvailable": true,
         "usdValue": {
-          "previous": 5653,
-          "current": 5543,
-          "delta": -110,
-          "percentageDelta": -1.94586945
+          "previous": 5543,
+          "current": 5371,
+          "delta": -172,
+          "percentageDelta": -3.10301281
         }
       },
       {
@@ -1604,11 +1616,12 @@
         "comparisonLevel": "protocol aggregate",
         "positionLevelComparisonAvailable": false,
         "usdValue": {
-          "previous": 2026,
-          "current": 1949,
-          "delta": -77,
-          "percentageDelta": -3.8005923
-        }
+          "previous": 1949,
+          "current": 1863,
+          "delta": -86,
+          "percentageDelta": -4.41251924
+        },
+        "positionLevelLimitation": "Pool, vault or lending position identifier not exposed; compare aggregate only."
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
@@ -1619,29 +1632,30 @@
         "comparisonLevel": "protocol aggregate",
         "positionLevelComparisonAvailable": false,
         "usdValue": {
-          "previous": 1830,
-          "current": 1742,
-          "delta": -88,
-          "percentageDelta": -4.80874317
+          "previous": 1742,
+          "current": 1661,
+          "delta": -81,
+          "percentageDelta": -4.64982778
         },
+        "positionLevelLimitation": "Pool, vault or lending position identifier not exposed; compare aggregate only.",
         "lendingAggregate": {
           "healthFactor": {
-            "previous": 2.1,
-            "current": 2.04,
-            "delta": -0.06,
-            "percentageDelta": -2.85714286
+            "previous": 2.04,
+            "current": 1.99,
+            "delta": -0.05,
+            "percentageDelta": -2.45098039
           },
           "suppliedUSD": {
-            "previous": 3046.59,
-            "current": 2959.16,
-            "delta": -87.43,
-            "percentageDelta": -2.86976587
+            "previous": 2959.16,
+            "current": 2878.33,
+            "delta": -80.83,
+            "percentageDelta": -2.7315184
           },
           "debtUSD": {
-            "previous": 1216.95,
-            "current": 1216.8,
-            "delta": -0.15,
-            "percentageDelta": -0.0123259
+            "previous": 1216.8,
+            "current": 1217.15,
+            "delta": 0.35,
+            "percentageDelta": 0.02876397
           },
           "tokens": [
             {
@@ -1650,16 +1664,16 @@
               "symbol": "WETH",
               "role": "supplied",
               "amount": {
-                "previous": 1.507,
+                "previous": 1.5071,
                 "current": 1.5071,
-                "delta": 0.0001,
-                "percentageDelta": 0.0066357
+                "delta": 0,
+                "percentageDelta": 0
               },
               "usdValue": {
-                "previous": 3046.59,
-                "current": 2959.16,
-                "delta": -87.43,
-                "percentageDelta": -2.86976587
+                "previous": 2959.16,
+                "current": 2878.33,
+                "delta": -80.83,
+                "percentageDelta": -2.7315184
               }
             },
             {
@@ -1668,16 +1682,16 @@
               "symbol": "USDC",
               "role": "borrowed",
               "amount": {
-                "previous": 1215.6147,
-                "current": 1215.8306,
-                "delta": 0.2159,
-                "percentageDelta": 0.01776056
+                "previous": 1215.8306,
+                "current": 1216.053,
+                "delta": 0.2224,
+                "percentageDelta": 0.01829202
               },
               "usdValue": {
-                "previous": 1216.95,
-                "current": 1216.8,
-                "delta": -0.15,
-                "percentageDelta": -0.0123259
+                "previous": 1216.8,
+                "current": 1217.15,
+                "delta": 0.35,
+                "percentageDelta": 0.02876397
               }
             }
           ]
@@ -1692,11 +1706,12 @@
         "comparisonLevel": "protocol aggregate",
         "positionLevelComparisonAvailable": false,
         "usdValue": {
-          "previous": 488,
-          "current": 420,
-          "delta": -68,
-          "percentageDelta": -13.93442623
-        }
+          "previous": 420,
+          "current": 419,
+          "delta": -1,
+          "percentageDelta": -0.23809524
+        },
+        "positionLevelLimitation": "Pool, vault or lending position identifier not exposed; compare aggregate only."
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
@@ -1707,11 +1722,12 @@
         "comparisonLevel": "protocol aggregate",
         "positionLevelComparisonAvailable": false,
         "usdValue": {
-          "previous": 422,
-          "current": 410,
-          "delta": -12,
-          "percentageDelta": -2.8436019
-        }
+          "previous": 410,
+          "current": 401,
+          "delta": -9,
+          "percentageDelta": -2.19512195
+        },
+        "positionLevelLimitation": "Pool, vault or lending position identifier not exposed; compare aggregate only."
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
@@ -1722,11 +1738,12 @@
         "comparisonLevel": "protocol aggregate",
         "positionLevelComparisonAvailable": false,
         "usdValue": {
-          "previous": 153,
-          "current": 154,
-          "delta": 1,
-          "percentageDelta": 0.65359477
+          "previous": 154,
+          "current": 153,
+          "delta": -1,
+          "percentageDelta": -0.64935065
         },
+        "positionLevelLimitation": "Pool, vault or lending position identifier not exposed; compare aggregate only.",
         "lendingAggregate": {
           "healthFactor": {
             "previous": 1.03,
@@ -1735,16 +1752,16 @@
             "percentageDelta": 0
           },
           "suppliedUSD": {
-            "previous": 1217.56,
-            "current": 1217.92,
-            "delta": 0.36,
-            "percentageDelta": 0.02956733
+            "previous": 1217.92,
+            "current": 1218.08,
+            "delta": 0.16,
+            "percentageDelta": 0.01313715
           },
           "debtUSD": {
-            "previous": 1064.46,
-            "current": 1064.32,
-            "delta": -0.14,
-            "percentageDelta": -0.01315221
+            "previous": 1064.32,
+            "current": 1064.6,
+            "delta": 0.28,
+            "percentageDelta": 0.02630788
           },
           "tokens": [
             {
@@ -1753,16 +1770,16 @@
               "symbol": "syrupUSDC",
               "role": "supplied",
               "amount": {
-                "previous": 744.3847,
+                "previous": 745.5376,
                 "current": 745.5376,
-                "delta": 1.1529,
-                "percentageDelta": 0.15487959
+                "delta": 0,
+                "percentageDelta": 0
               },
               "usdValue": {
-                "previous": 887.54,
-                "current": 889.11,
-                "delta": 1.57,
-                "percentageDelta": 0.17689344
+                "previous": 889.11,
+                "current": 889.2,
+                "delta": 0.09,
+                "percentageDelta": 0.01012248
               }
             },
             {
@@ -1771,16 +1788,16 @@
               "symbol": "USDC",
               "role": "supplied",
               "amount": {
-                "previous": 329.657,
-                "current": 328.5446,
-                "delta": -1.1124,
-                "percentageDelta": -0.33744164
+                "previous": 328.5446,
+                "current": 328.5885,
+                "delta": 0.0439,
+                "percentageDelta": 0.01336196
               },
               "usdValue": {
-                "previous": 330.02,
-                "current": 328.81,
-                "delta": -1.21,
-                "percentageDelta": -0.36664445
+                "previous": 328.81,
+                "current": 328.88,
+                "delta": 0.07,
+                "percentageDelta": 0.02128889
               }
             },
             {
@@ -1789,16 +1806,16 @@
               "symbol": "USDC",
               "role": "borrowed",
               "amount": {
-                "previous": 1063.2867,
-                "current": 1063.4684,
-                "delta": 0.1817,
-                "percentageDelta": 0.01708852
+                "previous": 1063.4684,
+                "current": 1063.6465,
+                "delta": 0.1781,
+                "percentageDelta": 0.01674709
               },
               "usdValue": {
-                "previous": 1064.46,
-                "current": 1064.32,
-                "delta": -0.14,
-                "percentageDelta": -0.01315221
+                "previous": 1064.32,
+                "current": 1064.6,
+                "delta": 0.28,
+                "percentageDelta": 0.02630788
               }
             }
           ]
@@ -1817,7 +1834,8 @@
           "current": 3,
           "delta": 0,
           "percentageDelta": 0
-        }
+        },
+        "positionLevelLimitation": "Pool, vault or lending position identifier not exposed; compare aggregate only."
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
@@ -1832,7 +1850,8 @@
           "current": 1,
           "delta": 0,
           "percentageDelta": 0
-        }
+        },
+        "positionLevelLimitation": "Pool, vault or lending position identifier not exposed; compare aggregate only."
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
@@ -1846,7 +1865,8 @@
           "previous": 0,
           "current": 0,
           "delta": 0
-        }
+        },
+        "positionLevelLimitation": "Pool, vault or lending position identifier not exposed; compare aggregate only."
       },
       {
         "wallet": "0xaa1e4Cc6d033918525e0D0b89bE790a6C932bAc9",
@@ -1860,7 +1880,8 @@
           "previous": 0,
           "current": 0,
           "delta": 0
-        }
+        },
+        "positionLevelLimitation": "Pool, vault or lending position identifier not exposed; compare aggregate only."
       },
       {
         "wallet": "0x3e33Be1294d66D8B468407416f2DA777802a531d",
@@ -1871,10 +1892,10 @@
         "comparisonLevel": "protocol aggregate",
         "positionLevelComparisonAvailable": true,
         "usdValue": {
-          "previous": 45395,
-          "current": 43878,
-          "delta": -1517,
-          "percentageDelta": -3.34177773
+          "previous": 43878,
+          "current": 42726,
+          "delta": -1152,
+          "percentageDelta": -2.62546151
         }
       },
       {
@@ -1886,11 +1907,12 @@
         "comparisonLevel": "protocol aggregate",
         "positionLevelComparisonAvailable": false,
         "usdValue": {
-          "previous": 6246,
-          "current": 6051,
-          "delta": -195,
-          "percentageDelta": -3.12199808
-        }
+          "previous": 6051,
+          "current": 5890,
+          "delta": -161,
+          "percentageDelta": -2.66071724
+        },
+        "positionLevelLimitation": "Pool, vault or lending position identifier not exposed; compare aggregate only."
       },
       {
         "wallet": "0x3e33Be1294d66D8B468407416f2DA777802a531d",
@@ -1901,29 +1923,30 @@
         "comparisonLevel": "protocol aggregate",
         "positionLevelComparisonAvailable": false,
         "usdValue": {
-          "previous": 1929,
-          "current": 1819,
-          "delta": -110,
-          "percentageDelta": -5.7024365
+          "previous": 1819,
+          "current": 1716,
+          "delta": -103,
+          "percentageDelta": -5.6624519
         },
+        "positionLevelLimitation": "Pool, vault or lending position identifier not exposed; compare aggregate only.",
         "lendingAggregate": {
           "healthFactor": {
-            "previous": 1.68,
-            "current": 1.63,
-            "delta": -0.05,
-            "percentageDelta": -2.97619048
+            "previous": 1.63,
+            "current": 1.59,
+            "delta": -0.04,
+            "percentageDelta": -2.45398773
           },
           "suppliedUSD": {
-            "previous": 3859.23,
-            "current": 3748.98,
-            "delta": -110.25,
-            "percentageDelta": -2.85678749
+            "previous": 3748.98,
+            "current": 3646.66,
+            "delta": -102.32,
+            "percentageDelta": -2.7292757
           },
           "debtUSD": {
-            "previous": 1930.05,
-            "current": 1929.82,
-            "delta": -0.23,
-            "percentageDelta": -0.01191679
+            "previous": 1929.82,
+            "current": 1930.36,
+            "delta": 0.54,
+            "percentageDelta": 0.02798188
           },
           "tokens": [
             {
@@ -1932,16 +1955,16 @@
               "symbol": "WETH",
               "role": "supplied",
               "amount": {
-                "previous": 1.9089,
+                "previous": 1.909,
                 "current": 1.909,
-                "delta": 0.0001,
-                "percentageDelta": 0.00523862
+                "delta": 0,
+                "percentageDelta": 0
               },
               "usdValue": {
-                "previous": 3859.23,
-                "current": 3748.98,
-                "delta": -110.25,
-                "percentageDelta": -2.85678749
+                "previous": 3748.98,
+                "current": 3646.66,
+                "delta": -102.32,
+                "percentageDelta": -2.7292757
               }
             },
             {
@@ -1950,16 +1973,16 @@
               "symbol": "USDC",
               "role": "borrowed",
               "amount": {
-                "previous": 1927.9304,
-                "current": 1928.2728,
-                "delta": 0.3424,
-                "percentageDelta": 0.01775998
+                "previous": 1928.2728,
+                "current": 1928.6255,
+                "delta": 0.3527,
+                "percentageDelta": 0.01829098
               },
               "usdValue": {
-                "previous": 1930.05,
-                "current": 1929.82,
-                "delta": -0.23,
-                "percentageDelta": -0.01191679
+                "previous": 1929.82,
+                "current": 1930.36,
+                "delta": 0.54,
+                "percentageDelta": 0.02798188
               }
             }
           ]
@@ -1977,13 +2000,16 @@
           "previous": 0,
           "current": 0,
           "delta": 0
-        }
+        },
+        "positionLevelLimitation": "Pool, vault or lending position identifier not exposed; compare aggregate only."
       }
-    ]
+    ],
+    "newOrClosedPositions": [],
+    "unmatchedPolicy": "No new or closed classifications because individual position identity and dust coverage are incomplete."
   },
   "researchWindow": {
-    "start": "2026-11-12T12:00:46Z",
-    "end": "2026-11-13T12:05:46.084Z",
+    "start": "2026-11-13T12:00:53.000Z",
+    "end": "2026-11-14T12:07:59.130Z",
     "editionTimezone": "America/Sao_Paulo"
   }
 }
