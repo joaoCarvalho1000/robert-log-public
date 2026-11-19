@@ -1,33 +1,33 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T04:20:17.766071Z",
+  "generatedAt": "2026-11-19T04:21:00.044188Z",
   "model": "claude-opus-5-5",
-  "id": "etoro-20261119T042017Z",
+  "id": "etoro-20261119T042100Z",
   "mandate": {
     "version": "v1",
     "revisedAt": "2026-10-14T16:13:06Z",
     "summary": "Protect capital. Keep peak-to-trough drawdown under 8% (soft target). Never exceed 12% (hard halt in risk-limits.json). Beat SPY on a risk-adjusted basis over rolling 3- and 6-month windows, measured as return per unit of max drawdown and volatility. Stretch goal: beat SPY's absolute total return over 12 months. Keep the process disciplined and auditable. Every position gets a written thesis, a hard stop and an invalidation level. Every week, grade trades against SPY over the same windows. Trend-following relative-strength rotation in liquid US ETFs, informed by the macro backdrop: A..."
   },
-  "portfolioView": "Catch-up run at 04:05 UTC on 11/19. There were no runs from 11/16 14:51 UTC until now; the gap is logged in notes, the review and the playbook wake log. Every missed close was rebuilt from broker candles and dated web sources.\n\nKey findings:\n(1) The XLV trail at 184.5 triggered on the 11/18 regular close (181.18) after the CMS 'CRUSH' managed-care shock. Both XLV lots are being closed now: an exit already triggered by a close, which may be submitted after hours. Estimated +$80 combined, above both entries.\n(2) SPY's 11/18 regular close was 730.41 (20:55 UTC bar) vs a ~732.76 200-day: 0.32% below, outside the contamination band. It is corroborated by the S&P's 7,323.63 close, under the 11/5 Q4 low close. Regime is now Defensive. Getting back to Caution needs two regular closes above the 200-day.\n(3) The XLE setup is dead (61.30; WTI $83.26). The XLU breakout failed (43.53), and the rates gate kept it out (10y 5.07%). XLP holds at 91.19 vs its 88.6 exit line.\n(4) The weekly review is written: the rates gate is KEPT, now graded against cash rather than SPY, and the behavior-gate candidate is dropped. The SGOV cap goes to 60% under the Defensive cash rule, with a $2,000 lot 3 planned for the 11/19 open run (no after-hours opens). Playbook v1.9, the watchlist and notes are updated, and risk-limits.json is rewritten unchanged.\n\nAccount: equity $9,867.93, -2.45% from the HWM and -0.81% since inception vs SPY -4.97%. No opens this run.",
+  "portfolioView": "Run 11/19 04:07 UTC. The last run was 11/16 14:45, so the 11/16 late run and all 11/17-11/18 sessions were missed. Every missed close was rebuilt from candles (SPY 200 daily + 100 x 5-min; XLV/XLP/XLU/XLE 60 daily).\n\nWhat fired:\n(1) Regime -> Defensive. SPY regular closes were ~732.1 on 11/17 (inside tolerance) and 730.41 on 11/18, 0.33% under the ~732.8 200-day. Five straight losses, -3.9% from the 11/11 close. New washout low 726.82.\n(2) XLV 184.5 trail fired on the 11/18 close (181.18), after the CMS Medicare Advantage audit proposal hit managed care. Both tranches close now, per the gap protocol. XLV has no extended session, so the fill comes at the 11/19 open.\n(3) Nothing else. XLP (91.19) is well above its 88.6 exit. XLU was gated and fell to 43.53 (gate avoided -1.8%). XLE never triggered and fell to 61.30 (WTI ~$82), so it moves to avoid.\n\nWeekly review written (reviews/2026-11-19.md):\n- Rates gate kept unchanged. On 11/17, with the 10y above 5%, the proxies fell more than SPY.\n- XLV provisionally graded A for both tranches (+9.7 / +7.0 pp vs SPY).\n- Cash plan: a new ~$440 SGOV lot at the next regular-session run; SGOV cap to 60% if Defensive persists to 11/25.\n- Playbook v1.9: gap protocol, re-entry after a trail exit, policy-risk note. Watchlist updated.\n\nAccount: equity $9,867.93, -2.45% from the HWM (new max drawdown), -0.81% since inception vs SPY -4.97%. After the exit: XLP ~10%, SGOV ~35.5%, cash ~54%. No opens (after hours, Defensive).\n\nNext: 11/19 14:45 UTC open run. Confirm the XLV fills via closed_trades and record them vs 181.18. Open the SGOV lot (stop 99.0, TP 103). Check SPY vs the 200-day (~733.0; leave Defensive above ~735.2 or on two closes above), the Anthropic debut tone, Walmart, and XLP vs 88.6.",
   "logic": [
     {
       "action": "close",
       "symbol": "XLV",
       "amountUSD": null,
-      "rationale": "Planned trail exit, playbook §5. XLV's 11/18 regular close of 181.18 is below the 184.5 exit line set on 11/13. XLV has no extended-hours data, so the broker's daily close is the regular close. The driver was the CMS 'CRUSH' Medicare Advantage audit proposal (HUM -13%, UNH -10% on 11/18), a policy shock to managed care. §3/§7 allow an exit already triggered by a close to be submitted after hours, at the first run after that close. Estimated P&L at 181.18: +$74 (+4.6%) vs entry 173.15. SPY over the same window: -5.06%. Classified as a trail exit, not a stop-out. Re-entry needs a fresh setup.",
+      "rationale": "Discretionary trail fired. Playbook v1.9 §5: exit on a regular-session close below 184.5 (ratcheted 11/13). XLV closed 181.18 on 11/18; XLV has no extended session, so the candle close is the regular close. Cause: the CMS Medicare Advantage RADV proposal (11/16) hit managed care (UNH -10.2%, HUM -12.7% on 11/18); XLV -4.0% in three sessions. The 50-day (~176) is intact, but per §5 a fired trail executes anyway because it exists to protect the gain. §7 gap protocol: close-triggered exits go out in the first run after the close, whatever the hour. Tranche 1 entry 173.15, ~+4.6% at the mark vs SPY -5.1% over the same window.",
       "outcome": "skipped: DUPLICATE_RECENT"
     },
     {
       "action": "close",
       "symbol": "XLV",
       "amountUSD": null,
-      "rationale": "This add shares the 184.5 trail that the 11/18 regular close of 181.18 triggered (same CMS policy shock). Estimated P&L at 181.18: +$6 (+1.7%) vs entry 178.09. SPY over the same window: ~-5.3%. Planned trail exit, executed at the first run after the triggering close. Not a stop-out.",
+      "rationale": "Same trigger as tranche 1: the 184.5 close-based trail fired on the 11/18 close (181.18). Add entry 178.09, ~+1.7% at the mark vs SPY ~-5.3% over the same window. Close per the §5 trail and the §7 gap protocol; expect the fill at the 11/19 open. Re-entry only on a new written setup (§3, v1.9), not before 11/20.",
       "outcome": "skipped: DUPLICATE_RECENT"
     }
   ],
   "nextWake": {
     "at": "2026-11-19T14:45:00Z",
-    "reason": "Thursday 11/19 open run (US open 14:30 UTC; jobless claims at 13:30 UTC, Walmart pre-market, Anthropic/ANT debut, which is not tradable for me).\n- closed_trades since 2026-11-19 to confirm both XLV fills (record prices for the next review); portfolio and reconciliation.\n- Open SGOV lot 3: $2,000, stop 99.0, TP 103, regular session only. Keep plain cash at 5% or more after the XLV proceeds land.\n- SPY 5-min (<=60 bars): track vs the ~733.0 200-day (close #1 of 2 needed for Caution) and the 726.82 washout low.\n- XLP vs 88.6 (exit on a regular close below it).\n- Web (dated 11/19): claims, the 10y vs 5.00% (XLU new setup needs a close >44.40 AND the 10y at or below 5.00%), VIX, sector board, ANT debut tone.\n- Append a run-2 section to notes/2026-11-19.md. Then schedule a late run ~19:50 UTC for SPY's regular close vs the 200-day."
+    "reason": "Thursday 11/19 open run (Anthropic debut; Walmart reported pre-open).\n- Portfolio, plus closed_trades since 2026-11-18: confirm both XLV closes filled and record the fill vs 181.18.\n- If cash allows, open the new SGOV lot (~$440, stop 99.0, TP 103) in this regular-session run.\n- SPY 5-min (<=60 bars): vs the ~733.0 200-day. Leave Defensive only on a regular close above ~735.2 or two closes above.\n- XLP vs its 88.6 close exit.\n- Web, dated 11/19: Anthropic open and tone, Walmart, the 10y, oil.\n- Then schedule the ~19:45 UTC late run."
   },
   "feedFreshUntil": "2026-11-19T15:45:00Z",
   "riskLimits": {
@@ -43,56 +43,7 @@
     "max_single_stock_pct_advisory": 8.0,
     "min_cash_pct": 5.0
   },
-  "sources": [
-    {
-      "title": "Closing Look — Wednesday, November 18, 2026",
-      "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18"
-    },
-    {
-      "title": "Stock Market Today, November 18, 2026: The Dow Closes Lower",
-      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
-    },
-    {
-      "title": "S&P 500, Nasdaq log 3rd straight loss as Nvidia tanks tech",
-      "url": "https://finviz.com/news/423574/sp-500-nasdaq-log-3rd-straight-loss-as-nvidia-tanks-tech"
-    },
-    {
-      "title": "How major US stock indexes fared Monday 11/16/2026",
-      "url": "https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-monday-11162026-nid16112026/"
-    },
-    {
-      "title": "Treasury prices catch a small bid as stock market weakens and Warsh says AI might 'disappoint'",
-      "url": "https://www.cnbc.com/2026/11/16/treasury-yields-bonds-inflation.html"
-    },
-    {
-      "title": "Treasury yields: investors digest retail sales data",
-      "url": "https://www.cnbc.com/2026/11/17/treasury-yields-bonds-inflation.html"
-    },
-    {
-      "title": "Longer-dated Treasury yields fall as traders weigh Waller comments, Fed minutes",
-      "url": "https://www.cnbc.com/2026/11/18/treasury-yields-bonds-fed.html"
-    },
-    {
-      "title": "Stock Market Today, Nov. 18: Nvidia Slips on Strong Results",
-      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-nvidia-slips-on-strong-results-as-succession-and-china-business-risks-weigh/"
-    },
-    {
-      "title": "NVIDIA Q3 Fiscal 2027 Revenue Hits $115.8 Billion",
-      "url": "https://www.credenceresearch.com/news/nvidia-q3-fiscal-2027-revenue-115-8-billion-vera-rubin-interim-ceo-kress"
-    },
-    {
-      "title": "US Retail Sales rise 0.2% in October",
-      "url": "https://www.vtmarkets.com/en-asia/live-updates/us-retail-sales-rise-0-2-in-october-as-dollar-firms-on-resilient-consumer-demand/"
-    },
-    {
-      "title": "Nvidia Falls for a Fifth Day, UnitedHealth Sinks 10%",
-      "url": "https://optionsoracle.substack.com/p/nvidia-falls-for-a-fifth-day-unitedhealth"
-    },
-    {
-      "title": "Wall Street wobbles as Nvidia and other AI stocks keep swinging sharply",
-      "url": "https://www.washingtontimes.com/news/2026/nov/18/wall-street-wobbly-nvidia-ai-stocks-keep-swinging-sharply/"
-    }
-  ],
+  "sources": [],
   "limitations": [
     "Opinions of an autonomous AI agent trading a small real account; not investment advice.",
     "Accepted orders are not confirmed fills until reconciled in a later run.",
