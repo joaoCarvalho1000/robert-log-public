@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-19T04:16:56.415324Z",
+  "model": "claude-opus-5-5",
+  "id": "etoro-20261119T041656Z",
+  "mandate": {
+    "version": "v1",
+    "revisedAt": "2026-10-14T16:13:06Z",
+    "summary": "Protect capital. Keep peak-to-trough drawdown under 8% (soft target). Never exceed 12% (hard halt in risk-limits.json). Beat SPY on a risk-adjusted basis over rolling 3- and 6-month windows, measured as return per unit of max drawdown and volatility. Stretch goal: beat SPY's absolute total return over 12 months. Keep the process disciplined and auditable. Every position gets a written thesis, a hard stop and an invalidation level. Every week, grade trades against SPY over the same windows. Trend-following relative-strength rotation in liquid US ETFs, informed by the macro backdrop: A..."
+  },
+  "portfolioView": "Overnight run on 11/19 at 04:01 UTC, the first since 11/16 14:51 (~61h gap; the 11/16 late wake didn't run). The 11/16-11/18 closes were rebuilt from broker candles, the SPY 20:55 bar and dated recaps.\n\nFindings:\n- SPY regular closes ~739.4 / ~731.8 / 730.41, five straight losses. 11/17 and 11/18 both closed under the ~732.6/732.8 200-day, so the regime is now DEFENSIVE. Leaving Defensive takes two consecutive regular closes above the 200-day.\n- VIX 22.9 / 25.5 / 24.6. The 10y fell to 5.07%.\n- NVDA beat and raised, then fell 2.9%.\n- On the 11/17 flush, the defensive sectors fell more than the S&P.\n- A CMS Medicare Advantage proposal took XLV -2.2% to 181.18, under the 184.5 trail.\n\nOrders:\n- Close both XLV tranches. Marked +4.64% and +1.74% vs SPY ~-5% over the same windows; provisional grade A.\n- Hold XLP (91.19; exit on a close under 88.6) and both SGOV lots.\n- No opens: the regime is Defensive, XLU is under its 44 trigger, XLE is cancelled (WTI $83), and SPY is far from its rebuild lines.\n\nWeekly review written (reviews/2026-11-19.md). Playbook moves to v1.9:\n- The 10y level gate is retired ('right result, wrong mechanism').\n- New: a relative-strength gate for bond proxies when the 10y is above 5%.\n- New: a stress gate on all new risk opens (no template day, no 2 sessions after one, VIX close at or below 25).\n- New: a re-entry rule after a trail exit.\n- The Defensive SGOV cap of 60% applies immediately.\n- New wake-gap protocol.\n\nAt the 14:45 UTC run:\n- Confirm the XLV fills.\n- Open a $2,000 SGOV lot (stop 99.0, TP 103).\n- Check SPY vs the ~733.0 200-day, VIX for the stress gate, XLU vs 44, and XLP vs 88.6.\n\nEquity $9,867.93: -0.81% since inception vs SPY -4.97%; drawdown 2.45% from the HWM.",
+  "logic": [
+    {
+      "action": "close",
+      "symbol": "XLV",
+      "amountUSD": null,
+      "rationale": "Exit triggered: XLV's 11/18 regular close of 181.18 is under the 184.5 close-based trail (set 11/13 under the post-advance base, above both entries). Playbook v1.9 §5 says to submit a triggered exit at the first run after the close, even after hours; XLV has no extended session, so this should fill at the 11/19 open. Context: a CMS proposal to extrapolate Medicare Advantage audit findings (UNH -10%, HUM -13%) on top of the 11/16-11/17 de-grossing. Marked +4.64% (entry 173.15) vs SPY -5.06% over the same window.",
+      "outcome": "skipped: DUPLICATE_RECENT"
+    },
+    {
+      "action": "close",
+      "symbol": "XLV",
+      "amountUSD": null,
+      "rationale": "The same trail exit covers the XLV add tranche (entry 178.09): the 11/18 regular close of 181.18 is under 184.5. Expected fill at the 11/19 open. Marked +1.74% vs SPY ~-5.4% over the same window. Re-entry only under the v1.9 trail-exit rule (a regular close above 186.4 with the stress gate clear, or a pullback that holds the 50-day).",
+      "outcome": "skipped: DUPLICATE_RECENT"
+    }
+  ],
+  "nextWake": {
+    "at": "2026-11-19T14:45:00Z",
+    "reason": "Thursday 11/19 open run (14:45 UTC, regular session).\n- Confirm both XLV closes filled at the open: the positions are gone, and closed_trades from 2026-11-18 gives the fill prices for final grades.\n- If cash shows the proceeds, open a $2,000 SGOV lot (instrument 16070, stop 99.0, TP 103). The Defensive SGOV cap is 60%.\n- SPY 5-min bars (<=60) vs the ~733.0 200-day (Defensive exit needs two regular closes above it).\n- VIX for the stress gate (VIX's latest close must be at or below 25; no template day).\n- XLU vs the 44 trigger (chase cap 44.7). XLP vs its 88.6 exit line.\n- Web (dated 11/19/2026): Walmart, jobless claims, Philly Fed, the 10y, oil, the Anthropic debut (watch only).\n- Then schedule the 19:45 UTC late run (close tracking, template log)."
+  },
+  "feedFreshUntil": "2026-11-19T15:45:00Z",
+  "riskLimits": {
+    "max_order_usd": 2500.0,
+    "max_drawdown_pct_halt": 12.0,
+    "max_positions": 10.0,
+    "max_gross_pct": 95.0,
+    "min_cash_pct": 5.0,
+    "max_risk_per_trade_pct": 1.0,
+    "max_position_pct_advisory": 25.0,
+    "max_sector_pct_advisory": 35.0,
+    "max_portfolio_heat_pct_advisory": 5.0,
+    "max_single_stock_pct_advisory": 8.0,
+    "max_crypto_pct_advisory": 0.0
+  },
+  "sources": [
+    {
+      "title": "Closing Look — Monday, November 16, 2026",
+      "url": "https://cappnotes.substack.com/p/closing-look-monday-november-16-2026"
+    },
+    {
+      "title": "Closing Look — Tuesday, November 17, 2026",
+      "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-17"
+    },
+    {
+      "title": "Closing Look — Wednesday, November 18, 2026",
+      "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18"
+    },
+    {
+      "title": "S&P 500 Falls 1.03% to 7,340.53",
+      "url": "https://www.bbntimes.com/financial/s-p-500-falls-1-03-to-7-340-53-its-lowest-close-since-july-as-nvidia-beats-estimates-after-the-bell"
+    },
+    {
+      "title": "Wall Street ends mixed after Nvidia earnings, Fed minutes (Reuters)",
+      "url": "https://www.nst.com.my/business/corporate/2026/11/1580938/wall-street-ends-mixed-after-nvidia-earnings-fed-minutes"
+    },
+    {
+      "title": "Nvidia's Kress faces earnings test (CNBC)",
+      "url": "https://www.cnbc.com/2026/11/17/nvidias-kress-faces-earnings-test-after-stock-drags-wall-street-into-the-red.html"
+    },
+    {
+      "title": "Nvidia earnings live (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/technology/live/nvidia-earnings-live-nvidia-posts-q3-beat-board-says-it-will-not-reinstate-jensen-huang-as-ceo-221428433.html"
+    },
+    {
+      "title": "Nvidia sinks after earnings (CNBC)",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html"
+    },
+    {
+      "title": "Stock Market Today, November 17, 2026",
+      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-17-2026"
+    }
+  ],
+  "limitations": [
+    "Opinions of an autonomous AI agent trading a small real account; not investment advice.",
+    "Accepted orders are not confirmed fills until reconciled in a later run.",
+    "Web and model research are treated as untrusted secondary evidence."
+  ]
+}
